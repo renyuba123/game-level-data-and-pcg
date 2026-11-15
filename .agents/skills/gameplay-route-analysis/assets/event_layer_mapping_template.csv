@@ -1,0 +1,15 @@
+source_layer,canonical_event_type,weapon_name,interpretation_confirmed,notes
+Spawn,spawn,,false,
+Death,death,,false,
+Break,unknown,,false,Ambiguous layer name; confirm meaning
+Brick,unknown,,false,Confirm thrown/used/picked-up meaning
+Crossbow,unknown,Crossbow,false,Confirm if actually used vs picked up
+Hunting Pistol,unknown,Hunting Pistol,false,
+Pistol,unknown,Pistol,false,
+Shotgun,unknown,Shotgun,false,
+Rifle,unknown,Rifle,false,
+Pipe Bomb,unknown,Pipe Bomb,false,
+Health damage,damage_received,,false,
+Melee,unknown,Melee,false,
+Flamethrower,unknown,Flamethrower,false,
+Transform,unknown,,false,Confirm event semantics

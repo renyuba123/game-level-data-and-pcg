@@ -1,0 +1,4 @@
+interface:
+  display_name: "玩家路线图分析"
+  short_description: "整理、校验和比较多局游戏轨迹与战斗事件"
+  default_prompt: "使用 $gameplay-route-analysis 审查当前 Illustrator 玩家路线图，先保留原始数据并改善可读性，再建立可供后续多局复用的轨迹与事件记录。"

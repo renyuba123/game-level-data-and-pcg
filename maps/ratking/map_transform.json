@@ -1,0 +1,8 @@
+{
+  "map_id": "ratking",
+  "status": "registered_to_pdf_page_only",
+  "source_coordinate_system": "PDF-compatible AI page points, origin lower-left",
+  "target_coordinate_system": "PDF_AI_points_y_up",
+  "transform": {"x_map":"x_ai_pdf","y_map":"y_ai_pdf"},
+  "scale_known": false
+}

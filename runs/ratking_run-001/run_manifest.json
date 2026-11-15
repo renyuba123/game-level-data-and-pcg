@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.1",
+  "map_id": "ratking",
+  "run_id": "ratking_run-001",
+  "source_files": [
+    "鼠王关玩家路线图001.ai"
+  ],
+  "source_video": "2026-11-14 20-03-35.mp4",
+  "coordinate_system": "PDF_AI_points_y_up",
+  "metric_scale_known": false,
+  "route_order_verified": false,
+  "event_layer_mapping_verified": false,
+  "contains_retries": null,
+  "analysis_status": "partially_derived_needs_review",
+  "source_sha256": "66238bc3f75c78f018a90749b2130a3cf0ed021977bbfbad4f8bff1d86ca2542",
+  "route_direction_status": "user_confirmed_spawn_to_transform",
+  "spawn_event_id": "E024",
+  "end_status": "user_confirmed_near_transform_exact_marker_needs_review",
+  "route_sequence_status": "candidate_from_user_direction_and_pdf_geometry",
+  "route_segment_count": 44,
+  "edited_ai": "outputs/ratking_run-001/ratking_run-001_edited.ai",
+  "edited_ai_sha256": "b5cae22fe04b7cc3dda931f23f80f506fa8440dae2667b804913cb0434ff3156",
+  "edited_ai_reopened_in_illustrator": true,
+  "edited_ai_layer_count": 22,
+  "ai_derived_figures": [
+    "movement_from_edited_ai.svg",
+    "movement_from_edited_ai.png",
+    "combat_from_edited_ai.svg",
+    "combat_from_edited_ai.png",
+    "convex_from_edited_ai.svg",
+    "convex_from_edited_ai.png"
+  ],
+  "visibility_figure_status": "awaiting_depthmapx_numeric_export",
+  "route_junction_gaps": [
+    {
+      "before_sequence": 17,
+      "paint_index": 17,
+      "gap_pdf_pt": 8.64
+    }
+  ]
+}

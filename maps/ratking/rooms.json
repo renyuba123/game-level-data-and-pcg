@@ -1,0 +1,18 @@
+{
+  "map_id": "ratking",
+  "status": "provisional_ids_from_visible_convex_map_regions",
+  "source": "鼠王关玩家路线图001.ai/depthmap PDF-compatible raster; shuwangguan.graph contains Convex Map but geometry not yet exported",
+  "coordinate_system": "PDF_AI_points_y_up",
+  "rooms": [
+    {"room_id":"R01","description":"upper left blue block","polygon":null,"convex_verified":false},
+    {"room_id":"R02","description":"upper right blue block","polygon":null,"convex_verified":false},
+    {"room_id":"R03","description":"long central pink block","polygon":null,"convex_verified":false},
+    {"room_id":"R04","description":"left cyan block","polygon":null,"convex_verified":false},
+    {"room_id":"R05","description":"center lower cyan block, upper arm of L-shaped fill","polygon":null,"convex_verified":false},
+    {"room_id":"R06","description":"center lower cyan block, lower arm of L-shaped fill","polygon":null,"convex_verified":false},
+    {"room_id":"R07","description":"mid-right cyan block","polygon":null,"convex_verified":false},
+    {"room_id":"R08","description":"lower-right purple block","polygon":null,"convex_verified":false},
+    {"room_id":"R09","description":"right yellow passage block","polygon":null,"convex_verified":false},
+    {"room_id":"R10","description":"far-right blue block","polygon":null,"convex_verified":false}
+  ]
+}

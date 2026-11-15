@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "map_id": "",
+  "run_id": "",
+  "source_files": [],
+  "source_video": null,
+  "coordinate_system": "map_units",
+  "metric_scale_known": false,
+  "route_order_verified": false,
+  "event_layer_mapping_verified": false,
+  "contains_retries": null,
+  "analysis_status": "needs_review"
+}

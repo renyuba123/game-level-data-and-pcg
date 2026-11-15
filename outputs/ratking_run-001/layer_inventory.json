@@ -1,0 +1,164 @@
+[
+  {
+    "name": "depthmap",
+    "ocg_id": 6,
+    "marked_blocks": 1,
+    "paint_ops": 1,
+    "stroke_ops": 0,
+    "fill_ops": 0,
+    "visible_in_pdf": true
+  },
+  {
+    "name": "Base",
+    "ocg_id": 7,
+    "marked_blocks": 1,
+    "paint_ops": 124,
+    "stroke_ops": 124,
+    "fill_ops": 0,
+    "visible_in_pdf": true
+  },
+  {
+    "name": "Route",
+    "ocg_id": 8,
+    "marked_blocks": 1,
+    "paint_ops": 45,
+    "stroke_ops": 42,
+    "fill_ops": 3,
+    "visible_in_pdf": true
+  },
+  {
+    "name": "Break",
+    "ocg_id": 9,
+    "marked_blocks": 1,
+    "paint_ops": 0,
+    "stroke_ops": 0,
+    "fill_ops": 0,
+    "visible_in_pdf": false
+  },
+  {
+    "name": "Transform",
+    "ocg_id": 10,
+    "marked_blocks": 1,
+    "paint_ops": 4,
+    "stroke_ops": 2,
+    "fill_ops": 2,
+    "visible_in_pdf": true
+  },
+  {
+    "name": "Flamethrower",
+    "ocg_id": 11,
+    "marked_blocks": 1,
+    "paint_ops": 8,
+    "stroke_ops": 4,
+    "fill_ops": 4,
+    "visible_in_pdf": true
+  },
+  {
+    "name": "Melee",
+    "ocg_id": 12,
+    "marked_blocks": 1,
+    "paint_ops": 4,
+    "stroke_ops": 2,
+    "fill_ops": 2,
+    "visible_in_pdf": true
+  },
+  {
+    "name": "Health damage",
+    "ocg_id": 13,
+    "marked_blocks": 1,
+    "paint_ops": 3,
+    "stroke_ops": 0,
+    "fill_ops": 3,
+    "visible_in_pdf": true
+  },
+  {
+    "name": "Pipe Bomb",
+    "ocg_id": 14,
+    "marked_blocks": 1,
+    "paint_ops": 2,
+    "stroke_ops": 0,
+    "fill_ops": 2,
+    "visible_in_pdf": true
+  },
+  {
+    "name": "Rifle",
+    "ocg_id": 15,
+    "marked_blocks": 1,
+    "paint_ops": 0,
+    "stroke_ops": 0,
+    "fill_ops": 0,
+    "visible_in_pdf": false
+  },
+  {
+    "name": "Shotgun",
+    "ocg_id": 16,
+    "marked_blocks": 1,
+    "paint_ops": 10,
+    "stroke_ops": 5,
+    "fill_ops": 5,
+    "visible_in_pdf": true
+  },
+  {
+    "name": "Pistol",
+    "ocg_id": 17,
+    "marked_blocks": 1,
+    "paint_ops": 0,
+    "stroke_ops": 0,
+    "fill_ops": 0,
+    "visible_in_pdf": false
+  },
+  {
+    "name": "Hunting Pistol",
+    "ocg_id": 18,
+    "marked_blocks": 1,
+    "paint_ops": 8,
+    "stroke_ops": 4,
+    "fill_ops": 4,
+    "visible_in_pdf": true
+  },
+  {
+    "name": "Crossbow",
+    "ocg_id": 19,
+    "marked_blocks": 1,
+    "paint_ops": 0,
+    "stroke_ops": 0,
+    "fill_ops": 0,
+    "visible_in_pdf": false
+  },
+  {
+    "name": "Brick",
+    "ocg_id": 20,
+    "marked_blocks": 1,
+    "paint_ops": 0,
+    "stroke_ops": 0,
+    "fill_ops": 0,
+    "visible_in_pdf": false
+  },
+  {
+    "name": "Break",
+    "ocg_id": 21,
+    "marked_blocks": 1,
+    "paint_ops": 2,
+    "stroke_ops": 1,
+    "fill_ops": 1,
+    "visible_in_pdf": true
+  },
+  {
+    "name": "Death",
+    "ocg_id": 22,
+    "marked_blocks": 1,
+    "paint_ops": 0,
+    "stroke_ops": 0,
+    "fill_ops": 0,
+    "visible_in_pdf": false
+  },
+  {
+    "name": "Spawn",
+    "ocg_id": 23,
+    "marked_blocks": 1,
+    "paint_ops": 2,
+    "stroke_ops": 1,
+    "fill_ops": 1,
+    "visible_in_pdf": true
+  }
+]
