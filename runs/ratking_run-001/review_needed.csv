@@ -5,8 +5,10 @@ Q003,source_review,Route,right narrow passage,Does route cross a wall or doorway
 Q005,source_review,Break,two OCG layers,What does each Break layer mean?,needs_review
 Q006,source_review,Crossbow,layer,Confirm action represented.,needs_review
 Q007,source_review,Transform,layer,Confirm action represented.,needs_review
-Q008,source_review,depthmap,all regions,Provide stable room IDs and metric legend/source.,needs_review
+Q008,source_review,depthmap,all regions,Provide stable room IDs and metric legend/source.,resolved_registered_9_convex_regions
 Q004,route_sequence,Route,all paths,Overall direction confirmed Spawn to left Transform-side endpoint; verify exact video sequence and attempts.,partially_resolved
 Q009,route_junction,Route,between PDF paints 16 and 17,8.64 PDF-pt gap: intentional movement discontinuity or drawing gap?,needs_review
-Q010,route_endpoint,Transform,"left endpoint near PDF (197.68,730.90)",Which Transform mark (E001 or E002) corresponds to user-described endpoint?,needs_review
-Q011,depthmap,shuwangguan.graph,Convex Map / VGA Map,"Export actual convex polygons, connections, Choice/Integration values and VGA visibility attributes; register to AI page.",needs_review
+Q010,route_endpoint,Transform,"left endpoint near PDF (197.68,730.90)",Which Transform mark (E008 or E023) relates to the user-described endpoint? End itself is a separate route label.,needs_review
+Q011,depthmap,shuwangguan.graph,Convex Map / VGA Map,"Export actual convex polygons, connections, Choice/Integration values and VGA visibility attributes; register to AI page.",resolved_real_exports_registered
+Q012,event_registration,Flamethrower,"E012 / AI-uuid-736 AI (1129.352,779.968)","Marker lies outside all exported convex polygons; check whether it sits at a door, was offset in Illustrator, or belongs to a different map version.",needs_review
+Q013,door_verification,Convex Map Pajek,all 9 graph edges,"Check physical opening, door centre and passability for each graph adjacency before using as a PCG traversal edge.",needs_review

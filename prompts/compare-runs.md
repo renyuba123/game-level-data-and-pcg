@@ -4,4 +4,4 @@
 
 单局图保持真实路线；多局按小倍图或可核实的通道/空间频次表达，写清样本数、分母和归一化。事件比较需要每次进入或停留时间等合理分母；没有分母只报原始计数。不要把平均路径说成真实路线。
 
-DepthmapX Choice、Integration 和 VGA Visual Integration 分别使用原始数值与独立图例；只有已配准、已验证的局次才进行行为与句法关联。结论标 `observed/derived/hypothesis`。PCG 只输出有数据来源、样本数和验证限制的候选结构目标，不开发生成器。
+DepthmapX Choice、Integration、VGA Visual Integration 和 VGA Gate Counts 分别保留原始数值与来源；优先用同指标 Depthmap 原图核对矢量图的颜色、空间分布和高值位置。跨局同地图同指标沿用相同的真实数值阈值；阈值若从原图匹配得到，明确标为派生校准并记录匹配误差，不称软件官方色标。不能用等频分位图冒充原图；Gate Counts 不作为玩家经过次数。事件图保留每局原件图标与原件对象 ID，沿各局路线编号 `001…N`，End 独立标注；比较时用稳定对象 ID/事件类型匹配，不用局内编号跨局配对。各 AI 图层以该类别 `*-Labels` 为父层。只有已配准、已验证的局次才进行行为与句法关联。结论标 `observed/derived/hypothesis`。PCG 只输出有数据来源、样本数和验证限制的候选结构目标，不开发生成器。

@@ -13,7 +13,7 @@ logFile.Close
 If WScript.Arguments.Count > 0 Then
     scriptPath = Replace(rootPath, "\", "/") & "/" & Replace(WScript.Arguments.Item(0), "\", "/")
 Else
-    scriptPath = Replace(rootPath, "\", "/") & "/outputs/ratking_run-001/style_working_copy.jsx"
+    scriptPath = Replace(rootPath, "\", "/") & "/tools/render_ratking.jsx"
 End If
 appRef.DoJavaScript "$.evalFile(File('" & scriptPath & "'));"
 Set logFile = fso.OpenTextFile(logPath, 8, True)
