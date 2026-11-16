@@ -76,7 +76,7 @@ with (run/'events.csv').open('r',encoding='utf-8-sig',newline='') as f:
     erows=list(csv.DictReader(f)); efields=list(erows[0])
 for event in erows:
     event['x_map']=event['x_ai_pdf'];event['y_map']=event['y_ai_pdf']
-    if event['event_id']=='E024': event['notes']='Spawn is route start: user confirmed; timing and attempt still unverified'
+    if event['source_layer']=='Spawn': event['notes']='Spawn is route start: user confirmed; timing and attempt still unverified'
     if event['source_layer']=='Transform': event['notes']='One of two Transform marks; exact end-associated marker needs review'
 used_events=set()
 for event in erows:
@@ -90,7 +90,9 @@ for event in erows:
         distance,item=min(candidates,key=lambda x:x[0])
         if distance<30:
             event['source_object_id']='AI-uuid-'+str(item['uuid'])
-            event['notes']+='; native object matched by layer and centroid'
+            match_note='native object matched by layer and centroid'
+            if match_note not in event['notes']:
+                event['notes']+='; '+match_note
             used_events.add(item['uuid'])
 assert not native or len(used_events)==24, f'Native event matching incomplete: {len(used_events)}/24'
 with (run/'events.csv').open('w',encoding='utf-8-sig',newline='') as f:
@@ -98,7 +100,7 @@ with (run/'events.csv').open('w',encoding='utf-8-sig',newline='') as f:
 manifest=json.loads((run/'run_manifest.json').read_text(encoding='utf-8'))
 manifest.update(schema_version='1.1',source_files=['鼠王关玩家路线图001.ai'],source_video='2026-11-14 20-03-35.mp4',
     coordinate_system='PDF_AI_points_y_up',metric_scale_known=False,route_order_verified=False,
-    route_direction_status='user_confirmed_spawn_to_transform',spawn_event_id='E024',
+    route_direction_status='user_confirmed_spawn_to_transform',spawn_event_id=next(e['event_id'] for e in erows if e['source_layer']=='Spawn'),
     end_status='user_confirmed_near_transform_exact_marker_needs_review',
     route_sequence_status='candidate_from_user_direction_and_pdf_geometry',
     route_segment_count=len(order),route_junction_gaps=gaps,

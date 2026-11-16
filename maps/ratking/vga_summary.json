@@ -1,0 +1,42 @@
+{
+  "map_id": "ratking",
+  "point_count": 3462,
+  "metrics": {
+    "Visual Integration [HH]": {
+      "count": 3462,
+      "min": 4.0596738,
+      "max": 14.854457,
+      "mean": 8.450245540236857
+    },
+    "Connectivity": {
+      "count": 3462,
+      "min": 159.0,
+      "max": 1667.0,
+      "mean": 810.4870017331023
+    },
+    "Gate Counts": {
+      "count": 3462,
+      "min": 4.0,
+      "max": 7230.0,
+      "mean": 1376.683997689197,
+      "quantile_breaks_20_40_60_80": [
+        212.0,
+        617.0,
+        1361.0,
+        2528.0
+      ],
+      "unit": "count",
+      "interpretation": "Depthmap VGA Gate Counts; not player traversal frequency"
+    },
+    "Visual Mean Depth": {
+      "count": 3462,
+      "min": 1.6177405,
+      "max": 3.2603295,
+      "mean": 2.1763072265742345
+    }
+  },
+  "grid_spacing_graph_units": 200,
+  "scale_known": false,
+  "source": "Depthmap+ Beta 1.0 Map > Export, VGA Map tab-delimited text",
+  "source_sha256": "c20cba7867c6ab41781508e8b7b24c6557cc5694216e3ddb87b5aa2b69319be0"
+}

@@ -1,8 +1,68 @@
 {
   "map_id": "ratking",
-  "status": "registered_to_pdf_page_only",
-  "source_coordinate_system": "PDF-compatible AI page points, origin lower-left",
+  "status": "registered",
+  "source_coordinate_system": "Depthmap graph XY; MIF declares NonEarth metres but game scale is unverified",
   "target_coordinate_system": "PDF_AI_points_y_up",
-  "transform": {"x_map":"x_ai_pdf","y_map":"y_ai_pdf"},
+  "transform": {
+    "x_ai": [
+      0.06691727404950577,
+      -0.00013900880192652468,
+      130.39008500555633
+    ],
+    "y_ai": [
+      0.00011417877921099384,
+      0.06717267276290083,
+      605.1288694685575
+    ]
+  },
+  "controls": [
+    {
+      "depthmap_ref": 1,
+      "room_id": "R04",
+      "residual_pdf_pt": 0.99
+    },
+    {
+      "depthmap_ref": 2,
+      "room_id": "R05",
+      "residual_pdf_pt": 1.137
+    },
+    {
+      "depthmap_ref": 4,
+      "room_id": "R02",
+      "residual_pdf_pt": 1.982
+    },
+    {
+      "depthmap_ref": 5,
+      "room_id": "R06",
+      "residual_pdf_pt": 1.76
+    },
+    {
+      "depthmap_ref": 6,
+      "room_id": "R07",
+      "residual_pdf_pt": 2.327
+    },
+    {
+      "depthmap_ref": 7,
+      "room_id": "R08",
+      "residual_pdf_pt": 1.87
+    },
+    {
+      "depthmap_ref": 8,
+      "room_id": "R09",
+      "residual_pdf_pt": 0.617
+    },
+    {
+      "depthmap_ref": 9,
+      "room_id": "R01",
+      "residual_pdf_pt": 1.267
+    }
+  ],
+  "max_residual_pdf_pt": 2.327,
+  "rms_residual_pdf_pt": 1.589,
+  "acceptance_tolerance_pdf_pt": 6.692,
+  "vga_grid_spacing_graph_units": 200,
+  "graph_sha256": "abd5c977f7a21a5496e08b962755c93adb5c3b7edc7f1d8f9599c9b562ace7cf",
+  "convex_mif_sha256": "5988c2ac926b677ac7405fbec2661ffad4b2d5c428398e0d8a920c87657e457e",
+  "vga_export_sha256": "c20cba7867c6ab41781508e8b7b24c6557cc5694216e3ddb87b5aa2b69319be0",
   "scale_known": false
 }
