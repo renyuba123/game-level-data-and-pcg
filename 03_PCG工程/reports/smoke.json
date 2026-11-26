@@ -1,0 +1,24 @@
+{
+  "boss_position": "(2.857905, 1.15, -12.59105)",
+  "floors": 11,
+  "nav_regions": 22,
+  "player_position": "(4.135, 1.0, 3.0155)",
+  "validation": {
+    "all_open_loops": 5,
+    "area_max_m2": 25.6874127388,
+    "area_min_m2": 5.02645015716553,
+    "connection_counts": {
+      "break": 3,
+      "normal": 6,
+      "through": 6
+    },
+    "edge_count": 15,
+    "initial_player_loops": 2,
+    "irregular_space_count": 2,
+    "issues": [],
+    "long_space_count": 2,
+    "ok": true,
+    "room_count": 11
+  },
+  "walls": 11
+}

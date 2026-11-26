@@ -1,0 +1,148 @@
+{
+  "note": "Initial player navigation excludes explicit squeeze actions; all-open reachability must cover every room.",
+  "passed": true,
+  "results": [
+    {
+      "boss_all_open": {
+        "missing": [],
+        "reached": [
+          "R05",
+          "R03",
+          "R01",
+          "R02",
+          "R04",
+          "R06",
+          "R07",
+          "R08",
+          "R10",
+          "R09",
+          "R11"
+        ]
+      },
+      "boss_initial": {
+        "missing": [
+          "R05",
+          "R03",
+          "R01",
+          "R02",
+          "R04",
+          "R06",
+          "R07",
+          "R08",
+          "R11"
+        ],
+        "reached": [
+          "R10",
+          "R09"
+        ]
+      },
+      "candidate": "a7daddec59a62a5485c225360d0794cdd7624ce5c276d222d8e414537d3a7f5a",
+      "label": "balanced",
+      "passed": true,
+      "player_all_open": {
+        "missing": [],
+        "reached": [
+          "R05",
+          "R03",
+          "R01",
+          "R02",
+          "R04",
+          "R06",
+          "R07",
+          "R08",
+          "R10",
+          "R09",
+          "R11"
+        ]
+      },
+      "player_initial_without_squeeze_actions": {
+        "missing": [
+          "R05",
+          "R03",
+          "R02",
+          "R04",
+          "R06",
+          "R07",
+          "R08",
+          "R10",
+          "R09",
+          "R11"
+        ],
+        "reached": [
+          "R01"
+        ]
+      }
+    },
+    {
+      "boss_all_open": {
+        "missing": [],
+        "reached": [
+          "R05",
+          "R03",
+          "R01",
+          "R02",
+          "R04",
+          "R06",
+          "R07",
+          "R08",
+          "R10",
+          "R09",
+          "R11"
+        ]
+      },
+      "boss_initial": {
+        "missing": [
+          "R03",
+          "R01",
+          "R04",
+          "R07",
+          "R08",
+          "R10",
+          "R09",
+          "R11"
+        ],
+        "reached": [
+          "R05",
+          "R02",
+          "R06"
+        ]
+      },
+      "candidate": "392c45ee982238d325e086750437df3debb5f912c03e55ce4dd5141ed88b28dc",
+      "label": "exploration",
+      "passed": true,
+      "player_all_open": {
+        "missing": [],
+        "reached": [
+          "R05",
+          "R03",
+          "R01",
+          "R02",
+          "R04",
+          "R06",
+          "R07",
+          "R08",
+          "R10",
+          "R09",
+          "R11"
+        ]
+      },
+      "player_initial_without_squeeze_actions": {
+        "missing": [
+          "R05",
+          "R03",
+          "R01",
+          "R02",
+          "R04",
+          "R06",
+          "R07",
+          "R08",
+          "R09",
+          "R11"
+        ],
+        "reached": [
+          "R10"
+        ]
+      }
+    }
+  ]
+}

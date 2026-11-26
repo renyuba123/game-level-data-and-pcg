@@ -1,0 +1,72 @@
+{
+  "count": 12,
+  "bounds_model_m": [
+    -15.705543877512683,
+    -19.452940318611596,
+    21.807286339446723,
+    21.398105479954292
+  ],
+  "files": [
+    {
+      "seed": 1,
+      "layout_hash": "8403a2b4cb4bed7e5241a6864cdcd2a2ab0d10f20db62f6e62d3e20fa8102dde",
+      "path": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\phase2_previews\\seed_0001.png"
+    },
+    {
+      "seed": 2,
+      "layout_hash": "89a327a5a50f2de0e8002c2bf3bc55b4948237391c4cc6e19c002c7b17fe1b61",
+      "path": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\phase2_previews\\seed_0002.png"
+    },
+    {
+      "seed": 3,
+      "layout_hash": "7c098dee5c514a385235ae76b6f146aac265502637fa876af8b98a6c81340c23",
+      "path": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\phase2_previews\\seed_0003.png"
+    },
+    {
+      "seed": 5,
+      "layout_hash": "72de23fbaf465c31ace9754a5455ac2cb727596aa807a209c25f529e57a4379a",
+      "path": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\phase2_previews\\seed_0005.png"
+    },
+    {
+      "seed": 7,
+      "layout_hash": "5879fb877fe5f951e20e7f607cdfabeb7b9b40a55f67677192a15cb762c23419",
+      "path": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\phase2_previews\\seed_0007.png"
+    },
+    {
+      "seed": 9,
+      "layout_hash": "111bc291b7b6c737b62993d1c08d57f0e2a74e5521b8ad8fc59dac672e5dcd85",
+      "path": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\phase2_previews\\seed_0009.png"
+    },
+    {
+      "seed": 13,
+      "layout_hash": "5b013553de14165b0d4ddf29b40526202efa64f0d8d9e11e867dffb7f170a412",
+      "path": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\phase2_previews\\seed_0013.png"
+    },
+    {
+      "seed": 14,
+      "layout_hash": "6e12f69894de8ca432f7565ee91172bc43e7c80d3f21cea48efd6d21871cd9ab",
+      "path": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\phase2_previews\\seed_0014.png"
+    },
+    {
+      "seed": 17,
+      "layout_hash": "0bdb60d343f82b1c034032b980990b0f7d3bfdad54535b62f08eae2d0a0e068c",
+      "path": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\phase2_previews\\seed_0017.png"
+    },
+    {
+      "seed": 19,
+      "layout_hash": "ac61f0338734f97b6c43a1e31f59feeba19f1a4a307442621f3a5dcd222db924",
+      "path": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\phase2_previews\\seed_0019.png"
+    },
+    {
+      "seed": 24,
+      "layout_hash": "6dcc4392f574513db3f00835749dc80edcbdd23895c8253c8da99c76dfa9f92a",
+      "path": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\phase2_previews\\seed_0024.png"
+    },
+    {
+      "seed": 4,
+      "layout_hash": "b19ee40250985dd21ff87fb535d960dc8f7435f87d07ff1980ef34032afb3af1",
+      "path": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\phase2_previews\\seed_0004.png"
+    }
+  ],
+  "source_summary_sha256": "f3f2be58f52d487c77b8575bf5bac9df9caa71701b15593ae5b345baacfaefa3"
+}

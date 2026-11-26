@@ -1,0 +1,23 @@
+﻿run_id,event_id,source_layer,source_object_id,x_ai,y_ai,route_distance_ai_pt,route_offset_ai_pt,timestamp_s,order_status
+ratking_run-004,E001,Spawn,7807,692.653300435997,859.754185467574,0.0,0.0,,candidate_geometry
+ratking_run-004,E002,Flamethrower,7780,750.46618909634,879.786802122543,61.014,4.571,,candidate_geometry
+ratking_run-004,E003,Hunting Pistol,7795,862.180821799087,875.464804933846,171.487,4.331,,candidate_geometry
+ratking_run-004,E004,Break,7769,1079.2612941464,477.618723660425,1189.306,6.102,,candidate_geometry
+ratking_run-004,E005,Flamethrower,7781,1124.00005569567,490.153729025889,1234.381,4.313,,candidate_geometry
+ratking_run-004,E006,Hunting Pistol,7796,1124.00005569104,462.14326653063,1258.078,0.001,,candidate_geometry
+ratking_run-004,E007,Transform,7773,1039.64245058785,555.683752325054,1404.952,16.0,,candidate_geometry
+ratking_run-004,E008,Flamethrower,7782,992.184683406967,807.835394279024,1656.676,4.355,,candidate_geometry
+ratking_run-004,E009,Hunting Pistol,7797,1027.68909196849,753.381604636546,1725.365,1.75,,candidate_geometry
+ratking_run-004,E010,Transform,7772,1086.04758852171,709.53567397092,1944.659,48.874,,candidate_geometry
+ratking_run-004,E011,Flamethrower,7783,1162.64439136401,554.470724347209,2110.346,0.723,,candidate_geometry
+ratking_run-004,E012,Hunting Pistol,7798,1147.67255580447,581.757093673514,2145.721,4.334,,candidate_geometry
+ratking_run-004,E013,Flamethrower,7784,982.997548530522,688.00723802326,2512.755,1.749,,candidate_geometry
+ratking_run-004,E014,Flamethrower,7776,968.025712970975,721.508171386869,2545.799,3.991,,candidate_geometry
+ratking_run-004,E015,Flamethrower,7778,916.99999964688,807.835394188571,2546.134,4.309,,candidate_geometry
+ratking_run-004,E016,Flamethrower,7779,426.729821717394,844.56809374874,3038.061,2.984,,candidate_geometry
+ratking_run-004,E017,Flamethrower,7775,741.364095067653,853.761078115235,3103.581,2.651,,candidate_geometry
+ratking_run-004,E018,Hunting Pistol,7794,781.271293125206,854.489851974656,3143.042,3.684,,candidate_geometry
+ratking_run-004,E019,Pistol,7791,826.52472389801,844.043565457887,3189.251,0.979,,candidate_geometry
+ratking_run-004,E020,Break,7770,954.627548420832,778.706700127407,3370.17,19.165,,candidate_geometry
+ratking_run-004,E021,Flamethrower,7777,1024.15201868468,610.788571870586,3550.767,1.196,,candidate_geometry
+ratking_run-004,E022,Hunting Pistol,7793,993.327129710753,578.247597200293,3596.689,1.374,,candidate_geometry

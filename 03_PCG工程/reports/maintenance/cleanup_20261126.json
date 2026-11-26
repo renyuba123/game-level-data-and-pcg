@@ -1,0 +1,230 @@
+{
+  "started_at": "2026-11-26T13:36:40.861412+00:00",
+  "project": "D:\\GODOT Prams\\boss-level-pcg",
+  "written": [
+    {
+      "path": "README.md",
+      "sha256": "16da44515c00327e9c75ec584f231f5fe5d3403ea935222a1661539ce59e4269"
+    },
+    {
+      "path": "RUNS.md",
+      "sha256": "ecf6ad3f835c3cdd982e94eb82a5a98a80e5f419f87bbcaf141989959700ca93"
+    },
+    {
+      "path": "RUN_OUTPUTS.html",
+      "sha256": "37b58f098b226bf41ec2429284366dcccdee72ebefb949e1e478027dd3057a89"
+    },
+    {
+      "path": "scripts/open_viewer.ps1",
+      "sha256": "16a4d2a880ee0d83ee0e8da6026e87c9583387214c0a3ef9c424c6fa446b2f1f"
+    },
+    {
+      "path": "full_pcg/STATUS.md",
+      "sha256": "554ce98c38a56d4ca198396fc1a660e309fa49784231b7e93dceb664e9a49f56"
+    },
+    {
+      "path": "full_pcg/viewer/README.md",
+      "sha256": "a2691f93e41156dcd62504ae0530b99025dffa927a6fc1b8f2f3d3798d4ecab2"
+    },
+    {
+      "path": "PLANS.md",
+      "sha256": "0f57d12783c77ffc6bf11188fe6feef359c74ecc304f8723147055f75248aa7b"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "0c61c6f25554868d133f54ff848fae78c62748629b35c28e187df1b3feaf8ef5"
+    },
+    {
+      "path": "PROGRESS.md",
+      "operation": "append_only",
+      "sha256": "74ceec8137b72521e9dab9d8eb9aad22f2c7962486d6c4df721b6640d1ddb4dc"
+    }
+  ],
+  "deleted": [
+    {
+      "path": "drafts",
+      "files": {
+        ".gdignore": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "combat_phase1_4/combat_pcg/__main__.py": {
+          "sha256": "d4928e4325a79beabe7ec0898bc6c87ef0ee6e0e3aaac211ead8dfede491183c",
+          "bytes": 2073
+        },
+        "combat_phase1_4/combat_pcg/combat_config.json": {
+          "sha256": "e2236a84783a6b83fc4dc9372231026d0eb1c859a0cb2c17883edabd0e3b50c0",
+          "bytes": 2602
+        },
+        "combat_phase1_4/combat_pcg/counterexamples.py": {
+          "sha256": "fe3b05e7423fdd0b41931e81d8fd95aa0c67cc089a6e23a788aa0e1588620094",
+          "bytes": 2182
+        },
+        "combat_phase1_4/combat_pcg/protocol.py": {
+          "sha256": "ab15a42612472663fe4535d405e2c2714ec18d49f93dbcbcee2a8f8ec03a2f5c",
+          "bytes": 3069
+        },
+        "combat_phase1_4/combat_pcg/test_protocol.py": {
+          "sha256": "f481c890ead6a118ca599316abf6372969db7393b448a81007add436865b3d76",
+          "bytes": 1122
+        },
+        "combat_phase1_4/reports/combat_v3/COMBAT_PROTOCOL.md": {
+          "sha256": "57295757b61ac9e9fa010edfd0d20b9883f18ccc5ae63f07e0b84513e6c2dca9",
+          "bytes": 2457
+        },
+        "combat_phase1_4/reports/combat_v3/IMPLEMENTATION_PLAN.md": {
+          "sha256": "cb9860300843fa072554a7ecb7785f5032d564e80b0793b75e411e7dec2cdf4a",
+          "bytes": 4471
+        },
+        "full_pcg_godot/full_pcg/godot/layout_decoder.gd": {
+          "sha256": "cfa75108264f80166fd1f05020b0dbf89f55755dbd567a03f98fd5ca487de113",
+          "bytes": 5214
+        },
+        "full_pcg_godot/full_pcg/godot_export.py": {
+          "sha256": "4531f91937dcad8060c2c91fe983fc2fccd3c3c9cd5112e381975f27cc70561a",
+          "bytes": 4749
+        },
+        "README.md": {
+          "sha256": "85e19154832c22b44e93cb39934b921dae0363e1e36a717a8307e2f3306cf872",
+          "bytes": 1169
+        }
+      }
+    },
+    {
+      "path": "full_pcg_output/shell_inset_review_v1",
+      "files": {
+        "audit.json": {
+          "sha256": "2df812b676dda71d08191382e6df906f478c76c176b6406352a6485e892f2100",
+          "bytes": 1099279
+        },
+        "godot_navigation.json": {
+          "sha256": "64a2d7cc1edb7273ce414f87c7d1e30f3b531acb7dee191db21152c063d1cd3e",
+          "bytes": 6762
+        },
+        "marked_seeds_before_after.png": {
+          "sha256": "0affb805498ad3edc2f403cace77b7eba254081c63c46da3a2656a186eb4ba8f",
+          "bytes": 118212
+        },
+        "marked_seeds_before_after.png.import": {
+          "sha256": "bf42b5e642e237e003a81672a7dada9d0a8bb29a6e1d6164dd386219614f6f80",
+          "bytes": 1017
+        },
+        "seeds_1_6.png": {
+          "sha256": "84f8fd27905d826b4e1dad3f29fb4ec937617f4a20fa58445a0d1a9b1d94e42b",
+          "bytes": 110936
+        },
+        "seeds_1_6.png.import": {
+          "sha256": "3e5c08c186e9db478bdd2197e2ec18f7bdc78e3fcaf34cfcf5dfc04309747d5d",
+          "bytes": 969
+        },
+        "size_review.json": {
+          "sha256": "d0b15065a4746652a5f0973894ad8f34fbec3d09e55732b8a2a7739816e4e5f4",
+          "bytes": 2630
+        }
+      }
+    },
+    {
+      "path": "full_pcg_output/shell_shape_review_v1",
+      "files": {
+        "audit.json": {
+          "sha256": "9d0434f571f925887c0eb03456ec96a529a253e88a95a6c1043df765320976df",
+          "bytes": 1120989
+        },
+        "godot_navigation.json": {
+          "sha256": "272e4cbf3ac29ba7ad8a3cacee32282c002963a6161bdb655947a4ef90175445",
+          "bytes": 6754
+        },
+        "layout_005.json": {
+          "sha256": "b8a3d36e6f57d97567d7e5b6b55c3a5878ef6d5f851df01a462f6ebdb79d6483",
+          "bytes": 62971
+        },
+        "physics.err": {
+          "sha256": "171a14008e21093165b662911a52245a33d81c4ddd60a2b43a198ad60d5183a3",
+          "bytes": 4122
+        },
+        "physics.log": {
+          "sha256": "f2a0a5a0e5d7b9ea7b304bac1c87f2ff466d35e827a0f07a638cc1aab6af0f38",
+          "bytes": 198
+        },
+        "runtime.err": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "runtime.log": {
+          "sha256": "234849887de28aa6b4a6b70262c77ddbfc0d84d6dc6cfb91fad5586695eecf19",
+          "bytes": 247
+        },
+        "seeds_1_6.png": {
+          "sha256": "e5c597ae4f69e2d39d6851ebedd05b5a2705006845d3197b15df28b1441c42ae",
+          "bytes": 96370
+        },
+        "seeds_1_6.png.import": {
+          "sha256": "eceb76d50b45ae9355d09c0055a2b6d53f5a10646bf7138f7d8626231b7d7170",
+          "bytes": 969
+        }
+      }
+    },
+    {
+      "path": "full_pcg_output/shell_single_bend_review",
+      "files": {
+        "audit.json": {
+          "sha256": "00b48b9fe0f30463710b01377761a4abd64c4bcde40a51481f9c7d4810c2bf42",
+          "bytes": 1124270
+        },
+        "godot_navigation.json": {
+          "sha256": "64f327c7cd75d8a47e0b7a9d51c12e978cf0d9080deda075f2a21724c013988c",
+          "bytes": 6763
+        },
+        "marked_rooms.png": {
+          "sha256": "0dad8643d424bd44ce075af5d0f9cb1a9fc2cb3586156075d54710d909cf1379",
+          "bytes": 89603
+        },
+        "marked_rooms.png.import": {
+          "sha256": "5663fd5a278096b4d80d8b2e6e31188dfd4e6c43a5d23d7a70082ca18867014f",
+          "bytes": 980
+        },
+        "seeds_1_6.png": {
+          "sha256": "6acc24eaed750bc43fccf16d0704fd26de84fef4ed7e935f3145a401a104264f",
+          "bytes": 111466
+        },
+        "seeds_1_6.png.import": {
+          "sha256": "241d2557235267a1d136613f10e95fd78954a75e871d1e33b872614ba1389e50",
+          "bytes": 972
+        },
+        "shape_checks.json": {
+          "sha256": "84308e5f62eb7a4165dfae80b58e75f1ee477db81dd6f9baefe46d99c0c43e5b",
+          "bytes": 1477
+        }
+      }
+    },
+    {
+      "path": "full_pcg_output/shell_window_review_v2",
+      "files": {
+        "audit.json": {
+          "sha256": "2d259958ccb81ae39b1231f44f52930fe1820e98e138ca2bb9e231e6a60b8ccc",
+          "bytes": 1042964
+        },
+        "godot_navigation.json": {
+          "sha256": "ed8fb5707298e9f24659e6306e86b17cbe9f7f289280019e55b9033252be0713",
+          "bytes": 6779
+        },
+        "portal_checks.json": {
+          "sha256": "7a2e0202e0d5c41c43eea49499fb2cb3ec54dcd05afbc0141a3baf240bd8b82e",
+          "bytes": 1546
+        },
+        "seeds_1_6.png": {
+          "sha256": "6934528f1792b5da17767faba9c72e918ce922db387a8b564d3e2f501179a219",
+          "bytes": 109925
+        },
+        "seeds_1_6.png.import": {
+          "sha256": "f7caef26c10391ce0b5f2898216fd35c87a2ec6ae2a58eb8a593c5430729b7e5",
+          "bytes": 970
+        }
+      }
+    }
+  ],
+  "status": "COMPLETE",
+  "concurrent_source_changes": [],
+  "protected_sources_verified": 162,
+  "completed_at": "2026-11-26T13:36:41.647482+00:00"
+}

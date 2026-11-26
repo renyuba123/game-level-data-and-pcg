@@ -1,0 +1,353 @@
+proposal initial-00 initial 0 f66e941bd5a9716f34e8cc33e60762d5723dfe76c48b36ad71f6815a6c6d572d
+proposal initial-01 initial 0 b58adb8129c50117ec45c81a31c5a1373f778cfe50def19c0bb010ce88be993e
+proposal initial-02 initial 0 c9bb605eb37440cc80c0e5dee32d2f3ffc2fb435f30d8f6813bef630b0793a20
+proposal initial-03 initial 0 dd2c8cad36682fd0d925fcef1e5b12d3d374402c56099495ad673be3249b4332
+proposal initial-04 initial 0 450c0b20ce8f1b2379aac0fc536555392d178645e798e609fc5e6c001b82a47b
+proposal initial-05 initial 0 3d23e144d23d0c767f03de5b23177920c9e1e680c752cf1316c4ca6664b3b12c
+proposal initial-06 initial 0 79d26d71398bc1be8dce4141169eab8d9b125fb8ac6c5f9f5af6796e9ddc1718
+proposal initial-07 initial 0 ef1047d5e8c3934e2b2d7867fda91c66d05b3ac8cd6889fe83186342b9adf1c5
+evaluation 6 b58adb8129c50117ec45c81a31c5a1373f778cfe50def19c0bb010ce88be993e {'victory': 8, 'death': 4} phase2 12
+evaluation 84 c9bb605eb37440cc80c0e5dee32d2f3ffc2fb435f30d8f6813bef630b0793a20 {'victory': 12} phase2 12
+evaluation 177 f66e941bd5a9716f34e8cc33e60762d5723dfe76c48b36ad71f6815a6c6d572d {'victory': 12} phase2 12
+evaluation 78 dd2c8cad36682fd0d925fcef1e5b12d3d374402c56099495ad673be3249b4332 {'death': 7, 'timeout': 3, 'victory': 2} phase2 6
+evaluation 44 450c0b20ce8f1b2379aac0fc536555392d178645e798e609fc5e6c001b82a47b {'victory': 12} phase2 12
+evaluation 48 3d23e144d23d0c767f03de5b23177920c9e1e680c752cf1316c4ca6664b3b12c {'death': 9, 'victory': 3} phase2 11
+evaluation 37 ef1047d5e8c3934e2b2d7867fda91c66d05b3ac8cd6889fe83186342b9adf1c5 {'death': 10, 'victory': 2} phase2 6
+evaluation 4 79d26d71398bc1be8dce4141169eab8d9b125fb8ac6c5f9f5af6796e9ddc1718 {'timeout': 2, 'death': 3, 'victory': 7} phase2 10
+G0 committed (8 requests)
+proposal random-1-00 random_sample 0 79ee58844f99be3f94f8bb70d99f6693c76daca4cc9b05fb12c93beb810a15b1
+proposal random-1-01 random_sample 0 cd154288bcae60a6552fd6073bcef30b986bc0a66d30bfe4ef04d89f5e387fe0
+proposal random-1-02 random_sample 0 681506d3dd6537e3ac3720f4dcfae28d179f7177a7f722b6ce031c8da3a574cc
+proposal random-1-03 random_sample 0 94526934869cbf064169c3961c309dfe87377534693b4dae94f7236c01c2037f
+proposal random-1-04 random_sample 0 None
+proposal random-1-05 random_sample 0 3a6c911076320da04eccdf51b9404ed88e510d71f4f308f75d45cd79b9b4794c
+proposal random-1-06 random_sample 0 227b15a6bc0ba5aa38e74d32dc72c1f635a3c5d8572cb2b77198c68ce315cdab
+proposal random-1-07 random_sample 0 ff41e5ef72814770d683abe9618163334a239acdcb325ae6d3b3714159773db5
+evaluation 511376587 681506d3dd6537e3ac3720f4dcfae28d179f7177a7f722b6ce031c8da3a574cc {'death': 11, 'victory': 1} phase2 8
+evaluation 1184389218 cd154288bcae60a6552fd6073bcef30b986bc0a66d30bfe4ef04d89f5e387fe0 {'death': 6, 'victory': 6} phase2 6
+evaluation 535268443 79ee58844f99be3f94f8bb70d99f6693c76daca4cc9b05fb12c93beb810a15b1 {'death': 7, 'victory': 5} phase2 7
+evaluation 1511496367 94526934869cbf064169c3961c309dfe87377534693b4dae94f7236c01c2037f {'victory': 6, 'death': 6} phase2 11
+evaluation 202845862 227b15a6bc0ba5aa38e74d32dc72c1f635a3c5d8572cb2b77198c68ce315cdab {'victory': 5, 'death': 6, 'timeout': 1} phase2 8
+evaluation 1060228272 ff41e5ef72814770d683abe9618163334a239acdcb325ae6d3b3714159773db5 {'death': 7, 'victory': 5} phase2 9
+evaluation 992204492 3a6c911076320da04eccdf51b9404ed88e510d71f4f308f75d45cd79b9b4794c {'death': 4, 'victory': 4, 'timeout': 4} phase2 5
+G1 committed (8 requests)
+proposal random-2-00 random_sample 0 f02dad53ba699fd6bf9e6a7aa27d618874bdcf67ad35e5346df7be8adc686378
+proposal random-2-01 random_sample 0 2c7c85caf26ad971f2586b1e24f7664fa71ca8b2f127dab269b94518c60c5da9
+proposal random-2-02 random_sample 0 545b29a753598c8b2832c87ce0a1809ab8759c931a402159164b8aba395e4593
+proposal random-2-03 random_sample 0 5ca85e030217993f4f10aab616e69f6a5cfa652fbea6ffff300e6c876a1c0170
+proposal random-2-04 random_sample 0 4aa826995787d9e9e0362bc71171d300eb2c6db344d70e57736ca1da47de784f
+proposal random-2-05 random_sample 0 87ef5199fe96d0a72cf0629672de4994e8870e5c357d63943af331cc305a8795
+proposal random-2-06 random_sample 0 None
+proposal random-2-07 random_sample 0 ef03bc0259639577f7c26c8ef2928057b4e31fb21cd73a613fdee09f02f30313
+evaluation 1535644173 2c7c85caf26ad971f2586b1e24f7664fa71ca8b2f127dab269b94518c60c5da9 {'death': 12} phase2 0
+evaluation 506608361 f02dad53ba699fd6bf9e6a7aa27d618874bdcf67ad35e5346df7be8adc686378 {'death': 12} phase2 7
+evaluation 871342424 545b29a753598c8b2832c87ce0a1809ab8759c931a402159164b8aba395e4593 {'death': 8, 'victory': 4} phase2 6
+evaluation 895188632 5ca85e030217993f4f10aab616e69f6a5cfa652fbea6ffff300e6c876a1c0170 {'death': 4, 'victory': 8} phase2 11
+evaluation 348972833 87ef5199fe96d0a72cf0629672de4994e8870e5c357d63943af331cc305a8795 {'death': 8, 'victory': 4} phase2 4
+evaluation 1301707328 ef03bc0259639577f7c26c8ef2928057b4e31fb21cd73a613fdee09f02f30313 {'victory': 12} phase2 12
+evaluation 268801658 4aa826995787d9e9e0362bc71171d300eb2c6db344d70e57736ca1da47de784f {'victory': 12} phase2 12
+G2 committed (8 requests)
+proposal random-3-00 random_sample 0 e3e1a9641899d9dbdd1991dbd6052d9ef73451cd65f03cbc8ba497bcc0dff336
+proposal random-3-01 random_sample 0 6e711d24b41d8ef97128112d87be68c7a08f3a55c858e6111e78f7aadcfb8924
+proposal random-3-02 random_sample 0 d36aeb81eca47e514a5211872268e6f7bf3b417aea3a3803f2788b7c51117240
+proposal random-3-03 random_sample 0 None
+proposal random-3-04 random_sample 0 None
+proposal random-3-05 random_sample 0 0b32741935e27916808547419ee9aeccba07134538006104161a912305942c69
+proposal random-3-06 random_sample 0 45584e17e72302472d62438453790ec60704d348ae45c68ae6fe8cfcda9f7a50
+proposal random-3-07 random_sample 0 f53ccbc7dc4370fda5ebde8c5d0fc43650cf2d9d6289ae524ce9a561857c405e
+evaluation 1185904695 d36aeb81eca47e514a5211872268e6f7bf3b417aea3a3803f2788b7c51117240 {'death': 12} phase2 4
+evaluation 1486744101 6e711d24b41d8ef97128112d87be68c7a08f3a55c858e6111e78f7aadcfb8924 {'death': 12} phase2 10
+evaluation 2021846327 e3e1a9641899d9dbdd1991dbd6052d9ef73451cd65f03cbc8ba497bcc0dff336 {'victory': 3, 'death': 9} phase2 8
+evaluation 432145881 0b32741935e27916808547419ee9aeccba07134538006104161a912305942c69 {'victory': 8, 'death': 4} phase2 12
+evaluation 730711297 f53ccbc7dc4370fda5ebde8c5d0fc43650cf2d9d6289ae524ce9a561857c405e {'victory': 5, 'death': 7} phase2 5
+evaluation 1823020004 45584e17e72302472d62438453790ec60704d348ae45c68ae6fe8cfcda9f7a50 {'victory': 9, 'death': 3} phase2 12
+G3 committed (8 requests)
+proposal random-4-00 random_sample 0 a4cfcec86a2a1f83a661640f542db5366f9d6d409b2ae3fcba8a71c14923c628
+proposal random-4-01 random_sample 0 92a00dbe7f96278b47d444fec46976e21af63f1153841fc591ab9d9c4f74671b
+proposal random-4-02 random_sample 0 0ca024482915850d3459abf224eb99901edef67a7c09afa8b47ac46ebe60d3cc
+proposal random-4-03 random_sample 0 fab57d124852711b2a35e0278825179fe03ccd6fd78c08d40f645b2f00a43625
+proposal random-4-04 random_sample 0 25943e26f23299f40e20ebccb2494df15ae43a3e5f7d30b691851ea6936887d5
+proposal random-4-05 random_sample 0 98662210133bfc1ede665bb1856be3b31d6cd310ff1fbf356d89bb061ea2883e
+proposal random-4-06 random_sample 0 4e31771601c1813e1a4c76e18ba857a8d5a8d5b481cc7c62bcde79229ddf52ea
+proposal random-4-07 random_sample 0 None
+evaluation 416783057 a4cfcec86a2a1f83a661640f542db5366f9d6d409b2ae3fcba8a71c14923c628 {'death': 8, 'victory': 4} phase2 12
+evaluation 1089184772 0ca024482915850d3459abf224eb99901edef67a7c09afa8b47ac46ebe60d3cc {'victory': 8, 'death': 4} phase2 12
+evaluation 101719532 92a00dbe7f96278b47d444fec46976e21af63f1153841fc591ab9d9c4f74671b {'death': 5, 'victory': 7} phase2 8
+evaluation 685943549 fab57d124852711b2a35e0278825179fe03ccd6fd78c08d40f645b2f00a43625 {'victory': 6, 'death': 6} phase2 11
+evaluation 1837467063 25943e26f23299f40e20ebccb2494df15ae43a3e5f7d30b691851ea6936887d5 {'death': 6, 'victory': 6} phase2 6
+evaluation 1420212089 4e31771601c1813e1a4c76e18ba857a8d5a8d5b481cc7c62bcde79229ddf52ea {'death': 12} phase2 0
+evaluation 2097236679 98662210133bfc1ede665bb1856be3b31d6cd310ff1fbf356d89bb061ea2883e {'timeout': 1, 'victory': 8, 'death': 3} phase2 12
+G4 committed (8 requests)
+proposal random-5-00 random_sample 0 6f5008e8654c8c125d9dec7e37ce4aab353c1f0642e4fb4bed8cf9cb262582d5
+proposal random-5-01 random_sample 0 5b488261f2cf64f3a384fc8525e116ea084505051ef40cbc642474f7c8f9dd8b
+proposal random-5-02 random_sample 0 None
+proposal random-5-03 random_sample 0 8061681d98255db8c36b57e3842037cf2800c2b9e9be3647eaad0987cd15c3b4
+proposal random-5-04 random_sample 0 5d6e4ba92333717a7a11b8cd7d2c7e57274263ddc91ca924d393e6335abd0d96
+proposal random-5-05 random_sample 0 9cb58014ea4d0e0f4136660a2d1d40bdc15a10cb4498ece11a4be1705efc9f54
+proposal random-5-06 random_sample 0 d582824f4d565e5695ab943a2ae75e1509f2dfc95ec7bd0d1b7e7cd8c18ae605
+proposal random-5-07 random_sample 0 0fd01aac27b017376ca7b018d128b033f2f1afca837138b7faeb5aa5b0b94ae0
+evaluation 816350691 5d6e4ba92333717a7a11b8cd7d2c7e57274263ddc91ca924d393e6335abd0d96 {'victory': 9, 'death': 3} phase2 12
+evaluation 942996688 5b488261f2cf64f3a384fc8525e116ea084505051ef40cbc642474f7c8f9dd8b {'death': 3, 'victory': 9} phase2 12
+evaluation 808787374 6f5008e8654c8c125d9dec7e37ce4aab353c1f0642e4fb4bed8cf9cb262582d5 {'death': 3, 'victory': 9} phase2 12
+evaluation 1977812512 8061681d98255db8c36b57e3842037cf2800c2b9e9be3647eaad0987cd15c3b4 {'victory': 10, 'timeout': 2} phase2 10
+evaluation 540925317 9cb58014ea4d0e0f4136660a2d1d40bdc15a10cb4498ece11a4be1705efc9f54 {'death': 8, 'victory': 4} phase2 4
+evaluation 199635085 0fd01aac27b017376ca7b018d128b033f2f1afca837138b7faeb5aa5b0b94ae0 {'victory': 4, 'death': 8} phase2 6
+evaluation 71231246 d582824f4d565e5695ab943a2ae75e1509f2dfc95ec7bd0d1b7e7cd8c18ae605 {'timeout': 5, 'victory': 5, 'death': 2} phase2 9
+G5 committed (8 requests)
+proposal random-6-00 random_sample 0 None
+proposal random-6-01 random_sample 0 c09a917de33266f143fae87f9a0e3b7efc44a8084f7ed4fedea609cb463e55c5
+proposal random-6-02 random_sample 0 6dfc9a5dddce9623d0c1b26ced1a1df37760cf650e34303c4bafae8c82c0f35a
+proposal random-6-03 random_sample 0 None
+proposal random-6-04 random_sample 0 None
+proposal random-6-05 random_sample 0 None
+proposal random-6-06 random_sample 0 974cc82fb2a549ad6a776d9cd2c894433257f9df2348fccaa438b2ee15964309
+proposal random-6-07 random_sample 0 9231d25339a4fbd8e69223597800c7abb403c6c144ce7982a261e2d09a94e81d
+evaluation 967509953 c09a917de33266f143fae87f9a0e3b7efc44a8084f7ed4fedea609cb463e55c5 {'death': 12} phase2 12
+evaluation 1771335474 9231d25339a4fbd8e69223597800c7abb403c6c144ce7982a261e2d09a94e81d {'victory': 10, 'death': 2} phase2 12
+evaluation 1711631717 974cc82fb2a549ad6a776d9cd2c894433257f9df2348fccaa438b2ee15964309 {'victory': 5, 'death': 7} phase2 12
+evaluation 1764320941 6dfc9a5dddce9623d0c1b26ced1a1df37760cf650e34303c4bafae8c82c0f35a {'victory': 5, 'death': 4, 'timeout': 3} phase2 8
+G6 committed (8 requests)
+proposal random-7-00 random_sample 0 98c6fc48bf36ad40717811a318e3e44f7cc8ae40a3e8b86f86eef4269f22623a
+proposal random-7-01 random_sample 0 40b6299b34e8f04a70e738e53dac0aa9cf827ed6ca40b56cf6d9e84a8cbcb219
+proposal random-7-02 random_sample 0 6ea25a2f20299671e7b2bbcd2bd5ef2cc99e70f03150cf3be12865b7f2ce65e5
+proposal random-7-03 random_sample 0 None
+proposal random-7-04 random_sample 0 fb177cea4e350e384e71e996d3f3d99309950066f7630fff957777e62324289d
+proposal random-7-05 random_sample 0 b0f120877dee05bb2aedf923b49b9621b07423717bd2cea98cf5bee7e2eff366
+proposal random-7-06 random_sample 0 82fbdc4fa5609d59d5019875de800d9b7b41a9b330cbfb0c0130ea9ab0e69274
+proposal random-7-07 random_sample 0 418621b12dcc2a80a430a4b8c1318e2ce2aa11617291d1efe519a450773df96c
+evaluation 881913790 40b6299b34e8f04a70e738e53dac0aa9cf827ed6ca40b56cf6d9e84a8cbcb219 {'death': 10, 'victory': 2} phase2 2
+evaluation 807642768 fb177cea4e350e384e71e996d3f3d99309950066f7630fff957777e62324289d {'death': 5, 'victory': 7} phase2 12
+evaluation 1349562845 6ea25a2f20299671e7b2bbcd2bd5ef2cc99e70f03150cf3be12865b7f2ce65e5 {'death': 9, 'victory': 2, 'timeout': 1} phase2 6
+evaluation 1452332684 98c6fc48bf36ad40717811a318e3e44f7cc8ae40a3e8b86f86eef4269f22623a {'victory': 8, 'timeout': 2, 'death': 2} phase2 10
+evaluation 965701481 b0f120877dee05bb2aedf923b49b9621b07423717bd2cea98cf5bee7e2eff366 {'victory': 8, 'death': 4} phase2 12
+evaluation 753082646 418621b12dcc2a80a430a4b8c1318e2ce2aa11617291d1efe519a450773df96c {'death': 4, 'victory': 8} phase2 12
+evaluation 750248190 82fbdc4fa5609d59d5019875de800d9b7b41a9b330cbfb0c0130ea9ab0e69274 {'victory': 6, 'death': 5, 'timeout': 1} phase2 11
+G7 committed (8 requests)
+proposal random-8-00 random_sample 0 7296bbfc5288cb7829bf1b13a37436d0bdcec95f5ced502cfd8af1a0ec7789e7
+proposal random-8-01 random_sample 0 efb2fc124b2c25cff9c221a914c19b6a982fe277fbebaa9b86e8533e9df0597b
+proposal random-8-02 random_sample 0 None
+proposal random-8-03 random_sample 0 e36dd99152482993cebe41737aff11cc3fb916996955bdb0e66365a15a840da5
+proposal random-8-04 random_sample 0 e3294072dd094deb38845ff584c85383dfa81cfeb6f60ba9f668b705edb902d9
+proposal random-8-05 random_sample 0 b7cb7e404ca058066a4a3535d55f8ae8b17d9c6adc0d871111eec79a3a81b976
+proposal random-8-06 random_sample 0 7b3d4d26587aa0744709ad63b64f51ab7dbb61e26f73582a464a57ce5d4c5a78
+proposal random-8-07 random_sample 0 None
+evaluation 1593509568 e3294072dd094deb38845ff584c85383dfa81cfeb6f60ba9f668b705edb902d9 {'death': 12} phase2 0
+evaluation 1706740424 e36dd99152482993cebe41737aff11cc3fb916996955bdb0e66365a15a840da5 {'death': 12} phase2 0
+evaluation 435291108 efb2fc124b2c25cff9c221a914c19b6a982fe277fbebaa9b86e8533e9df0597b {'death': 12} phase2 0
+evaluation 327785535 7296bbfc5288cb7829bf1b13a37436d0bdcec95f5ced502cfd8af1a0ec7789e7 {'victory': 12} phase2 12
+evaluation 1160861635 b7cb7e404ca058066a4a3535d55f8ae8b17d9c6adc0d871111eec79a3a81b976 {'victory': 9, 'death': 3} phase2 12
+evaluation 1299863883 7b3d4d26587aa0744709ad63b64f51ab7dbb61e26f73582a464a57ce5d4c5a78 {'death': 8, 'victory': 4} phase2 10
+G8 committed (8 requests)
+proposal random-9-00 random_sample 0 560fd13f48517548f134ebf870242906401e0ee42e91bd0ad914ccfc1e2d5771
+proposal random-9-01 random_sample 0 40383d8f2c49485d9eaca910e997707ce5e6460000951fb89b2a6621a854d54f
+proposal random-9-02 random_sample 0 4e362b7bc23bf30715588008d1799207cbf09bf168bc497794558775dcc38754
+proposal random-9-03 random_sample 0 db9028341f3684a3274ac27cf9da4910033e0d0796acbbe0c21bbd7e4041faac
+proposal random-9-04 random_sample 0 5fa6fb88fac409f90efda4aa9540cb9af27c1a08353b6d647dd40e4a482abca6
+proposal random-9-05 random_sample 0 None
+proposal random-9-06 random_sample 0 1951de3017f02b0c6e5a28d554dae68739620a26387ae074144252ccb57326a5
+proposal random-9-07 random_sample 0 None
+evaluation 648676293 560fd13f48517548f134ebf870242906401e0ee42e91bd0ad914ccfc1e2d5771 {'death': 11, 'victory': 1} phase2 10
+evaluation 282557160 4e362b7bc23bf30715588008d1799207cbf09bf168bc497794558775dcc38754 {'death': 10, 'victory': 2} phase2 8
+evaluation 2105512926 db9028341f3684a3274ac27cf9da4910033e0d0796acbbe0c21bbd7e4041faac {'death': 11, 'victory': 1} phase2 5
+evaluation 1461645137 40383d8f2c49485d9eaca910e997707ce5e6460000951fb89b2a6621a854d54f {'victory': 9, 'death': 3} phase2 12
+evaluation 377970152 5fa6fb88fac409f90efda4aa9540cb9af27c1a08353b6d647dd40e4a482abca6 {'death': 12} phase2 0
+evaluation 551663385 1951de3017f02b0c6e5a28d554dae68739620a26387ae074144252ccb57326a5 {'death': 9, 'timeout': 1, 'victory': 2} phase2 12
+G9 committed (8 requests)
+proposal random-10-00 random_sample 0 None
+proposal random-10-01 random_sample 0 5fa308becd56d4c92e8659a862dcf1216936908b53295faa4c7cf85cf53b9c8f
+proposal random-10-02 random_sample 0 04c1c607770130c633ef514feb40af85243efadd8b545e253ae8739d018b5f7f
+proposal random-10-03 random_sample 0 121d0b0e5df465c825e134b277d9e2c16979752686c10e84d4330a874a7ca4a7
+proposal random-10-04 random_sample 0 48131c5a380ff0982225faf59572db0d8e81a71c3942b55db7227d070c13ff2e
+proposal random-10-05 random_sample 0 47b74bc370e0c4c2d905992571e4a3fb130a0d1443c2006600e339fd3f667701
+proposal random-10-06 random_sample 0 3e34a1e49759aaccaf483cbd0eaadba877d8c6630840ae95b839750d98384892
+proposal random-10-07 random_sample 0 30a09f543c7a1be02e64c07b6504ebcdba899be1c1044df0d2b73dfe13303821
+evaluation 206862407 121d0b0e5df465c825e134b277d9e2c16979752686c10e84d4330a874a7ca4a7 {'victory': 12} phase2 12
+evaluation 593756742 04c1c607770130c633ef514feb40af85243efadd8b545e253ae8739d018b5f7f {'death': 9, 'victory': 3} phase2 12
+evaluation 458291158 48131c5a380ff0982225faf59572db0d8e81a71c3942b55db7227d070c13ff2e {'death': 5, 'victory': 7} phase2 8
+evaluation 330971851 5fa308becd56d4c92e8659a862dcf1216936908b53295faa4c7cf85cf53b9c8f {'death': 4, 'victory': 8} phase2 9
+evaluation 1931496682 30a09f543c7a1be02e64c07b6504ebcdba899be1c1044df0d2b73dfe13303821 {'death': 9, 'victory': 3} phase2 8
+evaluation 514266422 3e34a1e49759aaccaf483cbd0eaadba877d8c6630840ae95b839750d98384892 {'victory': 5, 'death': 7} phase2 12
+evaluation 495990979 47b74bc370e0c4c2d905992571e4a3fb130a0d1443c2006600e339fd3f667701 {'death': 5, 'victory': 4, 'timeout': 3} phase2 10
+G10 committed (8 requests)
+proposal random-11-00 random_sample 0 84ff3ae03a0636fe33e87694f6ca15ec70c2bd1323b03ec3539776aa919b5104
+proposal random-11-01 random_sample 0 7ce81871030e50cee93a8d943c885b6fd7a58a29755ebc5a3e100acbaec17e83
+proposal random-11-02 random_sample 0 53b51ea4d3b7696421842d72cc2461b6a5fdce5006c78cde4b35204135d33cb7
+proposal random-11-03 random_sample 0 125a265ddbca390ae526d3ef39a983a74bb6030761fffdcf40ba99ccf80ceb0c
+proposal random-11-04 random_sample 0 d892d393d8355be247e525134913564d0550ebfd916b43f104c50eedda3b5395
+proposal random-11-05 random_sample 0 03a455f9e097c9d1c4f8a6d30a0cf7e4e599290176417b809cf1e06736f44de3
+proposal random-11-06 random_sample 0 32e79ec0e2b91e37500f70e25764a028b0680ee6472fc5eae3d9037ef28ae72a
+proposal random-11-07 random_sample 0 cf96c002cd9c83485cee6c3b46d409bd55a215135700710326b95bc9548fca3e
+evaluation 2145431538 7ce81871030e50cee93a8d943c885b6fd7a58a29755ebc5a3e100acbaec17e83 {'victory': 6, 'death': 6} phase2 12
+evaluation 1738267115 53b51ea4d3b7696421842d72cc2461b6a5fdce5006c78cde4b35204135d33cb7 {'victory': 12} phase2 12
+evaluation 429650308 125a265ddbca390ae526d3ef39a983a74bb6030761fffdcf40ba99ccf80ceb0c {'victory': 8, 'death': 4} phase2 9
+evaluation 2066229191 84ff3ae03a0636fe33e87694f6ca15ec70c2bd1323b03ec3539776aa919b5104 {'victory': 11, 'death': 1} phase2 11
+evaluation 1719515084 32e79ec0e2b91e37500f70e25764a028b0680ee6472fc5eae3d9037ef28ae72a {'death': 10, 'victory': 2} phase2 2
+evaluation 1771670089 03a455f9e097c9d1c4f8a6d30a0cf7e4e599290176417b809cf1e06736f44de3 {'death': 5, 'victory': 7} phase2 12
+evaluation 1809968740 cf96c002cd9c83485cee6c3b46d409bd55a215135700710326b95bc9548fca3e {'victory': 4, 'death': 8} phase2 12
+evaluation 1660545344 d892d393d8355be247e525134913564d0550ebfd916b43f104c50eedda3b5395 {'death': 4, 'timeout': 6, 'victory': 2} phase2 5
+G11 committed (8 requests)
+proposal random-12-00 random_sample 0 1a86ec2410a9ce6bc17e7412c240222021ba948a73fd2466a704ffe0408622a2
+proposal random-12-01 random_sample 0 None
+proposal random-12-02 random_sample 0 001140081986897bd43e639cf233f38f255fffeb4c21cc0d997843a0741da055
+proposal random-12-03 random_sample 0 ec1a241ea0b4eb82f034667828e5726b99e8022ada8ff438adcfcd2eb302ebab
+proposal random-12-04 random_sample 0 834c021685b539d2f8d4c4bcec6200509ac453099481668070ff30db9539440e
+proposal random-12-05 random_sample 0 54baf77a77ae7a1ad36e17e365c664ce104c548ec9e08381bdcdb48bb6912b96
+proposal random-12-06 random_sample 0 None
+proposal random-12-07 random_sample 0 f8999b0de46db66d2ef6a9ea66eced9120d45b54adea3f69acad15520d37e13c
+evaluation 1022569580 001140081986897bd43e639cf233f38f255fffeb4c21cc0d997843a0741da055 {'death': 11, 'victory': 1} phase2 10
+evaluation 1564291786 ec1a241ea0b4eb82f034667828e5726b99e8022ada8ff438adcfcd2eb302ebab {'death': 7, 'victory': 5} phase2 12
+evaluation 1390787350 1a86ec2410a9ce6bc17e7412c240222021ba948a73fd2466a704ffe0408622a2 {'victory': 6, 'death': 6} phase2 11
+evaluation 773221602 834c021685b539d2f8d4c4bcec6200509ac453099481668070ff30db9539440e {'death': 4, 'timeout': 3, 'victory': 5} phase2 6
+evaluation 1688030015 54baf77a77ae7a1ad36e17e365c664ce104c548ec9e08381bdcdb48bb6912b96 {'death': 9, 'victory': 3} phase2 4
+evaluation 2057166067 f8999b0de46db66d2ef6a9ea66eced9120d45b54adea3f69acad15520d37e13c {'death': 12} phase2 0
+G12 committed (8 requests)
+proposal random-13-00 random_sample 0 0ab10edb43f1c3e8567f8dc2d4d2398c483a8783bd7e4661e48617c46a2cce0b
+proposal random-13-01 random_sample 0 79998c22501bdfd17cd0b4983e1f5b261100b307704554287020b772033a51f0
+proposal random-13-02 random_sample 0 None
+proposal random-13-03 random_sample 0 8b722a28f333dba4f1a6d0c84a2650accc86a580fc06be753bbe3a305ef37136
+proposal random-13-04 random_sample 0 None
+proposal random-13-05 random_sample 0 89a773dab28d6659088de1cd7e2af800e5763097326e49f8eec43cb024857663
+proposal random-13-06 random_sample 0 4295fe2e37240d62a92cf3e4b293e9d6e74e038f211389b60138b4844634d8e8
+proposal random-13-07 random_sample 0 258e069cdfbc0c1ec8e3445c691b8bc2e99176133a35634a303957d50f10faad
+evaluation 310101914 8b722a28f333dba4f1a6d0c84a2650accc86a580fc06be753bbe3a305ef37136 {'death': 8, 'victory': 4} phase2 4
+evaluation 773305213 0ab10edb43f1c3e8567f8dc2d4d2398c483a8783bd7e4661e48617c46a2cce0b {'death': 7, 'victory': 5} phase2 12
+evaluation 1938505351 79998c22501bdfd17cd0b4983e1f5b261100b307704554287020b772033a51f0 {'death': 12} phase2 12
+evaluation 2130883077 89a773dab28d6659088de1cd7e2af800e5763097326e49f8eec43cb024857663 {'death': 10, 'victory': 2} phase2 11
+evaluation 2050851119 258e069cdfbc0c1ec8e3445c691b8bc2e99176133a35634a303957d50f10faad {'death': 12} phase2 12
+evaluation 2025230640 4295fe2e37240d62a92cf3e4b293e9d6e74e038f211389b60138b4844634d8e8 {'timeout': 6, 'victory': 5, 'death': 1} phase2 6
+G13 committed (8 requests)
+proposal random-14-00 random_sample 0 29ec98aa6b214dd871cd6426f86e073bbfe3c33f3af548aa229d4e3b78b68793
+proposal random-14-01 random_sample 0 ecdfb44546c3d5ac370f140f568ddc6b5aebae805e12d5507c076f4860072955
+proposal random-14-02 random_sample 0 30f03e088416f94509f48a3d1324d197e11c0850ad01ab8c9bbd175aa19c3f8e
+proposal random-14-03 random_sample 0 d74d1a9c4c3734362993fac9d8e4098acbfd47c3d6f61f3f056f95e0ab26f8df
+proposal random-14-04 random_sample 0 None
+proposal random-14-05 random_sample 0 54450860b9ae86ea8e70d1a14850c724c77cbc07e3583c9cc58f85f7c775d02a
+proposal random-14-06 random_sample 0 e6c7791f9cf73203ccff2019f74fe357f678f838a90821df3d4f251019af7a13
+proposal random-14-07 random_sample 0 a58129a3b96d03d67bb7a0b50d0f72a19c196829d7ab41b4376fb1c0eb0c91a0
+evaluation 817482809 d74d1a9c4c3734362993fac9d8e4098acbfd47c3d6f61f3f056f95e0ab26f8df {'death': 12} phase2 0
+evaluation 1316664061 ecdfb44546c3d5ac370f140f568ddc6b5aebae805e12d5507c076f4860072955 {'death': 9, 'victory': 3} phase2 7
+evaluation 438820023 29ec98aa6b214dd871cd6426f86e073bbfe3c33f3af548aa229d4e3b78b68793 {'death': 6, 'victory': 5, 'timeout': 1} phase2 11
+evaluation 430326360 30f03e088416f94509f48a3d1324d197e11c0850ad01ab8c9bbd175aa19c3f8e {'death': 2, 'victory': 7, 'timeout': 3} phase2 9
+evaluation 1296399100 e6c7791f9cf73203ccff2019f74fe357f678f838a90821df3d4f251019af7a13 {'victory': 6, 'death': 6} phase2 8
+evaluation 667260382 54450860b9ae86ea8e70d1a14850c724c77cbc07e3583c9cc58f85f7c775d02a {'death': 8, 'victory': 4} phase2 8
+evaluation 956122867 a58129a3b96d03d67bb7a0b50d0f72a19c196829d7ab41b4376fb1c0eb0c91a0 {'death': 12} phase2 0
+G14 committed (8 requests)
+proposal random-15-00 random_sample 0 18d6f2fde6f1355531ed01ded4cb2a1edf81e2c006532b37df951b514cc19d97
+proposal random-15-01 random_sample 0 e730adb6a1875e4bb0ee3c08463cd264151ae78c2678a539b388a0858f7ad816
+proposal random-15-02 random_sample 0 4fdf8a5ae8ea097c997f97aa6e70471e2adb96ec58adf4bf161c3af835c4d7f8
+proposal random-15-03 random_sample 0 5508a07d260c600df4353904bb563fe84ffbd589a06e222f4b5c05f6c8e0bab2
+proposal random-15-04 random_sample 0 f4325bacafa936354e45b896b7a5266ede7f102baa2d87088f712476e63b6f1e
+proposal random-15-05 random_sample 0 07cc97a9d9938aca112ccde05ec5ef04ddef08f0e832883658263e4cceb308f9
+proposal random-15-06 random_sample 0 8129a30009fd698c0de4e690f16f3e527aba1e4997f1cd7f6b0ee33aebd8d7f4
+proposal random-15-07 random_sample 0 1371b72eb8445c86f3697b3c04a8d67045331e0138f90100f78a4dc2e69a9d0e
+evaluation 1690444464 18d6f2fde6f1355531ed01ded4cb2a1edf81e2c006532b37df951b514cc19d97 {'death': 12} phase2 12
+evaluation 1091215952 4fdf8a5ae8ea097c997f97aa6e70471e2adb96ec58adf4bf161c3af835c4d7f8 {'victory': 3, 'death': 9} phase2 12
+evaluation 230262346 5508a07d260c600df4353904bb563fe84ffbd589a06e222f4b5c05f6c8e0bab2 {'death': 5, 'victory': 7} phase2 12
+evaluation 511584681 f4325bacafa936354e45b896b7a5266ede7f102baa2d87088f712476e63b6f1e {'victory': 10, 'timeout': 1, 'death': 1} phase2 10
+evaluation 1169619879 e730adb6a1875e4bb0ee3c08463cd264151ae78c2678a539b388a0858f7ad816 {'timeout': 7, 'death': 1, 'victory': 4} phase2 4
+evaluation 666708101 8129a30009fd698c0de4e690f16f3e527aba1e4997f1cd7f6b0ee33aebd8d7f4 {'death': 11, 'victory': 1} phase2 12
+evaluation 1440802965 07cc97a9d9938aca112ccde05ec5ef04ddef08f0e832883658263e4cceb308f9 {'death': 3, 'timeout': 6, 'victory': 3} phase2 11
+evaluation 348911229 1371b72eb8445c86f3697b3c04a8d67045331e0138f90100f78a4dc2e69a9d0e {'death': 3, 'victory': 9} phase2 12
+G15 committed (8 requests)
+proposal random-16-00 random_sample 0 4a71644e6c09a4c3da24baf7c39b28c37a2ca72dfacb85c4d65efbbda4e4702b
+proposal random-16-01 random_sample 0 c145dcaf0b0f7cacacba9ea3f469513c975e2559ea786bbfeda6babc1b416a28
+proposal random-16-02 random_sample 0 559ec0c4ddb99d8d873fdf2e117858686f13f1a8b0c789748040c3aeaf263860
+proposal random-16-03 random_sample 0 33644a211485b09d3842f8c89a41ea1e2a17a6b750f98223ba7ddb0ce3e185e6
+proposal random-16-04 random_sample 0 7ec101b4c14a69c08cd8152d45656b2bec0fdc410f70f003c3048168e4e740a7
+proposal random-16-05 random_sample 0 9e99603b4dee1c920cd6ba1e32136fe4b7af67dd481427d256c3d9be79b4c19a
+proposal random-16-06 random_sample 0 76680b502ede8a223d8138480ffb19e655a8f628b7adce0fca86030c9f2bfad4
+proposal random-16-07 random_sample 0 36c58aa494540d33a346ac4d05aff3349d1a5837977aaa06c94d73b16bcd53ea
+evaluation 1264112899 c145dcaf0b0f7cacacba9ea3f469513c975e2559ea786bbfeda6babc1b416a28 {'death': 12} phase2 0
+evaluation 1693029598 559ec0c4ddb99d8d873fdf2e117858686f13f1a8b0c789748040c3aeaf263860 {'death': 6, 'victory': 6} phase2 8
+evaluation 893693107 33644a211485b09d3842f8c89a41ea1e2a17a6b750f98223ba7ddb0ce3e185e6 {'death': 8, 'victory': 4} phase2 6
+evaluation 771066836 4a71644e6c09a4c3da24baf7c39b28c37a2ca72dfacb85c4d65efbbda4e4702b {'death': 7, 'victory': 5} phase2 10
+evaluation 826773116 9e99603b4dee1c920cd6ba1e32136fe4b7af67dd481427d256c3d9be79b4c19a {'death': 8, 'victory': 4} phase2 4
+evaluation 2032776851 7ec101b4c14a69c08cd8152d45656b2bec0fdc410f70f003c3048168e4e740a7 {'timeout': 2, 'victory': 8, 'death': 2} phase2 10
+evaluation 350441479 76680b502ede8a223d8138480ffb19e655a8f628b7adce0fca86030c9f2bfad4 {'victory': 11, 'death': 1} phase2 12
+evaluation 95873428 36c58aa494540d33a346ac4d05aff3349d1a5837977aaa06c94d73b16bcd53ea {'timeout': 1, 'death': 5, 'victory': 6} phase2 7
+G16 committed (8 requests)
+proposal random-17-00 random_sample 0 b4aa2ffdd8d83cf55b0e739f173870b046c14023e49de90760dc094a9487984b
+proposal random-17-01 random_sample 0 b7a6d01f8b54a1352597f1a97b36576ed285ba618226dc1201f7edfebafb549a
+proposal random-17-02 random_sample 0 4a5825f3f9242051d61552fdf6207359f2823e40acb4e0cee852ebe2498f3362
+proposal random-17-03 random_sample 0 2aaf1a8ab9bec1cde1b6c79ec33b9db0b37e107e434b71a1a0586bb7a5ed1a17
+proposal random-17-04 random_sample 0 91c199152fa3cf123163f4bf8ade42ca9e8127467f54a796a5fcc04ca791b503
+proposal random-17-05 random_sample 0 be8f3061af1d9ca9ad85e2d4b78256d7bb7bfb2988ab0f6ee60684aa527c6deb
+proposal random-17-06 random_sample 0 27464c48be2de5694e50d57bf310975ec0bec00c0050e450d2d524da89a80941
+proposal random-17-07 random_sample 0 f5eecbb6107aa737eedcaeb3a4b625afa1943e2f0ca52ffde06fbefc86b18154
+evaluation 107382222 b7a6d01f8b54a1352597f1a97b36576ed285ba618226dc1201f7edfebafb549a {'death': 9, 'victory': 3} phase2 4
+evaluation 1620488530 b4aa2ffdd8d83cf55b0e739f173870b046c14023e49de90760dc094a9487984b {'victory': 9, 'death': 3} phase2 10
+evaluation 179912332 2aaf1a8ab9bec1cde1b6c79ec33b9db0b37e107e434b71a1a0586bb7a5ed1a17 {'victory': 9, 'death': 3} phase2 9
+evaluation 1422385502 4a5825f3f9242051d61552fdf6207359f2823e40acb4e0cee852ebe2498f3362 {'death': 3, 'victory': 7, 'timeout': 2} phase2 11
+evaluation 867242105 91c199152fa3cf123163f4bf8ade42ca9e8127467f54a796a5fcc04ca791b503 {'death': 8, 'victory': 4} phase2 12
+evaluation 1392288494 27464c48be2de5694e50d57bf310975ec0bec00c0050e450d2d524da89a80941 {'victory': 8, 'death': 4} phase2 12
+evaluation 436591792 be8f3061af1d9ca9ad85e2d4b78256d7bb7bfb2988ab0f6ee60684aa527c6deb {'victory': 8, 'death': 4} phase2 10
+evaluation 1254684961 f5eecbb6107aa737eedcaeb3a4b625afa1943e2f0ca52ffde06fbefc86b18154 {'victory': 7, 'death': 5} phase2 11
+G17 committed (8 requests)
+proposal random-18-00 random_sample 0 93e580519908d9f06d6e5028d426c1c7c6cf72175289cb87530fea046ca0c8a1
+proposal random-18-01 random_sample 0 b5bcf7177355bb9a0801bf05bc8a6b65bd77e39f614311d15235f8f36c0364a9
+proposal random-18-02 random_sample 0 53999571ad125d6ebdb634860ddf19beabf972a96715d70293b52f257566f866
+proposal random-18-03 random_sample 0 None
+proposal random-18-04 random_sample 0 7691ddbe33b1c9ed7d6235319203025f0b0f39f57d9c25fb52706ec84934731d
+proposal random-18-05 random_sample 0 c62f89dd51c55f46b80c27a0f58a24ef1b8b8394472c9007878d3162214febac
+proposal random-18-06 random_sample 0 None
+proposal random-18-07 random_sample 0 79742b46c832777849ff069953ce5b5583e43a6089aa191f4fb89b7248e0fccf
+evaluation 1798246038 53999571ad125d6ebdb634860ddf19beabf972a96715d70293b52f257566f866 {'victory': 8, 'death': 4} phase2 12
+evaluation 374402951 b5bcf7177355bb9a0801bf05bc8a6b65bd77e39f614311d15235f8f36c0364a9 {'death': 6, 'timeout': 2, 'victory': 4} phase2 11
+evaluation 1853386814 93e580519908d9f06d6e5028d426c1c7c6cf72175289cb87530fea046ca0c8a1 {'victory': 7, 'death': 2, 'timeout': 3} phase2 11
+evaluation 1542287119 7691ddbe33b1c9ed7d6235319203025f0b0f39f57d9c25fb52706ec84934731d {'victory': 10, 'timeout': 2} phase2 10
+evaluation 1824517732 c62f89dd51c55f46b80c27a0f58a24ef1b8b8394472c9007878d3162214febac {'death': 8, 'victory': 4} phase2 12
+evaluation 1010652806 79742b46c832777849ff069953ce5b5583e43a6089aa191f4fb89b7248e0fccf {'victory': 8, 'death': 3, 'timeout': 1} phase2 12
+G18 committed (8 requests)
+proposal random-19-00 random_sample 0 fa1fbcf73310b24dc1418ef127fb51016e28142ab2e5251ff513d5f791dd8e8f
+proposal random-19-01 random_sample 0 2e0ab8b1ff23f827f6b259e78e5df6d2b2f6d999883cc2965f9c59cbf5dc948c
+proposal random-19-02 random_sample 0 89ccf5acfdbf906b7d720f78abce6f911e08340469c5b69f9ae1b9c077d4d822
+proposal random-19-03 random_sample 0 77c2bec7c659f3a371e3c70adf0741cd2005b58c9ca7638e906795c37a37df79
+proposal random-19-04 random_sample 0 7817e91f67635df2e7af50db10d7e897866b9fb4302ec3803b923468860b1bd4
+proposal random-19-05 random_sample 0 0277b5da18ec9e646422cce430d0ab020cfb9552f85e0f130be7b86fa2d305fd
+proposal random-19-06 random_sample 0 aec29d6c51d5c6e3ac28c063fb6d3f82eecab231017859d4b4f7e7e18cd717e6
+proposal random-19-07 random_sample 0 e408f8e71cd04e8d832bfd9d0ec71296ca6c54979570d34511acfd92484c3851
+evaluation 2030771183 77c2bec7c659f3a371e3c70adf0741cd2005b58c9ca7638e906795c37a37df79 {'death': 12} phase2 0
+evaluation 1644452288 2e0ab8b1ff23f827f6b259e78e5df6d2b2f6d999883cc2965f9c59cbf5dc948c {'death': 12} phase2 0
+evaluation 473786871 89ccf5acfdbf906b7d720f78abce6f911e08340469c5b69f9ae1b9c077d4d822 {'victory': 12} phase2 12
+evaluation 2114570405 fa1fbcf73310b24dc1418ef127fb51016e28142ab2e5251ff513d5f791dd8e8f {'victory': 3, 'death': 9} phase2 10
+evaluation 361318870 7817e91f67635df2e7af50db10d7e897866b9fb4302ec3803b923468860b1bd4 {'death': 6, 'victory': 6} phase2 11
+evaluation 561412148 0277b5da18ec9e646422cce430d0ab020cfb9552f85e0f130be7b86fa2d305fd {'victory': 9, 'timeout': 2, 'death': 1} phase2 11
+evaluation 848230641 aec29d6c51d5c6e3ac28c063fb6d3f82eecab231017859d4b4f7e7e18cd717e6 {'victory': 10, 'death': 2} phase2 12
+evaluation 1858664318 e408f8e71cd04e8d832bfd9d0ec71296ca6c54979570d34511acfd92484c3851 {'victory': 9, 'death': 3} phase2 11
+G19 committed (8 requests)
+proposal random-20-00 random_sample 0 3ddf5aab199572ed1070af397b146429cd0825a2fa079dd0f0c70b311db52786
+proposal random-20-01 random_sample 0 de6569c1ab06d3314a1295daaed4fdd723b01ee8b23cb7488f2b0e9535b2faee
+proposal random-20-02 random_sample 0 0bb6f5e873cb8e4e503d8f771fa46f981ed5c96d93dbc50faf62f4dab326359d
+proposal random-20-03 random_sample 0 c228b89f105f0237b40ab149746759421e12daa9b181b5c8e479d6c5535a31be
+proposal random-20-04 random_sample 0 41c15b3cb66f70d024e21946349e0fd5b13364e1886734cde324b64460916070
+proposal random-20-05 random_sample 0 a665f525164564ddf6a0ee681526d7502ceb63348769e847261f6a2195fff097
+proposal random-20-06 random_sample 0 None
+proposal random-20-07 random_sample 0 09bf446d28986011d46c15c6f60ea321356d0c38986dcb6447ca3b87595a6dbf
+evaluation 1682462393 c228b89f105f0237b40ab149746759421e12daa9b181b5c8e479d6c5535a31be {'victory': 7, 'death': 5} phase2 9
+evaluation 342457369 3ddf5aab199572ed1070af397b146429cd0825a2fa079dd0f0c70b311db52786 {'death': 11, 'victory': 1} phase2 12
+evaluation 588753240 0bb6f5e873cb8e4e503d8f771fa46f981ed5c96d93dbc50faf62f4dab326359d {'death': 9, 'victory': 3} phase2 12
+evaluation 1919942179 de6569c1ab06d3314a1295daaed4fdd723b01ee8b23cb7488f2b0e9535b2faee {'death': 4, 'timeout': 3, 'victory': 5} phase2 7
+evaluation 2101688694 a665f525164564ddf6a0ee681526d7502ceb63348769e847261f6a2195fff097 {'death': 12} phase2 0
+evaluation 1842749247 09bf446d28986011d46c15c6f60ea321356d0c38986dcb6447ca3b87595a6dbf {'victory': 4, 'death': 8} phase2 8
+evaluation 2125968768 41c15b3cb66f70d024e21946349e0fd5b13364e1886734cde324b64460916070 {'victory': 5, 'death': 7} phase2 10
+G20 committed (8 requests)
+{
+  "run": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\shell_sampling_random_g20_v1",
+  "through": 20,
+  "requests": 168,
+  "official_requests": 0,
+  "unique_genomes": 145,
+  "evaluated_layouts": 144,
+  "status": {
+    "COMPLETE_DRAFT": 118,
+    "UNCERTAIN": 26,
+    "INVALID": 24
+  },
+  "new_certified_battles": 1728,
+  "inherited_battles": 0,
+  "duplicate_requests": 0,
+  "edits_requested": {},
+  "edits_realized": {},
+  "actual_topology_changes": 0,
+  "runtime_log": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\shell_sampling_random_g20_v1\\runtime\\20261125T110223-cd0182d5.jsonl"
+}

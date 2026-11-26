@@ -1,0 +1,35 @@
+{
+  "run_id": "shell_breeding_v2",
+  "config_sha256": "c9dbae9be9750007c21c8b960ec2c43da20d7a0c04113a0074c40a92c5db10eb",
+  "base_registration_hash": "aa51f14ec94536c6ce899f984bf3330b154699c0ed464a24641f15fc7ba2fa04",
+  "base_generation_sha256": "0391bf29d85273661a8572ea695d451fac0a5106ba7a2436e14da10ce930dd56",
+  "tools": {
+    "godot": "12310c74bdda7dcd43f28e971f33047dcecadd436b68169d61ce41009006df38",
+    "depthmap": "04ce9cb67a151d40786ddc51b81c9f703ad75a879ce24c476b1fcf0054f52fcd",
+    "python": "3.13.2",
+    "packages": {
+      "numpy": "2.5.5",
+      "shapely": "2.2.0",
+      "networkx": "3.7",
+      "scipy": "1.18.1",
+      "ezdxf": "1.4.5"
+    }
+  },
+  "total_requests": 24,
+  "maximum_episodes": 288,
+  "official_requests": 0,
+  "formal_preflight": {
+    "allowed": false,
+    "reasons": [
+      "combat_protocol_not_frozen",
+      "scoring_protocol_not_frozen",
+      "physical_scale_not_calibrated",
+      "phase4_automatic_experiment_engine_not_implemented"
+    ]
+  },
+  "implementation": {
+    "__init__.py": "76cdec874bbe75eb0109e246335ab4a4b61748349db94a75c5c91ef323ac2587",
+    "operators.py": "3d2d4618030145162a5caa775bfb4cd641317e5049f65d3f2215f3766640c517",
+    "run.py": "5106135c5e442035a2372fb014eb42d0b3f2e9e5d66dbe7449c61523ef4d2d1f"
+  }
+}

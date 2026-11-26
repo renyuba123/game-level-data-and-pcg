@@ -1,0 +1,229 @@
+2026-11-24 21:39:34.537 Uvicorn server started on 127.0.0.1:8501
+2026-11-24 23:34:28.764 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 936, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 403, in <module>
+    main()
+    ~~~~^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 397, in main
+    render(get_archive(root, file_signature(root)), args.godot)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 300, in render
+    chart = st.plotly_chart(build_lineage(archive, generations, rows, cutoff, selected_hint,
+                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                         single_parent=single_parent),
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build_lineage() got an unexpected keyword argument 'single_parent'
+2026-11-24 23:35:47.218 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 936, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 403, in <module>
+    main()
+    ~~~~^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 397, in main
+    render(get_archive(root, file_signature(root)), args.godot)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 300, in render
+    chart = st.plotly_chart(build_lineage(archive, generations, rows, cutoff, selected_hint,
+                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                         single_parent=single_parent),
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build_lineage() got an unexpected keyword argument 'single_parent'
+2026-11-24 23:38:37.713 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 936, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 403, in <module>
+    main()
+    ~~~~^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 397, in main
+    render(get_archive(root, file_signature(root)), args.godot)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 300, in render
+    chart = st.plotly_chart(build_lineage(archive, generations, rows, cutoff, selected_hint,
+                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                         single_parent=single_parent),
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build_lineage() got an unexpected keyword argument 'single_parent'
+2026-11-24 23:38:46.999 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 936, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 403, in <module>
+    main()
+    ~~~~^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 397, in main
+    render(get_archive(root, file_signature(root)), args.godot)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 300, in render
+    chart = st.plotly_chart(build_lineage(archive, generations, rows, cutoff, selected_hint,
+                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                         single_parent=single_parent),
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build_lineage() got an unexpected keyword argument 'single_parent'
+2026-11-24 23:38:54.827 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 936, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 403, in <module>
+    main()
+    ~~~~^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 397, in main
+    render(get_archive(root, file_signature(root)), args.godot)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 300, in render
+    chart = st.plotly_chart(build_lineage(archive, generations, rows, cutoff, selected_hint,
+                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                         single_parent=single_parent),
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build_lineage() got an unexpected keyword argument 'single_parent'
+2026-11-24 23:38:58.467 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 936, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 403, in <module>
+    main()
+    ~~~~^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 397, in main
+    render(get_archive(root, file_signature(root)), args.godot)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 300, in render
+    chart = st.plotly_chart(build_lineage(archive, generations, rows, cutoff, selected_hint,
+                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                         single_parent=single_parent),
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build_lineage() got an unexpected keyword argument 'single_parent'
+2026-11-24 23:39:04.388 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 936, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 403, in <module>
+    main()
+    ~~~~^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 397, in main
+    render(get_archive(root, file_signature(root)), args.godot)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 300, in render
+    chart = st.plotly_chart(build_lineage(archive, generations, rows, cutoff, selected_hint,
+                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                         single_parent=single_parent),
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build_lineage() got an unexpected keyword argument 'single_parent'
+2026-11-24 23:39:06.716 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 936, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 403, in <module>
+    main()
+    ~~~~^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 397, in main
+    render(get_archive(root, file_signature(root)), args.godot)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 300, in render
+    chart = st.plotly_chart(build_lineage(archive, generations, rows, cutoff, selected_hint,
+                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                         single_parent=single_parent),
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build_lineage() got an unexpected keyword argument 'single_parent'
+2026-11-24 23:39:07.733 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 936, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 403, in <module>
+    main()
+    ~~~~^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 397, in main
+    render(get_archive(root, file_signature(root)), args.godot)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 300, in render
+    chart = st.plotly_chart(build_lineage(archive, generations, rows, cutoff, selected_hint,
+                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                         single_parent=single_parent),
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build_lineage() got an unexpected keyword argument 'single_parent'
+2026-11-24 23:39:22.385 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 936, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 403, in <module>
+    main()
+    ~~~~^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 397, in main
+    render(get_archive(root, file_signature(root)), args.godot)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 300, in render
+    chart = st.plotly_chart(build_lineage(archive, generations, rows, cutoff, selected_hint,
+                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                         single_parent=single_parent),
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build_lineage() got an unexpected keyword argument 'single_parent'
+2026-11-24 23:39:24.643 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 936, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 403, in <module>
+    main()
+    ~~~~^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 397, in main
+    render(get_archive(root, file_signature(root)), args.godot)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 300, in render
+    chart = st.plotly_chart(build_lineage(archive, generations, rows, cutoff, selected_hint,
+                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                         single_parent=single_parent),
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build_lineage() got an unexpected keyword argument 'single_parent'
+2026-11-24 23:40:00.679 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 936, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 403, in <module>
+    main()
+    ~~~~^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 397, in main
+    render(get_archive(root, file_signature(root)), args.godot)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 300, in render
+    chart = st.plotly_chart(build_lineage(archive, generations, rows, cutoff, selected_hint,
+                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                         single_parent=single_parent),
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build_lineage() got an unexpected keyword argument 'single_parent'

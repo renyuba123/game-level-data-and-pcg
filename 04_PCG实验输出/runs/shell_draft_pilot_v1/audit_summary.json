@@ -1,0 +1,230 @@
+{
+  "genetic": {
+    "rounds": [
+      {
+        "generation": 0,
+        "status": {
+          "COMPLETE_DRAFT": 6,
+          "UNCERTAIN": 2
+        },
+        "outcomes": {
+          "victory": 55,
+          "death": 38,
+          "timeout": 3
+        },
+        "phase2": 77,
+        "new_topology_count": 0,
+        "observed_topology_classes": 7,
+        "cumulative_topology_classes": 7,
+        "new_survivors": 0,
+        "current_pareto": [
+          "initial-00",
+          "initial-01",
+          "initial-02",
+          "initial-06",
+          "initial-07"
+        ],
+        "cumulative_pareto": [
+          "initial-00",
+          "initial-01",
+          "initial-02",
+          "initial-06",
+          "initial-07"
+        ]
+      },
+      {
+        "generation": 1,
+        "status": {
+          "COMPLETE_DRAFT": 7,
+          "UNCERTAIN": 1
+        },
+        "outcomes": {
+          "victory": 59,
+          "death": 36,
+          "timeout": 1
+        },
+        "phase2": 82,
+        "new_topology_count": 6,
+        "observed_topology_classes": 8,
+        "cumulative_topology_classes": 13,
+        "new_survivors": 4,
+        "current_pareto": [
+          "genetic-1-01",
+          "genetic-1-02",
+          "genetic-1-03",
+          "genetic-1-05",
+          "initial-00",
+          "initial-01",
+          "initial-06",
+          "initial-07"
+        ],
+        "cumulative_pareto": [
+          "genetic-1-01",
+          "genetic-1-02",
+          "genetic-1-03",
+          "genetic-1-05",
+          "initial-00",
+          "initial-01",
+          "initial-06",
+          "initial-07"
+        ]
+      },
+      {
+        "generation": 2,
+        "status": {
+          "COMPLETE_DRAFT": 7,
+          "UNCERTAIN": 1
+        },
+        "outcomes": {
+          "victory": 71,
+          "death": 23,
+          "timeout": 2
+        },
+        "phase2": 80,
+        "new_topology_count": 4,
+        "observed_topology_classes": 6,
+        "cumulative_topology_classes": 15,
+        "new_survivors": 2,
+        "current_pareto": [
+          "genetic-1-01",
+          "genetic-1-02",
+          "genetic-1-03",
+          "genetic-1-05",
+          "genetic-2-03",
+          "genetic-2-06",
+          "initial-06",
+          "initial-07"
+        ],
+        "cumulative_pareto": [
+          "genetic-1-01",
+          "genetic-1-02",
+          "genetic-1-03",
+          "genetic-1-05",
+          "genetic-2-01",
+          "genetic-2-03",
+          "genetic-2-05",
+          "genetic-2-06",
+          "genetic-2-07",
+          "initial-00",
+          "initial-06",
+          "initial-07"
+        ]
+      }
+    ],
+    "total": {
+      "COMPLETE_DRAFT": 20,
+      "UNCERTAIN": 4
+    },
+    "unique_layouts": 24,
+    "topology_classes": 15
+  },
+  "random": {
+    "rounds": [
+      {
+        "generation": 0,
+        "status": {
+          "COMPLETE_DRAFT": 6,
+          "UNCERTAIN": 2
+        },
+        "outcomes": {
+          "victory": 55,
+          "death": 38,
+          "timeout": 3
+        },
+        "phase2": 77,
+        "new_topology_count": 0,
+        "observed_topology_classes": 7,
+        "cumulative_topology_classes": 7,
+        "new_survivors": 0,
+        "current_pareto": [
+          "initial-00",
+          "initial-01",
+          "initial-02",
+          "initial-06",
+          "initial-07"
+        ],
+        "cumulative_pareto": [
+          "initial-00",
+          "initial-01",
+          "initial-02",
+          "initial-06",
+          "initial-07"
+        ]
+      },
+      {
+        "generation": 1,
+        "status": {
+          "COMPLETE_DRAFT": 3,
+          "UNCERTAIN": 4,
+          "INVALID": 1
+        },
+        "outcomes": {
+          "death": 59,
+          "victory": 21,
+          "timeout": 4
+        },
+        "phase2": 48,
+        "new_topology_count": 0,
+        "observed_topology_classes": 6,
+        "cumulative_topology_classes": 12,
+        "new_survivors": 2,
+        "current_pareto": [
+          "initial-00",
+          "initial-01",
+          "initial-02",
+          "initial-06",
+          "initial-07"
+        ],
+        "cumulative_pareto": [
+          "initial-00",
+          "initial-01",
+          "initial-02",
+          "initial-06",
+          "initial-07"
+        ]
+      },
+      {
+        "generation": 2,
+        "status": {
+          "COMPLETE_DRAFT": 4,
+          "UNCERTAIN": 4
+        },
+        "outcomes": {
+          "death": 63,
+          "victory": 24,
+          "timeout": 9
+        },
+        "phase2": 46,
+        "new_topology_count": 0,
+        "observed_topology_classes": 7,
+        "cumulative_topology_classes": 17,
+        "new_survivors": 2,
+        "current_pareto": [
+          "initial-00",
+          "initial-01",
+          "initial-02",
+          "initial-06",
+          "initial-07",
+          "random-2-01",
+          "random-2-06"
+        ],
+        "cumulative_pareto": [
+          "initial-00",
+          "initial-01",
+          "initial-02",
+          "initial-06",
+          "initial-07",
+          "random-2-01",
+          "random-2-06"
+        ]
+      }
+    ],
+    "total": {
+      "COMPLETE_DRAFT": 13,
+      "UNCERTAIN": 10,
+      "INVALID": 1
+    },
+    "unique_layouts": 23,
+    "topology_classes": 17
+  }
+}

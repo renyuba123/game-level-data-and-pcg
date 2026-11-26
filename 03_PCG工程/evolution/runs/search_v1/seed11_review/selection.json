@@ -1,0 +1,11 @@
+{
+  "key": "3b15c03000d259b93acfa87f458322e992a0c0676c4d6642b88771674afc262a",
+  "generation": 20,
+  "coarse_objectives": [
+    0.17707961622367027,
+    0.0,
+    0.2518518518518519,
+    -0.3303030303030303
+  ],
+  "selection": "Equal-weight normalized objectives within feasible first-seed Pareto front; does not alter fitness."
+}

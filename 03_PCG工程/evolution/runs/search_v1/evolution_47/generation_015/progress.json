@@ -1,0 +1,409 @@
+{
+  "completed": 32,
+  "total": 32,
+  "workers": 4,
+  "last": {
+    "seed": 42,
+    "genes": {
+      "R01_width": 1.071127022640238,
+      "R01_height": 0.9967717755708456,
+      "R02_width": 0.9438479534035653,
+      "R02_height": 1.1166296515767165,
+      "R03_width": 1.0310345155945435,
+      "R03_height": 1.0219452417985662,
+      "R04_width": 0.9348578777237897,
+      "R04_height": 0.9668167281817017,
+      "R05_width": 0.9960207004176553,
+      "R05_height": 1.1112082897355806,
+      "R06_width": 0.9958888503185863,
+      "R06_height": 0.9198960970172515,
+      "R07_width": 1.0202207856982994,
+      "R07_height": 0.9392848544918122,
+      "R08_width": 1.095432580745695,
+      "R08_height": 1.109618137209847,
+      "R09_width": 1.1030614327604245,
+      "R09_height": 0.9896374764270549,
+      "R10_width": 0.9707321494132146,
+      "R10_height": 0.9344769394786886,
+      "R11_width": 0.99433174010132,
+      "R11_height": 1.0884975955522493,
+      "slope_cut": 1.78996587425652,
+      "bevel": 0.4779355665965255,
+      "block_x": -0.03257427821446651,
+      "block_y": 0.07356722432512058,
+      "block_terminal_offset": 1.054041423277068,
+      "priority_0": 0.922402398626834,
+      "door_width_0": 0.9762573060086892,
+      "door_offset_0": 0.5447724049303034,
+      "priority_1": 0.3650305971602037,
+      "door_width_1": 0.8719966884257081,
+      "door_offset_1": 0.5353092744390068,
+      "priority_2": 0.33387636831563317,
+      "door_width_2": 0.9150828220005859,
+      "door_offset_2": 0.31067210266559203,
+      "priority_3": 0.18609077588949496,
+      "door_width_3": 0.8234916353920555,
+      "door_offset_3": 0.6234684427409612,
+      "priority_4": 0.08770265212211986,
+      "door_width_4": 0.9210052121922505,
+      "door_offset_4": 0.663236057516927,
+      "priority_5": 0.6700031711237053,
+      "door_width_5": 0.8267084552758367,
+      "door_offset_5": 0.3116505495333826,
+      "priority_6": 0.9223473341142121,
+      "door_width_6": 0.9401439438715917,
+      "door_offset_6": 0.5301121100731996,
+      "priority_7": 0.597589683068483,
+      "door_width_7": 0.823299250625734,
+      "door_offset_7": 0.6856460621121799,
+      "priority_8": 0.6266687907285197,
+      "door_width_8": 0.9603816379960668,
+      "door_offset_8": 0.32698828838240135,
+      "priority_9": 0.33448156002510643,
+      "door_width_9": 0.9278522660752755,
+      "door_offset_9": 0.4236751393760047,
+      "priority_10": 0.10853087196403044,
+      "door_width_10": 0.9959812312880605,
+      "door_offset_10": 0.6639005148266809,
+      "priority_11": 0.8342868187593874,
+      "door_width_11": 0.8509250481625438,
+      "door_offset_11": 0.5247751079914061,
+      "priority_12": 0.8553172802862576,
+      "door_width_12": 0.8526112112191218,
+      "door_offset_12": 0.5401224116609875,
+      "priority_13": 0.8762069770004649,
+      "door_width_13": 0.7832845812917402,
+      "door_offset_13": 0.5754786041801946,
+      "priority_14": 0.07266782099213365,
+      "door_width_14": 0.9033216224070546,
+      "door_offset_14": 0.6907126607687976,
+      "swap_upper": false,
+      "swap_side": true,
+      "remove_normal": 13,
+      "spawn_room": 8,
+      "boss_room": 0
+    },
+    "key": "5855108a9a91a13c196f4fef0abf04fcda043dfbbbe8c27a1b936714448c3f43",
+    "grid": 400,
+    "recipe": {
+      "grid": 400,
+      "baseline": "747757816369735aa172a9bd86428de86bba429487b651038f1cd3bfcb9ce8ff",
+      "cli": "04ce9cb67a151d40786ddc51b81c9f703ad75a879ce24c476b1fcf0054f52fcd",
+      "model": "2a4d6d403a2d775ec08259366de95102a08311e38eab5faa3f2d6cfc8ef4d751",
+      "source_profile": "fde9187a963379ddcbefaaa464d425d86c495b8c9e53261a51b16156ebf2d17c",
+      "implementation": {
+        "metrics.py": "a44affd3b7c70fb6855269c39545b2e96d457f79ba8641cf2c45085dd338c6d5",
+        "simulation.py": "2bb610b274cc23bcf70da6f9773966c509eba26fe85207754473a60e18e15344",
+        "evaluator.py": "4077d62aa403d26c010bc56b5bb48c2933ad2cf4878ac7e6d0a4bd8c69736503",
+        "common.py": "22587a8ef4f707abc872cfcfffb78b808178e8a52c02e9de54435850dd8321db",
+        "genome.py": "ad06f355e5d6bdd955ee9a83888a375abf0f003b3ada3cbcc8300b6983b03d89"
+      }
+    },
+    "valid": true,
+    "objectives": [
+      0.225078406508846,
+      0.0,
+      0.5,
+      -0.18181818181818182
+    ],
+    "constraint": 0.0,
+    "states": {
+      "initial": {
+        "distance": 0.17401320384653052,
+        "metrics": {
+          "Visual Integration [HH]": 0.23241211036708925,
+          "Connectivity": 0.21342917562790978,
+          "Metric Mean Shortest-Path Distance": 0.07619832554459255
+        },
+        "analysis": {
+          "key": "6254cfd87fb6d3b10d74debc9a4268eef0cd8f3d0eb7b478a9768d04c3dcb885",
+          "recipe": {
+            "engine_sha256": "04ce9cb67a151d40786ddc51b81c9f703ad75a879ce24c476b1fcf0054f52fcd",
+            "grid": 400,
+            "radius": "n",
+            "geometry_sha256": "7570d3f0f5fd8e993ffadcf2c05b1412be690d5425f61aa673878dc47359a7ab",
+            "fills": [
+              [
+                1770.500020980835,
+                3745.344042778015
+              ],
+              [
+                2131.072890383328,
+                -2891.5583588365203
+              ],
+              [
+                4479.50005531311,
+                -4345.71933746338
+              ],
+              [
+                6027.499990463255,
+                1165.2062833309196
+              ],
+              [
+                -1135.50003051758,
+                851.5466153621695
+              ],
+              [
+                -1017.5000000000001,
+                3745.344042778015
+              ],
+              [
+                782.5000286102301,
+                9906.768321990945
+              ],
+              [
+                4950.499968528745,
+                10754.177093505848
+              ],
+              [
+                2415.000081062315,
+                11091.06826782225
+              ],
+              [
+                3362.99991607666,
+                13770.999908447251
+              ],
+              [
+                3363.49993944168,
+                15558.6668205261
+              ]
+            ],
+            "metrics": [
+              "Visual Integration [HH]",
+              "Connectivity",
+              "Metric Mean Shortest-Path Distance"
+            ]
+          },
+          "timing_seconds": {
+            "import": 0.13283580000006623,
+            "prepare": 0.23168799999984913,
+            "visibility": 1.1775711000000229,
+            "metric": 2.8933021000002555,
+            "export": 0.1833461999995052
+          },
+          "point_count": 807,
+          "cache_hit": false
+        },
+        "directory": "D:\\GODOT Prams\\boss-level-pcg\\evolution\\analysis_cache\\4237c624d04e650ade3a1def8602e5e5169e1b94c016873a83cf6a8eefeceb9a"
+      },
+      "all_open": {
+        "distance": 0.2761436091711615,
+        "metrics": {
+          "Visual Integration [HH]": 0.2525612995746773,
+          "Connectivity": 0.3820920104451987,
+          "Metric Mean Shortest-Path Distance": 0.1937775174936084
+        },
+        "analysis": {
+          "key": "51ac49f1df205aab181a76460a681bc5225905607d65d6a1ded15f82b8ad241d",
+          "recipe": {
+            "engine_sha256": "04ce9cb67a151d40786ddc51b81c9f703ad75a879ce24c476b1fcf0054f52fcd",
+            "grid": 400,
+            "radius": "n",
+            "geometry_sha256": "58107332d05e689ba2fba51898f566992ee06ca1e7ecb29102d79946f36b1af2",
+            "fills": [
+              [
+                1770.500020980835,
+                3745.344281196595
+              ],
+              [
+                2131.072890383328,
+                -2891.5583588365203
+              ],
+              [
+                4479.50005531311,
+                -4345.71933746338
+              ],
+              [
+                6027.499990463255,
+                1180.20634174347
+              ],
+              [
+                -1135.50003051758,
+                866.54667377472
+              ],
+              [
+                -1017.5000000000001,
+                3745.344281196595
+              ],
+              [
+                782.5000286102301,
+                9906.768321990945
+              ],
+              [
+                4950.499968528745,
+                10769.176883697493
+              ],
+              [
+                2415.000081062315,
+                11131.945610046349
+              ],
+              [
+                3362.99991607666,
+                13770.999908447251
+              ],
+              [
+                3363.49993944168,
+                15558.6668205261
+              ]
+            ],
+            "metrics": [
+              "Visual Integration [HH]",
+              "Connectivity",
+              "Metric Mean Shortest-Path Distance"
+            ]
+          },
+          "timing_seconds": {
+            "import": 0.15623719999985042,
+            "prepare": 0.3312143000002834,
+            "visibility": 1.6828253000003315,
+            "metric": 3.7175397999999404,
+            "export": 0.1905152999997881
+          },
+          "point_count": 830,
+          "cache_hit": false
+        },
+        "directory": "D:\\GODOT Prams\\boss-level-pcg\\evolution\\analysis_cache\\b5b2cdfde33d22f3980499d6b2e84f3eb2961aa28ce62a25815904e06c25bb89"
+      }
+    },
+    "clearance": {
+      "player_initial": {
+        "reachable_rooms": 11,
+        "total_rooms": 11,
+        "nodes": 1990
+      },
+      "boss_initial": {
+        "reachable_rooms": 4,
+        "total_rooms": 11,
+        "nodes": 1450
+      },
+      "player_open": {
+        "reachable_rooms": 11,
+        "total_rooms": 11,
+        "nodes": 2227
+      },
+      "boss_open": {
+        "reachable_rooms": 11,
+        "total_rooms": 11,
+        "nodes": 1816
+      }
+    },
+    "simulation": {
+      "method": "2D clearance-grid pursuit proxy; fixed speeds and action times",
+      "heldout": false,
+      "episodes": [
+        {
+          "policy": "exit",
+          "seed": 11,
+          "outcome": "escaped",
+          "duration": 2.2,
+          "visibility_fraction": 0.36363636363636365,
+          "near_fraction": 0.0,
+          "stuck_fraction": 0.0,
+          "visited_rooms": 4,
+          "opened": [],
+          "route": [
+            8,
+            6,
+            9,
+            10
+          ]
+        },
+        {
+          "policy": "exit",
+          "seed": 29,
+          "outcome": "escaped",
+          "duration": 2.2,
+          "visibility_fraction": 0.36363636363636365,
+          "near_fraction": 0.0,
+          "stuck_fraction": 0.0,
+          "visited_rooms": 4,
+          "opened": [],
+          "route": [
+            8,
+            6,
+            9,
+            10
+          ]
+        },
+        {
+          "policy": "distance",
+          "seed": 11,
+          "outcome": "escaped",
+          "duration": 2.2,
+          "visibility_fraction": 0.36363636363636365,
+          "near_fraction": 0.0,
+          "stuck_fraction": 0.0,
+          "visited_rooms": 4,
+          "opened": [],
+          "route": [
+            8,
+            6,
+            9,
+            10
+          ]
+        },
+        {
+          "policy": "distance",
+          "seed": 29,
+          "outcome": "escaped",
+          "duration": 2.2,
+          "visibility_fraction": 0.36363636363636365,
+          "near_fraction": 0.0,
+          "stuck_fraction": 0.0,
+          "visited_rooms": 4,
+          "opened": [],
+          "route": [
+            8,
+            6,
+            9,
+            10
+          ]
+        },
+        {
+          "policy": "occlusion",
+          "seed": 11,
+          "outcome": "escaped",
+          "duration": 2.2,
+          "visibility_fraction": 0.36363636363636365,
+          "near_fraction": 0.0,
+          "stuck_fraction": 0.0,
+          "visited_rooms": 4,
+          "opened": [],
+          "route": [
+            8,
+            6,
+            9,
+            10
+          ]
+        },
+        {
+          "policy": "occlusion",
+          "seed": 29,
+          "outcome": "escaped",
+          "duration": 2.2,
+          "visibility_fraction": 0.36363636363636365,
+          "near_fraction": 0.0,
+          "stuck_fraction": 0.0,
+          "visited_rooms": 4,
+          "opened": [],
+          "route": [
+            8,
+            6,
+            9,
+            10
+          ]
+        }
+      ],
+      "fairness_loss": 0.0,
+      "pressure_loss": 0.5,
+      "route_diversity": 0.18181818181818182,
+      "escape_fraction": 1.0,
+      "early_catch_fraction": 0.0,
+      "timeout_fraction": 0.0,
+      "near_fraction": 0.0,
+      "stuck_fraction": 0.0
+    },
+    "seconds": 22.86453150000034,
+    "generation": 15
+  }
+}

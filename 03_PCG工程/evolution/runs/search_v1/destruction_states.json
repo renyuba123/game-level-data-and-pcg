@@ -1,0 +1,1370 @@
+{
+  "schedule_type": "Constructed deterministic edge-ID order for state testing, not an observed Boss timeline",
+  "player_assumption": "Explicit squeeze actions are available; interaction time excluded from reachability",
+  "results": [
+    {
+      "label": "balanced",
+      "candidate": "f22bf85ec3ae7c949c6a72def39521779ef2eadce416b6cd9d8b95de7d13e260",
+      "schedule": [
+        "E02",
+        "E06",
+        "E07",
+        "E08",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14"
+      ],
+      "stages": [
+        {
+          "opened": [],
+          "newly_opened": null,
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 1,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R04",
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R01",
+                "R03",
+                "R06",
+                "R05",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 1,
+              "route_edge_count": 6,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R10",
+                "R09"
+              ],
+              "room_cycle_rank": 0,
+              "connected_components": 6,
+              "dead_end_room_ids": [
+                "R03",
+                "R02",
+                "R04",
+                "R10",
+                "R09"
+              ],
+              "shortest_room_hop_route": [],
+              "route_edges_with_alternative_after_removal": 0,
+              "route_edge_count": 0,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        },
+        {
+          "opened": [
+            "E02"
+          ],
+          "newly_opened": "E02",
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 1,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R04",
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R01",
+                "R03",
+                "R06",
+                "R05",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 1,
+              "route_edge_count": 6,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R10",
+                "R09"
+              ],
+              "room_cycle_rank": 0,
+              "connected_components": 5,
+              "dead_end_room_ids": [
+                "R03",
+                "R02",
+                "R04",
+                "R07",
+                "R10",
+                "R09"
+              ],
+              "shortest_room_hop_route": [],
+              "route_edges_with_alternative_after_removal": 0,
+              "route_edge_count": 0,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        },
+        {
+          "opened": [
+            "E02",
+            "E06"
+          ],
+          "newly_opened": "E06",
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 1,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R04",
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R01",
+                "R03",
+                "R06",
+                "R05",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 1,
+              "route_edge_count": 6,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R10",
+                "R09"
+              ],
+              "room_cycle_rank": 0,
+              "connected_components": 4,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R04",
+                "R07",
+                "R10",
+                "R09"
+              ],
+              "shortest_room_hop_route": [],
+              "route_edges_with_alternative_after_removal": 0,
+              "route_edge_count": 0,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        },
+        {
+          "opened": [
+            "E02",
+            "E06",
+            "E07"
+          ],
+          "newly_opened": "E07",
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 2,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R04",
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R01",
+                "R02",
+                "R05",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 3,
+              "route_edge_count": 5,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R10",
+                "R09"
+              ],
+              "room_cycle_rank": 1,
+              "connected_components": 4,
+              "dead_end_room_ids": [
+                "R04",
+                "R07",
+                "R10",
+                "R09"
+              ],
+              "shortest_room_hop_route": [],
+              "route_edges_with_alternative_after_removal": 0,
+              "route_edge_count": 0,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        },
+        {
+          "opened": [
+            "E02",
+            "E06",
+            "E07",
+            "E08"
+          ],
+          "newly_opened": "E08",
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 3,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R01",
+                "R02",
+                "R05",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 3,
+              "route_edge_count": 5,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R10",
+                "R09"
+              ],
+              "room_cycle_rank": 2,
+              "connected_components": 4,
+              "dead_end_room_ids": [
+                "R07",
+                "R10",
+                "R09"
+              ],
+              "shortest_room_hop_route": [],
+              "route_edges_with_alternative_after_removal": 0,
+              "route_edge_count": 0,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        },
+        {
+          "opened": [
+            "E02",
+            "E06",
+            "E07",
+            "E08",
+            "E10"
+          ],
+          "newly_opened": "E10",
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 3,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R01",
+                "R02",
+                "R05",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 3,
+              "route_edge_count": 5,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R10",
+                "R09"
+              ],
+              "room_cycle_rank": 2,
+              "connected_components": 3,
+              "dead_end_room_ids": [
+                "R08",
+                "R10",
+                "R09"
+              ],
+              "shortest_room_hop_route": [],
+              "route_edges_with_alternative_after_removal": 0,
+              "route_edge_count": 0,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        },
+        {
+          "opened": [
+            "E02",
+            "E06",
+            "E07",
+            "E08",
+            "E10",
+            "E11"
+          ],
+          "newly_opened": "E11",
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 3,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R01",
+                "R02",
+                "R05",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 3,
+              "route_edge_count": 5,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09"
+              ],
+              "room_cycle_rank": 2,
+              "connected_components": 2,
+              "dead_end_room_ids": [
+                "R09"
+              ],
+              "shortest_room_hop_route": [],
+              "route_edges_with_alternative_after_removal": 0,
+              "route_edge_count": 0,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        },
+        {
+          "opened": [
+            "E02",
+            "E06",
+            "E07",
+            "E08",
+            "E10",
+            "E11",
+            "E12"
+          ],
+          "newly_opened": "E12",
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 3,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R01",
+                "R02",
+                "R05",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 3,
+              "route_edge_count": 5,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09"
+              ],
+              "room_cycle_rank": 3,
+              "connected_components": 2,
+              "dead_end_room_ids": [],
+              "shortest_room_hop_route": [],
+              "route_edges_with_alternative_after_removal": 0,
+              "route_edge_count": 0,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        },
+        {
+          "opened": [
+            "E02",
+            "E06",
+            "E07",
+            "E08",
+            "E10",
+            "E11",
+            "E12",
+            "E13"
+          ],
+          "newly_opened": "E13",
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 3,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R01",
+                "R02",
+                "R05",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 3,
+              "route_edge_count": 5,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 3,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 0,
+              "route_edge_count": 1,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        },
+        {
+          "opened": [
+            "E02",
+            "E06",
+            "E07",
+            "E08",
+            "E10",
+            "E11",
+            "E12",
+            "E13",
+            "E14"
+          ],
+          "newly_opened": "E14",
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 4,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R01",
+                "R02",
+                "R05",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 3,
+              "route_edge_count": 5,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 4,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 0,
+              "route_edge_count": 1,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "label": "exploration",
+      "candidate": "aadee9d669590f7f0e775bb0ef45556584bc5e685f9330ac28d33c9d4c9d998f",
+      "schedule": [
+        "E01",
+        "E02",
+        "E04",
+        "E08",
+        "E09",
+        "E10",
+        "E11",
+        "E13",
+        "E14"
+      ],
+      "stages": [
+        {
+          "opened": [],
+          "newly_opened": null,
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 1,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R10",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 2,
+              "route_edge_count": 3,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R02",
+                "R06"
+              ],
+              "room_cycle_rank": 0,
+              "connected_components": 6,
+              "dead_end_room_ids": [
+                "R03",
+                "R01",
+                "R02",
+                "R06",
+                "R07",
+                "R08"
+              ],
+              "shortest_room_hop_route": [],
+              "route_edges_with_alternative_after_removal": 0,
+              "route_edge_count": 0,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        },
+        {
+          "opened": [
+            "E01"
+          ],
+          "newly_opened": "E01",
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 1,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R10",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 2,
+              "route_edge_count": 3,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R06"
+              ],
+              "room_cycle_rank": 0,
+              "connected_components": 5,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R06",
+                "R07",
+                "R08"
+              ],
+              "shortest_room_hop_route": [],
+              "route_edges_with_alternative_after_removal": 0,
+              "route_edge_count": 0,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        },
+        {
+          "opened": [
+            "E01",
+            "E02"
+          ],
+          "newly_opened": "E02",
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 1,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R10",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 2,
+              "route_edge_count": 3,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R06",
+                "R07",
+                "R08",
+                "R09"
+              ],
+              "room_cycle_rank": 0,
+              "connected_components": 4,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R06",
+                "R08"
+              ],
+              "shortest_room_hop_route": [],
+              "route_edges_with_alternative_after_removal": 0,
+              "route_edge_count": 0,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        },
+        {
+          "opened": [
+            "E01",
+            "E02",
+            "E04"
+          ],
+          "newly_opened": "E04",
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 1,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R10",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 2,
+              "route_edge_count": 3,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R09"
+              ],
+              "room_cycle_rank": 0,
+              "connected_components": 3,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R08"
+              ],
+              "shortest_room_hop_route": [],
+              "route_edges_with_alternative_after_removal": 0,
+              "route_edge_count": 0,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        },
+        {
+          "opened": [
+            "E01",
+            "E02",
+            "E04",
+            "E08"
+          ],
+          "newly_opened": "E08",
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 2,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R10",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 2,
+              "route_edge_count": 3,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R09"
+              ],
+              "room_cycle_rank": 1,
+              "connected_components": 3,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R08"
+              ],
+              "shortest_room_hop_route": [],
+              "route_edges_with_alternative_after_removal": 0,
+              "route_edge_count": 0,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        },
+        {
+          "opened": [
+            "E01",
+            "E02",
+            "E04",
+            "E08",
+            "E09"
+          ],
+          "newly_opened": "E09",
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 3,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R10",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 2,
+              "route_edge_count": 3,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R09"
+              ],
+              "room_cycle_rank": 2,
+              "connected_components": 3,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R08"
+              ],
+              "shortest_room_hop_route": [],
+              "route_edges_with_alternative_after_removal": 0,
+              "route_edge_count": 0,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        },
+        {
+          "opened": [
+            "E01",
+            "E02",
+            "E04",
+            "E08",
+            "E09",
+            "E10"
+          ],
+          "newly_opened": "E10",
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 3,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R10",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 2,
+              "route_edge_count": 3,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09"
+              ],
+              "room_cycle_rank": 2,
+              "connected_components": 2,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R08",
+                "R10"
+              ],
+              "shortest_room_hop_route": [],
+              "route_edges_with_alternative_after_removal": 0,
+              "route_edge_count": 0,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        },
+        {
+          "opened": [
+            "E01",
+            "E02",
+            "E04",
+            "E08",
+            "E09",
+            "E10",
+            "E11"
+          ],
+          "newly_opened": "E11",
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 3,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R10",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 2,
+              "route_edge_count": 3,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09"
+              ],
+              "room_cycle_rank": 3,
+              "connected_components": 2,
+              "dead_end_room_ids": [
+                "R01",
+                "R02"
+              ],
+              "shortest_room_hop_route": [],
+              "route_edges_with_alternative_after_removal": 0,
+              "route_edge_count": 0,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        },
+        {
+          "opened": [
+            "E01",
+            "E02",
+            "E04",
+            "E08",
+            "E09",
+            "E10",
+            "E11",
+            "E13"
+          ],
+          "newly_opened": "E13",
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 3,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R10",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 2,
+              "route_edge_count": 3,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 3,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R05",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 1,
+              "route_edge_count": 3,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        },
+        {
+          "opened": [
+            "E01",
+            "E02",
+            "E04",
+            "E08",
+            "E09",
+            "E10",
+            "E11",
+            "E13",
+            "E14"
+          ],
+          "newly_opened": "E14",
+          "roles": {
+            "player": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 4,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 1,
+              "route_edge_count": 2,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            },
+            "boss": {
+              "clearance_reachable_rooms": [
+                "R05",
+                "R03",
+                "R01",
+                "R02",
+                "R04",
+                "R06",
+                "R07",
+                "R08",
+                "R10",
+                "R09",
+                "R11"
+              ],
+              "room_cycle_rank": 4,
+              "connected_components": 1,
+              "dead_end_room_ids": [
+                "R01",
+                "R02",
+                "R11"
+              ],
+              "shortest_room_hop_route": [
+                "R05",
+                "R07",
+                "R09",
+                "R11"
+              ],
+              "route_edges_with_alternative_after_removal": 1,
+              "route_edge_count": 3,
+              "note": "Room topology only; not Depthmap Convex Choice or metric path length"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

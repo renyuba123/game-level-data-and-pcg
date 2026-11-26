@@ -1,0 +1,8 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Python bytecode and development audit output (retain locally)
+**/__pycache__/
+*.py[cod]
+/full_pcg_output/

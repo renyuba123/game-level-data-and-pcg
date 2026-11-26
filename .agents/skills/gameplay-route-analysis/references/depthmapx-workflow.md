@@ -1,5 +1,7 @@
 # DepthmapX Convex 与 VGA
 
+**当前鼠王关优先规则（覆盖下方历史流程）：**唯一权威文件是项目根目录 `shuwang.graph`，DXF 为 `鼠王关.dxf`。当前导出在 `maps/ratking/shuwang/`，有 11 个 Convex REGION、3,468 VGA 点，指标包括 `Visual Integration [HH]`、`Gate Counts` 和 `Metric Mean Shortest-Path Distance`。可用用户本机 Depthmap+ Beta 1.0，或[官方 CLI](https://github.com/varoudis/depthmapX/blob/master/docs/commandline.md)的 `pointmap-data-csv`、`shapegraph-map-csv`、`shapegraph-map-mif` 从同一 graph 导出。旧 `shuwangguan.graph` 下述内容仅作历史记录；旧截图和旧色阶不能校准新版 graph。`shapegraph-connections-csv` 当前只有表头，真实门洞连接保持未核实。
+
 以 `.graph` 为权威输入，不从颜色反推数值。先记录 graph SHA-256 和所用版本。当前鼠王关使用用户指定的 `C:\Users\人于八\Downloads\空间句法软件及练习文件\Depthmap+ Beta 1.0.exe`：打开 `shuwangguan.graph`，双击左侧 `Convex Map` 或 `VGA Map` 激活，再从 `Map > Export...` 导出。Convex 分别导出制表符属性 TXT、MapInfo MIF/MID 几何与属性、Pajek NET 邻接；VGA 导出制表符 TXT，包含点坐标及全部指标。不要覆盖原 `.graph`。其他版本可参考[官方 CLI 文档](https://github.com/varoudis/depthmapX/blob/master/docs/commandline.md)的 `EXPORT -em pointmap-data-csv`。
 
 分别保存 Convex `Choice`、`Integration [HH]` 与 VGA `Visual Integration [HH]`、`Connectivity`、`Gate Counts`；VGA Connectivity 不得改称房间连接度，Gate Counts 不得改称玩家经过次数。记录网格间距、范围、导出列名、缺失值、分析半径（能读取时）。优先取得同指标 Depthmap 原图，原字节保留并记录哈希、像素尺寸、指标名；用它核对格点空间位置、颜色顺序和高值分布。要做白底矢量格点时，以真实 VGA 点值配色；如截图没有可读色标，可对齐格点中心、采样原生颜色、拟合单调数值阈值并报告匹配率。此类阈值标为派生校准，不能冒称 Depthmap 官方阈值。不要用等频分位数制造不符合原图的红色区域。

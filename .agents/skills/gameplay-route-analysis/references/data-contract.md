@@ -1,6 +1,6 @@
 # 玩家路线数据合同 v1.1
 
-`maps/<map_id>/` 放 `rooms.json`、`connections.json`、`map_transform.json`、`convex_metrics.csv`、`vga_points.csv`、原始 Depthmap 导出与配准报告；`runs/<run_id>/` 放 `route_points.csv`、`events.csv`、`run_manifest.json`、`review_needed.csv`；`outputs/<run_id>/` 放单个修改版 AI、从中导出的图与 QA。
+当前鼠王关共享图数据位于 `maps/ratking/shuwang/`：`vga.csv`、`convex.csv`、`convex_geom.mif/.mid` 是 `shuwang.graph` 导出的原始数据；`rooms.json`、`connections.json`、`summary.json` 和 `render_data.json` 是派生数据。`runs/<run_id>/` 放本局 `route_points.csv`、`events.csv`、`run_manifest.json`；`outputs/<run_id>/` 放该局单个修改版 AI、六组 AI 导出图和 QA。旧 `maps/ratking/` 根目录数据属于 `shuwangguan.graph` 历史版本，不是当前默认输入。
 
 ## 路线与事件
 

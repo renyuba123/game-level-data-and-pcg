@@ -1,0 +1,1485 @@
+{
+  "rule": "heldout fairness_loss <= 0; no early catch/stuck/timeout and at least half escape",
+  "scope": "Post-search acceptance; introduced after interim diagnostic review, not a change to fitness",
+  "candidates": [
+    {
+      "key": "028dda8c940f9c9c783c2eb1627ad86760516fd69f03f317f4589d3fd8a35f7b",
+      "accepted": false,
+      "heldout": {
+        "method": "2D clearance-grid pursuit proxy; fixed speeds and action times",
+        "heldout": true,
+        "episodes": [
+          {
+            "policy": "exit",
+            "seed": 104729,
+            "outcome": "escaped",
+            "duration": 2.0,
+            "visibility_fraction": 0.0,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 3,
+            "opened": [],
+            "route": [
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "exit",
+            "seed": 130363,
+            "outcome": "escaped",
+            "duration": 2.0,
+            "visibility_fraction": 0.0,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 3,
+            "opened": [],
+            "route": [
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 4.800000000000001,
+            "visibility_fraction": 0.25,
+            "near_fraction": 0.25,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [
+              "E10"
+            ],
+            "route": [
+              8,
+              9,
+              10,
+              9,
+              8,
+              7,
+              6
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 4.800000000000001,
+            "visibility_fraction": 0.4583333333333333,
+            "near_fraction": 0.4583333333333333,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [
+              "E10"
+            ],
+            "route": [
+              8,
+              9,
+              10,
+              9,
+              8,
+              7,
+              6
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 4.800000000000001,
+            "visibility_fraction": 0.25,
+            "near_fraction": 0.25,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [
+              "E10"
+            ],
+            "route": [
+              8,
+              9,
+              10,
+              9,
+              8,
+              7,
+              6
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 4.800000000000001,
+            "visibility_fraction": 0.4583333333333333,
+            "near_fraction": 0.4583333333333333,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [
+              "E10"
+            ],
+            "route": [
+              8,
+              9,
+              10,
+              9,
+              8,
+              7,
+              6
+            ]
+          }
+        ],
+        "fairness_loss": 0.16666666666666669,
+        "pressure_loss": 0.16388888888888895,
+        "route_diversity": 0.3747474747474747,
+        "escape_fraction": 0.3333333333333333,
+        "early_catch_fraction": 0.0,
+        "timeout_fraction": 0.0,
+        "near_fraction": 0.23611111111111108,
+        "stuck_fraction": 0.0
+      }
+    },
+    {
+      "key": "a29de4357bce5c8e03e26e96155aae7046d1049fc777f8013c8fb661ece29fed",
+      "accepted": false,
+      "heldout": {
+        "method": "2D clearance-grid pursuit proxy; fixed speeds and action times",
+        "heldout": true,
+        "episodes": [
+          {
+            "policy": "exit",
+            "seed": 104729,
+            "outcome": "escaped",
+            "duration": 2.2,
+            "visibility_fraction": 0.09090909090909091,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "exit",
+            "seed": 130363,
+            "outcome": "escaped",
+            "duration": 2.4000000000000004,
+            "visibility_fraction": 0.08333333333333333,
+            "near_fraction": 0.08333333333333333,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 3.4000000000000004,
+            "visibility_fraction": 0.5294117647058824,
+            "near_fraction": 0.47058823529411764,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              7,
+              8,
+              9,
+              8,
+              6
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 3.2,
+            "visibility_fraction": 0.5,
+            "near_fraction": 0.5,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              7,
+              8,
+              9,
+              8,
+              6
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 3.4000000000000004,
+            "visibility_fraction": 0.5294117647058824,
+            "near_fraction": 0.47058823529411764,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              7,
+              8,
+              9,
+              8,
+              6
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 3.2,
+            "visibility_fraction": 0.5,
+            "near_fraction": 0.5,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              7,
+              8,
+              9,
+              8,
+              6
+            ]
+          }
+        ],
+        "fairness_loss": 0.16666666666666669,
+        "pressure_loss": 0.06258169934640528,
+        "route_diversity": 0.3418181818181818,
+        "escape_fraction": 0.3333333333333333,
+        "early_catch_fraction": 0.0,
+        "timeout_fraction": 0.0,
+        "near_fraction": 0.33741830065359474,
+        "stuck_fraction": 0.0
+      }
+    },
+    {
+      "key": "9c9f1554390da28b67c73ba999aad9c5a4272a68153922b0097d523259bfa3f6",
+      "accepted": false,
+      "heldout": {
+        "method": "2D clearance-grid pursuit proxy; fixed speeds and action times",
+        "heldout": true,
+        "episodes": [
+          {
+            "policy": "exit",
+            "seed": 104729,
+            "outcome": "escaped",
+            "duration": 2.0,
+            "visibility_fraction": 0.0,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              8,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "exit",
+            "seed": 130363,
+            "outcome": "escaped",
+            "duration": 2.0,
+            "visibility_fraction": 0.0,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              8,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 3.2,
+            "visibility_fraction": 0.3125,
+            "near_fraction": 0.3125,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [],
+            "route": [
+              8,
+              7,
+              9,
+              10,
+              9,
+              6
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 3.2,
+            "visibility_fraction": 0.3125,
+            "near_fraction": 0.3125,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [],
+            "route": [
+              8,
+              7,
+              9,
+              10,
+              9,
+              6
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 3.2,
+            "visibility_fraction": 0.3125,
+            "near_fraction": 0.3125,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [],
+            "route": [
+              8,
+              7,
+              9,
+              10,
+              9,
+              6
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 3.2,
+            "visibility_fraction": 0.3125,
+            "near_fraction": 0.3125,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [],
+            "route": [
+              8,
+              7,
+              9,
+              10,
+              9,
+              6
+            ]
+          }
+        ],
+        "fairness_loss": 0.16666666666666669,
+        "pressure_loss": 0.19166666666666668,
+        "route_diversity": 0.3187878787878788,
+        "escape_fraction": 0.3333333333333333,
+        "early_catch_fraction": 0.0,
+        "timeout_fraction": 0.0,
+        "near_fraction": 0.20833333333333334,
+        "stuck_fraction": 0.0
+      }
+    },
+    {
+      "key": "9841d20b6a5311d58d0e614fd19778d62496594838c1472472b8c6c7cf2da0f4",
+      "accepted": false,
+      "heldout": {
+        "method": "2D clearance-grid pursuit proxy; fixed speeds and action times",
+        "heldout": true,
+        "episodes": [
+          {
+            "policy": "exit",
+            "seed": 104729,
+            "outcome": "escaped",
+            "duration": 2.2,
+            "visibility_fraction": 0.09090909090909091,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "exit",
+            "seed": 130363,
+            "outcome": "escaped",
+            "duration": 2.2,
+            "visibility_fraction": 0.09090909090909091,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 3.4000000000000004,
+            "visibility_fraction": 0.47058823529411764,
+            "near_fraction": 0.47058823529411764,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              7,
+              8,
+              9,
+              8,
+              6
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 3.4000000000000004,
+            "visibility_fraction": 0.47058823529411764,
+            "near_fraction": 0.47058823529411764,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              7,
+              8,
+              9,
+              8,
+              6
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 3.4000000000000004,
+            "visibility_fraction": 0.47058823529411764,
+            "near_fraction": 0.47058823529411764,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              7,
+              8,
+              9,
+              8,
+              6
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 3.4000000000000004,
+            "visibility_fraction": 0.47058823529411764,
+            "near_fraction": 0.47058823529411764,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              7,
+              8,
+              9,
+              8,
+              6
+            ]
+          }
+        ],
+        "fairness_loss": 0.16666666666666669,
+        "pressure_loss": 0.0862745098039216,
+        "route_diversity": 0.3418181818181818,
+        "escape_fraction": 0.3333333333333333,
+        "early_catch_fraction": 0.0,
+        "timeout_fraction": 0.0,
+        "near_fraction": 0.3137254901960784,
+        "stuck_fraction": 0.0
+      }
+    },
+    {
+      "key": "8f0fae253d174c23c96cce75059b24b2db9900a6bffcd2f5fabe7ad8e3e112ea",
+      "accepted": false,
+      "heldout": {
+        "method": "2D clearance-grid pursuit proxy; fixed speeds and action times",
+        "heldout": true,
+        "episodes": [
+          {
+            "policy": "exit",
+            "seed": 104729,
+            "outcome": "escaped",
+            "duration": 2.6,
+            "visibility_fraction": 0.0,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              8,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "exit",
+            "seed": 130363,
+            "outcome": "escaped",
+            "duration": 2.8000000000000003,
+            "visibility_fraction": 0.07142857142857142,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              8,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 3.6,
+            "visibility_fraction": 0.2777777777777778,
+            "near_fraction": 0.2777777777777778,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              8,
+              7,
+              9,
+              7,
+              6
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 3.4000000000000004,
+            "visibility_fraction": 0.5294117647058824,
+            "near_fraction": 0.47058823529411764,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              8,
+              7,
+              9,
+              7,
+              6
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 3.6,
+            "visibility_fraction": 0.2777777777777778,
+            "near_fraction": 0.2777777777777778,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              8,
+              7,
+              9,
+              7,
+              6
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 3.4000000000000004,
+            "visibility_fraction": 0.5294117647058824,
+            "near_fraction": 0.47058823529411764,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              8,
+              7,
+              9,
+              7,
+              6
+            ]
+          }
+        ],
+        "fairness_loss": 0.16666666666666669,
+        "pressure_loss": 0.15054466230936822,
+        "route_diversity": 0.3418181818181818,
+        "escape_fraction": 0.3333333333333333,
+        "early_catch_fraction": 0.0,
+        "timeout_fraction": 0.0,
+        "near_fraction": 0.2494553376906318,
+        "stuck_fraction": 0.0
+      }
+    },
+    {
+      "key": "7a2fd50df6a64e547bc897757aad4357b78ced30be280b28bc27271062d857da",
+      "accepted": false,
+      "heldout": {
+        "method": "2D clearance-grid pursuit proxy; fixed speeds and action times",
+        "heldout": true,
+        "episodes": [
+          {
+            "policy": "exit",
+            "seed": 104729,
+            "outcome": "escaped",
+            "duration": 2.2,
+            "visibility_fraction": 0.09090909090909091,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "exit",
+            "seed": 130363,
+            "outcome": "escaped",
+            "duration": 2.2,
+            "visibility_fraction": 0.09090909090909091,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 3.4000000000000004,
+            "visibility_fraction": 0.4117647058823529,
+            "near_fraction": 0.4117647058823529,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              7,
+              8,
+              9,
+              8,
+              6
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 3.4000000000000004,
+            "visibility_fraction": 0.4117647058823529,
+            "near_fraction": 0.4117647058823529,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              7,
+              8,
+              9,
+              8,
+              6
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 3.4000000000000004,
+            "visibility_fraction": 0.4117647058823529,
+            "near_fraction": 0.4117647058823529,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              7,
+              8,
+              9,
+              8,
+              6
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 3.4000000000000004,
+            "visibility_fraction": 0.4117647058823529,
+            "near_fraction": 0.4117647058823529,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              7,
+              8,
+              9,
+              8,
+              6
+            ]
+          }
+        ],
+        "fairness_loss": 0.16666666666666669,
+        "pressure_loss": 0.12549019607843143,
+        "route_diversity": 0.3418181818181818,
+        "escape_fraction": 0.3333333333333333,
+        "early_catch_fraction": 0.0,
+        "timeout_fraction": 0.0,
+        "near_fraction": 0.2745098039215686,
+        "stuck_fraction": 0.0
+      }
+    },
+    {
+      "key": "45459cd2113ecdd536436243e9aed000de1fdf1caa71d08f2f95b0a9ef178c12",
+      "accepted": false,
+      "heldout": {
+        "method": "2D clearance-grid pursuit proxy; fixed speeds and action times",
+        "heldout": true,
+        "episodes": [
+          {
+            "policy": "exit",
+            "seed": 104729,
+            "outcome": "escaped",
+            "duration": 4.800000000000001,
+            "visibility_fraction": 0.20833333333333334,
+            "near_fraction": 0.20833333333333334,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [
+              "E14"
+            ],
+            "route": [
+              3,
+              0,
+              6,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "exit",
+            "seed": 130363,
+            "outcome": "escaped",
+            "duration": 4.800000000000001,
+            "visibility_fraction": 0.20833333333333334,
+            "near_fraction": 0.20833333333333334,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [
+              "E14"
+            ],
+            "route": [
+              3,
+              0,
+              6,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 11.200000000000001,
+            "visibility_fraction": 0.10714285714285714,
+            "near_fraction": 0.10714285714285714,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [
+              "E10",
+              "E14"
+            ],
+            "route": [
+              3,
+              0,
+              1,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 11.200000000000001,
+            "visibility_fraction": 0.10714285714285714,
+            "near_fraction": 0.10714285714285714,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [
+              "E10",
+              "E14"
+            ],
+            "route": [
+              3,
+              0,
+              1,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 11.200000000000001,
+            "visibility_fraction": 0.10714285714285714,
+            "near_fraction": 0.10714285714285714,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [
+              "E10",
+              "E14"
+            ],
+            "route": [
+              3,
+              0,
+              1,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 11.200000000000001,
+            "visibility_fraction": 0.10714285714285714,
+            "near_fraction": 0.10714285714285714,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [
+              "E10",
+              "E14"
+            ],
+            "route": [
+              3,
+              0,
+              1,
+              2,
+              1,
+              0
+            ]
+          }
+        ],
+        "fairness_loss": 0.16666666666666669,
+        "pressure_loss": 0.2591269841269842,
+        "route_diversity": 0.4303030303030303,
+        "escape_fraction": 0.3333333333333333,
+        "early_catch_fraction": 0.0,
+        "timeout_fraction": 0.0,
+        "near_fraction": 0.14087301587301584,
+        "stuck_fraction": 0.0
+      }
+    },
+    {
+      "key": "31d883d8031445fb8cd99993f3b7cfd656790d2e82297c814195e98d518aec6c",
+      "accepted": false,
+      "heldout": {
+        "method": "2D clearance-grid pursuit proxy; fixed speeds and action times",
+        "heldout": true,
+        "episodes": [
+          {
+            "policy": "exit",
+            "seed": 104729,
+            "outcome": "escaped",
+            "duration": 4.6000000000000005,
+            "visibility_fraction": 0.17391304347826086,
+            "near_fraction": 0.17391304347826086,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [
+              "E10"
+            ],
+            "route": [
+              4,
+              0,
+              6,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "exit",
+            "seed": 130363,
+            "outcome": "escaped",
+            "duration": 4.6000000000000005,
+            "visibility_fraction": 0.17391304347826086,
+            "near_fraction": 0.17391304347826086,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [
+              "E10"
+            ],
+            "route": [
+              0,
+              6,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 7.800000000000001,
+            "visibility_fraction": 0.23076923076923078,
+            "near_fraction": 0.1794871794871795,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [
+              "E10"
+            ],
+            "route": [
+              4,
+              0,
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 7.800000000000001,
+            "visibility_fraction": 0.23076923076923078,
+            "near_fraction": 0.1794871794871795,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [
+              "E10"
+            ],
+            "route": [
+              4,
+              0,
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 7.800000000000001,
+            "visibility_fraction": 0.23076923076923078,
+            "near_fraction": 0.1794871794871795,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [
+              "E10"
+            ],
+            "route": [
+              4,
+              0,
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 7.800000000000001,
+            "visibility_fraction": 0.23076923076923078,
+            "near_fraction": 0.1794871794871795,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [
+              "E10"
+            ],
+            "route": [
+              4,
+              0,
+              1,
+              2,
+              3,
+              0
+            ]
+          }
+        ],
+        "fairness_loss": 0.16666666666666669,
+        "pressure_loss": 0.22237086584912671,
+        "route_diversity": 0.478030303030303,
+        "escape_fraction": 0.3333333333333333,
+        "early_catch_fraction": 0.0,
+        "timeout_fraction": 0.0,
+        "near_fraction": 0.1776291341508733,
+        "stuck_fraction": 0.0
+      }
+    },
+    {
+      "key": "3b15c03000d259b93acfa87f458322e992a0c0676c4d6642b88771674afc262a",
+      "accepted": false,
+      "heldout": {
+        "method": "2D clearance-grid pursuit proxy; fixed speeds and action times",
+        "heldout": true,
+        "episodes": [
+          {
+            "policy": "exit",
+            "seed": 104729,
+            "outcome": "escaped",
+            "duration": 2.2,
+            "visibility_fraction": 0.0,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              8,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "exit",
+            "seed": 130363,
+            "outcome": "escaped",
+            "duration": 2.2,
+            "visibility_fraction": 0.0,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [],
+            "route": [
+              8,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 3.6,
+            "visibility_fraction": 0.5,
+            "near_fraction": 0.4444444444444444,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [],
+            "route": [
+              8,
+              7,
+              9,
+              10,
+              9,
+              7,
+              6
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 3.6,
+            "visibility_fraction": 0.5,
+            "near_fraction": 0.4444444444444444,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [],
+            "route": [
+              8,
+              7,
+              9,
+              10,
+              9,
+              7,
+              6
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 3.6,
+            "visibility_fraction": 0.5,
+            "near_fraction": 0.4444444444444444,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [],
+            "route": [
+              8,
+              7,
+              9,
+              10,
+              9,
+              7,
+              6
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 3.6,
+            "visibility_fraction": 0.5,
+            "near_fraction": 0.4444444444444444,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 5,
+            "opened": [],
+            "route": [
+              8,
+              7,
+              9,
+              10,
+              9,
+              7,
+              6
+            ]
+          }
+        ],
+        "fairness_loss": 0.16666666666666669,
+        "pressure_loss": 0.10370370370370374,
+        "route_diversity": 0.34545454545454546,
+        "escape_fraction": 0.3333333333333333,
+        "early_catch_fraction": 0.0,
+        "timeout_fraction": 0.0,
+        "near_fraction": 0.2962962962962963,
+        "stuck_fraction": 0.0
+      }
+    },
+    {
+      "key": "a7daddec59a62a5485c225360d0794cdd7624ce5c276d222d8e414537d3a7f5a",
+      "accepted": true,
+      "heldout": {
+        "method": "2D clearance-grid pursuit proxy; fixed speeds and action times",
+        "heldout": true,
+        "episodes": [
+          {
+            "policy": "exit",
+            "seed": 104729,
+            "outcome": "caught",
+            "duration": 6.0,
+            "visibility_fraction": 0.16666666666666666,
+            "near_fraction": 0.16666666666666666,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 6,
+            "opened": [
+              "E10",
+              "E14"
+            ],
+            "route": [
+              2,
+              1,
+              5,
+              0,
+              6,
+              7
+            ]
+          },
+          {
+            "policy": "exit",
+            "seed": 130363,
+            "outcome": "caught",
+            "duration": 6.0,
+            "visibility_fraction": 0.2,
+            "near_fraction": 0.2,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 6,
+            "opened": [
+              "E10",
+              "E14"
+            ],
+            "route": [
+              2,
+              1,
+              5,
+              0,
+              6,
+              7
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 104729,
+            "outcome": "escaped",
+            "duration": 17.2,
+            "visibility_fraction": 0.10465116279069768,
+            "near_fraction": 0.05813953488372093,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 8,
+            "opened": [
+              "E02",
+              "E07",
+              "E10",
+              "E14"
+            ],
+            "route": [
+              2,
+              1,
+              5,
+              0,
+              6,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 130363,
+            "outcome": "escaped",
+            "duration": 17.2,
+            "visibility_fraction": 0.10465116279069768,
+            "near_fraction": 0.05813953488372093,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 8,
+            "opened": [
+              "E02",
+              "E07",
+              "E10",
+              "E14"
+            ],
+            "route": [
+              2,
+              1,
+              5,
+              0,
+              6,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 104729,
+            "outcome": "escaped",
+            "duration": 17.2,
+            "visibility_fraction": 0.10465116279069768,
+            "near_fraction": 0.05813953488372093,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 8,
+            "opened": [
+              "E02",
+              "E07",
+              "E10",
+              "E14"
+            ],
+            "route": [
+              2,
+              1,
+              5,
+              0,
+              6,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 130363,
+            "outcome": "escaped",
+            "duration": 17.2,
+            "visibility_fraction": 0.10465116279069768,
+            "near_fraction": 0.05813953488372093,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 8,
+            "opened": [
+              "E02",
+              "E07",
+              "E10",
+              "E14"
+            ],
+            "route": [
+              2,
+              1,
+              5,
+              0,
+              6,
+              7,
+              9,
+              10
+            ]
+          }
+        ],
+        "fairness_loss": 0.0,
+        "pressure_loss": 0.30025839793281656,
+        "route_diversity": 0.4095238095238095,
+        "escape_fraction": 0.6666666666666666,
+        "early_catch_fraction": 0.0,
+        "timeout_fraction": 0.0,
+        "near_fraction": 0.09987080103359174,
+        "stuck_fraction": 0.0
+      }
+    },
+    {
+      "key": "392c45ee982238d325e086750437df3debb5f912c03e55ce4dd5141ed88b28dc",
+      "accepted": true,
+      "heldout": {
+        "method": "2D clearance-grid pursuit proxy; fixed speeds and action times",
+        "heldout": true,
+        "episodes": [
+          {
+            "policy": "exit",
+            "seed": 104729,
+            "outcome": "escaped",
+            "duration": 3.0,
+            "visibility_fraction": 0.0,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [
+              "E02"
+            ],
+            "route": [
+              8,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "exit",
+            "seed": 130363,
+            "outcome": "escaped",
+            "duration": 3.0,
+            "visibility_fraction": 0.0,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [
+              "E02"
+            ],
+            "route": [
+              8,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 104729,
+            "outcome": "escaped",
+            "duration": 3.0,
+            "visibility_fraction": 0.0,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [
+              "E02"
+            ],
+            "route": [
+              8,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "distance",
+            "seed": 130363,
+            "outcome": "escaped",
+            "duration": 3.0,
+            "visibility_fraction": 0.0,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [
+              "E02"
+            ],
+            "route": [
+              8,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 104729,
+            "outcome": "escaped",
+            "duration": 3.0,
+            "visibility_fraction": 0.0,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [
+              "E02"
+            ],
+            "route": [
+              8,
+              7,
+              9,
+              10
+            ]
+          },
+          {
+            "policy": "occlusion",
+            "seed": 130363,
+            "outcome": "escaped",
+            "duration": 3.0,
+            "visibility_fraction": 0.0,
+            "near_fraction": 0.0,
+            "stuck_fraction": 0.0,
+            "visited_rooms": 4,
+            "opened": [
+              "E02"
+            ],
+            "route": [
+              8,
+              7,
+              9,
+              10
+            ]
+          }
+        ],
+        "fairness_loss": 0.0,
+        "pressure_loss": 0.5,
+        "route_diversity": 0.18181818181818182,
+        "escape_fraction": 1.0,
+        "early_catch_fraction": 0.0,
+        "timeout_fraction": 0.0,
+        "near_fraction": 0.0,
+        "stuck_fraction": 0.0
+      }
+    }
+  ]
+}

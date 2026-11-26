@@ -1,0 +1,1304 @@
+[
+  {
+    "old_path": "燕云十六声_天京渡建筑分析_V3_修订版.pptx",
+    "new_path": "01_案例研究/燕云十六声_天京渡/燕云十六声_天京渡建筑分析_V3_修订版.pptx",
+    "size": 9645253,
+    "sha256_before": "2d9912ddbb3d054199d30f71ea353914807cd3fc8e0c5f713b1591d3297acbc6"
+  },
+  {
+    "old_path": "圣保罗大教堂_跨游戏建筑转译分析.pptx",
+    "new_path": "01_案例研究/圣保罗大教堂/圣保罗大教堂_跨游戏建筑转译分析.pptx",
+    "size": 30079837,
+    "sha256_before": "417d592c1a5de5ca639c147405118c05fbb4edd528224f682c7eb4bce14bcae6"
+  },
+  {
+    "old_path": "maps/ratking/connections.json",
+    "new_path": "02_鼠王关研究/maps/ratking/connections.json",
+    "size": 2456,
+    "sha256_before": "cf888970499ddbe496ad944ae057e24a5d7fde318a773abbd41abe0f45befc57"
+  },
+  {
+    "old_path": "maps/ratking/convex_export.mid",
+    "new_path": "02_鼠王关研究/maps/ratking/convex_export.mid",
+    "size": 1276,
+    "sha256_before": "d5fb49f5f9395f247187bb3b6fd2525c2e774c57dacf913721fdf6d9c989bfd9"
+  },
+  {
+    "old_path": "maps/ratking/convex_export.mif",
+    "new_path": "02_鼠王关研究/maps/ratking/convex_export.mif",
+    "size": 3617,
+    "sha256_before": "5988c2ac926b677ac7405fbec2661ffad4b2d5c428398e0d8a920c87657e457e"
+  },
+  {
+    "old_path": "maps/ratking/convex_export.txt",
+    "new_path": "02_鼠王关研究/maps/ratking/convex_export.txt",
+    "size": 1793,
+    "sha256_before": "21108bd1799118d852897a3bd73a835278ceb0564508501d80b3b014ffa287ec"
+  },
+  {
+    "old_path": "maps/ratking/convex_metrics.csv",
+    "new_path": "02_鼠王关研究/maps/ratking/convex_metrics.csv",
+    "size": 1126,
+    "sha256_before": "4e9d2dbd00710527562016baf40e1d534bdf40555c7732d28eced06a4686d6f4"
+  },
+  {
+    "old_path": "maps/ratking/convex_network.net",
+    "new_path": "02_鼠王关研究/maps/ratking/convex_network.net",
+    "size": 341,
+    "sha256_before": "4afce903cf76321bb0fd3b4d8cbdff26c872742b9d47889e6f3689a0f41d3469"
+  },
+  {
+    "old_path": "maps/ratking/depthmap_embedded.png",
+    "new_path": "02_鼠王关研究/maps/ratking/depthmap_embedded.png",
+    "size": 32022,
+    "sha256_before": "ad04632ddfdf8b984ff305ed6c78d12fb642e7977d3098115d939284d2346981"
+  },
+  {
+    "old_path": "maps/ratking/gate_counts_depthmap_original.png",
+    "new_path": "02_鼠王关研究/maps/ratking/gate_counts_depthmap_original.png",
+    "size": 35550,
+    "sha256_before": "22e8201e1a47dee84ccb99911d71235eaa246cd96435f2b9f9b591ad93b349ab"
+  },
+  {
+    "old_path": "maps/ratking/gate_counts_palette.json",
+    "new_path": "02_鼠王关研究/maps/ratking/gate_counts_palette.json",
+    "size": 1184,
+    "sha256_before": "25fad4dcd66af2c57add628fae953eb91f4b0cddf3676105014cdc9bfccf7f06"
+  },
+  {
+    "old_path": "maps/ratking/map_transform.json",
+    "new_path": "02_鼠王关研究/maps/ratking/map_transform.json",
+    "size": 1703,
+    "sha256_before": "46f66d681a76f59ad214a18a6875e61c2619404814bd6fa1b8b23234d02b8b57"
+  },
+  {
+    "old_path": "maps/ratking/rooms.json",
+    "new_path": "02_鼠王关研究/maps/ratking/rooms.json",
+    "size": 10930,
+    "sha256_before": "514675f59e5d0f0807ddb64a9973348ac49a774e9dbe3ed412f54e9c1fb29967"
+  },
+  {
+    "old_path": "maps/ratking/shuwang/connections.json",
+    "new_path": "02_鼠王关研究/maps/ratking/shuwang/connections.json",
+    "size": 139,
+    "sha256_before": "9a1c25c11c8b330380bcf3ff92912987e0aec61d14fc0894908168caf958d41d"
+  },
+  {
+    "old_path": "maps/ratking/shuwang/convex.csv",
+    "new_path": "02_鼠王关研究/maps/ratking/shuwang/convex.csv",
+    "size": 1858,
+    "sha256_before": "ccded64a7312517b78a7f441ef4dd7aead4240eb0fcfafab723eb3526274ec89"
+  },
+  {
+    "old_path": "maps/ratking/shuwang/convex_geom.mid",
+    "new_path": "02_鼠王关研究/maps/ratking/shuwang/convex_geom.mid",
+    "size": 1427,
+    "sha256_before": "939b971a421c2524fd10abb9854d7d9aba7af1a05b3bc68890e04c9f8939b531"
+  },
+  {
+    "old_path": "maps/ratking/shuwang/convex_geom.mif",
+    "new_path": "02_鼠王关研究/maps/ratking/shuwang/convex_geom.mif",
+    "size": 4026,
+    "sha256_before": "f97e3a7550ff57e3567f2cc7a1e82acffce4a617e18ccdd01ed934527f781aff"
+  },
+  {
+    "old_path": "maps/ratking/shuwang/convex_links.csv",
+    "new_path": "02_鼠王关研究/maps/ratking/shuwang/convex_links.csv",
+    "size": 32,
+    "sha256_before": "cbee9aa2732595e3e180372bf82bf9064058934f65ea68daeb0cde29d6d8e34b"
+  },
+  {
+    "old_path": "maps/ratking/shuwang/render_data.json",
+    "new_path": "02_鼠王关研究/maps/ratking/shuwang/render_data.json",
+    "size": 167588,
+    "sha256_before": "0e90b9538e4057f94d0ed11914dc439528d9e62f8339ca5b5d279d4c9da60edc"
+  },
+  {
+    "old_path": "maps/ratking/shuwang/rooms.json",
+    "new_path": "02_鼠王关研究/maps/ratking/shuwang/rooms.json",
+    "size": 5240,
+    "sha256_before": "9f63e446f3a78858f3235280b848c7e2ca4df11331cd971064e42340e2bd55dc"
+  },
+  {
+    "old_path": "maps/ratking/shuwang/summary.json",
+    "new_path": "02_鼠王关研究/maps/ratking/shuwang/summary.json",
+    "size": 1819,
+    "sha256_before": "9b569970f52ef1bb65176f81bb327f163c6f2cca0ec10c2a7db143fcff8ab57c"
+  },
+  {
+    "old_path": "maps/ratking/shuwang/vga.csv",
+    "new_path": "02_鼠王关研究/maps/ratking/shuwang/vga.csv",
+    "size": 807554,
+    "sha256_before": "0cee77e53a411a1447f57d1710a30a6f6d5309fd55fec29009886e8b12808999"
+  },
+  {
+    "old_path": "maps/ratking/vga_export.txt",
+    "new_path": "02_鼠王关研究/maps/ratking/vga_export.txt",
+    "size": 538538,
+    "sha256_before": "c20cba7867c6ab41781508e8b7b24c6557cc5694216e3ddb87b5aa2b69319be0"
+  },
+  {
+    "old_path": "maps/ratking/vga_points.csv",
+    "new_path": "02_鼠王关研究/maps/ratking/vga_points.csv",
+    "size": 532879,
+    "sha256_before": "13b96647c9097b4d2b642c93e2be5daedb64fbb728f7ee1a07a717970547b069"
+  },
+  {
+    "old_path": "maps/ratking/vga_summary.json",
+    "new_path": "02_鼠王关研究/maps/ratking/vga_summary.json",
+    "size": 1065,
+    "sha256_before": "d8a673d1081546fdcc95aff3dab7c394dcde3d96a8597592aa7fff89a5edebd4"
+  },
+  {
+    "old_path": "runs/ratking_run-001/derived_summary.json",
+    "new_path": "02_鼠王关研究/runs/ratking_run-001/derived_summary.json",
+    "size": 5584,
+    "sha256_before": "49ef83f8e962f21f99e6e125d358136f561a7b1681aa04020f141e967c7b36a4"
+  },
+  {
+    "old_path": "runs/ratking_run-001/events.csv",
+    "new_path": "02_鼠王关研究/runs/ratking_run-001/events.csv",
+    "size": 2646,
+    "sha256_before": "7181f2089195df243605d33f6304a9044bfaef39aff7b381805c64650e87317b"
+  },
+  {
+    "old_path": "runs/ratking_run-001/native_items.tsv",
+    "new_path": "02_鼠王关研究/runs/ratking_run-001/native_items.tsv",
+    "size": 14673,
+    "sha256_before": "e6d48ef5b4d065afcc7450967ed75c785598381ff9c5ffe3ed60ec0b5ce15c06"
+  },
+  {
+    "old_path": "runs/ratking_run-001/raw_vectors.json",
+    "new_path": "02_鼠王关研究/runs/ratking_run-001/raw_vectors.json",
+    "size": 166,
+    "sha256_before": "77efcf9269de5adda4a0ca43b032a59484abdf8ef2359e98a347ce16de9c8cb8"
+  },
+  {
+    "old_path": "runs/ratking_run-001/render_data.json",
+    "new_path": "02_鼠王关研究/runs/ratking_run-001/render_data.json",
+    "size": 8747,
+    "sha256_before": "a39dad8e35169a0b750dbf9d39e2a8edc5138c07f127d45738f6a459d09d541c"
+  },
+  {
+    "old_path": "runs/ratking_run-001/review_needed.csv",
+    "new_path": "02_鼠王关研究/runs/ratking_run-001/review_needed.csv",
+    "size": 1884,
+    "sha256_before": "bce13928a1ca0147c7cddd9861dd2176c4422c8f28b936e3a3cb2a62f4451b12"
+  },
+  {
+    "old_path": "runs/ratking_run-001/route_points.csv",
+    "new_path": "02_鼠王关研究/runs/ratking_run-001/route_points.csv",
+    "size": 4420,
+    "sha256_before": "13a39a153503012f28406f33d9e57e37b7b18bac9ef8f97524bdce58f013c711"
+  },
+  {
+    "old_path": "runs/ratking_run-001/run_manifest.json",
+    "new_path": "02_鼠王关研究/runs/ratking_run-001/run_manifest.json",
+    "size": 3836,
+    "sha256_before": "f99e6f4e122a2d482235e39cfba9977854865879fd10f5cf3ad00788fc37d095"
+  },
+  {
+    "old_path": "runs/ratking_run-001/source_current.tsv",
+    "new_path": "02_鼠王关研究/runs/ratking_run-001/source_current.tsv",
+    "size": 5131,
+    "sha256_before": "90fece6971e9ca7fc3996959df32f2768522de552702f858cb18961d58dd79e8"
+  },
+  {
+    "old_path": "runs/ratking_run-002/events.csv",
+    "new_path": "02_鼠王关研究/runs/ratking_run-002/events.csv",
+    "size": 1375,
+    "sha256_before": "de8a05cdd2e68ab143e5da1a7aa0f3b6ddf65f190b68d86b592d9f90c39eafc5"
+  },
+  {
+    "old_path": "runs/ratking_run-002/render_data.json",
+    "new_path": "02_鼠王关研究/runs/ratking_run-002/render_data.json",
+    "size": 4199,
+    "sha256_before": "02694d3228bb5222e9ef11adbb8c3a3ea224be4db5fa48761ee68578a6d470ed"
+  },
+  {
+    "old_path": "runs/ratking_run-002/route_points.csv",
+    "new_path": "02_鼠王关研究/runs/ratking_run-002/route_points.csv",
+    "size": 1971,
+    "sha256_before": "9d3e9097cafee8bce793fe9017e273ce97205fe35f57d84592b97b896ea169b5"
+  },
+  {
+    "old_path": "runs/ratking_run-002/run_manifest.json",
+    "new_path": "02_鼠王关研究/runs/ratking_run-002/run_manifest.json",
+    "size": 3812,
+    "sha256_before": "948b417430fbfc98be33c0309b8defd326715a4e29819ab59dbb6dd63b039b0b"
+  },
+  {
+    "old_path": "runs/ratking_run-003/events.csv",
+    "new_path": "02_鼠王关研究/runs/ratking_run-003/events.csv",
+    "size": 2016,
+    "sha256_before": "8da928cfb8bc5c94b176e07217cd7fe04c5aa1af80731c9cc5bf191dec138e57"
+  },
+  {
+    "old_path": "runs/ratking_run-003/render_data.json",
+    "new_path": "02_鼠王关研究/runs/ratking_run-003/render_data.json",
+    "size": 6219,
+    "sha256_before": "5baae5b18326b009cbb72bd7772f1c0b37f3bdf695cce255190e0f32c13fa7b1"
+  },
+  {
+    "old_path": "runs/ratking_run-003/route_points.csv",
+    "new_path": "02_鼠王关研究/runs/ratking_run-003/route_points.csv",
+    "size": 2958,
+    "sha256_before": "86b9ac746126098f7b7a05339793d00401af1fd9036fa1c58e16dac023a16ef2"
+  },
+  {
+    "old_path": "runs/ratking_run-003/run_manifest.json",
+    "new_path": "02_鼠王关研究/runs/ratking_run-003/run_manifest.json",
+    "size": 3813,
+    "sha256_before": "e12e3c0b741de8463676cdee7a94e0281f48f5a0e8d4ebc0f59266f52054bc55"
+  },
+  {
+    "old_path": "runs/ratking_run-004/events.csv",
+    "new_path": "02_鼠王关研究/runs/ratking_run-004/events.csv",
+    "size": 2483,
+    "sha256_before": "16f5fcd7e8db05274ff5c7cdd5239fda7211a634345ad7dbb28ab3baa836d05f"
+  },
+  {
+    "old_path": "runs/ratking_run-004/render_data.json",
+    "new_path": "02_鼠王关研究/runs/ratking_run-004/render_data.json",
+    "size": 6797,
+    "sha256_before": "3a23e5e8908093ffcced18faa81bfade5316bcfea8cdc1cdea3327ad97fee1e0"
+  },
+  {
+    "old_path": "runs/ratking_run-004/route_points.csv",
+    "new_path": "02_鼠王关研究/runs/ratking_run-004/route_points.csv",
+    "size": 2867,
+    "sha256_before": "e616ef3803abacf4cbb95f58c9fdfb7f36abaebd4349a7ed469ce4b3981ad9c3"
+  },
+  {
+    "old_path": "runs/ratking_run-004/run_manifest.json",
+    "new_path": "02_鼠王关研究/runs/ratking_run-004/run_manifest.json",
+    "size": 3813,
+    "sha256_before": "c7f43df35c76ce8ba5bf832df524b22a239f0f9e90f2fc3b3bd1924785620886"
+  },
+  {
+    "old_path": "runs/ratking_run-005/events.csv",
+    "new_path": "02_鼠王关研究/runs/ratking_run-005/events.csv",
+    "size": 2056,
+    "sha256_before": "7a7847409011cedf9914522b42fe8eb84a058b7f53a980ac6dc77dcfafb85c67"
+  },
+  {
+    "old_path": "runs/ratking_run-005/render_data.json",
+    "new_path": "02_鼠王关研究/runs/ratking_run-005/render_data.json",
+    "size": 5230,
+    "sha256_before": "b1b705c2a9d0b830f029f5c339e8c142e870d8408388d640e6bacc9a9186b967"
+  },
+  {
+    "old_path": "runs/ratking_run-005/route_points.csv",
+    "new_path": "02_鼠王关研究/runs/ratking_run-005/route_points.csv",
+    "size": 1962,
+    "sha256_before": "f96ab37243fa942087c205d517cc45b931e14ce7d05f2d9501e9bd5511eb2157"
+  },
+  {
+    "old_path": "runs/ratking_run-005/run_manifest.json",
+    "new_path": "02_鼠王关研究/runs/ratking_run-005/run_manifest.json",
+    "size": 3813,
+    "sha256_before": "368e34cb491ae256b0f7bc6c53a200b4214b63beafbaf184b115981c2847db39"
+  },
+  {
+    "old_path": "outputs/native_inventory_001_005.tsv",
+    "new_path": "02_鼠王关研究/outputs/native_inventory_001_005.tsv",
+    "size": 11845,
+    "sha256_before": "3df371e079b92e9e053fb04eb70ffb17d0a1e12a7c86b4c18601ff7483c0590d"
+  },
+  {
+    "old_path": "outputs/native_runs_001_005.tsv",
+    "new_path": "02_鼠王关研究/outputs/native_runs_001_005.tsv",
+    "size": 17768,
+    "sha256_before": "baae3954647ff0aeab9bc282830500de330865f92e15c5b5b26d4b3e33b9211d"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/combat_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/combat_from_edited_ai.png",
+    "size": 98380,
+    "sha256_before": "af40ce91895e10621a9e5dd523adb3951f68b7171d81d79dd7bbcc772db3f8d3"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/combat_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/combat_from_edited_ai.svg",
+    "size": 1376140,
+    "sha256_before": "dfda656e32aa6c15a58802de84143893c8b9755dfc787b6adb66b9196ad036ae"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/convex_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/convex_from_edited_ai.png",
+    "size": 46561,
+    "sha256_before": "a688eb3eb5b5cca210ea66aad84c6bc65501e12404701691bb751835679178d0"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/convex_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/convex_from_edited_ai.svg",
+    "size": 1553480,
+    "sha256_before": "02cbc4abf216c009fff0d1332c9e0ee8594758363d14f3ac0da0bb09a4dda85f"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/events_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/events_from_edited_ai.png",
+    "size": 77779,
+    "sha256_before": "d962ee063c9ff4f9de3102ceba56798315896401c2451d9b72fa5ad4ba3dc231"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/events_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/events_from_edited_ai.svg",
+    "size": 1553393,
+    "sha256_before": "b64528f35ae14082ac14e433da6ba23850531392a08a5b8b105fe4299109eb96"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/figure_export.log",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/figure_export.log",
+    "size": 404,
+    "sha256_before": "55c04750fce502e49c9b159ef432633b9e7cbd38134f3498399fb2c876a2c6a3"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/figure_render.log",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/figure_render.log",
+    "size": 541,
+    "sha256_before": "e137cbe57c95ef77c5c0ece961df1449f0769b1525f3d0a9be9e254c5fef50ae"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/FINDINGS.md",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/FINDINGS.md",
+    "size": 1384,
+    "sha256_before": "791e8194596cc4e0d993a145769c3d67d2a908588b2498a3fa4b7c9a283f52d8"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/gate_counts_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/gate_counts_from_edited_ai.png",
+    "size": 116414,
+    "sha256_before": "62ecc70c3bdcb0210afce0d08ca41d9c24b5dfce3e74dfec50d28f4bfa1c57ac"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/gate_counts_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/gate_counts_from_edited_ai.svg",
+    "size": 1553579,
+    "sha256_before": "c891ed0bd2d3905bf9820a9b9791022100bba24b32b1cf4cabde07d1cc7bbc52"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/icon_audit.tsv",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/icon_audit.tsv",
+    "size": 575,
+    "sha256_before": "2d0ee5ce6aa745434c59dd94d3c0fb82b6851dc3618322e913220998ea6cc8c6"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/illustrator_run.log",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/illustrator_run.log",
+    "size": 46,
+    "sha256_before": "0328d74c4f7008a31f832c0268551f7decc742cb7660b1d757f5f6ec5dee99bb"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/layer_inventory.json",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/layer_inventory.json",
+    "size": 3078,
+    "sha256_before": "3544b8c0dfff84e36bfd0b51e5d895bdaa2900918a751b93ecce618a63389dc3"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/metric_distance_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/metric_distance_from_edited_ai.png",
+    "size": 118310,
+    "sha256_before": "df8952b49bf57fed9daaae16f93d2f41480b54e956e97ef93e5f8178f8d708f4"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/metric_distance_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/metric_distance_from_edited_ai.svg",
+    "size": 1553603,
+    "sha256_before": "b2dce7c59f19f3d42a2875e79282b7f91d531c591004cff45cec0db62c832414"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/movement_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/movement_from_edited_ai.png",
+    "size": 58817,
+    "sha256_before": "87ba50fdfb4b1d48da610b08b91a0ff03d37291e3950a369c3bad3418ad19431"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/movement_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/movement_from_edited_ai.svg",
+    "size": 1554110,
+    "sha256_before": "cb52a03c1b752093fb124587a9cfc7ee919917ac5f7734c59942503815416f57"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/QA_REPORT.md",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/QA_REPORT.md",
+    "size": 1396,
+    "sha256_before": "28712119c889a7b2fa6d7a889e0b04fc63e5eff8428da1ba568c02079fd37c12"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/ratking_run-001_edited.ai",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/ratking_run-001_edited.ai",
+    "size": 697150,
+    "sha256_before": "6092d700db82e632c8ffbb1c16aa3d334dce92cdeb92ba491ec536b098dd9e46"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/ratking_run-002.ai",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/ratking_run-002.ai",
+    "size": 2873225,
+    "sha256_before": "cd41736aa7e8f40a3f62f66ea95a110bc99ab2fd2ce32b071776379e510434cd"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/shuwang_render.log",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/shuwang_render.log",
+    "size": 424,
+    "sha256_before": "ab5837c2073d1f0e170293ce4854562291076d631dba47dc2f53324162221533"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/visibility_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/visibility_from_edited_ai.png",
+    "size": 113640,
+    "sha256_before": "05ccd603b51095b5c173fc744e131ab44855ea652b42800326b8e49debc5071f"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/visibility_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/visibility_from_edited_ai.svg",
+    "size": 1553603,
+    "sha256_before": "6e53ae8075ebc714c022eb7bb8ab0cf27e8719c6bb4baab4507c3af52e868ca4"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/~ai-1755ce6a-1c4f-49bd-bad9-e429397edeca_.tmp",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/~ai-1755ce6a-1c4f-49bd-bad9-e429397edeca_.tmp",
+    "size": 1051988,
+    "sha256_before": "69b77bcd0a426cacafcfecb4fc45ecc1608bb145bc23e1a6a0a644b889e2dfb5"
+  },
+  {
+    "old_path": "outputs/ratking_run-001/~ai-9a3e1627-6b90-4375-be45-d94db4dfcc97_.tmp",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-001/~ai-9a3e1627-6b90-4375-be45-d94db4dfcc97_.tmp",
+    "size": 1056669,
+    "sha256_before": "e15c6d83f13b804bda965f44b360a38e65188234eb504189f374c6b2a6e71ebc"
+  },
+  {
+    "old_path": "outputs/ratking_run-002/convex_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-002/convex_from_edited_ai.png",
+    "size": 42490,
+    "sha256_before": "2b6962e42147aa0b5079226e6409a4686fab89a712764f8491d57f4fb81e4cf2"
+  },
+  {
+    "old_path": "outputs/ratking_run-002/convex_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-002/convex_from_edited_ai.svg",
+    "size": 1527938,
+    "sha256_before": "71934a7a42cfcdde2bf4b04f4d347727a31626db58c67d0d7e0f28e278d10d3d"
+  },
+  {
+    "old_path": "outputs/ratking_run-002/events_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-002/events_from_edited_ai.png",
+    "size": 45393,
+    "sha256_before": "5fcde79318232e6580a3127921505c6f676c8fbeb6d1663d27d2edb74be07ba7"
+  },
+  {
+    "old_path": "outputs/ratking_run-002/events_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-002/events_from_edited_ai.svg",
+    "size": 1528334,
+    "sha256_before": "1be85bb7dcd69d1cfcc777d654560869aa954de8c4646f61380f0b178f07aba7"
+  },
+  {
+    "old_path": "outputs/ratking_run-002/gate_counts_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-002/gate_counts_from_edited_ai.png",
+    "size": 114409,
+    "sha256_before": "bb48c042e8793137531aea0d7727c890f7f58ea7cd12d30e48dd6ed966040f81"
+  },
+  {
+    "old_path": "outputs/ratking_run-002/gate_counts_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-002/gate_counts_from_edited_ai.svg",
+    "size": 1528037,
+    "sha256_before": "13be37c8a40dfac070e7cdadc6eb9488d7a0612447655fd13d90be35adeedecb"
+  },
+  {
+    "old_path": "outputs/ratking_run-002/metric_distance_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-002/metric_distance_from_edited_ai.png",
+    "size": 116312,
+    "sha256_before": "b041ceffd04d57fd351c56b2635f90a02d77029ef09cbb3422c14fc5318c0a1a"
+  },
+  {
+    "old_path": "outputs/ratking_run-002/metric_distance_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-002/metric_distance_from_edited_ai.svg",
+    "size": 1528061,
+    "sha256_before": "9e6a5a05af7103403a4840dfe05ea27c4bdc03be6a6ffd13eab546d630db3819"
+  },
+  {
+    "old_path": "outputs/ratking_run-002/movement_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-002/movement_from_edited_ai.png",
+    "size": 37114,
+    "sha256_before": "4b2181993da2b7b858079a8bc0148ef7b5e23faeefa203c20ba6f12d6ac92b3d"
+  },
+  {
+    "old_path": "outputs/ratking_run-002/movement_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-002/movement_from_edited_ai.svg",
+    "size": 1528373,
+    "sha256_before": "099c7993b5a32dba4472d2e63e8d4bddc6641554ed8e73e7846e6b730b17ad0b"
+  },
+  {
+    "old_path": "outputs/ratking_run-002/QA_REPORT.md",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-002/QA_REPORT.md",
+    "size": 1472,
+    "sha256_before": "85138530fee703d8c4f7733e76a9881ec04183ae2f95de371110e0cee6ede999"
+  },
+  {
+    "old_path": "outputs/ratking_run-002/ratking_run-002_edited.ai",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-002/ratking_run-002_edited.ai",
+    "size": 555086,
+    "sha256_before": "c860e7ee7d1157c9d0401ed6aa3c85c83b587f97d58c5c1681e83d15c4de67f8"
+  },
+  {
+    "old_path": "outputs/ratking_run-002/shuwang_render.log",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-002/shuwang_render.log",
+    "size": 400,
+    "sha256_before": "0a74a2eb376358f2c19ac837fa4e16c00f67f01b2c466ef2973dbeace8d2310f"
+  },
+  {
+    "old_path": "outputs/ratking_run-002/visibility_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-002/visibility_from_edited_ai.png",
+    "size": 111609,
+    "sha256_before": "a32d7d0185fc548dd4804f92390676560683d1406c7cbd4ffe1ad34a1fc423e3"
+  },
+  {
+    "old_path": "outputs/ratking_run-002/visibility_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-002/visibility_from_edited_ai.svg",
+    "size": 1528061,
+    "sha256_before": "1c0ff5d937f4d830986f71833eefc1a37560d7d455824ed0ad4b603511aa9c93"
+  },
+  {
+    "old_path": "outputs/ratking_run-003/convex_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-003/convex_from_edited_ai.png",
+    "size": 42490,
+    "sha256_before": "fee76f017eece03965cc69c3d19aefea12c91f88246cb10cd0ce029796df6ca3"
+  },
+  {
+    "old_path": "outputs/ratking_run-003/convex_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-003/convex_from_edited_ai.svg",
+    "size": 1540351,
+    "sha256_before": "6eeff68e527fd1ea3abd7b62e5d861b1c98bab190454d345d737485a54529791"
+  },
+  {
+    "old_path": "outputs/ratking_run-003/events_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-003/events_from_edited_ai.png",
+    "size": 65991,
+    "sha256_before": "71ed08e3c260e76ffff6279fee880133dbeb80b617abe2eb1d9c1972c14090ee"
+  },
+  {
+    "old_path": "outputs/ratking_run-003/events_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-003/events_from_edited_ai.svg",
+    "size": 1540603,
+    "sha256_before": "375ea6bf13111a58c45f8b2919c4960f71c87f43d20b94939f27b0398196168f"
+  },
+  {
+    "old_path": "outputs/ratking_run-003/gate_counts_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-003/gate_counts_from_edited_ai.png",
+    "size": 114408,
+    "sha256_before": "7fb2dc46866020e937996625472d1dc5915aef4bf7febb05def104ad67b1a232"
+  },
+  {
+    "old_path": "outputs/ratking_run-003/gate_counts_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-003/gate_counts_from_edited_ai.svg",
+    "size": 1540450,
+    "sha256_before": "62ad19bd59f2fa3a19c1311bdb0bac0ebcfa44c371aa49c70077e9d52e1e5a9f"
+  },
+  {
+    "old_path": "outputs/ratking_run-003/metric_distance_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-003/metric_distance_from_edited_ai.png",
+    "size": 116312,
+    "sha256_before": "1451a12bbbd6ca00f5d05cfb486eaf5ee105c31d93a693c9647811a58a1c1ffe"
+  },
+  {
+    "old_path": "outputs/ratking_run-003/metric_distance_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-003/metric_distance_from_edited_ai.svg",
+    "size": 1540474,
+    "sha256_before": "7530a6781d0d4db583a6c057991400b78e3af1567c5838271d7a659ecda073ef"
+  },
+  {
+    "old_path": "outputs/ratking_run-003/movement_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-003/movement_from_edited_ai.png",
+    "size": 50194,
+    "sha256_before": "f4d921135488b81d23b71d0b901bf4df4bec013eeac78a66ac829083272d54d4"
+  },
+  {
+    "old_path": "outputs/ratking_run-003/movement_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-003/movement_from_edited_ai.svg",
+    "size": 1540786,
+    "sha256_before": "2ae9c80b6bdcfe0315fc8b606eb6f80da1ba391f5814839dff20eef908a81eb5"
+  },
+  {
+    "old_path": "outputs/ratking_run-003/QA_REPORT.md",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-003/QA_REPORT.md",
+    "size": 1222,
+    "sha256_before": "dcb1ae1b981737c5dd090824f1b11e2628a7616ca994bf4cd09a7627c5764380"
+  },
+  {
+    "old_path": "outputs/ratking_run-003/ratking_run-003_edited.ai",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-003/ratking_run-003_edited.ai",
+    "size": 567339,
+    "sha256_before": "d8ed0e50f880b892dda5ca3d52a9c9b6bdbad778a334cdeab0429b048261284c"
+  },
+  {
+    "old_path": "outputs/ratking_run-003/shuwang_render.log",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-003/shuwang_render.log",
+    "size": 401,
+    "sha256_before": "c8fd95bb8ccf678f374b422a8e148d911753bd3fdced9a73d08ddeecd7d3690c"
+  },
+  {
+    "old_path": "outputs/ratking_run-003/visibility_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-003/visibility_from_edited_ai.png",
+    "size": 111608,
+    "sha256_before": "23bc84f188ae63fcbd6b6019c23a110adad7e5bfdbd2d7c8d06e6119d938bdfa"
+  },
+  {
+    "old_path": "outputs/ratking_run-003/visibility_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-003/visibility_from_edited_ai.svg",
+    "size": 1540474,
+    "sha256_before": "c3318f2a24077d7201339ae292a176c7e9c86e0d8a6cc3e657c3dd7fbcbb5d66"
+  },
+  {
+    "old_path": "outputs/ratking_run-004/convex_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-004/convex_from_edited_ai.png",
+    "size": 46578,
+    "sha256_before": "33c8ee7dd4d626734f688627ce83119de6c580b940aa009334110229451c1912"
+  },
+  {
+    "old_path": "outputs/ratking_run-004/convex_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-004/convex_from_edited_ai.svg",
+    "size": 1547028,
+    "sha256_before": "12d8a26aa915d99c3cebda269689a6aaf1079250c9148eb15bd8707e2d05ac61"
+  },
+  {
+    "old_path": "outputs/ratking_run-004/events_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-004/events_from_edited_ai.png",
+    "size": 72224,
+    "sha256_before": "3df91b4795da956da71e5da26f6e3cf84480b97d77a3665a37c969ef6006006e"
+  },
+  {
+    "old_path": "outputs/ratking_run-004/events_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-004/events_from_edited_ai.svg",
+    "size": 1546989,
+    "sha256_before": "26cd93b579a7b50105d265d2bc9573bde7c4e7c180412e176bd1c6ba82592eea"
+  },
+  {
+    "old_path": "outputs/ratking_run-004/gate_counts_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-004/gate_counts_from_edited_ai.png",
+    "size": 116430,
+    "sha256_before": "126ff796ab650865e98612b8e85194b8ea34c7f9c32bed2e50df5d23b3c19b27"
+  },
+  {
+    "old_path": "outputs/ratking_run-004/gate_counts_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-004/gate_counts_from_edited_ai.svg",
+    "size": 1547127,
+    "sha256_before": "4c3e98c50a0e507ffd49aae8e02ffcf17ff0577e4600d6442ad61dfcf07b54a7"
+  },
+  {
+    "old_path": "outputs/ratking_run-004/metric_distance_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-004/metric_distance_from_edited_ai.png",
+    "size": 118325,
+    "sha256_before": "dace62f8e371e9703799a62da0f5a7eb31a37a052f7724f9b992307cc87bbc41"
+  },
+  {
+    "old_path": "outputs/ratking_run-004/metric_distance_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-004/metric_distance_from_edited_ai.svg",
+    "size": 1547151,
+    "sha256_before": "cce7c19a576b9e1da005689d0281d301869afb8be4a518aa22cad46818151e3b"
+  },
+  {
+    "old_path": "outputs/ratking_run-004/movement_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-004/movement_from_edited_ai.png",
+    "size": 53128,
+    "sha256_before": "5ca6034eab813a8f42ee7c4b8342e66d583c103808aba3bedb8155004e34d618"
+  },
+  {
+    "old_path": "outputs/ratking_run-004/movement_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-004/movement_from_edited_ai.svg",
+    "size": 1547658,
+    "sha256_before": "9dd13164ee083391cc501ad3f6a8e4e1e48dc2233ec4692a5400d3b4a8ed39ef"
+  },
+  {
+    "old_path": "outputs/ratking_run-004/QA_REPORT.md",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-004/QA_REPORT.md",
+    "size": 1222,
+    "sha256_before": "66805288d6bb49092fe114d6061d3243b3625e3703e215fb1f5d5de1c3b67fcc"
+  },
+  {
+    "old_path": "outputs/ratking_run-004/ratking_run-004_edited.ai",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-004/ratking_run-004_edited.ai",
+    "size": 568630,
+    "sha256_before": "814869fa70d7a78bc2e1abdc8bee3dc36cafe66e7a8e71556344a248fcd51049"
+  },
+  {
+    "old_path": "outputs/ratking_run-004/shuwang_render.log",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-004/shuwang_render.log",
+    "size": 400,
+    "sha256_before": "c2a19454f1889e611661ce9d19b1047877464e64f3fa8f3436d51359a15c8a97"
+  },
+  {
+    "old_path": "outputs/ratking_run-004/visibility_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-004/visibility_from_edited_ai.png",
+    "size": 113656,
+    "sha256_before": "a158d337e55649770a718d20ee330101ae4d5644312fce57b5d6f1da6600358a"
+  },
+  {
+    "old_path": "outputs/ratking_run-004/visibility_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-004/visibility_from_edited_ai.svg",
+    "size": 1547151,
+    "sha256_before": "683bf055f8ad9a878602470c2b1309351879e08664e7cf735466c2fbcb95e1be"
+  },
+  {
+    "old_path": "outputs/ratking_run-005/convex_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-005/convex_from_edited_ai.png",
+    "size": 46618,
+    "sha256_before": "cdcf82a88604841403c6ecdcde6c9bdfe9345451ddc161bf037eb7e486237249"
+  },
+  {
+    "old_path": "outputs/ratking_run-005/convex_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-005/convex_from_edited_ai.svg",
+    "size": 1538550,
+    "sha256_before": "00d9ff15e40c729b953f539a00f6384cc034b1ade518d1f0db5f802b1b029416"
+  },
+  {
+    "old_path": "outputs/ratking_run-005/events_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-005/events_from_edited_ai.png",
+    "size": 59264,
+    "sha256_before": "386f947702299a7302efc84815cfaf09ccfebbebd7ed21be57ca6b52063ddc17"
+  },
+  {
+    "old_path": "outputs/ratking_run-005/events_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-005/events_from_edited_ai.svg",
+    "size": 1538607,
+    "sha256_before": "2b91144ef8d8bbf7f60598cb7fdfa6faf6fed1e08701988f3f7b9990c8e1c0a9"
+  },
+  {
+    "old_path": "outputs/ratking_run-005/gate_counts_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-005/gate_counts_from_edited_ai.png",
+    "size": 116593,
+    "sha256_before": "f46ce24e910c5d7127843106ed1e4da16d3698170e975dccaa9d2e32209ffd1c"
+  },
+  {
+    "old_path": "outputs/ratking_run-005/gate_counts_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-005/gate_counts_from_edited_ai.svg",
+    "size": 1538649,
+    "sha256_before": "610c0148fc9ee38530cbb9e2bb074cc4a2a63b1ca5ae1fc03d7c9a7cc7327c8e"
+  },
+  {
+    "old_path": "outputs/ratking_run-005/metric_distance_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-005/metric_distance_from_edited_ai.png",
+    "size": 118454,
+    "sha256_before": "7a741999b7d57516346d31f43df823374d458816c10516f2a70b1f5f9ca7cc2a"
+  },
+  {
+    "old_path": "outputs/ratking_run-005/metric_distance_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-005/metric_distance_from_edited_ai.svg",
+    "size": 1538673,
+    "sha256_before": "a89fc0f771fbe6c2ed617d292bd96a55f7db6e7bbc1ca4899c1b7bcdf9e7ee5f"
+  },
+  {
+    "old_path": "outputs/ratking_run-005/movement_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-005/movement_from_edited_ai.png",
+    "size": 46272,
+    "sha256_before": "1ca3a4e9a3a64d084938f37b1e7ba7d24da766ab3fdb471952bbabb19ea2df90"
+  },
+  {
+    "old_path": "outputs/ratking_run-005/movement_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-005/movement_from_edited_ai.svg",
+    "size": 1539180,
+    "sha256_before": "2f7875decff4293807e0c24d26490a6d212f43a5ce3b92cb75141841419396fc"
+  },
+  {
+    "old_path": "outputs/ratking_run-005/QA_REPORT.md",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-005/QA_REPORT.md",
+    "size": 1222,
+    "sha256_before": "daa1399bca435e2aed32393e508150002690ef47ee24463d67bae0db19bd61d8"
+  },
+  {
+    "old_path": "outputs/ratking_run-005/ratking_run-005_edited.ai",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-005/ratking_run-005_edited.ai",
+    "size": 920150,
+    "sha256_before": "187285cb59e01e057773d779cc3b725bcc63aed96632d33627b4a74224e1e935"
+  },
+  {
+    "old_path": "outputs/ratking_run-005/shuwang_render.log",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-005/shuwang_render.log",
+    "size": 401,
+    "sha256_before": "2236465e97604c003c11afc90b4664a18423587a9268515a98cbde9c934d15e4"
+  },
+  {
+    "old_path": "outputs/ratking_run-005/visibility_from_edited_ai.png",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-005/visibility_from_edited_ai.png",
+    "size": 113769,
+    "sha256_before": "7e99c371259232699ecf0f9dfb82b6f05621259b60cf567bd3d44d56a4da311b"
+  },
+  {
+    "old_path": "outputs/ratking_run-005/visibility_from_edited_ai.svg",
+    "new_path": "02_鼠王关研究/outputs/ratking_run-005/visibility_from_edited_ai.svg",
+    "size": 1538673,
+    "sha256_before": "0da66d59fd708e2eda8adae0af476cf150e75117aeb9cd82d4b61f7c53d8cf01"
+  },
+  {
+    "old_path": "prompts/compare-runs.md",
+    "new_path": "02_鼠王关研究/prompts/compare-runs.md",
+    "size": 846,
+    "sha256_before": "a8891de30f1c8c262c1104879eefb346ba042385e5d82117c5349c3d7ed650a4"
+  },
+  {
+    "old_path": "prompts/first-run.md",
+    "new_path": "02_鼠王关研究/prompts/first-run.md",
+    "size": 1219,
+    "sha256_before": "fef253b16f39dc3b3082bb2712679ab6d26663b6dcad8ea04d25106735da0a89"
+  },
+  {
+    "old_path": "prompts/new-run.md",
+    "new_path": "02_鼠王关研究/prompts/new-run.md",
+    "size": 961,
+    "sha256_before": "9bc51141d4647fbc9dbbd5d5584b1cd103fad3589e67021ae303c87a180840e7"
+  },
+  {
+    "old_path": "tools/__pycache__/register_depthmap.cpython-313.pyc",
+    "new_path": "02_鼠王关研究/tools/__pycache__/register_depthmap.cpython-313.pyc",
+    "size": 19136,
+    "sha256_before": "965f32a103a00629f8f6b1c99454ea5d4e7787b89021510b9879feaaf7bbf7c3"
+  },
+  {
+    "old_path": "tools/build_illustrator_script.py",
+    "new_path": "02_鼠王关研究/tools/build_illustrator_script.py",
+    "size": 3649,
+    "sha256_before": "40e214fa3611189299612059657278bb6ffe33a0f8cecb1ad9f62f0ba516b10c"
+  },
+  {
+    "old_path": "tools/build_repair_cad_ai.py",
+    "new_path": "02_鼠王关研究/tools/build_repair_cad_ai.py",
+    "size": 491,
+    "sha256_before": "94aafff1e2c62c9fbf061c59a02ccdf1874a18cd170d2e0b9a9d3b8758412837"
+  },
+  {
+    "old_path": "tools/build_shuwang_jsx.py",
+    "new_path": "02_鼠王关研究/tools/build_shuwang_jsx.py",
+    "size": 942,
+    "sha256_before": "759fc9902320b971c55ede3303346bca356756821b3efb3b768401ac00bf566b"
+  },
+  {
+    "old_path": "tools/calibrate_gate_palette.py",
+    "new_path": "02_鼠王关研究/tools/calibrate_gate_palette.py",
+    "size": 4788,
+    "sha256_before": "2ccda7b69a90a4546a4dfb4110802b8b3a30045a655c8a86567c9b9cb4d251c7"
+  },
+  {
+    "old_path": "tools/check_illustrator_com.ps1",
+    "new_path": "02_鼠王关研究/tools/check_illustrator_com.ps1",
+    "size": 313,
+    "sha256_before": "2bd51852fb1ecb899a584e09f5c5a285aa625d57356e97be9a204cfaa4ecfa0a"
+  },
+  {
+    "old_path": "tools/check_source_001.jsx",
+    "new_path": "02_鼠王关研究/tools/check_source_001.jsx",
+    "size": 1068,
+    "sha256_before": "a3abea8f919cf864655aab522b63bbca08c167696989296b0bbb6e3da64b0b2b"
+  },
+  {
+    "old_path": "tools/export_figure_views.jsx",
+    "new_path": "02_鼠王关研究/tools/export_figure_views.jsx",
+    "size": 2392,
+    "sha256_before": "fcb8c48276d0b6dbad85e77f270200d01bee16615a8b8e234d968a365b769b83"
+  },
+  {
+    "old_path": "tools/extract_run_items.jsx",
+    "new_path": "02_鼠王关研究/tools/extract_run_items.jsx",
+    "size": 1469,
+    "sha256_before": "25701095e35683699d66c660b6ebb68a608368142e78e85934deca9f57a0ef14"
+  },
+  {
+    "old_path": "tools/finalize_first_run.py",
+    "new_path": "02_鼠王关研究/tools/finalize_first_run.py",
+    "size": 4144,
+    "sha256_before": "6d74186ae6a4a2801fb6c302a502c5d7bc18a389f0c47b53f94a1846cf5af506"
+  },
+  {
+    "old_path": "tools/finalize_shuwang.py",
+    "new_path": "02_鼠王关研究/tools/finalize_shuwang.py",
+    "size": 6669,
+    "sha256_before": "772726562260b8a7db17687d8ac519399f867c50300acae7341931cb78fd6f91"
+  },
+  {
+    "old_path": "tools/inspect_depthmap_raster.py",
+    "new_path": "02_鼠王关研究/tools/inspect_depthmap_raster.py",
+    "size": 1084,
+    "sha256_before": "6df22fe7b8f0a0ed4bdbafa920128911c9b8159df7c1b01562a1310a777d3715"
+  },
+  {
+    "old_path": "tools/inspect_native_ai.jsx",
+    "new_path": "02_鼠王关研究/tools/inspect_native_ai.jsx",
+    "size": 825,
+    "sha256_before": "a5e373e6d0642da7991a129d26802a9b57a26b26df44462a380e115a6ff1ef2d"
+  },
+  {
+    "old_path": "tools/inventory_new_runs.jsx",
+    "new_path": "02_鼠王关研究/tools/inventory_new_runs.jsx",
+    "size": 1013,
+    "sha256_before": "2e0b30f88a4d10bf8e040491c9a539a5ad069ab8cc1bb232870b78299a65e725"
+  },
+  {
+    "old_path": "tools/order_events_along_route.py",
+    "new_path": "02_鼠王关研究/tools/order_events_along_route.py",
+    "size": 4464,
+    "sha256_before": "df53733645556e96ac486d008b854fc0d788483edb8940b449f1723887b95cf3"
+  },
+  {
+    "old_path": "tools/prepare_shuwang_runs.py",
+    "new_path": "02_鼠王关研究/tools/prepare_shuwang_runs.py",
+    "size": 9630,
+    "sha256_before": "0157174543da6a0122ca8a2553b78e8c2ae9d923dbe7b3219f1f8afd25c3f17d"
+  },
+  {
+    "old_path": "tools/ratking_figure_template.jsx",
+    "new_path": "02_鼠王关研究/tools/ratking_figure_template.jsx",
+    "size": 13176,
+    "sha256_before": "6d18200bb7cc77d794bf8bce2f8ba9a4057443583841df46295106de354bf749"
+  },
+  {
+    "old_path": "tools/register_depthmap.py",
+    "new_path": "02_鼠王关研究/tools/register_depthmap.py",
+    "size": 10928,
+    "sha256_before": "cff58938c1c85dd1f232c14a467c022b62c41f8e17e03fdd79673b5695132d2e"
+  },
+  {
+    "old_path": "tools/render_ratking.jsx",
+    "new_path": "02_鼠王关研究/tools/render_ratking.jsx",
+    "size": 93941,
+    "sha256_before": "0ca74771f05432247e6c31832ef5c617e2f4b5c0f01e2acdc2aeeeca5cef7fe9"
+  },
+  {
+    "old_path": "tools/render_shuwang.jsx",
+    "new_path": "02_鼠王关研究/tools/render_shuwang.jsx",
+    "size": 209912,
+    "sha256_before": "69ab33a12bd361db1c84b33a322c9aa298c994ce77ba8cc019181a6f3802eeae"
+  },
+  {
+    "old_path": "tools/render_shuwang_template.jsx",
+    "new_path": "02_鼠王关研究/tools/render_shuwang_template.jsx",
+    "size": 11061,
+    "sha256_before": "e613d1717a51d61800a832bdea0fd9f6b3b2ff8fb361569b036db2ef16a441cd"
+  },
+  {
+    "old_path": "tools/repair_cad_ai.jsx",
+    "new_path": "02_鼠王关研究/tools/repair_cad_ai.jsx",
+    "size": 4206,
+    "sha256_before": "2885a33364cc5106d0816be69f714bd11f52d07210598039f47bf632d0f2cb16"
+  },
+  {
+    "old_path": "tools/repair_cad_ai_template.jsx",
+    "new_path": "02_鼠王关研究/tools/repair_cad_ai_template.jsx",
+    "size": 1805,
+    "sha256_before": "406a37ac165c71c5a41c8f50e06f769aa35c6762fabfd9f11d1f2d60c5fd0f40"
+  },
+  {
+    "old_path": "tools/revise_first_run.py",
+    "new_path": "02_鼠王关研究/tools/revise_first_run.py",
+    "size": 8001,
+    "sha256_before": "b038b08a525bc093ef1045a4823890f79cacd71723af94367590748f62295f67"
+  },
+  {
+    "old_path": "tools/route_paths.py",
+    "new_path": "02_鼠王关研究/tools/route_paths.py",
+    "size": 1277,
+    "sha256_before": "739b4bd72d1ddf17d0b8e30f5f7c68eeb1d124eea9b39e810d9f5075d8f31dae"
+  },
+  {
+    "old_path": "tools/run_illustrator.vbs",
+    "new_path": "02_鼠王关研究/tools/run_illustrator.vbs",
+    "size": 919,
+    "sha256_before": "975aa33cd37765160b8a4fe607d09fcbd28f26c0d9fdda77a12e068511da91d4"
+  },
+  {
+    "old_path": "tools/summarize_first_run.py",
+    "new_path": "02_鼠王关研究/tools/summarize_first_run.py",
+    "size": 3617,
+    "sha256_before": "665544e0d44c80991c112bbda6163afcd70bed672359bf7dab405fd2a889ddd4"
+  },
+  {
+    "old_path": "tools/verify_illustrator.vbs",
+    "new_path": "02_鼠王关研究/tools/verify_illustrator.vbs",
+    "size": 705,
+    "sha256_before": "357937c81d1a5ff209b94c148cab26f73ad0efc7b27706af5b9492ba80171633"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.combat-phase1-stage/AGENTS.md",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.combat-phase1-stage/AGENTS.md",
+    "size": 4259,
+    "sha256_before": "39f9d04439bbadab5fc67d99f17d04565884dc8801840f914b08d44df3e25b6b"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/.gitignore",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/.gitignore",
+    "size": 13,
+    "sha256_before": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/__init__.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/__init__.py",
+    "size": 117,
+    "sha256_before": "328ba38347ab499bc30b7f9a71d256c7bb283a9a6e36c688d35c924f05047e2e"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/audit.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/audit.py",
+    "size": 2502,
+    "sha256_before": "3f466c0427f29f5cd34aecc8a8749e50da980797e1279a5980bfb20a530e446a"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/contracts.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/contracts.py",
+    "size": 6382,
+    "sha256_before": "65a7eb41928a9e20afcea1cd977ca9c660b340b1ecf3f7b2746a12f3b62f55d4"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/fixtures.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/fixtures.py",
+    "size": 1622,
+    "sha256_before": "3f455ea6b9faeecb87998e515bdd06fce479c53a6126da373487e634c3e6274d"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/scoring.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/scoring.py",
+    "size": 9696,
+    "sha256_before": "80c07fa4f2973b59bb6ef1541ea5974fd6e9e263c9676999889d19835089ae20"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/scoring_config.json",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/scoring_config.json",
+    "size": 2119,
+    "sha256_before": "365c1a0c01b2dfd625a70a0c057d58c71fdc25b72d380c3bf34569bff65cce90"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/spatial.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/spatial.py",
+    "size": 3459,
+    "sha256_before": "f0da7474c15c734e06a89ffce875793d2ae1007a7da25330fe3482e52a81da83"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/test_contracts.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/test_contracts.py",
+    "size": 3017,
+    "sha256_before": "a452c1b5c899f37db4003ac21c5f4cfe0ca93aee721779b9ca82f27604054af3"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/test_scoring.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/test_scoring.py",
+    "size": 4171,
+    "sha256_before": "a5313b204018be0cbbfe65f5cc9547cf44ca11efebca0bc08590f34bece1994c"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/test_spatial.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.combat-phase1-stage/combat_pcg/test_spatial.py",
+    "size": 1994,
+    "sha256_before": "25dabfead2fe4b212cc8e61fa0659a46b970e58f205973aa89afe8c39a26784d"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.combat-phase1-stage/PLANS.md",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.combat-phase1-stage/PLANS.md",
+    "size": 14056,
+    "sha256_before": "9eb71afd8da11fbd112c8fbf789c375f856985fe45884c033fa5284e583e76b1"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.combat-phase1-stage/PROGRESS.md",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.combat-phase1-stage/PROGRESS.md",
+    "size": 4511,
+    "sha256_before": "d4636e88b39e2e96cd80a19ef843067be02e3397d7b2d286ebef95fd8d7fcb80"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.combat-phase1-stage/reports/combat_v3/DATA_CONTRACT.md",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.combat-phase1-stage/reports/combat_v3/DATA_CONTRACT.md",
+    "size": 2665,
+    "sha256_before": "60224d0fbece33e7cc4cfef6d84272c5b059589a0b462a70810c67a447f19e93"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.combat-phase1-stage/reports/combat_v3/REUSE_AUDIT.md",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.combat-phase1-stage/reports/combat_v3/REUSE_AUDIT.md",
+    "size": 4150,
+    "sha256_before": "83973f58b22fc20f3e73e546904d325e383fe8592c5741787283081f233151f5"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.combat-phase1-stage/reports/combat_v3/SCORING_SPEC.md",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.combat-phase1-stage/reports/combat_v3/SCORING_SPEC.md",
+    "size": 8131,
+    "sha256_before": "f86067a590b0cdfcd593dcf04b0523b4a0991d71f37209aa6f04e590c7d58b5c"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.full-pcg-stage/configs/full_pcg_v2.json",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.full-pcg-stage/configs/full_pcg_v2.json",
+    "size": 447,
+    "sha256_before": "10a6bcf145fd3a9ea8d5aa08308bdaa1603ab5b15b37efa7b8c1d6a6f67900f1"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.full-pcg-stage/full_pcg/__init__.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.full-pcg-stage/full_pcg/__init__.py",
+    "size": 100,
+    "sha256_before": "f5ab9888d9963b97937df058413ab1dab368f5f45e2d411680977b1d62932704"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.full-pcg-stage/full_pcg/__main__.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.full-pcg-stage/full_pcg/__main__.py",
+    "size": 2154,
+    "sha256_before": "45541c396ae1fe69c3aa29dae6d28cb7bc905dbb7cc6570f5d8dfc9956ff1e56"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.full-pcg-stage/full_pcg/calibration.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.full-pcg-stage/full_pcg/calibration.py",
+    "size": 5730,
+    "sha256_before": "2b9525da9ce6c387425134ad5f3400f02baa65d8e2a7f1dd69d8287c3e134d02"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.full-pcg-stage/full_pcg/common.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.full-pcg-stage/full_pcg/common.py",
+    "size": 551,
+    "sha256_before": "48acd0814926c9e7eaad0b3a9587f4ec9d87f2e15a13df7e834580ed76fc7b9a"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.full-pcg-stage/full_pcg/geometric_graph.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.full-pcg-stage/full_pcg/geometric_graph.py",
+    "size": 2412,
+    "sha256_before": "e56a687315e7505e34353478d2534c35ac08563c1218b3ddc84111f6074f2aba"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.full-pcg-stage/full_pcg/geometry.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.full-pcg-stage/full_pcg/geometry.py",
+    "size": 9765,
+    "sha256_before": "2943d92adf57e25e605b890abdb867589020fc70eea4cdcc31f0b427999678f5"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.full-pcg-stage/full_pcg/navigation.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.full-pcg-stage/full_pcg/navigation.py",
+    "size": 881,
+    "sha256_before": "651d38501ab345eaac2f1e5cfa86491bb68148600be3338496040c58a119d6d4"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.full-pcg-stage/full_pcg/operators.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.full-pcg-stage/full_pcg/operators.py",
+    "size": 6948,
+    "sha256_before": "195e090eb94e755430507a6def343ce6a4c1058ad6037cd7ef2d4dff84e562af"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.full-pcg-stage/full_pcg/README.md",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.full-pcg-stage/full_pcg/README.md",
+    "size": 860,
+    "sha256_before": "5e73142b2dfd7d187de23dd3bfc16dea1a7bb9342f336f4bd8d9308cd2edf42c"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.full-pcg-stage/full_pcg/STATUS.md",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.full-pcg-stage/full_pcg/STATUS.md",
+    "size": 2841,
+    "sha256_before": "739bb5cc843575f98f0999c67654f9ea8399f04ab6835216a061b1df84b386ea"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.full-pcg-stage/full_pcg/test_core.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.full-pcg-stage/full_pcg/test_core.py",
+    "size": 2431,
+    "sha256_before": "d084e209d03b2a0ddbb3aac20a8354f8e20601a9fa167953027cdba00ee80595"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.full-pcg-stage/full_pcg/topology.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.full-pcg-stage/full_pcg/topology.py",
+    "size": 3738,
+    "sha256_before": "5261e1f069dc33841703b6de87c7a9a0cb5dbb1ed4d9629db5bdb5d6d0fad094"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.full-pcg-stage/full_pcg/validation.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.full-pcg-stage/full_pcg/validation.py",
+    "size": 3737,
+    "sha256_before": "e1473d9fd9b64819472a8b401d575bf04d228983811a8709481b3e936e2174a3"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/.full-pcg-stage/full_pcg/visualize.py",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/.full-pcg-stage/full_pcg/visualize.py",
+    "size": 1514,
+    "sha256_before": "bbbf59564efa4decd4748105b635e5c141b2ea2ad642bb715ff37e7d64e633e6"
+  },
+  {
+    "old_path": "archive/staging/2026-11-20/README.md",
+    "new_path": "02_鼠王关研究/archive/staging/2026-11-20/README.md",
+    "size": 509,
+    "sha256_before": "527b6aa5fe96be8fd8533265ec0105debf10f7a047734179b5c906c121aa9aa8"
+  },
+  {
+    "old_path": "source/001/2026-11-14 20-03-35.mp4",
+    "new_path": "02_鼠王关研究/source/video/001/2026-11-14 20-03-35.mp4",
+    "size": 437160478,
+    "sha256_before": "202a92afd34eb7785b3a0b55604e64295f913fcd81aedded014d2c228f88ad80"
+  },
+  {
+    "old_path": "鼠王关玩家路线图001.ai",
+    "new_path": "02_鼠王关研究/source/illustrator/鼠王关玩家路线图001.ai",
+    "size": 625551,
+    "sha256_before": "97797773f7d4b45d799396be8078b4d936498017de367889bd9cf3e8ce0f0aaa"
+  },
+  {
+    "old_path": "003_.ai",
+    "new_path": "02_鼠王关研究/source/illustrator/003_.ai",
+    "size": 2719674,
+    "sha256_before": "87efa188be290159e112bc712d3323e4903d7094324431c4000c43f84d6a61d8"
+  },
+  {
+    "old_path": "002.ai",
+    "new_path": "02_鼠王关研究/source/illustrator/002.ai",
+    "size": 2732202,
+    "sha256_before": "048fd93c63e94a0c8a21c9f4ac6b7b4905a23cd8e0cf00e672ba22fa3571957c"
+  },
+  {
+    "old_path": "005_.ai",
+    "new_path": "02_鼠王关研究/source/illustrator/005_.ai",
+    "size": 2718130,
+    "sha256_before": "7fe3d0b500ee9edd891412977fdeddbbf308500253c28d8107fc51c11dde74e4"
+  },
+  {
+    "old_path": "004.ai",
+    "new_path": "02_鼠王关研究/source/illustrator/004.ai",
+    "size": 2719873,
+    "sha256_before": "b45832fc25f441a9e655eaeca1b8e9407327542ef13f32a938ea64baebe7a466"
+  },
+  {
+    "old_path": "鼠王关.dwg",
+    "new_path": "02_鼠王关研究/source/cad/鼠王关.dwg",
+    "size": 37547,
+    "sha256_before": "26ae67a5dff473f96b153c77db8253b4e25a8274fd6e69a3decc620dc936e5b9"
+  },
+  {
+    "old_path": "鼠王关.dxf",
+    "new_path": "02_鼠王关研究/source/cad/鼠王关.dxf",
+    "size": 152388,
+    "sha256_before": "73c11ed96449e98648236d5549c9e1a15796bfb5c978de993baca7a31b33bff1"
+  },
+  {
+    "old_path": "鼠王关.bak",
+    "new_path": "02_鼠王关研究/source/cad/backups/鼠王关.bak",
+    "size": 42021,
+    "sha256_before": "a9c044e573be6b34405b756bf7d77221099c4e5377244eb5bbb1813905b9c499"
+  },
+  {
+    "old_path": "shuwang.graph",
+    "new_path": "02_鼠王关研究/source/depthmap/shuwang.graph",
+    "size": 4690331,
+    "sha256_before": "103c65634720498ec2f71e42b5b4c21091d0c4a5e27ee728418733794790c049"
+  },
+  {
+    "old_path": "shuwangguan.graph",
+    "new_path": "02_鼠王关研究/source/depthmap/history/shuwangguan.graph",
+    "size": 5043361,
+    "sha256_before": "1e7d74528e54af9709e801085e6546eed123d15f208ecb1fed38d7f5fa785920"
+  },
+  {
+    "old_path": "build_ratking.py",
+    "new_path": "02_鼠王关研究/tools/build_ratking.py",
+    "size": 12755,
+    "sha256_before": "4b44b8d2f76d8c8f03afa6895a2dfd0fbef60c052855f4df7f7607c679acf696"
+  },
+  {
+    "old_path": "inspect_route_pdf.py",
+    "new_path": "02_鼠王关研究/tools/inspect_route_pdf.py",
+    "size": 815,
+    "sha256_before": "af94611ac49858f2b1ccd8b4b0a13eb94f50e64ac32ff632bb20e63c830a5200"
+  },
+  {
+    "old_path": "RatKing_Space_Syntax_PCG_Codex_Brief.md",
+    "new_path": "02_鼠王关研究/docs/history/RatKing_Space_Syntax_PCG_Codex_Brief.md",
+    "size": 13133,
+    "sha256_before": "73fa0ec4a8920c5825fb9eb8ae0d11e41a419f4dc578d64ca3e1a780d83acb40"
+  },
+  {
+    "old_path": "AGENTS_SNIPPET.md",
+    "new_path": "02_鼠王关研究/docs/history/AGENTS_SNIPPET.md",
+    "size": 952,
+    "sha256_before": "8c637228ea89ce2d95665e3fbfca5e9938cf831b33e444cb3ca68ec39565a220"
+  }
+]

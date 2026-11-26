@@ -1,0 +1,13 @@
+﻿run_id,event_id,source_layer,source_object_id,x_ai,y_ai,route_distance_ai_pt,route_offset_ai_pt,timestamp_s,order_status
+ratking_run-002,E001,Spawn,7785,676.949549293086,864.705861101844,0.0,15.711,,candidate_geometry
+ratking_run-002,E002,Flamethrower,7765,718.010816443309,865.502889313931,25.136,3.388,,candidate_geometry
+ratking_run-002,E003,Pipe Bomb,7769,884.144475111356,849.247865067261,192.134,0.0,,candidate_geometry
+ratking_run-002,E004,Pipe Bomb,7770,937.253365395673,847.734176787093,245.172,3.132,,candidate_geometry
+ratking_run-002,E005,Shotgun,7774,1144.89748274465,734.382643482704,562.726,0.221,,candidate_geometry
+ratking_run-002,E006,Transform,7762,1372.40492968154,528.405289749309,947.073,33.721,,candidate_geometry
+ratking_run-002,E007,Transform,7761,1399.38970579798,587.214642751096,975.118,24.057,,candidate_geometry
+ratking_run-002,E008,Shotgun,7777,1274.10676150277,591.668260008562,1283.16,1.369,,candidate_geometry
+ratking_run-002,E009,Shotgun,7775,1305.2618044869,697.593117512442,1393.549,1.118,,candidate_geometry
+ratking_run-002,E010,Pipe Bomb,7771,1399.38970579817,697.071322205364,1487.405,0.0,,candidate_geometry
+ratking_run-002,E011,Flamethrower,7764,1399.38970579798,730.90536222953,1516.917,4.322,,candidate_geometry
+ratking_run-002,E012,Shotgun,7776,1204.70223997422,532.396122221293,1821.204,4.989,,candidate_geometry

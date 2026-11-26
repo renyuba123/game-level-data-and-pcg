@@ -1,0 +1,19 @@
+{
+  "evolution": {
+    "evaluations": 640,
+    "unique_candidates": 640,
+    "feasible": 198,
+    "best_structure": 0.1309975200251938,
+    "best_pressure_loss": 0.07361111111111113,
+    "max_route_diversity": 0.4606060606060606
+  },
+  "random": {
+    "evaluations": 640,
+    "unique_candidates": 640,
+    "feasible": 60,
+    "best_structure": 0.15714037345678342,
+    "best_pressure_loss": 0.0047619047619048005,
+    "max_route_diversity": 0.5474747474747474
+  },
+  "scope": "One completed random seed; separate objective extrema may come from different candidates. Full three-seed run unfinished."
+}

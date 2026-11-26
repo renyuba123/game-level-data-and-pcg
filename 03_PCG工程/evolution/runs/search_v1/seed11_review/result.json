@@ -1,0 +1,142 @@
+{
+  "passed": false,
+  "candidate": "D:\\GODOT Prams\\boss-level-pcg\\data\\evolution\\reviewed_seed11.json",
+  "fine_objectives": [
+    0.17626702676443515,
+    0.0,
+    0.2518518518518519,
+    -0.3303030303030303
+  ],
+  "heldout": {
+    "method": "2D clearance-grid pursuit proxy; fixed speeds and action times",
+    "heldout": true,
+    "episodes": [
+      {
+        "policy": "exit",
+        "seed": 104729,
+        "outcome": "escaped",
+        "duration": 2.2,
+        "visibility_fraction": 0.0,
+        "near_fraction": 0.0,
+        "stuck_fraction": 0.0,
+        "visited_rooms": 4,
+        "opened": [],
+        "route": [
+          8,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "policy": "exit",
+        "seed": 130363,
+        "outcome": "escaped",
+        "duration": 2.2,
+        "visibility_fraction": 0.0,
+        "near_fraction": 0.0,
+        "stuck_fraction": 0.0,
+        "visited_rooms": 4,
+        "opened": [],
+        "route": [
+          8,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "policy": "distance",
+        "seed": 104729,
+        "outcome": "caught",
+        "duration": 3.6,
+        "visibility_fraction": 0.5,
+        "near_fraction": 0.4444444444444444,
+        "stuck_fraction": 0.0,
+        "visited_rooms": 5,
+        "opened": [],
+        "route": [
+          8,
+          7,
+          9,
+          10,
+          9,
+          7,
+          6
+        ]
+      },
+      {
+        "policy": "distance",
+        "seed": 130363,
+        "outcome": "caught",
+        "duration": 3.6,
+        "visibility_fraction": 0.5,
+        "near_fraction": 0.4444444444444444,
+        "stuck_fraction": 0.0,
+        "visited_rooms": 5,
+        "opened": [],
+        "route": [
+          8,
+          7,
+          9,
+          10,
+          9,
+          7,
+          6
+        ]
+      },
+      {
+        "policy": "occlusion",
+        "seed": 104729,
+        "outcome": "caught",
+        "duration": 3.6,
+        "visibility_fraction": 0.5,
+        "near_fraction": 0.4444444444444444,
+        "stuck_fraction": 0.0,
+        "visited_rooms": 5,
+        "opened": [],
+        "route": [
+          8,
+          7,
+          9,
+          10,
+          9,
+          7,
+          6
+        ]
+      },
+      {
+        "policy": "occlusion",
+        "seed": 130363,
+        "outcome": "caught",
+        "duration": 3.6,
+        "visibility_fraction": 0.5,
+        "near_fraction": 0.4444444444444444,
+        "stuck_fraction": 0.0,
+        "visited_rooms": 5,
+        "opened": [],
+        "route": [
+          8,
+          7,
+          9,
+          10,
+          9,
+          7,
+          6
+        ]
+      }
+    ],
+    "fairness_loss": 0.16666666666666669,
+    "pressure_loss": 0.10370370370370374,
+    "route_diversity": 0.34545454545454546,
+    "escape_fraction": 0.3333333333333333,
+    "early_catch_fraction": 0.0,
+    "timeout_fraction": 0.0,
+    "near_fraction": 0.2962962962962963,
+    "stuck_fraction": 0.0
+  },
+  "scope": "One completed seed; provisional preview, not final search conclusion",
+  "technical_checks_passed": true,
+  "stage": "behavioral_review",
+  "reason": "Held-out fairness loss > 0: 2/6 escape, 4/6 caught at 3.6s. Not promoted to Main."
+}

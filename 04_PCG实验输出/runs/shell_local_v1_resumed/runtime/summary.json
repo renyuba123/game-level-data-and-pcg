@@ -1,0 +1,38 @@
+{
+  "counts": {
+    "invocation:started": 2,
+    "geometry:started": 4,
+    "geometry:complete": 4,
+    "evaluation:started": 4,
+    "spatial:started": 6,
+    "depthmap:started": 120,
+    "depthmap:complete": 120,
+    "spatial:complete": 6,
+    "godot_evidence:started": 6,
+    "godot:started": 6,
+    "godot_episodes_requested": 72,
+    "godot:complete": 6,
+    "godot_evidence:complete": 6,
+    "godot_episodes_certified": 72,
+    "evaluation:complete": 4,
+    "selection:started": 4,
+    "selection:complete": 4,
+    "commit_generation:started": 3,
+    "commit_generation:complete": 3,
+    "invocation:complete": 2,
+    "certificate_hit:started": 2,
+    "certificate_hit:complete": 2
+  },
+  "seconds": {
+    "geometry": 20.55311880001682,
+    "depthmap": 166.47750769999402,
+    "spatial": 201.42732449999312,
+    "godot": 256.1796153000032,
+    "godot_evidence": 277.6742584000094,
+    "evaluation": 330.5553018999999,
+    "selection": 0.017276300000958145,
+    "commit_generation": 0.14302920000773156,
+    "invocation": 351.64590840000164,
+    "certificate_hit": 0.011006799999449868
+  }
+}

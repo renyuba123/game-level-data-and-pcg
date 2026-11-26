@@ -1,0 +1,6 @@
+pymoo==0.6.2
+numpy
+scipy
+shapely
+ezdxf
+matplotlib

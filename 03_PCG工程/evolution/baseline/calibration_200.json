@@ -1,0 +1,195 @@
+{
+  "source_graph_sha256": "103c65634720498ec2f71e42b5b4c21091d0c4a5e27ee728418733794790c049",
+  "source_vga_csv_sha256": "0cee77e53a411a1447f57d1710a30a6f6d5309fd55fec29009886e8b12808999",
+  "source_dxf_sha256": "99cb95e8c010775ceb3f27a4f3ba7677f04e2aaa71185ea776a446aca9f939d1",
+  "cli_sha256": "04ce9cb67a151d40786ddc51b81c9f703ad75a879ce24c476b1fcf0054f52fcd",
+  "reference_point_count": 3468,
+  "unit": "DXF drawing units (millimetres); physical scale unverified",
+  "excluded_metrics": {
+    "Gate Counts": "original generating procedure and parameters unverified",
+    "Convex Choice": "convex graph recomputation parity not established"
+  },
+  "recomputation": {
+    "Visual Integration [HH]": {
+      "max_abs_error": 0.02731319999999915,
+      "mean_abs_error": 1.7709284890427725e-05,
+      "max_error_over_original_range": 0.0021666982418069533
+    },
+    "Connectivity": {
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "max_error_over_original_range": 0.0
+    },
+    "Metric Mean Shortest-Path Distance": {
+      "max_abs_error": 0.21000000000003638,
+      "mean_abs_error": 9.429065743951141e-05,
+      "max_error_over_original_range": 2.9959431505811296e-05
+    }
+  },
+  "states": {
+    "initial": {
+      "key": "463df17ec6aba47ba965781ace41003dd61879b8c9c8080beee2195c50e97923",
+      "recipe": {
+        "engine_sha256": "04ce9cb67a151d40786ddc51b81c9f703ad75a879ce24c476b1fcf0054f52fcd",
+        "grid": 200,
+        "radius": "n",
+        "geometry_sha256": "c0dbd7c0ca853abbf3bc79235b54c4e3a35b82e5a8cba560d1505878794a017c",
+        "fills": [
+          [
+            3600.0,
+            -3400.0
+          ],
+          [
+            6400.0,
+            -600.0
+          ],
+          [
+            400.0,
+            -600.0
+          ],
+          [
+            3800.0,
+            7600.0
+          ],
+          [
+            7400.0,
+            4200.0
+          ],
+          [
+            6200.0,
+            7200.0
+          ],
+          [
+            15000.0,
+            3400.0
+          ],
+          [
+            12400.0,
+            800.0
+          ],
+          [
+            15000.0,
+            -2000.0
+          ],
+          [
+            11400.0,
+            -2000.0
+          ],
+          [
+            18400.0,
+            1200.0
+          ]
+        ],
+        "metrics": [
+          "Visual Integration [HH]",
+          "Connectivity",
+          "Metric Mean Shortest-Path Distance"
+        ]
+      },
+      "timing_seconds": {
+        "import": 0.09374160000152187,
+        "prepare": 0.866919299998699,
+        "visibility": 36.82821479999984,
+        "metric": 69.43426910000198,
+        "export": 0.29682409999804804
+      },
+      "point_count": 3468,
+      "cache_hit": true
+    },
+    "all_open": {
+      "key": "ada0741f32ea716c3b56ef25a59becc74de3bf577217a8e49eda5b79f674359f",
+      "recipe": {
+        "engine_sha256": "04ce9cb67a151d40786ddc51b81c9f703ad75a879ce24c476b1fcf0054f52fcd",
+        "grid": 200,
+        "radius": "n",
+        "geometry_sha256": "06aa2e38628237b767ab7f841b62c1bca725d6b622861c3dc506911e8265cb9e",
+        "fills": [
+          [
+            3600.0,
+            -3400.0
+          ],
+          [
+            6400.0,
+            -600.0
+          ],
+          [
+            400.0,
+            -600.0
+          ],
+          [
+            3800.0,
+            7600.0
+          ],
+          [
+            7400.0,
+            4200.0
+          ],
+          [
+            6200.0,
+            7200.0
+          ],
+          [
+            15000.0,
+            3400.0
+          ],
+          [
+            12400.0,
+            800.0
+          ],
+          [
+            15000.0,
+            -2000.0
+          ],
+          [
+            11400.0,
+            -2000.0
+          ],
+          [
+            18400.0,
+            1200.0
+          ]
+        ],
+        "metrics": [
+          "Visual Integration [HH]",
+          "Connectivity",
+          "Metric Mean Shortest-Path Distance"
+        ]
+      },
+      "timing_seconds": {
+        "import": 0.06812730000092415,
+        "prepare": 0.8097739000004367,
+        "visibility": 42.25482759999795,
+        "metric": 77.12574539999696,
+        "export": 0.34391429999959655
+      },
+      "point_count": 3468,
+      "cache_hit": true
+    }
+  },
+  "geometry_reanalysis": {
+    "initial": {
+      "point_count": 3468,
+      "shared_coordinates": 3468,
+      "new_coordinates": 0,
+      "missing_coordinates": 0,
+      "metric_max_abs_difference_on_shared_cells": {
+        "Visual Integration [HH]": 8.5250083,
+        "Connectivity": 635.0,
+        "Metric Mean Shortest-Path Distance": 4262.0663
+      },
+      "note": "State-specific DXF reanalysis; original graph opening state is not independently documented."
+    },
+    "all_open": {
+      "point_count": 3468,
+      "shared_coordinates": 3468,
+      "new_coordinates": 0,
+      "missing_coordinates": 0,
+      "metric_max_abs_difference_on_shared_cells": {
+        "Visual Integration [HH]": 0.7325040000000005,
+        "Connectivity": 22.0,
+        "Metric Mean Shortest-Path Distance": 3.146499999998923
+      },
+      "note": "State-specific DXF reanalysis; original graph opening state is not independently documented."
+    }
+  }
+}

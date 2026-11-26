@@ -1,0 +1,19 @@
+﻿run_id,event_id,source_layer,source_object_id,x_ai,y_ai,route_distance_ai_pt,route_offset_ai_pt,timestamp_s,order_status
+ratking_run-003,E001,Spawn,7801,692.653300435997,859.754185467574,0.0,15.711,,candidate_geometry
+ratking_run-003,E002,Flamethrower,7777,736.0178623524,855.101024691645,27.783,3.809,,candidate_geometry
+ratking_run-003,E003,Flamethrower,7778,778.64363981866,851.411526502293,71.383,4.303,,candidate_geometry
+ratking_run-003,E004,Pistol,7790,841.496559457557,847.212409949831,134.509,4.076,,candidate_geometry
+ratking_run-003,E005,Break,7771,1079.2612941464,477.618723660425,812.141,48.385,,candidate_geometry
+ratking_run-003,E006,Flamethrower,7779,556.622846424625,918.878727585015,2084.349,3.497,,candidate_geometry
+ratking_run-003,E007,Pistol,7791,563.304576232555,401.61510250307,2971.058,4.322,,candidate_geometry
+ratking_run-003,E008,Hunting Pistol,7794,563.263323285893,361.07495228051,3002.158,4.304,,candidate_geometry
+ratking_run-003,E009,Pipe Bomb,7785,409.150123281054,784.29020101304,3589.391,0.0,,candidate_geometry
+ratking_run-003,E010,Break,7770,556.622846741127,777.362845141516,3749.312,45.055,,candidate_geometry
+ratking_run-003,E011,Transform,7774,556.622846741126,746.355140898653,3750.161,76.051,,candidate_geometry
+ratking_run-003,E012,Break,7772,954.627548420832,778.706700127407,4163.994,13.635,,candidate_geometry
+ratking_run-003,E013,Shotgun,7788,966.236643197032,707.990823269645,4361.109,3.991,,candidate_geometry
+ratking_run-003,E014,Pistol,7792,916.99999964688,632.696339804981,4455.509,1.176,,candidate_geometry
+ratking_run-003,E015,Hunting Pistol,7795,426.729820797245,845.873532898577,5141.479,0.247,,candidate_geometry
+ratking_run-003,E016,Flamethrower,7780,516.247074150193,941.400035659473,5340.037,0.365,,candidate_geometry
+ratking_run-003,E017,Transform,7775,617.508124157598,939.371893711421,5439.311,20.429,,candidate_geometry
+ratking_run-003,E018,Flamethrower,7781,899.999994946392,859.423021315616,5732.432,3.895,,candidate_geometry

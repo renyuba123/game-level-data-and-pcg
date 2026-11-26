@@ -1,0 +1,20 @@
+{
+  "population": 16,
+  "generations": 3,
+  "seeds": [
+    11
+  ],
+  "grid": 400,
+  "recipe": {
+    "grid": 400,
+    "baseline": "0842be582275c13269b71464792d97aed92b237048954ba4908cb4ff53bb3944",
+    "cli": "04ce9cb67a151d40786ddc51b81c9f703ad75a879ce24c476b1fcf0054f52fcd",
+    "model": "03132de371076eaa6897df70c085242ee695ab255661c51d716813e4c7f7c2c9",
+    "implementation": {
+      "metrics.py": "0f9a8e8027f4c7cff5a5bda5106d8dfcbc9c40da71f3a93bed47c6c0f8978b18",
+      "simulation.py": "fcfe80294e0c3b1a09373cbb642c6a47109a5ee0e5be45f9aea528a5dd1b5dac",
+      "evaluator.py": "96ce2896a5d402394695db9bc360ddf14cb72e6a3d7621b80c2bf0a4ff110fc5"
+    }
+  },
+  "algorithm": "MixedVariableGA with NSGA-II RankAndCrowding survival"
+}

@@ -1,0 +1,286 @@
+{
+  "run_id": "inspector_balance_177_v1",
+  "snapshot": {
+    "combat": {
+      "boss": {
+        "attack_warning_s": 0.6,
+        "awareness": "visible_target_or_heard_event_then_last_known_position",
+        "grab_range_m": 1.2,
+        "grab_requires_clearance_and_los": true,
+        "height_m": 2.2,
+        "hp": 1000.0,
+        "radius_m": 0.58,
+        "speed_mps": 2.5
+      },
+      "frozen": false,
+      "parameter_status": "All numeric combat values below are provisional research assumptions, not official game data.",
+      "player": {
+        "aim_fov_deg": 55.0,
+        "aim_speed_mps": 2.0,
+        "fov_deg": 80.0,
+        "height_m": 1.8,
+        "hp": 100.0,
+        "radius_m": 0.35,
+        "reaction_s": 0.25,
+        "speed_mps": 5.0,
+        "turn_deg_per_s": 180.0,
+        "vision_range_m": 30.0
+      },
+      "portals": {
+        "after_boss_smash": "both_roles_open",
+        "break_boss_smash_s": 1.8,
+        "player_can_break": false,
+        "through_boss_smash_s": 1.5,
+        "through_player_interaction_range_m": 1.6,
+        "through_player_squeeze_s": 0.65
+      },
+      "protocol_id": "combat_v3_inspector_playtest",
+      "provenance": {
+        "geometry_source": "Python Layout",
+        "graph_source": "shuwang.graph",
+        "official_numeric_parameters": false,
+        "physical_scale_calibrated": false
+      },
+      "sampling": {
+        "episodes_per_candidate": 12.0,
+        "heldout_seeds": [
+          101.0,
+          102.0,
+          103.0,
+          104.0
+        ],
+        "policies": [
+          "output",
+          "occlusion",
+          "supply"
+        ],
+        "scenario_seeds": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ]
+      },
+      "schema_version": "combat-pcg/3",
+      "score_sampling": {
+        "grid_m": 0.5,
+        "loss_of_target_min_s": 0.5,
+        "maximum_alternative_endpoint_pairs": 32.0,
+        "threat_margin_s": 0.5
+      },
+      "search_budget": {
+        "arms": [
+          "legacy_ga",
+          "full_ga",
+          "full_random"
+        ],
+        "candidate_requests": 6048.0,
+        "counterfactual_full_simulation_count": 72576.0,
+        "population": 32.0,
+        "reproductions": 20.0,
+        "seeds": [
+          11.0,
+          29.0,
+          47.0
+        ]
+      },
+      "simulation": {
+        "seed_streams": [
+          "perception",
+          "aim",
+          "decision",
+          "stalker"
+        ],
+        "tick_s": 0.05,
+        "time_limit_s": 180.0
+      },
+      "stalker": {
+        "boss_kill_only_after_split_in_later_tick": true,
+        "control_s": 0.8,
+        "cooldown_s": 4.0,
+        "crossing_hit_overflow": "discard_and_clamp_to_threshold",
+        "damage": 25.0,
+        "independent_final_arena": false,
+        "radius_m": 0.3,
+        "shot_response": "interrupt_and_retreat",
+        "spawn": "collision_valid_point_near_boss_not_behind_player_teleport",
+        "speed_mps": 2.2,
+        "split_hp_fraction": 0.5,
+        "states": [
+          "hide",
+          "approach",
+          "warn",
+          "control",
+          "retreat"
+        ],
+        "warning_s": 0.6
+      },
+      "supplies": {
+        "initial_rounds_including_magazine": 12.0,
+        "pack_count": 6.0,
+        "pickup_radius_m": 1.25,
+        "pickup_s": 0.3,
+        "positions_are_genes": true,
+        "respawn": false,
+        "rounds_per_pack": 8.0
+      },
+      "termination": {
+        "death": "valid_large_boss_grab_or_player_hp_zero",
+        "exit_is_victory": false,
+        "simultaneous_grab_and_lethal_shot": "earliest_event_time_then_death_on_exact_tie",
+        "success": "large_boss_hp_zero",
+        "timeout": "separate_non_victory"
+      },
+      "units": "model_m",
+      "weapon": {
+        "aim_s": 0.35,
+        "angular_error_sd_deg": 1.5,
+        "damage": 40.0,
+        "fire_interval_s": 0.3,
+        "magazine": 8.0,
+        "must_test_camera_and_muzzle_separately": true,
+        "range_m": 30.0,
+        "reload_s": 2.0,
+        "type": "hitscan_single_research_weapon"
+      }
+    },
+    "layout_scale": 1.5,
+    "seed": 177
+  },
+  "ranges": [
+    [
+      "Boss Speed",
+      "boss",
+      "speed_mps",
+      2,
+      3.2,
+      0.05
+    ],
+    [
+      "Boss Attack Warning",
+      "boss",
+      "attack_warning_s",
+      0.45,
+      1,
+      0.05
+    ],
+    [
+      "Player Aim Speed",
+      "player",
+      "aim_speed_mps",
+      1.75,
+      3.25,
+      0.05
+    ],
+    [
+      "Stalker Speed",
+      "stalker",
+      "speed_mps",
+      1.8,
+      3,
+      0.05
+    ],
+    [
+      "Stalker Damage",
+      "stalker",
+      "damage",
+      15,
+      30,
+      1
+    ],
+    [
+      "Weapon Damage",
+      "weapon",
+      "damage",
+      35,
+      55,
+      1
+    ],
+    [
+      "Weapon Fire Interval",
+      "weapon",
+      "fire_interval_s",
+      0.25,
+      0.4,
+      0.01
+    ],
+    [
+      "Weapon Aim Seconds",
+      "weapon",
+      "aim_s",
+      0.2,
+      0.45,
+      0.05
+    ],
+    [
+      "Weapon Reload Seconds",
+      "weapon",
+      "reload_s",
+      1.5,
+      2.5,
+      0.05
+    ],
+    [
+      "Supply Pickup Seconds",
+      "supplies",
+      "pickup_s",
+      0.2,
+      0.5,
+      0.05
+    ]
+  ],
+  "development": [
+    177,
+    6,
+    84
+  ],
+  "independent": [
+    1101,
+    1102
+  ],
+  "bindings": {
+    "177": {
+      "layout": "f66e941bd5a9716f34e8cc33e60762d5723dfe76c48b36ad71f6815a6c6d572d",
+      "sha256": "131bd05091f335f966e49be241dac4f3c99d92683b7a1de8bc0ef565fc646b3b"
+    },
+    "6": {
+      "layout": "b58adb8129c50117ec45c81a31c5a1373f778cfe50def19c0bb010ce88be993e",
+      "sha256": "74c0374b6dea51aa0f5b1a8c8fdff8f46b8885889d295cb4c21e2a0bcbcca760"
+    },
+    "84": {
+      "layout": "c9bb605eb37440cc80c0e5dee32d2f3ffc2fb435f30d8f6813bef630b0793a20",
+      "sha256": "70ae6b83a4c3cf9f599b2a4cec5c2f5e4b5e502517ecfaf6921a2ad0bc9c3cde"
+    },
+    "1101": {
+      "layout": "682e34ce0fe4a7cc854e836a14c3f04b21fa626798113a30705b235767c43b6b",
+      "sha256": "81f5c7304f5d41e63c75ec323f9ea14f356db4c829aaed6bf7ee7e74c6c0fdd9"
+    },
+    "1102": {
+      "layout": "a1732212066ab279ef5766c23acf5d91d46bbcfe61346201890aa07453b4de2e",
+      "sha256": "741b18e34ff8e94b41fc012916ee28b424db4666f96e3690c60fb7455ca743dc"
+    },
+    "1103": {
+      "failed": "net_playable_area_ratio | shell_shape_or_area | small_room:left_core | invalid_partition | invalid_partition | small_room:left_core | small_room:left_core | small_room:left_core | small_room:left_core,left_inner_side"
+    },
+    "1104": {
+      "failed": "opening_clearance | opening_clearance | shell_shape_or_area | opening_clearance | small_room:left_core | all_open_boss_disconnected | opening_clearance | small_room:left_core | opening_clearance"
+    }
+  },
+  "development_seeds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "independent_seeds": [
+    110,
+    111,
+    112,
+    113
+  ],
+  "policy_variant": "paced",
+  "scoring_config_hash": "c1d8406791ec4698d05e67295574fafbee0340b8be53874b28d5d34f29eb9f6c",
+  "official_requests": 0,
+  "screening_samples": 24,
+  "local_samples": 8
+}

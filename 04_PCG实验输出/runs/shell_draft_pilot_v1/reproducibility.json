@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "verified_generations": [
+    0,
+    1,
+    2
+  ],
+  "budget": 48,
+  "official_requests": 0,
+  "evaluated_layouts": 39,
+  "battles": 468,
+  "topology_changes": {
+    "genetic": 10,
+    "random": 0
+  }
+}

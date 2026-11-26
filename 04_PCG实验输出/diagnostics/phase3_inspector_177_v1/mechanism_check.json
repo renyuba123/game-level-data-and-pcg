@@ -1,0 +1,20 @@
+{
+  "boss_hp": 0.0,
+  "episode_path": "F:/大学作业/游戏空间设计微专业/.phase14-work/phase3_inspector_177_v1/mechanism_user/Godot/app_userdata/Boss Level Pcg/combat_episode.json",
+  "events": [
+    "spawn",
+    "shot",
+    "hit",
+    "smash_start",
+    "portal_open",
+    "pickup_end",
+    "reload_end",
+    "hit",
+    "split",
+    "hit",
+    "victory"
+  ],
+  "issues": [],
+  "passed": true,
+  "phase": 2
+}

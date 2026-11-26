@@ -1,0 +1,27 @@
+{
+  "issues": [],
+  "results": [
+	{
+	  "boss_position": "(0.736, 1.15, -6.860171)",
+	  "boss_room": 6,
+	  "collisions": 0,
+	  "expected_room": 6,
+	  "kind": "through",
+	  "opened": true,
+	  "player_open": true,
+	  "player_position": "(0.736, 1.0, -7.981)",
+	  "travel_m": 1.67917060852051
+	},
+	{
+	  "boss_position": "(0.579167, 1.15, 4.655)",
+	  "boss_room": 3,
+	  "collisions": 0,
+	  "expected_room": 3,
+	  "kind": "break",
+	  "opened": true,
+	  "player_open": true,
+	  "player_position": "(1.7, 1.0, 4.655)",
+	  "travel_m": 1.67916679382324
+	}
+  ]
+}

@@ -1,0 +1,23 @@
+﻿run_id,用途,状态,代次,请求数,结果,路径,原路径
+shell-local-v1-evidence,恢复验证｜v1 连续/恢复/校验日志证据,—,—,—,—,runs/shell-local-v1-evidence,.phase14-work/shell-local-v1-evidence
+shell-local-v2-evidence,恢复验证｜v2 连续/恢复/校验日志证据,—,—,—,—,runs/shell-local-v2-evidence,.phase14-work/shell-local-v2-evidence
+shell_breeding_v2,历史实验｜v2 繁殖策略,—,genetic G0–G2 (3),—,已评分 24；拓扑变化 11,runs/shell_breeding_v2,.phase14-work/shell_breeding_v2
+shell_draft_pilot_v1,历史实验｜草案试跑，遗传/随机双组,—,genetic G0–G2 (3); random G0–G2 (3),—,已评分 39,runs/shell_draft_pilot_v1,.phase14-work/shell_draft_pilot_v1
+shell_local_g20_20261125_042444_738,历史实验｜局部 G20，中断试跑,—,—,—,—,runs/shell_local_g20_20261125_042444_738,.phase14-work/shell_local_g20_20261125_042444_738
+shell_local_g20_20261125_042640_509,历史实验｜局部 G20,"COMPLETE_DRAFT:41, INVALID:1",genetic G0–G20 (21),42,唯一布局 41；已评分 41；认证对局 492；拓扑变化 22,runs/shell_local_g20_20261125_042640_509,.phase14-work/shell_local_g20_20261125_042640_509
+shell_local_g20_pop8_20261125_143448_831,A 组对照｜局部单亲 pop8 G20,"COMPLETE_DRAFT:146, INVALID:9, UNCERTAIN:13",genetic G0–G20 (21),168,唯一布局 159；已评分 159；认证对局 1908；拓扑变化 48,runs/shell_local_g20_pop8_20261125_143448_831,.phase14-work/shell_local_g20_pop8_20261125_143448_831
+shell_local_v1_continuous,恢复验证｜v1 连续运行,COMPLETE_DRAFT:6,genetic G0–G2 (3),6,唯一布局 6；已评分 6；认证对局 72；拓扑变化 2,runs/shell_local_v1_continuous,.phase14-work/shell_local_v1_continuous
+shell_local_v1_resumed,恢复验证｜v1 恢复运行,COMPLETE_DRAFT:6,genetic G0–G2 (3),6,唯一布局 6；已评分 6；认证对局 72；拓扑变化 2,runs/shell_local_v1_resumed,.phase14-work/shell_local_v1_resumed
+shell_local_v2_continuous,恢复验证｜v2 连续运行,COMPLETE_DRAFT:6,genetic G0–G2 (3),6,唯一布局 6；已评分 6；认证对局 72；拓扑变化 2,runs/shell_local_v2_continuous,.phase14-work/shell_local_v2_continuous
+shell_local_v2_resumed,恢复验证｜v2 恢复运行,COMPLETE_DRAFT:6,genetic G0–G2 (3),6,唯一布局 6；已评分 6；认证对局 72；拓扑变化 2,runs/shell_local_v2_resumed,.phase14-work/shell_local_v2_resumed
+shell_phase2_current,早期阶段｜Phase 2 当前布局验收,—,—,—,—,runs/shell_phase2_current,.phase14-work/shell_phase2_current
+shell_phase2_current_net,早期阶段｜Phase 2 净空导航验收,—,—,—,—,runs/shell_phase2_current_net,.phase14-work/shell_phase2_current_net
+shell_pilot_contract_smoke,冒烟｜合同冒烟，未生成代输出,—,—,—,—,runs/shell_pilot_contract_smoke,.phase14-work/shell_pilot_contract_smoke
+shell_pilot_genome_smoke,冒烟｜Genome 冒烟,—,—,—,—,runs/shell_pilot_genome_smoke,.phase14-work/shell_pilot_genome_smoke
+shell_pilot_genome_verified,冒烟｜Genome 验证,—,—,—,—,runs/shell_pilot_genome_verified,.phase14-work/shell_pilot_genome_verified
+shell_sampling_focused_g20_v1,当前 B 组｜聚焦抽样 G20，本轮保留重点,"COMPLETE_DRAFT:157, INVALID:6, UNCERTAIN:5",genetic G0–G20 (21),168,唯一布局 162；已评分 162；认证对局 1944；拓扑变化 66,runs/shell_sampling_focused_g20_v1,.phase14-work/shell_sampling_focused_g20_v1
+shell_sampling_focused_smoke_v1,冒烟｜聚焦抽样冒烟,"COMPLETE_DRAFT:23, INVALID:1",genetic G0–G2 (3),24,唯一布局 23；已评分 23；认证对局 276；拓扑变化 6,runs/shell_sampling_focused_smoke_v1,.phase14-work/shell_sampling_focused_smoke_v1
+shell_sampling_random_g20_v1,C 组对照｜随机抽样 G20,"COMPLETE_DRAFT:118, UNCERTAIN:26, INVALID:24",random G0–G20 (21),168,唯一布局 145；已评分 144；认证对局 1728；拓扑变化 0,runs/shell_sampling_random_g20_v1,.phase14-work/shell_sampling_random_g20_v1
+shell_sampling_single_step_smoke_v1,冒烟｜单步抽样冒烟,"COMPLETE_DRAFT:22, UNCERTAIN:1, INVALID:1",genetic G0–G2 (3),24,唯一布局 23；已评分 23；认证对局 276；拓扑变化 5,runs/shell_sampling_single_step_smoke_v1,.phase14-work/shell_sampling_single_step_smoke_v1
+shell_single_parent_v3,历史实验｜单亲 v3,"COMPLETE_DRAFT:21, UNCERTAIN:3",genetic G0–G2 (3),24,唯一布局 24；已评分 24；认证对局 192；拓扑变化 10,runs/shell_single_parent_v3,.phase14-work/shell_single_parent_v3
+shell_v1,早期阶段｜v1 外壳与布局实验,—,—,—,—,runs/shell_v1,.phase14-work/shell_v1

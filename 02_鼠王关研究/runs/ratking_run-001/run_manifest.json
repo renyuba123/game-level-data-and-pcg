@@ -1,0 +1,103 @@
+{
+  "run_id": "ratking_run-001",
+  "source_ai": "source/illustrator/鼠王关玩家路线图001.ai",
+  "source_ai_sha256": "97797773f7d4b45d799396be8078b4d936498017de367889bd9cf3e8ce0f0aaa",
+  "edited_ai": "outputs/ratking_run-001/ratking_run-001_edited.ai",
+  "edited_ai_sha256": "5344afdaa3093b15b0ea0c95d8b1620323d6cabd06979ecb6248e5350469acd2",
+  "edited_ai_reopened_in_illustrator": true,
+  "source_graph": "source/depthmap/shuwang.graph",
+  "source_graph_sha256": "103c65634720498ec2f71e42b5b4c21091d0c4a5e27ee728418733794790c049",
+  "source_dxf": "source/cad/鼠王关.dxf",
+  "source_dxf_sha256": "99cb95e8c010775ceb3f27a4f3ba7677f04e2aaa71185ea776a446aca9f939d1",
+  "registered_transform": {
+    "x_ai": [
+      0.06691727404950577,
+      -0.00013900880192652468,
+      130.39008500555633
+    ],
+    "y_ai": [
+      0.00011417877921099384,
+      0.06717267276290083,
+      605.1288694685575
+    ]
+  },
+  "room_count": 11,
+  "vga_point_count": 3468,
+  "route_segment_count": 44,
+  "event_icon_count": 24,
+  "max_candidate_route_gap_ai_pt": 15.711,
+  "route_order_status": "geometry_candidate_not_video_verified",
+  "metric": "Metric Mean Shortest-Path Distance",
+  "metrics": {
+    "Visual Integration [HH]": {
+      "min": 4.5676084,
+      "max": 17.173517,
+      "palette_method": "ten_equal_numeric_intervals_from_exported_range",
+      "bounds": [
+        4.5676084,
+        5.82819926,
+        7.0887901200000005,
+        8.34938098,
+        9.60997184,
+        10.8705627,
+        12.13115356,
+        13.391744420000002,
+        14.652335279999999,
+        15.91292614,
+        17.173517
+      ]
+    },
+    "Gate Counts": {
+      "min": 83.0,
+      "max": 82594.0,
+      "palette_method": "ten_equal_numeric_intervals_from_exported_range",
+      "bounds": [
+        83.0,
+        8334.1,
+        16585.2,
+        24836.3,
+        33087.4,
+        41338.5,
+        49589.6,
+        57840.7,
+        66091.8,
+        74342.9,
+        82594.0
+      ]
+    },
+    "Metric Mean Shortest-Path Distance": {
+      "min": 6209.8452,
+      "max": 13219.324,
+      "palette_method": "ten_equal_numeric_intervals_from_exported_range",
+      "bounds": [
+        6209.8452,
+        6910.7930799999995,
+        7611.74096,
+        8312.688839999999,
+        9013.63672,
+        9714.5846,
+        10415.53248,
+        11116.480360000001,
+        11817.428240000001,
+        12518.37612,
+        13219.324
+      ]
+    }
+  },
+  "figure_files_sha256": {
+    "movement_from_edited_ai.svg": "cb52a03c1b752093fb124587a9cfc7ee919917ac5f7734c59942503815416f57",
+    "movement_from_edited_ai.png": "87ba50fdfb4b1d48da610b08b91a0ff03d37291e3950a369c3bad3418ad19431",
+    "events_from_edited_ai.svg": "b64528f35ae14082ac14e433da6ba23850531392a08a5b8b105fe4299109eb96",
+    "events_from_edited_ai.png": "d962ee063c9ff4f9de3102ceba56798315896401c2451d9b72fa5ad4ba3dc231",
+    "convex_from_edited_ai.svg": "02cbc4abf216c009fff0d1332c9e0ee8594758363d14f3ac0da0bb09a4dda85f",
+    "convex_from_edited_ai.png": "a688eb3eb5b5cca210ea66aad84c6bc65501e12404701691bb751835679178d0",
+    "visibility_from_edited_ai.svg": "6e53ae8075ebc714c022eb7bb8ab0cf27e8719c6bb4baab4507c3af52e868ca4",
+    "visibility_from_edited_ai.png": "05ccd603b51095b5c173fc744e131ab44855ea652b42800326b8e49debc5071f",
+    "gate_counts_from_edited_ai.svg": "c891ed0bd2d3905bf9820a9b9791022100bba24b32b1cf4cabde07d1cc7bbc52",
+    "gate_counts_from_edited_ai.png": "62ecc70c3bdcb0210afce0d08ca41d9c24b5dfce3e74dfec50d28f4bfa1c57ac",
+    "metric_distance_from_edited_ai.svg": "b2dce7c59f19f3d42a2875e79282b7f91d531c591004cff45cec0db62c832414",
+    "metric_distance_from_edited_ai.png": "df8952b49bf57fed9daaae16f93d2f41480b54e956e97ef93e5f8178f8d708f4"
+  },
+  "physical_scale_verified": false,
+  "door_passability_verified": false
+}

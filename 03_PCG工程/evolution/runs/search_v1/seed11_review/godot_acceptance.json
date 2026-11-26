@@ -1,0 +1,114 @@
+{
+  "failures": [],
+  "results": [
+    {
+      "boss_blocked_initially": true,
+      "boss_crossed": true,
+      "boss_open": true,
+      "candidate": "3b15c03000d259b93acfa87f458322e992a0c0676c4d6642b88771674afc262a",
+      "edge": "E01",
+      "kind": "through",
+      "passed": true,
+      "player_blocked_without_interaction": true,
+      "player_open": true,
+      "preset": "res://data/evolution/reviewed_seed11.json"
+    },
+    {
+      "boss_blocked_initially": true,
+      "boss_crossed": true,
+      "boss_open": true,
+      "candidate": "3b15c03000d259b93acfa87f458322e992a0c0676c4d6642b88771674afc262a",
+      "edge": "E04",
+      "kind": "through",
+      "passed": true,
+      "player_blocked_without_interaction": true,
+      "player_open": true,
+      "preset": "res://data/evolution/reviewed_seed11.json"
+    },
+    {
+      "boss_blocked_initially": true,
+      "boss_crossed": true,
+      "boss_open": true,
+      "candidate": "3b15c03000d259b93acfa87f458322e992a0c0676c4d6642b88771674afc262a",
+      "edge": "E06",
+      "kind": "through",
+      "passed": true,
+      "player_blocked_without_interaction": true,
+      "player_open": true,
+      "preset": "res://data/evolution/reviewed_seed11.json"
+    },
+    {
+      "boss_blocked_initially": true,
+      "boss_crossed": true,
+      "boss_open": true,
+      "candidate": "3b15c03000d259b93acfa87f458322e992a0c0676c4d6642b88771674afc262a",
+      "edge": "E08",
+      "kind": "break",
+      "passed": true,
+      "player_blocked_without_interaction": true,
+      "player_open": true,
+      "preset": "res://data/evolution/reviewed_seed11.json"
+    },
+    {
+      "boss_blocked_initially": true,
+      "boss_crossed": true,
+      "boss_open": true,
+      "candidate": "3b15c03000d259b93acfa87f458322e992a0c0676c4d6642b88771674afc262a",
+      "edge": "E09",
+      "kind": "break",
+      "passed": true,
+      "player_blocked_without_interaction": true,
+      "player_open": true,
+      "preset": "res://data/evolution/reviewed_seed11.json"
+    },
+    {
+      "boss_blocked_initially": true,
+      "boss_crossed": true,
+      "boss_open": true,
+      "candidate": "3b15c03000d259b93acfa87f458322e992a0c0676c4d6642b88771674afc262a",
+      "edge": "E10",
+      "kind": "through",
+      "passed": true,
+      "player_blocked_without_interaction": true,
+      "player_open": true,
+      "preset": "res://data/evolution/reviewed_seed11.json"
+    },
+    {
+      "boss_blocked_initially": true,
+      "boss_crossed": true,
+      "boss_open": true,
+      "candidate": "3b15c03000d259b93acfa87f458322e992a0c0676c4d6642b88771674afc262a",
+      "edge": "E11",
+      "kind": "through",
+      "passed": true,
+      "player_blocked_without_interaction": true,
+      "player_open": true,
+      "preset": "res://data/evolution/reviewed_seed11.json"
+    },
+    {
+      "boss_blocked_initially": true,
+      "boss_crossed": true,
+      "boss_open": true,
+      "candidate": "3b15c03000d259b93acfa87f458322e992a0c0676c4d6642b88771674afc262a",
+      "edge": "E12",
+      "kind": "through",
+      "passed": true,
+      "player_blocked_without_interaction": true,
+      "player_open": true,
+      "preset": "res://data/evolution/reviewed_seed11.json"
+    },
+    {
+      "boss_blocked_initially": true,
+      "boss_crossed": true,
+      "boss_open": true,
+      "candidate": "3b15c03000d259b93acfa87f458322e992a0c0676c4d6642b88771674afc262a",
+      "edge": "E15",
+      "kind": "break",
+      "passed": true,
+      "player_blocked_without_interaction": true,
+      "player_open": true,
+      "preset": "res://data/evolution/reviewed_seed11.json"
+    }
+  ],
+  "unique_candidates": 1
+}

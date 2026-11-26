@@ -1,0 +1,23 @@
+{
+  "requests": 6,
+  "official_requests": 0,
+  "unique_genomes": 6,
+  "evaluated_layouts": 6,
+  "status": {
+    "COMPLETE_DRAFT": 6
+  },
+  "new_certified_battles": 72,
+  "inherited_battles": 0,
+  "duplicate_requests": 0,
+  "edits_requested": {
+    "diff": 2,
+    "full": 1,
+    "archive_reference": 1
+  },
+  "edits_realized": {
+    "diff": 2,
+    "full": 1,
+    "archive_reference": 1
+  },
+  "actual_topology_changes": 2
+}

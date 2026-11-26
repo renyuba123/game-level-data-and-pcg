@@ -1,0 +1,58 @@
+# 本目录默认不纳入 Git：
+# 每次实验约数百 MB 至 5 GB（evaluation/space/packages 等原始输出），
+# 本地完整保留用于复核，GitHub 只收索引、README 和轻量元数据。
+*
+
+!/.gitignore
+!/README.md
+!/实验索引.csv
+!/迁移记录.json
+
+# run：只收登记、配置快照、汇总、逐代摘要与运行时记录
+!/runs/
+!/runs/*/
+!/runs/*/registration.json
+!/runs/*/config_snapshot.json
+!/runs/*/overview.json
+!/runs/*/spec.json
+!/runs/*/summary.json
+!/runs/*/history.json
+!/runs/*/pareto.json
+!/runs/*/status.json
+!/runs/*/result.json
+!/runs/*/selection.json
+!/runs/*/godot_acceptance.json
+!/runs/*/reproducibility.json
+!/runs/*/audit_summary.json
+!/runs/*/genetic/
+!/runs/*/genetic/**
+!/runs/*/random/
+!/runs/*/random/**
+!/runs/*/runtime/
+!/runs/*/runtime/**
+
+# diagnostics：只收登记、验证、机制检查与结论文档
+!/diagnostics/
+!/diagnostics/*/
+!/diagnostics/*/registration.json
+!/diagnostics/*/verification.json
+!/diagnostics/*/implementation.json
+!/diagnostics/*/mechanism_check.json
+!/diagnostics/*/locked_candidate.json
+!/diagnostics/*/*.md
+!/diagnostics/shell_sampling_comparison_v1/
+!/diagnostics/shell_sampling_comparison_v1/*
+
+# checks：只收清单与结论，逐样本原始数据留在本地
+!/checks/
+!/checks/*/
+!/checks/*/manifest.json
+!/checks/*/summary.json
+!/checks/*/*.md
+!/checks/*/*.csv
+!/checks/playwright_screenshots/
+!/checks/playwright_screenshots/manifest.json
+
+# logs： Viewer / 协调器日志体量很小，全部纳入
+!/logs/
+!/logs/**

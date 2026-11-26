@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "unique_candidates": 2,
+  "gates_tested": 18,
+  "navigation_passed": true,
+  "source_hashes_rechecked": true,
+  "candidate_keys": {
+    "balanced": "a7daddec59a62a5485c225360d0794cdd7624ce5c276d222d8e414537d3a7f5a",
+    "exploration": "392c45ee982238d325e086750437df3debb5f912c03e55ce4dd5141ed88b28dc"
+  }
+}

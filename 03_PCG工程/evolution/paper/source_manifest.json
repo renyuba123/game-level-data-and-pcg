@@ -1,0 +1,57 @@
+{
+  "created": "2026-11-19",
+  "run": "search_v1",
+  "new_optimization_run": false,
+  "source_files": [
+    {
+      "path": "D:\\GODOT Prams\\boss-level-pcg\\evolution\\search.py",
+      "sha256": "4172d333728d068368481e68b53f0d24779325fb66006d047c0e190dde00a35f"
+    },
+    {
+      "path": "D:\\GODOT Prams\\boss-level-pcg\\evolution\\genome.py",
+      "sha256": "ad06f355e5d6bdd955ee9a83888a375abf0f003b3ada3cbcc8300b6983b03d89"
+    },
+    {
+      "path": "D:\\GODOT Prams\\boss-level-pcg\\evolution\\metrics.py",
+      "sha256": "a44affd3b7c70fb6855269c39545b2e96d457f79ba8641cf2c45085dd338c6d5"
+    },
+    {
+      "path": "D:\\GODOT Prams\\boss-level-pcg\\evolution\\simulation.py",
+      "sha256": "2bb610b274cc23bcf70da6f9773966c509eba26fe85207754473a60e18e15344"
+    },
+    {
+      "path": "D:\\GODOT Prams\\boss-level-pcg\\evolution\\evaluator.py",
+      "sha256": "4077d62aa403d26c010bc56b5bb48c2933ad2cf4878ac7e6d0a4bd8c69736503"
+    },
+    {
+      "path": "D:\\GODOT Prams\\boss-level-pcg\\evolution\\runs\\search_v1\\final_experiment.json",
+      "sha256": "32a840c43e6702c03241d206e8cf7112fcc61af799a57d20a9e2febe98d56d50"
+    },
+    {
+      "path": "D:\\GODOT Prams\\boss-level-pcg\\evolution\\runs\\search_v1\\delivery_acceptance.json",
+      "sha256": "4cd3f8b2a47fe06ce16b9563e961021c30279f6d9aadb94606a657be741c65c0"
+    },
+    {
+      "path": "D:\\GODOT Prams\\boss-level-pcg\\evolution\\acceptance.json",
+      "sha256": "8da8ea80d5ae3a820311436d43a53dd2e028df206b17e2af42d27a3540113004"
+    },
+    {
+      "path": "D:\\GODOT Prams\\boss-level-pcg\\evolution\\candidate_navigation.json",
+      "sha256": "cd17ddb8a680136b94773bd9ddae49cde83dc99a098e44d9a648b6c74ed49de3"
+    }
+  ],
+  "figures": [
+    "fig1_workflow",
+    "fig2_search",
+    "fig3_layouts",
+    "fig4_metrics"
+  ],
+  "chinese_character_count": 2622,
+  "references": [
+    "[1] Togelius J, Yannakakis G N, Stanley K O, Browne C. Search-Based Procedural Content Generation: A Taxonomy and Survey[J]. IEEE Transactions on Computational Intelligence and AI in Games, 2011. DOI: 10.1109/TCIAIG.2011.2148116.",
+    "[2] Deb K, Pratap A, Agarwal S, Meyarivan T. A fast and elitist multiobjective genetic algorithm: NSGA-II[J]. IEEE Transactions on Evolutionary Computation, 2002, 6(2): 182–197. DOI: 10.1109/4235.996017.",
+    "[3] Blank J, Deb K. pymoo: Multi-Objective Optimization in Python[J]. IEEE Access, 2020, 8: 89497–89509. DOI: 10.1109/ACCESS.2020.2990567.",
+    "[4] Turner A, Doxa M, O’Sullivan D, Penn A. From Isovists to Visibility Graphs: A Methodology for the Analysis of Architectural Space[J]. Environment and Planning B, 2001. DOI: 10.1068/b2684.",
+    "[5] depthmapX. Command-line interface documentation[EB/OL]. https://github.com/varoudis/depthmapX/blob/master/docs/commandline.md. 访问日期：2026-11-19."
+  ]
+}

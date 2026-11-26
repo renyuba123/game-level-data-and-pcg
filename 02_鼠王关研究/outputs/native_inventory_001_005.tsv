@@ -1,0 +1,208 @@
+file	layer_path	direct_paths	all_paths	text_frames	page_items
+鼠王关玩家路线图001.ai	Spawn	1	1	0	1
+鼠王关玩家路线图001.ai	Death	0	0	0	0
+鼠王关玩家路线图001.ai	Break	1	1	0	1
+鼠王关玩家路线图001.ai	Brick	0	0	0	0
+鼠王关玩家路线图001.ai	Crossbow	0	0	0	0
+鼠王关玩家路线图001.ai	Hunting Pistol	4	4	0	4
+鼠王关玩家路线图001.ai	Pistol	0	0	0	0
+鼠王关玩家路线图001.ai	Shotgun	5	5	0	5
+鼠王关玩家路线图001.ai	Rifle	0	0	0	0
+鼠王关玩家路线图001.ai	Pipe Bomb	2	2	0	2
+鼠王关玩家路线图001.ai	Health damage	3	3	0	3
+鼠王关玩家路线图001.ai	Melee	2	2	0	2
+鼠王关玩家路线图001.ai	Flamethrower	4	4	0	4
+鼠王关玩家路线图001.ai	Transform	2	2	0	2
+鼠王关玩家路线图001.ai	Break	0	0	0	0
+鼠王关玩家路线图001.ai	Route	44	44	0	44
+鼠王关玩家路线图001.ai	Base	0	1	0	1
+002.ai	F-Walls	0	1	0	1
+002.ai	F-Event-Labels	0	0	0	0
+002.ai	F-Event-Labels/labels	0	0	0	0
+002.ai	F-Event-Labels/F-Event-Route	60	60	0	60
+002.ai	F-Event-Labels/ori_events	0	0	0	0
+002.ai	F-Event-Labels/ori_events/Spawn	1	1	0	1
+002.ai	F-Event-Labels/ori_events/Death	0	0	0	0
+002.ai	F-Event-Labels/ori_events/Break	0	0	0	0
+002.ai	F-Event-Labels/ori_events/Brick	0	0	0	0
+002.ai	F-Event-Labels/ori_events/Crossbow	0	0	0	0
+002.ai	F-Event-Labels/ori_events/Hunting Pistol	0	0	0	0
+002.ai	F-Event-Labels/ori_events/Pistol	0	0	0	0
+002.ai	F-Event-Labels/ori_events/Shotgun	4	4	0	4
+002.ai	F-Event-Labels/ori_events/Rifle	0	0	0	0
+002.ai	F-Event-Labels/ori_events/Pipe Bomb	3	3	0	3
+002.ai	F-Event-Labels/ori_events/Health damage	0	0	0	0
+002.ai	F-Event-Labels/ori_events/Melee	0	0	0	0
+002.ai	F-Event-Labels/ori_events/Flamethrower	2	2	0	2
+002.ai	F-Event-Labels/ori_events/Transform	2	2	0	2
+002.ai	F-Event-Labels/ori_events/Break	0	0	0	0
+002.ai	F-VGA-Labels	21	35	14	35
+002.ai	F-VGA-Labels/F-VGA	3462	3462	0	3462
+002.ai	F-Choice-Labels	21	44	23	44
+002.ai	F-Choice-Labels/F-ConvexChoice	9	9	0	9
+002.ai	F-Gate-Counts-Labels	11	32	21	32
+002.ai	F-Gate-Counts-Labels/F-Gate-Counts	3462	3462	0	3462
+002.ai	F-Background	1	1	0	1
+002.ai	original	0	0	0	0
+002.ai	original/Spawn	1	1	0	1
+002.ai	original/Route	19	19	0	19
+002.ai	original/Base	0	1	0	1
+003_.ai	F-Walls	0	1	0	1
+003_.ai	F-Event-Labels	0	0	0	0
+003_.ai	F-Event-Labels/labels	0	0	0	0
+003_.ai	F-Event-Labels/F-Event-Route	60	60	0	60
+003_.ai	F-Event-Labels/ori_events	0	0	0	0
+003_.ai	F-Event-Labels/ori_events/Spawn	1	1	0	1
+003_.ai	F-Event-Labels/ori_events/Death	0	0	0	0
+003_.ai	F-Event-Labels/ori_events/Break	0	0	0	0
+003_.ai	F-Event-Labels/ori_events/Brick	0	0	0	0
+003_.ai	F-Event-Labels/ori_events/Crossbow	0	0	0	0
+003_.ai	F-Event-Labels/ori_events/Hunting Pistol	2	2	0	2
+003_.ai	F-Event-Labels/ori_events/Pistol	3	3	0	3
+003_.ai	F-Event-Labels/ori_events/Shotgun	1	1	0	1
+003_.ai	F-Event-Labels/ori_events/Rifle	0	0	0	0
+003_.ai	F-Event-Labels/ori_events/Pipe Bomb	1	1	0	1
+003_.ai	F-Event-Labels/ori_events/Health damage	0	0	0	0
+003_.ai	F-Event-Labels/ori_events/Melee	0	0	0	0
+003_.ai	F-Event-Labels/ori_events/Flamethrower	5	5	0	5
+003_.ai	F-Event-Labels/ori_events/Transform	2	2	0	2
+003_.ai	F-Event-Labels/ori_events/Break	3	3	0	3
+003_.ai	F-VGA-Labels	21	35	14	35
+003_.ai	F-VGA-Labels/F-VGA	3462	3462	0	3462
+003_.ai	F-Choice-Labels	21	44	23	44
+003_.ai	F-Choice-Labels/F-ConvexChoice	9	9	0	9
+003_.ai	F-Gate-Counts-Labels	11	32	21	32
+003_.ai	F-Gate-Counts-Labels/F-Gate-Counts	3462	3462	0	3462
+003_.ai	F-Background	1	1	0	1
+003_.ai	original	0	0	0	0
+003_.ai	original/Spawn	1	1	0	1
+003_.ai	original/Route	29	29	0	29
+003_.ai	original/Base	0	1	0	1
+004.ai	F-Walls	0	1	0	1
+004.ai	F-Event-Labels	0	0	0	0
+004.ai	F-Event-Labels/labels	0	0	0	0
+004.ai	F-Event-Labels/F-Event-Route	60	60	0	60
+004.ai	F-Event-Labels/ori_events	0	0	0	0
+004.ai	F-Event-Labels/ori_events/Spawn	1	1	0	1
+004.ai	F-Event-Labels/ori_events/Death	0	1	0	1
+004.ai	F-Event-Labels/ori_events/Break	0	0	0	0
+004.ai	F-Event-Labels/ori_events/Brick	0	0	0	0
+004.ai	F-Event-Labels/ori_events/Crossbow	0	0	0	0
+004.ai	F-Event-Labels/ori_events/Hunting Pistol	6	6	0	6
+004.ai	F-Event-Labels/ori_events/Pistol	1	1	0	1
+004.ai	F-Event-Labels/ori_events/Shotgun	0	0	0	0
+004.ai	F-Event-Labels/ori_events/Rifle	0	0	0	0
+004.ai	F-Event-Labels/ori_events/Pipe Bomb	0	0	0	0
+004.ai	F-Event-Labels/ori_events/Health damage	0	0	0	0
+004.ai	F-Event-Labels/ori_events/Melee	0	0	0	0
+004.ai	F-Event-Labels/ori_events/Flamethrower	10	10	0	10
+004.ai	F-Event-Labels/ori_events/Transform	2	2	0	2
+004.ai	F-Event-Labels/ori_events/Break	2	2	0	2
+004.ai	F-VGA-Labels	21	35	14	35
+004.ai	F-VGA-Labels/F-VGA	3462	3462	0	3462
+004.ai	F-Choice-Labels	21	44	23	44
+004.ai	F-Choice-Labels/F-ConvexChoice	9	9	0	9
+004.ai	F-Gate-Counts-Labels	11	32	21	32
+004.ai	F-Gate-Counts-Labels/F-Gate-Counts	3462	3462	0	3462
+004.ai	F-Background	1	1	0	1
+004.ai	original	0	0	0	0
+004.ai	original/Spawn	1	1	0	1
+004.ai	original/Route	28	28	0	28
+004.ai	original/Base	0	1	0	1
+005_.ai	F-Walls	0	1	0	1
+005_.ai	F-Event-Labels	0	0	0	0
+005_.ai	F-Event-Labels/labels	0	0	0	0
+005_.ai	F-Event-Labels/F-Event-Route	60	60	0	60
+005_.ai	F-Event-Labels/ori_events	0	0	0	0
+005_.ai	F-Event-Labels/ori_events/Spawn	1	1	0	1
+005_.ai	F-Event-Labels/ori_events/Death	0	0	0	0
+005_.ai	F-Event-Labels/ori_events/Break	0	0	0	0
+005_.ai	F-Event-Labels/ori_events/Brick	0	0	0	0
+005_.ai	F-Event-Labels/ori_events/Crossbow	0	0	0	0
+005_.ai	F-Event-Labels/ori_events/Hunting Pistol	6	6	0	6
+005_.ai	F-Event-Labels/ori_events/Pistol	0	0	0	0
+005_.ai	F-Event-Labels/ori_events/Shotgun	0	0	0	0
+005_.ai	F-Event-Labels/ori_events/Rifle	0	0	0	0
+005_.ai	F-Event-Labels/ori_events/Pipe Bomb	0	0	0	0
+005_.ai	F-Event-Labels/ori_events/Health damage	0	0	0	0
+005_.ai	F-Event-Labels/ori_events/Melee	0	0	0	0
+005_.ai	F-Event-Labels/ori_events/Flamethrower	9	9	0	9
+005_.ai	F-Event-Labels/ori_events/Transform	2	2	0	2
+005_.ai	F-Event-Labels/ori_events/Break	0	0	0	0
+005_.ai	F-VGA-Labels	21	35	14	35
+005_.ai	F-VGA-Labels/F-VGA	3462	3462	0	3462
+005_.ai	F-Choice-Labels	21	44	23	44
+005_.ai	F-Choice-Labels/F-ConvexChoice	9	9	0	9
+005_.ai	F-Gate-Counts-Labels	11	32	21	32
+005_.ai	F-Gate-Counts-Labels/F-Gate-Counts	3462	3462	0	3462
+005_.ai	F-Background	1	1	0	1
+005_.ai	original	0	0	0	0
+005_.ai	original/Spawn	1	1	0	1
+005_.ai	original/Route	19	19	0	19
+005_.ai	original/Base	0	1	0	1
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Walls	0	1	0	1
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Event-Labels	49	88	39	88
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Event-Labels/F-Event-Route	60	60	0	60
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Event-Labels/ori_events	0	0	0	0
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Event-Labels/ori_events/Spawn	1	1	0	1
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Event-Labels/ori_events/Death	0	0	0	0
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Event-Labels/ori_events/Break	1	1	0	1
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Event-Labels/ori_events/Brick	0	0	0	0
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Event-Labels/ori_events/Crossbow	0	0	0	0
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Event-Labels/ori_events/Hunting Pistol	4	4	0	4
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Event-Labels/ori_events/Pistol	0	0	0	0
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Event-Labels/ori_events/Shotgun	5	5	0	5
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Event-Labels/ori_events/Rifle	0	0	0	0
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Event-Labels/ori_events/Pipe Bomb	2	2	0	2
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Event-Labels/ori_events/Health damage	3	3	0	3
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Event-Labels/ori_events/Melee	2	2	0	2
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Event-Labels/ori_events/Flamethrower	4	4	0	4
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Event-Labels/ori_events/Transform	2	2	0	2
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Event-Labels/ori_events/Break	0	0	0	0
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Movement-Labels	1	17	16	17
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Movement-Labels/F-Movement-Route	60	60	0	60
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-VGA-Labels	21	35	14	35
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-VGA-Labels/F-VGA	3462	3462	0	3462
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Choice-Labels	21	44	23	44
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Choice-Labels/F-ConvexChoice	9	9	0	9
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Gate-Counts-Labels	11	32	21	32
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Gate-Counts-Labels/F-Gate-Counts	3462	3462	0	3462
+outputs/ratking_run-001/ratking_run-001_edited.ai	F-Background	1	1	0	1
+outputs/ratking_run-001/ratking_run-001_edited.ai	original	0	0	0	0
+outputs/ratking_run-001/ratking_run-001_edited.ai	original/Spawn	1	1	0	1
+outputs/ratking_run-001/ratking_run-001_edited.ai	original/Route	44	44	0	44
+outputs/ratking_run-001/ratking_run-001_edited.ai	original/Base	0	1	0	1
+outputs/ratking_run-001/ratking_run-001_edited.ai	original/depthmap	0	1	0	1
+outputs/ratking_run-001/ratking_run-002.ai	F-Walls	0	1	0	1
+outputs/ratking_run-001/ratking_run-002.ai	F-Event-Labels	49	88	39	88
+outputs/ratking_run-001/ratking_run-002.ai	F-Event-Labels/F-Event-Route	60	60	0	60
+outputs/ratking_run-001/ratking_run-002.ai	F-Event-Labels/ori_events	0	0	0	0
+outputs/ratking_run-001/ratking_run-002.ai	F-Event-Labels/ori_events/Spawn	1	1	0	1
+outputs/ratking_run-001/ratking_run-002.ai	F-Event-Labels/ori_events/Death	0	0	0	0
+outputs/ratking_run-001/ratking_run-002.ai	F-Event-Labels/ori_events/Break	1	1	0	1
+outputs/ratking_run-001/ratking_run-002.ai	F-Event-Labels/ori_events/Brick	0	0	0	0
+outputs/ratking_run-001/ratking_run-002.ai	F-Event-Labels/ori_events/Crossbow	0	0	0	0
+outputs/ratking_run-001/ratking_run-002.ai	F-Event-Labels/ori_events/Hunting Pistol	4	4	0	4
+outputs/ratking_run-001/ratking_run-002.ai	F-Event-Labels/ori_events/Pistol	0	0	0	0
+outputs/ratking_run-001/ratking_run-002.ai	F-Event-Labels/ori_events/Shotgun	5	5	0	5
+outputs/ratking_run-001/ratking_run-002.ai	F-Event-Labels/ori_events/Rifle	0	0	0	0
+outputs/ratking_run-001/ratking_run-002.ai	F-Event-Labels/ori_events/Pipe Bomb	2	2	0	2
+outputs/ratking_run-001/ratking_run-002.ai	F-Event-Labels/ori_events/Health damage	3	3	0	3
+outputs/ratking_run-001/ratking_run-002.ai	F-Event-Labels/ori_events/Melee	2	2	0	2
+outputs/ratking_run-001/ratking_run-002.ai	F-Event-Labels/ori_events/Flamethrower	4	4	0	4
+outputs/ratking_run-001/ratking_run-002.ai	F-Event-Labels/ori_events/Transform	2	2	0	2
+outputs/ratking_run-001/ratking_run-002.ai	F-Event-Labels/ori_events/Break	0	0	0	0
+outputs/ratking_run-001/ratking_run-002.ai	F-Movement-Labels	1	17	16	17
+outputs/ratking_run-001/ratking_run-002.ai	F-Movement-Labels/F-Movement-Route	60	60	0	60
+outputs/ratking_run-001/ratking_run-002.ai	F-VGA-Labels	21	35	14	35
+outputs/ratking_run-001/ratking_run-002.ai	F-VGA-Labels/F-VGA	3462	3462	0	3462
+outputs/ratking_run-001/ratking_run-002.ai	F-Choice-Labels	21	44	23	44
+outputs/ratking_run-001/ratking_run-002.ai	F-Choice-Labels/F-ConvexChoice	9	9	0	9
+outputs/ratking_run-001/ratking_run-002.ai	F-Gate-Counts-Labels	11	32	21	32
+outputs/ratking_run-001/ratking_run-002.ai	F-Gate-Counts-Labels/F-Gate-Counts	3462	3462	0	3462
+outputs/ratking_run-001/ratking_run-002.ai	F-Background	1	1	0	1
+outputs/ratking_run-001/ratking_run-002.ai	original	0	0	0	0
+outputs/ratking_run-001/ratking_run-002.ai	original/Spawn	1	1	0	1
+outputs/ratking_run-001/ratking_run-002.ai	original/Route	44	44	0	44
+outputs/ratking_run-001/ratking_run-002.ai	original/Base	0	1	0	1
+outputs/ratking_run-001/ratking_run-002.ai	original/depthmap	0	1	0	1

@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+cache/
+analysis_cache/
+baseline/**/*.graph
+baseline/**/*.dxf
+source_snapshot/
+*.log
+runs/**/checkpoint.pkl
+*.tmp

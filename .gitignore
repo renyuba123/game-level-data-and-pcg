@@ -1,2 +1,10 @@
 *.mp4
-*.mp4
+
+# Local tool installation cache
+.npm-cache-godot-mcp/
+.godot-mcp-stage/
+.phase14-work/
+.playwright-cli/
+.tools/
+**/__pycache__/
+~ai-*.tmp

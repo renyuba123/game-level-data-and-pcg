@@ -1,0 +1,10 @@
+{
+  "budget": 24,
+  "official_requests": 0,
+  "evaluated_layouts": 24,
+  "battles": 192,
+  "reused_battles": 96,
+  "two_parent_offspring": 11,
+  "crossover_fallbacks": 3,
+  "actual_topology_changes": 11
+}

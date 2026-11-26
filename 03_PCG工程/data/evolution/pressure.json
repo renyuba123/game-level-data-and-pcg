@@ -1,0 +1,273 @@
+{
+  "seed": 42,
+  "genes": {
+    "R01_width": 1.0024064369625545,
+    "R01_height": 0.9555201386217025,
+    "R02_width": 1.0776053947620172,
+    "R02_height": 0.8912682812658949,
+    "R03_width": 0.9406356148093286,
+    "R03_height": 0.9450637023161798,
+    "R04_width": 1.0268157475266297,
+    "R04_height": 1.0882761730235007,
+    "R05_width": 0.96327598195467,
+    "R05_height": 1.0087169559543963,
+    "R06_width": 0.991460539647729,
+    "R06_height": 0.9139275330554083,
+    "R07_width": 0.9534448352010502,
+    "R07_height": 1.0777945673029032,
+    "R08_width": 0.9482760042936613,
+    "R08_height": 0.9865378253257757,
+    "R09_width": 1.0513833262830847,
+    "R09_height": 1.0041683922686444,
+    "R10_width": 1.0198871911010674,
+    "R10_height": 0.9201492755530826,
+    "R11_width": 0.9281972523676799,
+    "R11_height": 1.0224027119754928,
+    "slope_cut": 1.6190477036672961,
+    "bevel": 0.5971146562434463,
+    "block_x": 0.15839712145714732,
+    "block_y": -0.2063418676303676,
+    "block_terminal_offset": 1.1668234766181445,
+    "priority_0": 0.805483859776302,
+    "door_width_0": 0.9297559596654559,
+    "door_offset_0": 0.4471341183049743,
+    "priority_1": 0.04629698893411115,
+    "door_width_1": 0.9420195454786839,
+    "door_offset_1": 0.3326682990928935,
+    "priority_2": 0.7306160719142403,
+    "door_width_2": 0.9959170609739331,
+    "door_offset_2": 0.44167190313928495,
+    "priority_3": 0.9309704712886483,
+    "door_width_3": 0.9468830217821526,
+    "door_offset_3": 0.32721162740175047,
+    "priority_4": 0.7439040211589756,
+    "door_width_4": 0.9059759554940313,
+    "door_offset_4": 0.6539582428701658,
+    "priority_5": 0.44994937597980456,
+    "door_width_5": 0.7941549382775364,
+    "door_offset_5": 0.3228159404817765,
+    "priority_6": 0.29927783744957304,
+    "door_width_6": 0.902421163317418,
+    "door_offset_6": 0.4167397903038559,
+    "priority_7": 0.21347269494513021,
+    "door_width_7": 0.9940898774029692,
+    "door_offset_7": 0.5332151472617567,
+    "priority_8": 0.718309461458045,
+    "door_width_8": 0.7864161506540455,
+    "door_offset_8": 0.5618671057339707,
+    "priority_9": 0.10897382155722468,
+    "door_width_9": 0.8919687243363373,
+    "door_offset_9": 0.3503801589430682,
+    "priority_10": 0.5128121000192244,
+    "door_width_10": 0.8556689285213341,
+    "door_offset_10": 0.5400426480899143,
+    "priority_11": 0.1393840025188111,
+    "door_width_11": 0.9870189021593901,
+    "door_offset_11": 0.6179110276437377,
+    "priority_12": 0.6927898081865416,
+    "door_width_12": 0.8437455370285782,
+    "door_offset_12": 0.6537709798456255,
+    "priority_13": 0.10038433342437966,
+    "door_width_13": 0.9594608024320133,
+    "door_offset_13": 0.574977694129755,
+    "priority_14": 0.8489557941762741,
+    "door_width_14": 0.8906465649041075,
+    "door_offset_14": 0.47884937152548124,
+    "swap_upper": true,
+    "swap_side": false,
+    "remove_normal": 0,
+    "spawn_room": 2,
+    "boss_room": 9
+  },
+  "generation": 14,
+  "evaluation": {
+    "objectives": [
+      0.11776584918399692,
+      0.0,
+      0.29457364341085274,
+      -0.4095238095238095
+    ],
+    "grid": 400,
+    "key": "a7daddec59a62a5485c225360d0794cdd7624ce5c276d222d8e414537d3a7f5a",
+    "status": "200-unit and actual gate tests complete; heldout proxy passed",
+    "heldout": {
+      "method": "2D clearance-grid pursuit proxy; fixed speeds and action times",
+      "heldout": true,
+      "episodes": [
+        {
+          "policy": "exit",
+          "seed": 104729,
+          "outcome": "caught",
+          "duration": 6.0,
+          "visibility_fraction": 0.16666666666666666,
+          "near_fraction": 0.16666666666666666,
+          "stuck_fraction": 0.0,
+          "visited_rooms": 6,
+          "opened": [
+            "E10",
+            "E14"
+          ],
+          "route": [
+            2,
+            1,
+            5,
+            0,
+            6,
+            7
+          ]
+        },
+        {
+          "policy": "exit",
+          "seed": 130363,
+          "outcome": "caught",
+          "duration": 6.0,
+          "visibility_fraction": 0.2,
+          "near_fraction": 0.2,
+          "stuck_fraction": 0.0,
+          "visited_rooms": 6,
+          "opened": [
+            "E10",
+            "E14"
+          ],
+          "route": [
+            2,
+            1,
+            5,
+            0,
+            6,
+            7
+          ]
+        },
+        {
+          "policy": "distance",
+          "seed": 104729,
+          "outcome": "escaped",
+          "duration": 17.2,
+          "visibility_fraction": 0.10465116279069768,
+          "near_fraction": 0.05813953488372093,
+          "stuck_fraction": 0.0,
+          "visited_rooms": 8,
+          "opened": [
+            "E02",
+            "E07",
+            "E10",
+            "E14"
+          ],
+          "route": [
+            2,
+            1,
+            5,
+            0,
+            6,
+            7,
+            9,
+            10
+          ]
+        },
+        {
+          "policy": "distance",
+          "seed": 130363,
+          "outcome": "escaped",
+          "duration": 17.2,
+          "visibility_fraction": 0.10465116279069768,
+          "near_fraction": 0.05813953488372093,
+          "stuck_fraction": 0.0,
+          "visited_rooms": 8,
+          "opened": [
+            "E02",
+            "E07",
+            "E10",
+            "E14"
+          ],
+          "route": [
+            2,
+            1,
+            5,
+            0,
+            6,
+            7,
+            9,
+            10
+          ]
+        },
+        {
+          "policy": "occlusion",
+          "seed": 104729,
+          "outcome": "escaped",
+          "duration": 17.2,
+          "visibility_fraction": 0.10465116279069768,
+          "near_fraction": 0.05813953488372093,
+          "stuck_fraction": 0.0,
+          "visited_rooms": 8,
+          "opened": [
+            "E02",
+            "E07",
+            "E10",
+            "E14"
+          ],
+          "route": [
+            2,
+            1,
+            5,
+            0,
+            6,
+            7,
+            9,
+            10
+          ]
+        },
+        {
+          "policy": "occlusion",
+          "seed": 130363,
+          "outcome": "escaped",
+          "duration": 17.2,
+          "visibility_fraction": 0.10465116279069768,
+          "near_fraction": 0.05813953488372093,
+          "stuck_fraction": 0.0,
+          "visited_rooms": 8,
+          "opened": [
+            "E02",
+            "E07",
+            "E10",
+            "E14"
+          ],
+          "route": [
+            2,
+            1,
+            5,
+            0,
+            6,
+            7,
+            9,
+            10
+          ]
+        }
+      ],
+      "fairness_loss": 0.0,
+      "pressure_loss": 0.30025839793281656,
+      "route_diversity": 0.4095238095238095,
+      "escape_fraction": 0.6666666666666666,
+      "early_catch_fraction": 0.0,
+      "timeout_fraction": 0.0,
+      "near_fraction": 0.09987080103359174,
+      "stuck_fraction": 0.0
+    },
+    "excluded": [
+      "Gate Counts",
+      "Convex Choice"
+    ],
+    "fine_review": {
+      "grid": 200,
+      "valid": true,
+      "constraint": 0.0,
+      "objectives": [
+        0.11480523381668079,
+        0.0,
+        0.29457364341085274,
+        -0.4095238095238095
+      ],
+      "key": "f22bf85ec3ae7c949c6a72def39521779ef2eadce416b6cd9d8b95de7d13e260",
+      "error": null
+    }
+  }
+}

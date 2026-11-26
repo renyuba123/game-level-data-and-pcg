@@ -1,0 +1,13 @@
+{
+  "run": "search_v1",
+  "valid_evolution_candidates": 1392,
+  "fairness_feasible": 475,
+  "pareto_count": 2,
+  "presets": {
+    "balanced": "a7daddec59a62a5485c225360d0794cdd7624ce5c276d222d8e414537d3a7f5a",
+    "exploration": "392c45ee982238d325e086750437df3debb5f912c03e55ce4dd5141ed88b28dc",
+    "pressure": "a7daddec59a62a5485c225360d0794cdd7624ce5c276d222d8e414537d3a7f5a"
+  },
+  "completed_batches": 120,
+  "note": "Proxy evaluation only. No claim of better player experience or global optimum."
+}

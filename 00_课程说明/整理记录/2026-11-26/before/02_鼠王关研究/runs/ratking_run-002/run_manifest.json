@@ -1,0 +1,103 @@
+{
+  "run_id": "ratking_run-002",
+  "source_ai": "002.ai",
+  "source_ai_sha256": "048fd93c63e94a0c8a21c9f4ac6b7b4905a23cd8e0cf00e672ba22fa3571957c",
+  "edited_ai": "outputs/ratking_run-002/ratking_run-002_edited.ai",
+  "edited_ai_sha256": "a43a2d1eaa7a9d7c741f785bdf49131c209eea33de652aeac708319454151b04",
+  "edited_ai_reopened_in_illustrator": true,
+  "source_graph": "shuwang.graph",
+  "source_graph_sha256": "103c65634720498ec2f71e42b5b4c21091d0c4a5e27ee728418733794790c049",
+  "source_dxf": "鼠王关.dxf",
+  "source_dxf_sha256": "99cb95e8c010775ceb3f27a4f3ba7677f04e2aaa71185ea776a446aca9f939d1",
+  "registered_transform": {
+    "x_ai": [
+      0.06691727404950577,
+      -0.00013900880192652468,
+      130.39008500555633
+    ],
+    "y_ai": [
+      0.00011417877921099384,
+      0.06717267276290083,
+      605.1288694685575
+    ]
+  },
+  "room_count": 11,
+  "vga_point_count": 3468,
+  "route_segment_count": 19,
+  "event_icon_count": 12,
+  "max_candidate_route_gap_ai_pt": 15.711,
+  "route_order_status": "geometry_candidate_not_video_verified",
+  "metric": "Metric Mean Shortest-Path Distance",
+  "metrics": {
+    "Visual Integration [HH]": {
+      "min": 4.5676084,
+      "max": 17.173517,
+      "palette_method": "ten_equal_numeric_intervals_from_exported_range",
+      "bounds": [
+        4.5676084,
+        5.82819926,
+        7.0887901200000005,
+        8.34938098,
+        9.60997184,
+        10.8705627,
+        12.13115356,
+        13.391744420000002,
+        14.652335279999999,
+        15.91292614,
+        17.173517
+      ]
+    },
+    "Gate Counts": {
+      "min": 83.0,
+      "max": 82594.0,
+      "palette_method": "ten_equal_numeric_intervals_from_exported_range",
+      "bounds": [
+        83.0,
+        8334.1,
+        16585.2,
+        24836.3,
+        33087.4,
+        41338.5,
+        49589.6,
+        57840.7,
+        66091.8,
+        74342.9,
+        82594.0
+      ]
+    },
+    "Metric Mean Shortest-Path Distance": {
+      "min": 6209.8452,
+      "max": 13219.324,
+      "palette_method": "ten_equal_numeric_intervals_from_exported_range",
+      "bounds": [
+        6209.8452,
+        6910.7930799999995,
+        7611.74096,
+        8312.688839999999,
+        9013.63672,
+        9714.5846,
+        10415.53248,
+        11116.480360000001,
+        11817.428240000001,
+        12518.37612,
+        13219.324
+      ]
+    }
+  },
+  "figure_files_sha256": {
+    "movement_from_edited_ai.svg": "031cb63218a6b0d2606c31741c0501f84e3b6b24a8ad0f834522dc097c020ffe",
+    "movement_from_edited_ai.png": "4b2181993da2b7b858079a8bc0148ef7b5e23faeefa203c20ba6f12d6ac92b3d",
+    "events_from_edited_ai.svg": "fb0988cac072e2444871bf0d5b0be04d76995f81689f782c6c6710cdc5189d26",
+    "events_from_edited_ai.png": "e883e15e2fb969ea0811ddc6c66e5391a196428ab26b590dea5e6c14b3f65a5c",
+    "convex_from_edited_ai.svg": "499c211561d29e346bb26c3e6b09b8419104ffdbd307806b1d0585960b11011c",
+    "convex_from_edited_ai.png": "98b85ae5f32aea4bb7b0b718d68c74a48cbb90d7aa0605f3042984a29999d923",
+    "visibility_from_edited_ai.svg": "1ee49533a9978581371933d976e45eb076a2bc50580b1406f02d5f0426fe28e2",
+    "visibility_from_edited_ai.png": "2affac365367fd295477ff9279b0e5907fc1e08d6ea46edadf7c67b62469d963",
+    "gate_counts_from_edited_ai.svg": "57ce1f6afe3e3e942310c69c47633b6f110a19b72047e35a98e95c1ad4b9a112",
+    "gate_counts_from_edited_ai.png": "8f52d696f0eceb450d658c73be15ea3af1871458fd8b11dac1473febe3002370",
+    "metric_distance_from_edited_ai.svg": "29c4aba12a70b892672e9c68ed734fcce33107c1c91b875855c8bcf1fef3b7ed",
+    "metric_distance_from_edited_ai.png": "90dcc6cbe71d1a7b2d878e1c4aa51f918d9a971efecf1ad5b9b41d65e5d0580f"
+  },
+  "physical_scale_verified": false,
+  "door_passability_verified": false
+}

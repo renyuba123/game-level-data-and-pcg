@@ -1,0 +1,22 @@
+{
+  "changed_existing_files": [
+    "D:\\GODOT Prams\\boss-level-pcg\\.gitignore",
+    "D:\\GODOT Prams\\boss-level-pcg\\AGENTS.md",
+    "D:\\GODOT Prams\\boss-level-pcg\\PLANS.md",
+    "D:\\GODOT Prams\\boss-level-pcg\\PROGRESS.md",
+    "D:\\GODOT Prams\\boss-level-pcg\\README.md",
+    "D:\\GODOT Prams\\boss-level-pcg\\evolution\\QA.md",
+    "D:\\GODOT Prams\\boss-level-pcg\\full_pcg\\README.md",
+    "D:\\GODOT Prams\\boss-level-pcg\\full_pcg\\STATUS.md",
+    "F:\\大学作业\\游戏空间设计微专业\\.gitignore",
+    "F:\\大学作业\\游戏空间设计微专业\\README.md",
+    "F:\\大学作业\\游戏空间设计微专业\\RatKing_Space_Syntax_PCG_Codex_Brief.md"
+  ],
+  "moves_verified": 41,
+  "move_errors": [],
+  "non_document_changes": [],
+  "markdown_documents_checked": 12,
+  "markdown_link_errors": [],
+  "tests_passed": 37,
+  "baseline_changed": []
+}

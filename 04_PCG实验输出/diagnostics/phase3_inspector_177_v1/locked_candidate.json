@@ -1,0 +1,254 @@
+{
+  "id": "near_1_-1",
+  "combat": {
+    "boss": {
+      "attack_warning_s": 0.85,
+      "awareness": "visible_target_or_heard_event_then_last_known_position",
+      "grab_range_m": 1.2,
+      "grab_requires_clearance_and_los": true,
+      "height_m": 2.2,
+      "hp": 1000.0,
+      "radius_m": 0.58,
+      "speed_mps": 2
+    },
+    "frozen": false,
+    "parameter_status": "All numeric combat values below are provisional research assumptions, not official game data.",
+    "player": {
+      "aim_fov_deg": 55.0,
+      "aim_speed_mps": 2.65,
+      "fov_deg": 80.0,
+      "height_m": 1.8,
+      "hp": 100.0,
+      "radius_m": 0.35,
+      "reaction_s": 0.25,
+      "speed_mps": 5.0,
+      "turn_deg_per_s": 180.0,
+      "vision_range_m": 30.0
+    },
+    "portals": {
+      "after_boss_smash": "both_roles_open",
+      "break_boss_smash_s": 1.8,
+      "player_can_break": false,
+      "through_boss_smash_s": 1.5,
+      "through_player_interaction_range_m": 1.6,
+      "through_player_squeeze_s": 0.65
+    },
+    "protocol_id": "inspector_balance_177_v1",
+    "provenance": {
+      "geometry_source": "Python Layout",
+      "graph_source": "shuwang.graph",
+      "official_numeric_parameters": false,
+      "physical_scale_calibrated": false
+    },
+    "sampling": {
+      "episodes_per_candidate": 12.0,
+      "heldout_seeds": [
+        101.0,
+        102.0,
+        103.0,
+        104.0
+      ],
+      "policies": [
+        "output",
+        "occlusion",
+        "supply"
+      ],
+      "scenario_seeds": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ]
+    },
+    "schema_version": "combat-pcg/3",
+    "score_sampling": {
+      "grid_m": 0.5,
+      "loss_of_target_min_s": 0.5,
+      "maximum_alternative_endpoint_pairs": 32.0,
+      "threat_margin_s": 0.5
+    },
+    "search_budget": {
+      "arms": [
+        "legacy_ga",
+        "full_ga",
+        "full_random"
+      ],
+      "candidate_requests": 6048.0,
+      "counterfactual_full_simulation_count": 72576.0,
+      "population": 32.0,
+      "reproductions": 20.0,
+      "seeds": [
+        11.0,
+        29.0,
+        47.0
+      ]
+    },
+    "simulation": {
+      "seed_streams": [
+        "perception",
+        "aim",
+        "decision",
+        "stalker"
+      ],
+      "tick_s": 0.05,
+      "time_limit_s": 180.0
+    },
+    "stalker": {
+      "boss_kill_only_after_split_in_later_tick": true,
+      "control_s": 0.8,
+      "cooldown_s": 4.0,
+      "crossing_hit_overflow": "discard_and_clamp_to_threshold",
+      "damage": 17,
+      "independent_final_arena": false,
+      "radius_m": 0.3,
+      "shot_response": "interrupt_and_retreat",
+      "spawn": "collision_valid_point_near_boss_not_behind_player_teleport",
+      "speed_mps": 2.85,
+      "split_hp_fraction": 0.5,
+      "states": [
+        "hide",
+        "approach",
+        "warn",
+        "control",
+        "retreat"
+      ],
+      "warning_s": 0.6
+    },
+    "supplies": {
+      "initial_rounds_including_magazine": 12.0,
+      "pack_count": 6.0,
+      "pickup_radius_m": 1.25,
+      "pickup_s": 0.3,
+      "positions_are_genes": true,
+      "respawn": false,
+      "rounds_per_pack": 8.0
+    },
+    "termination": {
+      "death": "valid_large_boss_grab_or_player_hp_zero",
+      "exit_is_victory": false,
+      "simultaneous_grab_and_lethal_shot": "earliest_event_time_then_death_on_exact_tie",
+      "success": "large_boss_hp_zero",
+      "timeout": "separate_non_victory"
+    },
+    "units": "model_m",
+    "weapon": {
+      "aim_s": 0.25,
+      "angular_error_sd_deg": 1.5,
+      "damage": 51,
+      "fire_interval_s": 0.26,
+      "magazine": 8.0,
+      "must_test_camera_and_muzzle_separately": true,
+      "range_m": 30.0,
+      "reload_s": 1.6,
+      "type": "hitscan_single_research_weapon"
+    }
+  },
+  "development": [
+    {
+      "candidate": "near_1_-1",
+      "seed": 177,
+      "scale": 1.5,
+      "episodes": 12,
+      "outcomes": {
+        "victory": 12
+      },
+      "phase2": 12,
+      "deaths": {},
+      "by_policy": {
+        "output": {
+          "victory": 4
+        },
+        "occlusion": {
+          "victory": 4
+        },
+        "supply": {
+          "victory": 4
+        }
+      },
+      "median_final_boss_hp": 0.0,
+      "scores": {
+        "S": 86.50809401091992,
+        "F": 54.02326261701262,
+        "P": 84.99528301739497,
+        "D": 16.6522458394086
+      },
+      "missing": [],
+      "violations": {},
+      "report": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\phase3_inspector_177_v1\\screening\\177\\near_1_-1\\score.json",
+      "manifest_sha256": "127d895b9a2e351a1a11a8cf3e98225c0b3f9c24a92ed55c6ef0f49b7945173a"
+    },
+    {
+      "candidate": "near_1_-1",
+      "seed": 6,
+      "scale": 1.5,
+      "episodes": 12,
+      "outcomes": {
+        "victory": 8,
+        "death": 4
+      },
+      "phase2": 12,
+      "deaths": {
+        "large_boss": 4
+      },
+      "by_policy": {
+        "output": {
+          "victory": 3,
+          "death": 1
+        },
+        "occlusion": {
+          "victory": 2,
+          "death": 2
+        },
+        "supply": {
+          "victory": 3,
+          "death": 1
+        }
+      },
+      "median_final_boss_hp": 0.0,
+      "scores": {
+        "S": 89.33758877744563,
+        "F": 70.68094135802468,
+        "P": 51.017376474937286,
+        "D": 2.8427719228647153
+      },
+      "missing": [],
+      "violations": {},
+      "report": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\phase3_inspector_177_v1\\development\\6\\near_1_-1\\score.json",
+      "manifest_sha256": "e90497d7d732e3c5a3eb5a99272013034bd90b783a18f27c0365e0836ce87d85"
+    },
+    {
+      "candidate": "near_1_-1",
+      "seed": 84,
+      "scale": 1.5,
+      "episodes": 12,
+      "outcomes": {
+        "victory": 12
+      },
+      "phase2": 12,
+      "deaths": {},
+      "by_policy": {
+        "output": {
+          "victory": 4
+        },
+        "occlusion": {
+          "victory": 4
+        },
+        "supply": {
+          "victory": 4
+        }
+      },
+      "median_final_boss_hp": 0.0,
+      "scores": {
+        "S": 85.19993382260586,
+        "F": 50.85069444444444,
+        "P": 87.5774564835532,
+        "D": 18.20583915263856
+      },
+      "missing": [],
+      "violations": {},
+      "report": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\phase3_inspector_177_v1\\development\\84\\near_1_-1\\score.json",
+      "manifest_sha256": "4ed15104fa644793a5852e901c616a05eb94dbc8014d2a724c61232af4f67458"
+    }
+  ],
+  "passed_development": true
+}

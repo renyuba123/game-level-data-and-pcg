@@ -52,6 +52,47 @@ def numeric_or_blank(value, label, rownum, errors):
         errors.append(f"Row {rownum}: {label} must be a number or blank")
 
 
+def validate_shuwang(path, manifest):
+    workspace = path.parent.parent
+    errors = []
+    def check_file(relative, expected):
+        target = workspace / relative
+        if not target.is_file() or hashlib.sha256(target.read_bytes()).hexdigest().lower() != str(expected).lower():
+            errors.append(f"Missing file or hash mismatch: {relative}")
+    check_file(manifest.get("source_ai", ""), manifest.get("source_ai_sha256"))
+    check_file(manifest.get("edited_ai", ""), manifest.get("edited_ai_sha256"))
+    check_file("shuwang.graph", manifest.get("source_graph_sha256"))
+    check_file("鼠王关.dxf", manifest.get("source_dxf_sha256"))
+    for name, expected in manifest.get("figure_files_sha256", {}).items():
+        check_file(f"outputs/{manifest['run_id']}/{name}", expected)
+    for name, layer_id, count in (("visibility", "F-VGA", 3468),
+                                  ("gate_counts", "F-Gate-Counts", 3468),
+                                  ("metric_distance", "F-Metric", 3468)):
+        svg_path = workspace / "outputs" / manifest["run_id"] / f"{name}_from_edited_ai.svg"
+        if not svg_path.is_file():
+            errors.append(f"Missing {name} SVG")
+            continue
+        svg = svg_path.read_bytes()
+        if b"<image" in svg or b"data:image" in svg:
+            errors.append(f"{name} SVG contains embedded raster")
+        root = ET.fromstring(svg)
+        layer = next((item for item in root.iter() if item.get("id") == layer_id), None)
+        actual = sum(item.tag.endswith("}rect") for item in layer.iter()) if layer is not None else 0
+        if actual != count:
+            errors.append(f"{name} has {actual} vector cells, expected {count}")
+    for name in ("route_points.csv", "events.csv"):
+        with (path / name).open(encoding="utf-8-sig", newline="") as stream:
+            rows = list(csv.DictReader(stream))
+        expected = manifest["route_segment_count"] if name.startswith("route") else manifest["event_icon_count"]
+        if len(rows) != expected or any(row.get("timestamp_s") for row in rows):
+            errors.append(f"{name} row count or unverified timestamps invalid")
+    print(f"Run: {manifest['run_id']} | graph: shuwang.graph | VGA: {manifest.get('vga_point_count')} | rooms: {manifest.get('room_count')}")
+    for error in errors:
+        print("ERROR:", error)
+    print("Result:", "PASS" if not errors else "FAIL")
+    return 1 if errors else 0
+
+
 def main(folder):
     errors, warnings = [], []
     path = Path(folder)
@@ -68,6 +109,8 @@ def main(folder):
             manifest = {}
     except (OSError, UnicodeError, json.JSONDecodeError) as exc:
         errors.append(f"Cannot read run_manifest.json: {exc}")
+    if manifest.get("source_graph") == "shuwang.graph":
+        return validate_shuwang(path, manifest)
     missing = REQUIRED_MANIFEST - set(manifest)
     if missing:
         errors.append("Manifest missing fields: " + ", ".join(sorted(missing)))

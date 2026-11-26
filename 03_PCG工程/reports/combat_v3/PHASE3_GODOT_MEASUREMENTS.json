@@ -1,0 +1,15 @@
+{
+  "root": "F:\\大学作业\\游戏空间设计微专业\\04_PCG实验输出\\runs\\shell_phase2_current_net\\phase3_measurements_v1",
+  "base_commit": "3504958",
+  "formal": false,
+  "sha256": {
+    "diagnostic_summary.json": "ddf42e61ea891137fdc0485e1cf92fbf3e5b617db49a9371e240a58e802ecb21",
+    "replay6/comparison.json": "352c802c95917721afdffb5db66dfce4f534a4203eaaf29dc04dfe98f9f0e158",
+    "seed6/manifest.json": "3000672703b0a129b96b77cc73bd389443b98dd63b30e89efc6680b53d90e3e7",
+    "score6.json": "55869e188cadc34608a7f2c7a032d75ef2f6ae05c37a3b7fa7e002076cb4c2e5",
+    "seed84/manifest.json": "a764360a84a4c15cac79423df5462f4e35555fc2e44f28dabdeadff947890e21",
+    "score84.json": "37d5353333b7fad837212017235b9790c804d00ed4a0bcce9e9c4215a54bf7dd",
+    "seed1002/manifest.json": "6813d051d9e27bdd3a15b0ce5fc504db7e3a86edbb6964a53700bc40cb687ab1",
+    "score1002.json": "5bc17e81f6e8fec6f9acefeb058dd05b0e3133f1382eae7f9f300265ca20d1b4"
+  }
+}

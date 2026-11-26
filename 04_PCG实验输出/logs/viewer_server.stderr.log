@@ -1,0 +1,45 @@
+2026-11-24 16:30:31.610 Uvicorn server started on 127.0.0.1:8501
+2026-11-24 21:32:08.412 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 936, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 365, in <module>
+    main()
+    ~~~~^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 359, in main
+    render(get_archive(root, file_signature(root)), args.godot)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 279, in render
+    chart = st.plotly_chart(build_lineage(archive, generations, rows, max(generations), selected_hint),
+                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\lineage.py", line 106, in build_lineage
+    removed = discard(generations, row, cutoff)
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\lineage.py", line 43, in discard
+    reason = generation.decisions.get(identity, {}).get("reason")
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Generation' object has no attribute 'decisions'
+2026-11-24 21:36:20.042 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\人于八\AppData\Local\RatKingPCG\viewer\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 936, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 375, in <module>
+    main()
+    ~~~~^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 369, in main
+    render(get_archive(root, file_signature(root)), args.godot)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\app.py", line 279, in render
+    chart = st.plotly_chart(build_lineage(archive, generations, rows, max(generations), selected_hint),
+                            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\lineage.py", line 107, in build_lineage
+    removed = discard(generations, row, cutoff)
+  File "D:\GODOT Prams\boss-level-pcg\full_pcg\viewer\lineage.py", line 44, in discard
+    reason = generation.decisions.get(identity, {}).get("reason")
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Generation' object has no attribute 'decisions'
