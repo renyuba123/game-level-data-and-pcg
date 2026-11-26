@@ -1,0 +1,18 @@
+{
+  "backend": "combat-batch/godot-1",
+  "baseline_commit": "c337bdd",
+  "evidence_root": "F:\\大学作业\\游戏空间设计微专业\\04_PCG实验输出\\runs\\shell_phase2_current_net\\phase3_godot_sync_v3",
+  "evidence_sha256": {
+    "seed_6/manifest.json": "37d43a15e370c0f8b3d3ec6e599994ac6f15432b2c015e5d5926c4b033d3a349",
+    "seed_84/manifest.json": "85ede4c57a746b59138852406ef4f6b3905f44ca42c52e86c464a68b081b41c3",
+    "score_6.json": "5cfc44832df666a344913507abf0874fb9759c92c36b80d2273ce8af02de86cd",
+    "score_84.json": "6c951e0793f2fc17c3b7d7e9401c5d09f78dffab529bc53d17174202eb60f241",
+    "normal_combat_regression/result.json": "18cb641789821b82d1ff3e2ff0a703b5c4575e307637dfdd5f1e054f0fce67db",
+    "calibrate_6/standard/godot/report.json": "e1ff2d3746ebcf0ba427e901b48aade4f22f6dca015e9d28e877625bfc2bf093",
+    "calibrate_6/standard/godot/episodes/manifest.json": "6fecc4ab6b0c92247551608928c2c6976100248bfba08fad36adc8737bafc263",
+    "replay_6_output_0/comparison.json": "5f1ccd7a73e892ea765db65c75d3b72486f8b3ebf849d8b39c7c691227df3572",
+    "replay_6_occlusion_0/comparison.json": "ef2802a1c6da00bf5c704c58f46c42d3d74c9af50bb933f2cbd01e791dc149cb",
+    "replay_84_output_0/comparison.json": "87692159fe0905c0e90b00108e1e99270a4b9fd4befec1e3f20bf8baf8c59f44",
+    "replay_84_output_3/comparison.json": "3517225ace84243419dbf1dcfa9deb0e35e5852d9fe6eeb15cc944fdfb28aa1b"
+  }
+}

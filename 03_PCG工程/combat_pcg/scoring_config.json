@@ -1,0 +1,31 @@
+{
+  "schema_version": "combat-pcg/3",
+  "protocol_id": "combat_v3_draft_001",
+  "frozen": false,
+  "calibration_status": "uncalibrated_research_assumptions",
+  "minimum_episodes": 12,
+  "minimum_wins_for_diversity": 2,
+  "failure_exposure_reference_s": {"phase1": 30.0, "phase2": 30.0},
+  "weights": {
+    "S": {"global_distance": 0.5, "regional_distance": 0.5},
+    "F": {"win_fraction": 0.5, "reaction_fraction": 0.25, "supply_fraction": 0.25},
+    "P": {"threat_fraction": 0.35, "shooting_window_fraction": 0.30, "reacquisition_fraction": 0.20, "action_risk_fraction": 0.15},
+    "D": {"route_difference": 0.35, "firing_position_diversity": 0.25, "alternative_use": 0.25, "destruction_use": 0.15}
+  },
+  "display_weights": {"S": 0.15, "F": 0.35, "P": 0.30, "D": 0.20},
+  "metrics": {
+    "global_distance": {"unit": "baseline_scale", "domain": [0, null], "curve": "distance", "tolerance": 1},
+    "regional_distance": {"unit": "baseline_scale", "domain": [0, null], "curve": "distance", "tolerance": 1},
+    "win_fraction": {"unit": "fraction", "domain": [0, 1], "curve": "band", "target": [0.5, 0.8], "tolerance": 0.5},
+    "reaction_fraction": {"unit": "fraction", "domain": [0, 1], "curve": "increase"},
+    "supply_fraction": {"unit": "fraction", "domain": [0, 1], "curve": "increase"},
+    "threat_fraction": {"unit": "fraction", "domain": [0, 1], "curve": "band", "target": [0.2, 0.55], "tolerance": 0.25},
+    "shooting_window_fraction": {"unit": "fraction", "domain": [0, 1], "curve": "band", "target": [0.25, 0.65], "tolerance": 0.25},
+    "reacquisition_fraction": {"unit": "fraction", "domain": [0, 1], "curve": "increase"},
+    "action_risk_fraction": {"unit": "fraction", "domain": [0, 1], "curve": "band", "target": [0.10, 0.40], "tolerance": 0.20},
+    "route_difference": {"unit": "fraction", "domain": [0, 1], "curve": "increase"},
+    "firing_position_diversity": {"unit": "fraction", "domain": [0, 1], "curve": "increase"},
+    "alternative_use": {"unit": "fraction", "domain": [0, 1], "curve": "increase"},
+    "destruction_use": {"unit": "fraction", "domain": [0, 1], "curve": "increase"}
+  }
+}

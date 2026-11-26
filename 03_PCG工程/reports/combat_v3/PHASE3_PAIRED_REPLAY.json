@@ -1,0 +1,46 @@
+{
+  "schema": "phase3-paired-replay/1",
+  "baseline_commit": "59ae504",
+  "evidence_root": "F:\\大学作业\\游戏空间设计微专业\\04_PCG实验输出\\runs\\shell_phase2_current_net\\phase3_paired_replay_v2",
+  "cases": [
+    "seed_6_output_0",
+    "seed_84_output_0",
+    "seed_84_occlusion_0"
+  ],
+  "modes": [
+    "paired",
+    "native"
+  ],
+  "tick_s": 0.05,
+  "positional_diagnostic_threshold_m": 0.01,
+  "ability_runs": 12,
+  "evidence_sha256": {
+    "seed_6_output_0/paired_case.json": "234e7308bf1165e089a6a240ccb7e6868208974c1fab281fb6c185fbb49ad186",
+    "seed_6_output_0/native_case.json": "c1990bbbd407a8aa6deaf4c6845cf91671356c831674fd4a3690abec8879f900",
+    "seed_6_output_0/paired_godot.json": "84c9f4ab6a8e7c6d80bf1c2eb41e93cd8fb7e54a6c9dc87c93e1732e05943117",
+    "seed_6_output_0/native_godot.json": "44141df793fedd81cd3cab638e1286885826a688adea57bdfba922d32e6c88ab",
+    "seed_6_output_0/comparison.json": "8d561d9cbc28f0117361bee78f252dec3023ddde4668f683356a6986149d6afd",
+    "seed_84_output_0/paired_case.json": "55f1373812d3024c7727762b4c2d8b980c3ce0c9299ae1ca9dae9bd842d688ef",
+    "seed_84_output_0/native_case.json": "efe1f3110905bad5693ff94c17e0be0cd073dec66be36b502a695d0f8007621c",
+    "seed_84_output_0/paired_godot.json": "2658a4cb16bb97ae2a8a79f1068cdf89f0c942be87d92aaf4f80c26567a9462c",
+    "seed_84_output_0/native_godot.json": "7c4514832c061d665b5b16ae1a0e6cac370dc726e077b2894dd08fadbf13f2ea",
+    "seed_84_output_0/comparison.json": "84a09a257525c6fc930b7994376e756289505e4797fe983851c2583f0cdf5995",
+    "seed_84_occlusion_0/paired_case.json": "7fcb4ba72412c225a89f046bf5508c2424f707be5adb2f0401e65dc9abf534d4",
+    "seed_84_occlusion_0/native_case.json": "5ec25cd8e3e3530bc2e8fefd9bf8264c777ed62a45a747429c95c7fcc915cf96",
+    "seed_84_occlusion_0/paired_godot.json": "a6e9d837dcc9abed0ee72c832aefffbcf9d70bd5904b46cdde32cd3988aaca17",
+    "seed_84_occlusion_0/native_godot.json": "f4150d88ebf7cef9c95dc474f8aa04f9b2de0c37bcd70421cd91440493afa553",
+    "seed_84_occlusion_0/comparison.json": "721c38f898b2174992fa4ec337d836bc1a900b6842efe4f9e1c0cbb4b1d422b4",
+    "seed_6_no_actor_contact/case.json": "140fa744465d70b041462df709c2a145014b19469e258e0349ba6d0d69e09687",
+    "seed_6_no_actor_contact/godot.json": "f5519c2bb0a586af450f57c52fc759f66c0d7772b879e2d875120943554e4f51",
+    "seed_6_no_actor_contact/comparison.json": "d26ad1a8b9d59abceb5d074421cabc1a0190bd3bde32d271275dcb8901c25dd2",
+    "seed_6_stationary_hold/case.json": "48e691c5d2250391ef76ece63cadb1cc042aa56c70d442857cf302bb7af2e7c7",
+    "seed_6_stationary_hold/godot.json": "3d24d38fed5d73bf0e2c3033fdbe226245c0089b1436e8c4271bb3d68f9d76ca",
+    "ability_diagnostic/comparison.json": "7bacb1f4b635cb7480721113a8ce3add39e0830517e85dd2a294a958cf6fbddb",
+    "cli_check/paired_case.json": "2be31f35431659b895ef647f685ddfa5a3cd54189752238bb408523317c0d190",
+    "cli_check/native_case.json": "bc11380f767155f954fead47dcc37a77b3ea3e44a280e935382fa959c4e4b4ba",
+    "cli_check/paired_godot.json": "18d3e8e1efaf71ab8b99321cab6144301fc1cb700d33f55763a2e123e0fc7555",
+    "cli_check/native_godot.json": "079afb48a6b672ec3cc5e3d0a696332aeed30a941a098fac2eca712060576902",
+    "cli_check/comparison.json": "f361a9c93e3e32ac27c32ea796a257dc9e169158fd9c732004ab64c48a180cfc",
+    "normal_combat_smoke/result.json": "391880a7edede5564369aad8b23cb538571de5502ff8922734cc88e87574d36c"
+  }
+}

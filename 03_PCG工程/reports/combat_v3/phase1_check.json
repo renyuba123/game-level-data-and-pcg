@@ -1,0 +1,131 @@
+{
+  "phase": "1",
+  "tests_run": 47,
+  "success": true,
+  "test_log": "test_bad_units_nan_and_bool (combat_pcg.test_contracts.ContractsTest.test_bad_units_nan_and_bool) ... ok\ntest_capability_not_gene (combat_pcg.test_contracts.ContractsTest.test_capability_not_gene) ... ok\ntest_dangling_and_duplicate (combat_pcg.test_contracts.ContractsTest.test_dangling_and_duplicate) ... ok\ntest_episode_terminal_and_order (combat_pcg.test_contracts.ContractsTest.test_episode_terminal_and_order) ... ok\ntest_repeated_content_keeps_occurrences (combat_pcg.test_contracts.ContractsTest.test_repeated_content_keeps_occurrences) ... ok\ntest_round_trip_hash (combat_pcg.test_contracts.ContractsTest.test_round_trip_hash) ... ok\ntest_same_room_and_distinct_coordinates (combat_pcg.test_contracts.ContractsTest.test_same_room_and_distinct_coordinates) ... ok\ntest_bad_weights_rejected (combat_pcg.test_scoring.ScoreTest.test_bad_weights_rejected) ... ok\ntest_band_boundaries (combat_pcg.test_scoring.ScoreTest.test_band_boundaries) ... ok\ntest_display_weights_do_not_change_objectives (combat_pcg.test_scoring.ScoreTest.test_display_weights_do_not_change_objectives) ... ok\ntest_duplicate_repetition_rejected (combat_pcg.test_scoring.ScoreTest.test_duplicate_repetition_rejected) ... ok\ntest_early_death_and_unreached_stage_penalized (combat_pcg.test_scoring.ScoreTest.test_early_death_and_unreached_stage_penalized) ... ok\ntest_error_is_json_serializable (combat_pcg.test_scoring.ScoreTest.test_error_is_json_serializable) ... ok\ntest_fake_freeze_rejected (combat_pcg.test_scoring.ScoreTest.test_fake_freeze_rejected) ... ok\ntest_hand_calculation (combat_pcg.test_scoring.ScoreTest.test_hand_calculation) ... ok\ntest_hard_failure_cannot_be_offset (combat_pcg.test_scoring.ScoreTest.test_hard_failure_cannot_be_offset) ... ok\ntest_insufficient_count (combat_pcg.test_scoring.ScoreTest.test_insufficient_count) ... ok\ntest_missing_not_zero (combat_pcg.test_scoring.ScoreTest.test_missing_not_zero) ... ok\ntest_mixed_layout_rejected (combat_pcg.test_scoring.ScoreTest.test_mixed_layout_rejected) ... ok\ntest_nan_and_wrong_unit (combat_pcg.test_scoring.ScoreTest.test_nan_and_wrong_unit) ... ok\ntest_no_opportunity_is_explicit (combat_pcg.test_scoring.ScoreTest.test_no_opportunity_is_explicit) ... ok\ntest_no_victory_is_uncertain (combat_pcg.test_scoring.ScoreTest.test_no_victory_is_uncertain) ... ok\ntest_serializable_deterministic (combat_pcg.test_scoring.ScoreTest.test_serializable_deterministic) ... ok\ntest_system_error_not_bad_map (combat_pcg.test_scoring.ScoreTest.test_system_error_not_bad_map) ... ok\ntest_candidate_spread_does_not_reset_scale (combat_pcg.test_spatial.SpatialTest.test_candidate_spread_does_not_reset_scale) ... ok\ntest_label_change_cannot_improve_score (combat_pcg.test_spatial.SpatialTest.test_label_change_cannot_improve_score) ... ok\ntest_missing_role_penalized (combat_pcg.test_spatial.SpatialTest.test_missing_role_penalized) ... ok\ntest_same_profile_zero_distance (combat_pcg.test_spatial.SpatialTest.test_same_profile_zero_distance) ... ok\ntest_state_is_not_silently_omitted (combat_pcg.test_spatial.SpatialTest.test_state_is_not_silently_omitted) ... ok\ntest_uniform_scale_metric_normalization (combat_pcg.test_spatial.SpatialTest.test_uniform_scale_metric_normalization) ... ok\ntest_counterexamples (combat_pcg.test_protocol.ProtocolTest.test_counterexamples) ... ok\ntest_draft_cannot_run_formal_search (combat_pcg.test_protocol.ProtocolTest.test_draft_cannot_run_formal_search) ... ok\ntest_fixed_budget (combat_pcg.test_protocol.ProtocolTest.test_fixed_budget) ... ok\ntest_heldout_separate (combat_pcg.test_protocol.ProtocolTest.test_heldout_separate) ... ok\ntest_insufficient_ammo (combat_pcg.test_protocol.ProtocolTest.test_insufficient_ammo) ... ok\ntest_legacy_escape_not_accepted (combat_pcg.test_protocol.ProtocolTest.test_legacy_escape_not_accepted) ... ok\ntest_blocked_hit_no_damage (combat_pcg.test_event_order.EventOrderTest.test_blocked_hit_no_damage) ... ok\ntest_cross_split_and_kill (combat_pcg.test_event_order.EventOrderTest.test_cross_split_and_kill) ... ok\ntest_cross_split_without_kill (combat_pcg.test_event_order.EventOrderTest.test_cross_split_without_kill) ... ok\ntest_death_precedes_pickup (combat_pcg.test_event_order.EventOrderTest.test_death_precedes_pickup) ... ok\ntest_exact_grab_shot_tie_is_death (combat_pcg.test_event_order.EventOrderTest.test_exact_grab_shot_tie_is_death) ... ok\ntest_portal_before_los_hit (combat_pcg.test_event_order.EventOrderTest.test_portal_before_los_hit) ... ok\ntest_reload_before_shot (combat_pcg.test_event_order.EventOrderTest.test_reload_before_shot) ... ok\ntest_timeout_at_split_instant (combat_pcg.test_event_order.EventOrderTest.test_timeout_at_split_instant) ... ok\ntest_victory_beats_timeout (combat_pcg.test_event_order.EventOrderTest.test_victory_beats_timeout) ... ok\ntest_kill_without_second_phase_is_protocol_error (combat_pcg.test_boundary_score.BoundaryScoreTest.test_kill_without_second_phase_is_protocol_error) ... ok\ntest_split_at_timeout_has_zero_duration_not_victory (combat_pcg.test_boundary_score.BoundaryScoreTest.test_split_at_timeout_has_zero_duration_not_victory) ... ok\n\n----------------------------------------------------------------------\nRan 47 tests in 0.046s\n\nOK\n",
+  "counterexamples": [
+    {
+      "case": "permanent_safe_fire",
+      "passed": true,
+      "expected": {
+        "status": "INVALID"
+      },
+      "status": "INVALID",
+      "scores": null,
+      "evidence": "synthetic calculator input; hard-rule flags are injected, NOT automatically discovered from geometry"
+    },
+    {
+      "case": "no_firing_windows",
+      "passed": true,
+      "expected": {
+        "P_below": 70
+      },
+      "status": "VALID",
+      "scores": {
+        "S": 80.0,
+        "F": 90.0,
+        "P": 66.0,
+        "D": 80.0
+      },
+      "evidence": "synthetic calculator input; hard-rule flags are injected, NOT automatically discovered from geometry"
+    },
+    {
+      "case": "supply_deadlock",
+      "passed": true,
+      "expected": {
+        "status": "INVALID"
+      },
+      "status": "INVALID",
+      "scores": null,
+      "evidence": "synthetic calculator input; hard-rule flags are injected, NOT automatically discovered from geometry"
+    },
+    {
+      "case": "zero_damage_loop",
+      "passed": true,
+      "expected": {
+        "status": "UNCERTAIN",
+        "selection": false
+      },
+      "status": "UNCERTAIN",
+      "scores": {
+        "S": 80.0,
+        "F": 40.0,
+        "P": 96.0,
+        "D": 80.0
+      },
+      "evidence": "synthetic calculator input; hard-rule flags are injected, NOT automatically discovered from geometry"
+    },
+    {
+      "case": "wall_shot",
+      "passed": true,
+      "expected": {
+        "status": "INVALID"
+      },
+      "status": "INVALID",
+      "scores": null,
+      "evidence": "synthetic calculator input; hard-rule flags are injected, NOT automatically discovered from geometry"
+    },
+    {
+      "case": "room_relabel",
+      "passed": true,
+      "expected": {
+        "S_equals": 80
+      },
+      "status": "VALID",
+      "scores": {
+        "S": 80.0,
+        "F": 90.0,
+        "P": 96.0,
+        "D": 80.0
+      },
+      "evidence": "synthetic calculator input; hard-rule flags are injected, NOT automatically discovered from geometry"
+    },
+    {
+      "case": "early_death",
+      "passed": true,
+      "expected": {
+        "status": "UNCERTAIN",
+        "P_below": 2
+      },
+      "status": "UNCERTAIN",
+      "scores": {
+        "S": 80.0,
+        "F": 0.6666666666666666,
+        "P": 1.6,
+        "D": 1.3333333333333333
+      },
+      "evidence": "synthetic calculator input; hard-rule flags are injected, NOT automatically discovered from geometry"
+    },
+    {
+      "case": "missing_second_stage",
+      "passed": true,
+      "expected": {
+        "status": "UNCERTAIN",
+        "P_below": 49
+      },
+      "status": "UNCERTAIN",
+      "scores": {
+        "S": 80.0,
+        "F": 20.0,
+        "P": 48.0,
+        "D": 40.0
+      },
+      "evidence": "synthetic calculator input; hard-rule flags are injected, NOT automatically discovered from geometry"
+    }
+  ],
+  "protocol": {
+    "total_rounds": 60,
+    "theoretical_damage": 2400,
+    "candidate_requests": 6048,
+    "episodes_per_candidate": 12
+  },
+  "formal_preflight": {
+    "allowed": false,
+    "reasons": [
+      "combat_protocol_not_frozen",
+      "scoring_protocol_not_frozen",
+      "physical_scale_not_calibrated",
+      "phase4_automatic_experiment_engine_not_implemented"
+    ]
+  }
+}

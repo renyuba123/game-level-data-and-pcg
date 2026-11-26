@@ -1,0 +1,94 @@
+[
+  {
+    "from": "燕云十六声_天京渡建筑分析_V3_修订版.pptx",
+    "to": "01_案例研究/燕云十六声_天京渡/燕云十六声_天京渡建筑分析_V3_修订版.pptx"
+  },
+  {
+    "from": "圣保罗大教堂_跨游戏建筑转译分析.pptx",
+    "to": "01_案例研究/圣保罗大教堂/圣保罗大教堂_跨游戏建筑转译分析.pptx"
+  },
+  {
+    "from": "maps",
+    "to": "02_鼠王关研究/maps"
+  },
+  {
+    "from": "runs",
+    "to": "02_鼠王关研究/runs"
+  },
+  {
+    "from": "outputs",
+    "to": "02_鼠王关研究/outputs"
+  },
+  {
+    "from": "prompts",
+    "to": "02_鼠王关研究/prompts"
+  },
+  {
+    "from": "tools",
+    "to": "02_鼠王关研究/tools"
+  },
+  {
+    "from": "archive",
+    "to": "02_鼠王关研究/archive"
+  },
+  {
+    "from": "source",
+    "to": "02_鼠王关研究/source/video"
+  },
+  {
+    "from": "鼠王关玩家路线图001.ai",
+    "to": "02_鼠王关研究/source/illustrator/鼠王关玩家路线图001.ai"
+  },
+  {
+    "from": "003_.ai",
+    "to": "02_鼠王关研究/source/illustrator/003_.ai"
+  },
+  {
+    "from": "002.ai",
+    "to": "02_鼠王关研究/source/illustrator/002.ai"
+  },
+  {
+    "from": "005_.ai",
+    "to": "02_鼠王关研究/source/illustrator/005_.ai"
+  },
+  {
+    "from": "004.ai",
+    "to": "02_鼠王关研究/source/illustrator/004.ai"
+  },
+  {
+    "from": "鼠王关.dwg",
+    "to": "02_鼠王关研究/source/cad/鼠王关.dwg"
+  },
+  {
+    "from": "鼠王关.dxf",
+    "to": "02_鼠王关研究/source/cad/鼠王关.dxf"
+  },
+  {
+    "from": "鼠王关.bak",
+    "to": "02_鼠王关研究/source/cad/backups/鼠王关.bak"
+  },
+  {
+    "from": "shuwang.graph",
+    "to": "02_鼠王关研究/source/depthmap/shuwang.graph"
+  },
+  {
+    "from": "shuwangguan.graph",
+    "to": "02_鼠王关研究/source/depthmap/history/shuwangguan.graph"
+  },
+  {
+    "from": "build_ratking.py",
+    "to": "02_鼠王关研究/tools/build_ratking.py"
+  },
+  {
+    "from": "inspect_route_pdf.py",
+    "to": "02_鼠王关研究/tools/inspect_route_pdf.py"
+  },
+  {
+    "from": "RatKing_Space_Syntax_PCG_Codex_Brief.md",
+    "to": "02_鼠王关研究/docs/history/RatKing_Space_Syntax_PCG_Codex_Brief.md"
+  },
+  {
+    "from": "AGENTS_SNIPPET.md",
+    "to": "02_鼠王关研究/docs/history/AGENTS_SNIPPET.md"
+  }
+]

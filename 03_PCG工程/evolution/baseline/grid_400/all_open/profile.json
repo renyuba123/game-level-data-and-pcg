@@ -1,0 +1,221 @@
+{
+  "count": 866,
+  "metrics": {
+    "Visual Integration [HH]": {
+      "quantiles": [
+        5.20055725,
+        5.861320025,
+        7.1612048,
+        8.848306425,
+        11.035827
+      ],
+      "scale": 5.835269749999999,
+      "min": 3.5580571,
+      "max": 13.367582,
+      "mean": 7.540924848267899
+    },
+    "Connectivity": {
+      "quantiles": [
+        110.0,
+        151.0,
+        205.0,
+        250.0,
+        314.75
+      ],
+      "scale": 204.75,
+      "min": 43.0,
+      "max": 404.0,
+      "mean": 205.0877598152425
+    },
+    "Metric Mean Shortest-Path Distance": {
+      "quantiles": [
+        6586.365725,
+        7688.7865,
+        8843.47215,
+        10016.9965,
+        11435.799500000001
+      ],
+      "scale": 4849.433775000001,
+      "min": 6277.6958,
+      "max": 13251.947,
+      "mean": 8904.664306466513
+    }
+  },
+  "roles": {
+    "side": {
+      "Visual Integration [HH]": {
+        "quantiles": [
+          5.54697914,
+          5.9086747,
+          7.0555344,
+          7.3999119,
+          8.78452342
+        ],
+        "top_decile_fraction": 0.006389776357827476,
+        "sample_count": 313
+      },
+      "Connectivity": {
+        "quantiles": [
+          131.6,
+          160.0,
+          199.0,
+          235.0,
+          264.4
+        ],
+        "top_decile_fraction": 0.003194888178913738,
+        "sample_count": 313
+      },
+      "Metric Mean Shortest-Path Distance": {
+        "quantiles": [
+          7161.72014,
+          8029.4766,
+          8821.5605,
+          9678.6084,
+          10455.2266
+        ],
+        "top_decile_fraction": 0.009584664536741214,
+        "sample_count": 313
+      }
+    },
+    "arena": {
+      "Visual Integration [HH]": {
+        "quantiles": [
+          5.825625275,
+          6.65873705,
+          6.9529371,
+          7.276473375,
+          8.567891574999999
+        ],
+        "top_decile_fraction": 0.0,
+        "sample_count": 146
+      },
+      "Connectivity": {
+        "quantiles": [
+          123.0,
+          153.5,
+          186.0,
+          216.0,
+          254.0
+        ],
+        "top_decile_fraction": 0.0136986301369863,
+        "sample_count": 146
+      },
+      "Metric Mean Shortest-Path Distance": {
+        "quantiles": [
+          7522.796375,
+          8340.50805,
+          9125.8999,
+          9979.99805,
+          10822.983499999998
+        ],
+        "top_decile_fraction": 0.0410958904109589,
+        "sample_count": 146
+      }
+    },
+    "hub": {
+      "Visual Integration [HH]": {
+        "quantiles": [
+          8.60097988,
+          9.73525475,
+          10.499875,
+          11.169687499999998,
+          12.3996232
+        ],
+        "top_decile_fraction": 0.5118110236220472,
+        "sample_count": 127
+      },
+      "Connectivity": {
+        "quantiles": [
+          213.9,
+          252.0,
+          294.0,
+          337.0,
+          385.4
+        ],
+        "top_decile_fraction": 0.5354330708661418,
+        "sample_count": 127
+      },
+      "Metric Mean Shortest-Path Distance": {
+        "quantiles": [
+          6336.35871,
+          6533.3286499999995,
+          6798.1206,
+          7294.2371,
+          7986.677589999998
+        ],
+        "top_decile_fraction": 0.0,
+        "sample_count": 127
+      }
+    },
+    "corridor": {
+      "Visual Integration [HH]": {
+        "quantiles": [
+          5.411506535,
+          5.696152925,
+          9.38317585,
+          10.0015094,
+          10.84142335
+        ],
+        "top_decile_fraction": 0.16666666666666666,
+        "sample_count": 108
+      },
+      "Connectivity": {
+        "quantiles": [
+          104.35,
+          159.25,
+          230.0,
+          260.25,
+          305.0
+        ],
+        "top_decile_fraction": 0.1111111111111111,
+        "sample_count": 108
+      },
+      "Metric Mean Shortest-Path Distance": {
+        "quantiles": [
+          6916.589185,
+          7844.6017999999995,
+          8924.470249999998,
+          9651.475849999999,
+          10777.528049999999
+        ],
+        "top_decile_fraction": 0.037037037037037035,
+        "sample_count": 108
+      }
+    },
+    "terminal": {
+      "Visual Integration [HH]": {
+        "quantiles": [
+          4.78793008,
+          5.04744515,
+          5.2856855,
+          5.4525666,
+          8.38010001
+        ],
+        "top_decile_fraction": 0.0,
+        "sample_count": 80
+      },
+      "Connectivity": {
+        "quantiles": [
+          93.95,
+          107.0,
+          119.0,
+          130.0,
+          161.14999999999998
+        ],
+        "top_decile_fraction": 0.0,
+        "sample_count": 80
+      },
+      "Metric Mean Shortest-Path Distance": {
+        "quantiles": [
+          10289.63285,
+          10937.36325,
+          11455.806,
+          12133.444,
+          12730.83495
+        ],
+        "top_decile_fraction": 0.7625,
+        "sample_count": 80
+      }
+    }
+  }
+}

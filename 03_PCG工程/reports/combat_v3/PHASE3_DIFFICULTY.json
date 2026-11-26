@@ -1,0 +1,28 @@
+{
+  "evidence_root": "F:\\大学作业\\游戏空间设计微专业\\04_PCG实验输出\\runs\\shell_phase2_current_net\\phase3_difficulty_v1",
+  "base_commit": "1f387d5",
+  "formal_requests": 0,
+  "calibration_battles": 72,
+  "counterexample_battles": 4,
+  "selected_tier": null,
+  "sha256": {
+    "comparison.json": "fcaa78554983f6df760d67e9dee9850d95aad0b5c34987fdb764a3c577750c1b",
+    "intent.log": "0ce80a479d834ff389517649cdb14377244e585e040d78634a78a5653fcbce1a",
+    "baseline/84/manifest.json": "547ec327b234f404cefca7aaeca6d715a1097c5251bbda12743c8209e77df173",
+    "baseline/6/manifest.json": "4f852e99934eefc3c756e35a4b8749e152dd6075a3d08fd48a9b801172dd0555",
+    "moderate/6/manifest.json": "2f25fe0db4727816fa2939ab69f1de4ed090b4fc1b2ef6373a27546ad355baa5",
+    "moderate/84/manifest.json": "9d83a41f404adeb2e437cb00d12cc1ff1dabcf4ac96f3f1533d5a391d4c81f97",
+    "relaxed/6/manifest.json": "8b5b41b55fe6c94ccb4159295960d1a711f1eed70f0192cc47eeea3cc855de48",
+    "relaxed/84/manifest.json": "e043012d1bd623a1478f8738131a0cd21afee2993efc43e2faab20e1ed721f45",
+    "replay_v2/comparison.json": "3a69dc01d114165b3f79ee501cf55be43dda079529d2c3ecdbcd611e84c86dbe",
+    "replay_v1/comparison.json": "490720e4fe983c6e752b008a3737081e294368c5b2c86a54a0ef757c5b3292ca",
+    "counterexamples/6_stand_fire/trace.json": "b4dd44147d9183168caa5de0aa7fdf740402e3ea08d6ec05091f2f92f7cc84ae",
+    "counterexamples/6_move_no_fire/trace.json": "2b8529d819105e1ee3f4ceb40e78dc39fd3ef8fc24f765622c68c2a4395c773c",
+    "counterexamples/84_stand_fire/trace.json": "2abeea89929eafca325e4eebe86bd70b667ada985bf4e2ff2cdbda29649f9901",
+    "counterexamples/84_move_no_fire/trace.json": "23d83d61a1751103b5090e0b33bb5c6a6ad737f54e20e80755547064e915e740",
+    "counterexamples/6_stand_fire/case.json": "87198fab584ac9e1fc6267ce9e039758c64985d1f47b4e4236e9fb96ebc279f9",
+    "counterexamples/6_move_no_fire/case.json": "9dec2f1e7dcf701eb805e4c58da7b90de7d9b980da24173f29bcf5b05e4d90f0",
+    "counterexamples/84_stand_fire/case.json": "f1a80b230fd0782a00912c017ad9c5aaffd630e21d5f469ed6444acd5c24a42d",
+    "counterexamples/84_move_no_fire/case.json": "9538f0878d89b817ea02e196693d57c8be328aac5185b8fa5fcc958adfdb2667"
+  }
+}

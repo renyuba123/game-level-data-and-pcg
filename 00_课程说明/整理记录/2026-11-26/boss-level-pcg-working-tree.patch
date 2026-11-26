@@ -1,0 +1,809 @@
+diff --git a/AGENTS.md b/AGENTS.md
+index 0ea0316..fe52438 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -29,4 +29,4 @@
+ 
+ Phase 2 passed for the current shell layouts in `0073787`. Phase 3 uses the Godot backend from `b9ce3e1` and follows the formal gate in [PLANS §5.2](PLANS.md#52-phase-4-准入与当前收口顺序). Phase 4 engineering now follows the single-parent archive plan in [PLANS §5.4](PLANS.md#54-phase-4-正式引擎与单种子验收). Each new child has one actual parent and uses a local edit or regional rewrite. The v2 crossover run and labels are historical records. Read [PROGRESS.md](PROGRESS.md) for the next unverified module.
+ 
+-Main uses `scripts/shell_main.gd` and `full_pcg/shell_layout.py`. Follow PLANS §§2.2, 3.2 and 3.3 for the agreed layout family, window rules, and multiple portals. The earlier anchor generator and `drafts/` are historical baselines. See the current Git status before editing.
++Main uses `scripts/shell_main.gd` and `full_pcg/shell_layout.py`. Follow PLANS §§2.2, 3.2 and 3.3 for the agreed layout family, window rules, and multiple portals. The earlier anchor generator is a historical baseline; obsolete draft copies have been removed. Use RUNS.md for run outputs and tools/open_viewer.ps1 for the current B viewer. See the current Git status before editing.
+diff --git a/PLANS.md b/PLANS.md
+index ec45ffb..96c6fcf 100644
+--- a/PLANS.md
++++ b/PLANS.md
+@@ -278,6 +278,9 @@ python -m full_pcg verify --run ...
+ | 贡献与开发规则 | [AGENTS.md](AGENTS.md) |
+ | 校准数据和锁定参数 | [Inspector 校准报告](reports/combat_v3/PHASE3_INSPECTOR_CALIBRATION.md) |
+ | 两代试跑的历史方案、结果与回放 | [Phase 4 工程试跑报告](reports/combat_v3/PHASE4_SHELL_PILOT.md) |
+-| 项目入口、文件整理及旧草案 | [README](README.md) · [整理记录](reports/maintenance/ORGANIZATION.md) · [原草案摘要](drafts/combat_phase1_4/reports/combat_v3/IMPLEMENTATION_PLAN.md) |
++| 项目入口、文件整理及旧草案 | [README](README.md) · [整理记录](reports/maintenance/ORGANIZATION.md) · [现行战斗协议](reports/combat_v3/COMBAT_PROTOCOL.md) |
+ 
+ 历次计划变更保存在 Git 历史。执行以本计划和最新进度为准。
++
++
++2026-11-26 目录维护：按用户要求清理已被替代的 `drafts/` 及四批旧外形审阅输出。B 组 Viewer 为当前查看入口，各次有效 run 分别保留并登记于 RUNS.md。不改变研究协议、评分和预算。
+diff --git a/PROGRESS.md b/PROGRESS.md
+index 6cd89aa..2b2b16b 100644
+--- a/PROGRESS.md
++++ b/PROGRESS.md
+@@ -243,3 +243,8 @@ Phase 2 acceptance commit 0073787. Real CLI at 400 drawing units, seed 1 initial
+ ## Phase 3 追击故障复核
+ 
+ 接续 fd4ce6c。修复近端路点逐帧折返和部分路径误判。4 个原卡点可推进，正常 Godot 机制、两局完整输入重放与 62 项 Python 测试通过。当前 36 局仍无胜局。分开归档旧导航、修正后及参数试跑。Phase 3 冻结和 Phase 4 仍待合法击杀记录与评分校准。详见 PHASE3_PURSUIT_RECHECK。
++
++
++**2026-11-26 目录整理。** 当前查看入口统一为 B 组 G0–G20；新增 RUNS.md、RUN_OUTPUTS.html 与 `tools/open_viewer.ps1`。清理已被替代的开发草案及四批旧外形审阅输出；有效 run、最新 Viewer 代码和未提交修改保持原样。本次只维护文件导航，不推进研究阶段、不重跑实验。
++
++**2026-11-26 功能边界复核。** PowerShell 运维入口统一迁入 `tools/`，`scripts/` 只保留 Godot GDScript 与对应 UID；根 README、`scripts/README.md` 和 `tools/README.md` 明确当前运行、旧版基线、测试、配置、报告与本地输出边界。删除可再生成的项目级 Python 字节码缓存；保留被当前命令依赖的 `evolution/.venv`、昂贵的 Depthmap 缓存、正式/历史运行证据和用户未提交修改。本次仍不推进研究阶段。
+diff --git a/README.md b/README.md
+index b027873..43ddb6f 100644
+--- a/README.md
++++ b/README.md
+@@ -1,43 +1,47 @@
+-# 项目入口与当前状态
++# boss-level-pcg
+ 
+-本目录是 PCG 主工程。任务入口依次为 [AGENTS.md](AGENTS.md)、[PLANS.md](PLANS.md) 与 [PROGRESS.md](PROGRESS.md)。**当前为 Phase 3 校准。** Main 读取 Python 外壳分区 Layout，交互、批量与重放共用 Godot 战斗场景。当前实测和运行方式见 [Godot 同步报告](reports/combat_v3/PHASE3_GODOT_SYNC.md)，进入 Phase 4 的剩余条件见 [计划 §5.2](PLANS.md#52-phase-4-准入与当前收口顺序)。下方 Legacy 说明保留原版本用法。
++当前使用 **B 组重点抽样 + 单亲档案进化**。最新完整开发归档为 `shell_sampling_focused_g20_v1`，G0–G20、168 次请求。正式实验准入仍以 PROGRESS 和 PLANS 为准。
+ 
+-| 目录／文档 | 职责与使用边界 |
+-|---|---|
+-| `scripts/`、`scenes/`、`evolution/` | Main现用shell_main与CombatFullPCG；旧main.gd和evolution保留Legacy能力，3840次逃生实验不混入新分数 |
+-| [full_pcg/](full_pcg/README.md) | 新系统的几何、布局审计、Godot 解码与战斗场景 |
+-| `combat_pcg/`、[reports/combat_v3/](reports/combat_v3/REUSE_AUDIT.md) | Godot 校准调度、证据校验和评分；当前缺完整 F/P/D，配置待冻结 |
+-| [drafts/](drafts/README.md) | 历史草案来源；1.4和Godot导出/解码已在正式目录演进，不从这里覆盖新代码 |
+-| `full_pcg_output/` | 分版本开发审计；latest_audit主要指向旧锚点审计，shell审计另按目录/哈希核对，不能混用 |
+-| [reports/maintenance/ORGANIZATION.md](reports/maintenance/ORGANIZATION.md) | 本次整理、重复工作边界、迁移及核验记录 |
+-
+-源码与分析原件位于 `F:\大学作业\游戏空间设计微专业`，职责见该目录 README。长期要求只维护在 PLANS，进度只维护在 PROGRESS，模块文档描述自身接口与限制。
+-
+----
+-
+-# Legacy 鼠王关 Godot PCG 白模（历史说明）
+-
+-以下描述旧 `scripts/main.gd` 与旧测试，不是当前Main的完整使用说明。当前Main的seed预览入口为 `shell_main.gd`，已有战斗白模但尚未通过全部新协议验收。
+-
+-Godot 4 工程。在编辑器打开 `scenes/Main.tscn` 即可看到布局；修改根节点 Inspector 中的 `map_seed` 会实时重建墙、地板、门洞和障碍。预览节点由脚本临时生成，不写入场景文件。运行场景后，WASD 移动，E／手柄 A 挤身通过 `through`，R 换 seed，T 重试。绿色是玩家，红色是简化 Boss，黄色是出口。参数在 `scripts/main.gd` 顶部调整。
+-
+-## 空间生成
++## 查看最新 B 组
+ 
+-生成器读取 `data/source_profile.json`，它来自 `鼠王关.dxf` 和 `shuwang.graph`。11 个凸空间用于房型比例与结构参考，墙形依据 DXF 归纳；凸空间分块不直接等于四面封闭的房间。它先组合不规则大厅、狭长横廊与纵向转角、带障碍的大厅、大小不同的支房和削角端部房，再对尺寸做有限变化、旋转和镜像。共享墙段决定门洞位置和宽度；地板、斜墙、碰撞、两类导航与障碍都来自同一批多边形。
++在项目目录执行 `& .\tools\open_viewer.ps1`，然后打开 <http://127.0.0.1:8503/>。Viewer 使用当前 `full_pcg/viewer/` 代码及已有未提交修正。
+ 
+-DXF 的 `ENTITIES` 中有 6 条 `through`、3 条 `break`、2 个 `block` 圆形对象；`BLOCKS` 中的样例定义不计入地图。实际连接宽度由可通行墙段约束，不把 DXF 短线符号长度直接当成门宽。玩家对 `through` 交互后可通行，Boss 要计时撞开；`break` 初始是墙，只有 Boss 能撞开，之后双方可通行。障碍物有碰撞，并在角色导航中留下绕行空间。
++## 找每次 run 的输出
+ 
+-生成的是受原关卡启发的新 Boss 空间，不复刻原始外轮廓。DXF 毫米已转为 Godot 米；角色尺寸与撞开时间是可调白模参数，尚未由实机录像标定。`shuwang.graph` 的 Choice 等数据仅作来源参考，生成器没有重新计算空间句法数值。
++- [逐次 run 输出总览](RUN_OUTPUTS.html)：汇总、逐代文件、日志和原始目录。
++- [简明 run 索引](RUNS.md)：每次 run 的范围和路径。
++- 查看其他历史 run：`& .\tools\open_viewer.ps1 -Run '实际run名称' -Port 8506`。
+ 
+-## 检查
+-
+-运行 `godot --headless --path "D:\GODOT Prams\boss-level-pcg" --script res://scripts/model_probe.gd`，检查 100 个 seed 的面积、非重叠、门洞、房型多样性及重复 seed。运行 `res://scripts/batch_report.gd`，在 Godot 中检查 100 张图的角色导航区、门状态以及每 10 张图的全开跨房间路径。运行 `res://scripts/chase_test.gd`，验证 Boss 实际撞开并穿过两类连接。报告在 `reports/`；最近一次生成拓扑写入 `user://last_generation.json`。
+-
+-首版沿用简化追逐逻辑，完整战斗阶段与实机节奏留待后续。空间类型的取舍也参考[关卡设计师说明](https://www.gregoiredesign.com/professional-projects/the-last-of-us-part-2/)与[制作团队访谈](https://www.gamesradar.com/the-last-of-us-2-rat-king-making-of/)中关于短暂封闭、撞开通路和围障碍绕行的描述。
+-
+-`reports/layout_comparison.svg` 并排展示来源 DXF 墙线和三张支房次序不同的生成轮廓；它是平面检查图，实际碰撞与追逐应在 Godot 场景中试玩确认。
+-
+-## Depthmap 反馈进化
+-
+-参数搜索、编辑器入口、运行命令和数据合同见 [evolution/README.md](evolution/README.md)，核验与限制见 [evolution/QA.md](evolution/QA.md)。
++## 项目入口
+ 
++| 需要做什么 | 入口 |
++|---|---|
++| 当前状态、下一步 | [PROGRESS.md](PROGRESS.md) |
++| 已确认的研究与开发约束 | [PLANS.md](PLANS.md) |
++| 贡献规则 | [AGENTS.md](AGENTS.md) |
++| Viewer | [full_pcg/viewer](full_pcg/viewer/README.md) |
++| 布局与进化引擎 | [full_pcg](full_pcg/README.md) |
++| 战斗、空间分析与评分 | `combat_pcg/` |
++| Godot 主场景 | `scenes/Main.tscn` → `scripts/shell_main.gd` |
++| 当前 B 组与对照依据 | [抽样对照报告](reports/combat_v3/PHASE4_SAMPLING_COMPARISON.md) |
++| 最新回放诊断 | [Seed1102 与 B 对照](reports/combat_v3/PHASE4_SEED1102_REVIEW.md) |
++
++旧开发草案和四批被后续方案替代的外形审阅快照已清理；可复用代码、有效实验、源资料和最新 Viewer 依赖继续保留。大型 run 原始输出位于 F 盘既有归档目录，不移动以免破坏证据索引。
++
++## 目录职责
++
++| 目录 | 只放什么 | 主要入口 |
++|---|---|---|
++| `scenes/`、`scripts/` | Godot 场景、运行时代码与无界面检查脚本 | `scenes/Main.tscn`、`scripts/README.md` |
++| `full_pcg/` | 当前 Python Layout、进化引擎、Godot 战斗后端与 Viewer | `full_pcg/README.md` |
++| `combat_pcg/` | 版本化战斗合同、模拟、空间分析与评分 | 包内 CLI 与测试 |
++| `evolution/` | 已验收的旧版 Depthmap 反馈进化基线及 `search_v1` 证据 | `evolution/README.md` |
++| `configs/` | 正式或试跑配置；配置与 run ID 一一对应 | `shell_*.json` |
++| `data/` | 小型、版本化的输入与兼容数据 | `data/evolution/` |
++| `tools/` | 人工启动、批处理和源数据导出工具 | `tools/README.md` |
++| `reports/` | 阶段验收、比较、诊断和维护记录 | `reports/combat_v3/` |
++| `requirements/` | 分用途依赖清单 | `phase1_tools.txt` |
++| `addons/` | Godot 插件；不与项目业务代码混放 | `addons/godot_ai/` |
++| `full_pcg_output/` | 本地生成的审计与运行输出，Git 忽略 | 由对应报告引用 |
++
++根目录只保留项目入口、计划/进度、run 索引与 Godot 工程文件。`full_pcg_output/`、`evolution/analysis_cache/`、`evolution/cache/` 和 `evolution/.venv/` 都是本地目录：前两类是昂贵的复现实验证据，虚拟环境被现有命令直接依赖，因此不作为普通垃圾自动删除。
+diff --git a/drafts/.gdignore b/drafts/.gdignore
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/drafts/README.md b/drafts/README.md
+deleted file mode 100644
+index c90db0f..0000000
+--- a/drafts/README.md
++++ /dev/null
+@@ -1,11 +0,0 @@
+-# 历史开发草案
+-
+-此目录集中收纳原课程工作区暂存目录中的 **9 份独有文件**。2026-11-20迁移时仅整理位置。2026-11-22状态更新：Phase 1.4及Godot导出/解码已在正式包中演进并有相应阶段报告；此处保留原稿，不反映现行实现。`.gdignore` 避免 Godot 扫描草案脚本。
+-
+-| 草案 | 内容 | 接续入口 |
+-|---|---|---|
+-| `combat_phase1_4/combat_pcg/` | 5 个战斗配置、协议、反例、测试与命令入口草案 | 已迁入正式combat_pcg并提交；以正式代码和PROGRESS为准，不重复复制 |
+-| `combat_phase1_4/reports/combat_v3/` | COMBAT_PROTOCOL 与 IMPLEMENTATION_PLAN 两份原草稿 | 后者是历史实施摘要，长期规范只更新根目录 PLANS；不得并行维护两份计划 |
+-| `full_pcg_godot/full_pcg/` | godot_export.py 与 godot/layout_decoder.gd | 已在full_pcg/godot_export.py和godot/layout_decoder.gd演进；保留原稿追溯，不覆盖当前window改动 |
+-
+-所有文件移动前后 SHA-256 相同，明细见 `../reports/maintenance/organization_moves.json`。不要直接将本目录加入 Python 路径或把未验收代码称作已交付功能。
+diff --git a/drafts/combat_phase1_4/combat_pcg/__main__.py b/drafts/combat_phase1_4/combat_pcg/__main__.py
+deleted file mode 100644
+index 6629092..0000000
+--- a/drafts/combat_phase1_4/combat_pcg/__main__.py
++++ /dev/null
+@@ -1,28 +0,0 @@
+-"""Phase 1 commands. No pretend experiment/generate implementation."""
+-import argparse,io,json,sys,unittest
+-from pathlib import Path
+-from .scoring import score,default_config
+-from .fixtures import example_measurements
+-from .protocol import default_combat,validate_combat,formal_preflight
+-from .counterexamples import run
+-
+-def main():
+-    p=argparse.ArgumentParser();p.add_argument('command',choices=['check','example','score','preflight']);p.add_argument('--input',type=Path);p.add_argument('--output',type=Path);a=p.parse_args();exit_code=0
+-    if a.command=='check':
+-        names=['combat_pcg.test_contracts','combat_pcg.test_scoring','combat_pcg.test_spatial','combat_pcg.test_protocol']
+-        output=io.StringIO();result=unittest.TextTestRunner(stream=output,verbosity=2).run(unittest.defaultTestLoader.loadTestsFromNames(names))
+-        data={'phase':'1','tests_run':result.testsRun,'success':result.wasSuccessful(),'test_log':output.getvalue(),
+-              'counterexamples':run(),'protocol':validate_combat(default_combat()),'formal_preflight':formal_preflight(default_combat(),default_config())}
+-        exit_code=0 if result.wasSuccessful() else 1
+-    elif a.command=='preflight':
+-        data=formal_preflight(default_combat(),default_config());exit_code=0 if data['allowed'] else 2
+-    else:
+-        if a.command=='score' and a.input is None:p.error('score requires --input')
+-        data=score(example_measurements() if a.command=='example' else json.loads(a.input.read_text(encoding='utf-8-sig')))
+-        exit_code=1 if data['status']=='ERROR' else 0
+-    if a.output:
+-        a.output.parent.mkdir(parents=True,exist_ok=True);a.output.write_text(json.dumps(data,ensure_ascii=False,indent=2,allow_nan=False),encoding='utf-8')
+-        print(json.dumps({'output':str(a.output),'status':data.get('status'),'success':data.get('success'),'tests':data.get('tests_run'),'allowed':data.get('allowed')},ensure_ascii=False))
+-    else:print(json.dumps(data,ensure_ascii=False,indent=2,allow_nan=False))
+-    raise SystemExit(exit_code)
+-if __name__=='__main__':main()
+diff --git a/drafts/combat_phase1_4/combat_pcg/combat_config.json b/drafts/combat_phase1_4/combat_pcg/combat_config.json
+deleted file mode 100644
+index 7cff994..0000000
+--- a/drafts/combat_phase1_4/combat_pcg/combat_config.json
++++ /dev/null
+@@ -1,19 +0,0 @@
+-{
+-  "schema_version": "combat-pcg/3",
+-  "protocol_id": "combat_v3_draft_001",
+-  "frozen": false,
+-  "parameter_status": "All numeric combat values below are provisional research assumptions, not official game data.",
+-  "units": "model_m",
+-  "simulation": {"tick_s": 0.05, "time_limit_s": 180, "seed_streams": ["perception", "aim", "decision", "stalker"]},
+-  "player": {"radius_m": 0.35, "height_m": 1.8, "speed_mps": 5.0, "aim_speed_mps": 2.0, "reaction_s": 0.25, "turn_deg_per_s": 180, "fov_deg": 80, "aim_fov_deg": 55, "vision_range_m": 30},
+-  "boss": {"radius_m": 0.58, "height_m": 2.2, "speed_mps": 4.2, "hp": 1000, "grab_range_m": 1.2, "attack_warning_s": 0.6, "grab_requires_clearance_and_los": true, "awareness": "visible_target_or_heard_event_then_last_known_position"},
+-  "weapon": {"type": "hitscan_single_research_weapon", "damage": 40, "fire_interval_s": 0.3, "aim_s": 0.35, "reload_s": 2.0, "magazine": 8, "range_m": 30, "angular_error_sd_deg": 1.5, "must_test_camera_and_muzzle_separately": true},
+-  "supplies": {"initial_rounds_including_magazine": 12, "pack_count": 6, "rounds_per_pack": 8, "pickup_s": 0.6, "pickup_radius_m": 0.8, "respawn": false, "positions_are_genes": true},
+-  "portals": {"through_player_squeeze_s": 0.65, "through_boss_smash_s": 1.5, "break_boss_smash_s": 1.8, "player_can_break": false, "after_boss_smash": "both_roles_open"},
+-  "stalker": {"split_hp_fraction": 0.5, "spawn": "collision_valid_point_near_boss_not_behind_player_teleport", "radius_m": 0.3, "speed_mps": 4.8, "warning_s": 0.6, "control_s": 0.8, "cooldown_s": 4.0, "states": ["hide", "approach", "warn", "control", "retreat"], "shot_response": "interrupt_and_retreat", "independent_final_arena": false},
+-  "termination": {"success": "large_boss_hp_zero", "death": "valid_large_boss_grab", "timeout": "separate_non_victory", "exit_is_victory": false, "simultaneous_grab_and_lethal_shot": "earliest_event_time_then_death_on_exact_tie"},
+-  "sampling": {"policies": ["output", "occlusion", "supply"], "scenario_seeds": [0, 1, 2, 3], "episodes_per_candidate": 12, "heldout_seeds": [101, 102, 103, 104]},
+-  "search_budget": {"arms": ["legacy_ga", "full_ga", "full_random"], "seeds": [11, 29, 47], "population": 32, "reproductions": 20, "candidate_requests": 6048, "counterfactual_full_simulation_count": 72576},
+-  "score_sampling": {"grid_m": 0.5, "maximum_alternative_endpoint_pairs": 32, "loss_of_target_min_s": 0.5, "threat_margin_s": 0.5},
+-  "provenance": {"official_numeric_parameters": false, "geometry_source": "Python Layout", "graph_source": "shuwang.graph", "physical_scale_calibrated": false}
+-}
+diff --git a/drafts/combat_phase1_4/combat_pcg/counterexamples.py b/drafts/combat_phase1_4/combat_pcg/counterexamples.py
+deleted file mode 100644
+index d28b50b..0000000
+--- a/drafts/combat_phase1_4/combat_pcg/counterexamples.py
++++ /dev/null
+@@ -1,34 +0,0 @@
+-"""Scoring-layer counterexamples; geometry/battle scenes are Phase 2 deliverables."""
+-from .fixtures import example_measurements
+-from .scoring import score
+-
+-def run():
+-    cases=[]
+-    for name in ['permanent_safe_fire','no_firing_windows','supply_deadlock','zero_damage_loop','wall_shot','room_relabel','early_death','missing_second_stage']:
+-        m=example_measurements();expect={}
+-        if name in ['permanent_safe_fire','supply_deadlock','wall_shot']:
+-            m['checks']['combat_rules']='INVALID';expect={'status':'INVALID'}
+-        elif name=='no_firing_windows':
+-            for p in m['phases'].values():p['shooting_window_fraction']['value']=0.
+-            expect={'P_below':70}
+-        elif name=='zero_damage_loop':
+-            for e in m['episodes']:e['outcome']='timeout';e['events'][-1]['kind']='timeout'
+-            expect={'status':'UNCERTAIN','selection':False}
+-        elif name=='room_relabel':
+-            # Extra decorative labels are not consumed by the scoring kernel.
+-            m['decorative_room_labels']=['R05']*100;expect={'S_equals':80}
+-        else:
+-            for e in m['episodes']:
+-                duration=1 if name=='early_death' else 60
+-                e.update(outcome='death',phase2_reached=False,duration_s=duration,phase_durations_s={'phase1':duration,'phase2':0})
+-                e['events']=[e['events'][0],{'id':'end','t':duration,'kind':'death','data':{}}]
+-            m['phases']['phase2']={};expect={'status':'UNCERTAIN','P_below':2 if name=='early_death' else 49}
+-        r=score(m);passed=True
+-        for key,value in expect.items():
+-            if key=='status':passed &= r['status']==value
+-            elif key=='selection':passed &= r['formal_selection_allowed']==value
+-            elif key=='P_below':passed &= r['scores'] is not None and r['scores']['P']<value
+-            elif key=='S_equals':passed &= r['scores'] is not None and r['scores']['S']==value
+-        cases.append({'case':name,'passed':bool(passed),'expected':expect,'status':r['status'],'scores':r['scores'],
+-            'evidence':'synthetic calculator input; hard-rule flags are injected, NOT automatically discovered from geometry'})
+-    return cases
+diff --git a/drafts/combat_phase1_4/combat_pcg/protocol.py b/drafts/combat_phase1_4/combat_pcg/protocol.py
+deleted file mode 100644
+index 9cf1763..0000000
+--- a/drafts/combat_phase1_4/combat_pcg/protocol.py
++++ /dev/null
+@@ -1,42 +0,0 @@
+-import json
+-from pathlib import Path
+-from .contracts import SCHEMA,require,number
+-
+-def default_combat():
+-    return json.loads(Path(__file__).with_name('combat_config.json').read_text(encoding='utf-8'))
+-
+-def validate_combat(c):
+-    require(c['schema_version']==SCHEMA and c['units']=='model_m','combat version/units mismatch')
+-    for role in ['player','boss']:
+-        for name in ['radius_m','height_m','speed_mps']:number(c[role][name],role+'.'+name,1e-9)
+-    for name in ['damage','fire_interval_s','aim_s','reload_s','magazine','range_m']:number(c['weapon'][name],name,1e-9)
+-    s=c['supplies'];total=s['initial_rounds_including_magazine']+s['pack_count']*s['rounds_per_pack']
+-    for key in ['initial_rounds_including_magazine','pack_count','rounds_per_pack']:
+-        require(type(s[key]) is int and s[key]>0,'positive integer ammo required')
+-    require(total*c['weapon']['damage']>=c['boss']['hp'],'theoretical ammo cannot defeat boss')
+-    require(c['weapon']['magazine']<=s['initial_rounds_including_magazine'],'loaded ammo exceeds initial budget')
+-    require(not s['respawn'],'finite budget cannot respawn')
+-    require(not c['portals']['player_can_break'],'player cannot break walls')
+-    require(c['portals']['after_boss_smash']=='both_roles_open','post-smash roles mismatch')
+-    require(c['termination']['success']=='large_boss_hp_zero' and not c['termination']['exit_is_victory'],'escape objective is forbidden')
+-    number(c['stalker']['split_hp_fraction'],'split',1e-6,1-1e-6)
+-    sampling=c['sampling']
+-    require(len(set(sampling['scenario_seeds']))==len(sampling['scenario_seeds']),'duplicate search scenario')
+-    require(not set(sampling['scenario_seeds'])&set(sampling['heldout_seeds']),'heldout leakage')
+-    require(len(sampling['policies'])*len(sampling['scenario_seeds'])==sampling['episodes_per_candidate']==12,'search must have 12 scenarios')
+-    budget=c['search_budget'];requests=len(budget['arms'])*len(budget['seeds'])*budget['population']*(budget['reproductions']+1)
+-    require(requests==budget['candidate_requests']==6048,'candidate request budget mismatch')
+-    require(requests*12==budget['counterfactual_full_simulation_count'],'simulation accounting mismatch')
+-    require(c['provenance']['official_numeric_parameters'] is False,'draft values are not official measurements')
+-    return {'total_rounds':total,'theoretical_damage':total*c['weapon']['damage'],'candidate_requests':requests,'episodes_per_candidate':12}
+-
+-def formal_preflight(combat,scoring):
+-    from .scoring import validate_config
+-    validate_combat(combat);validate_config(scoring)
+-    reasons=[]
+-    if not combat['frozen']:reasons.append('combat_protocol_not_frozen')
+-    if not scoring['frozen']:reasons.append('scoring_protocol_not_frozen')
+-    if not combat['provenance']['physical_scale_calibrated']:reasons.append('physical_scale_not_calibrated')
+-    # This release contains no search engine. Never fall through to a fake success.
+-    reasons.append('phase4_automatic_experiment_engine_not_implemented')
+-    return {'allowed':False,'reasons':reasons}
+diff --git a/drafts/combat_phase1_4/combat_pcg/test_protocol.py b/drafts/combat_phase1_4/combat_pcg/test_protocol.py
+deleted file mode 100644
+index 5ef528c..0000000
+--- a/drafts/combat_phase1_4/combat_pcg/test_protocol.py
++++ /dev/null
+@@ -1,24 +0,0 @@
+-import unittest
+-from .protocol import *
+-from .scoring import default_config
+-from .counterexamples import run
+-
+-class ProtocolTest(unittest.TestCase):
+-    def test_fixed_budget(self):
+-        r=validate_combat(default_combat());self.assertEqual(r['total_rounds'],60);self.assertEqual(r['candidate_requests'],6048)
+-    def test_insufficient_ammo(self):
+-        c=default_combat();c['boss']['hp']=100000
+-        with self.assertRaises(ValueError):validate_combat(c)
+-    def test_legacy_escape_not_accepted(self):
+-        c=default_combat();c['termination']['exit_is_victory']=True
+-        with self.assertRaises(ValueError):validate_combat(c)
+-    def test_heldout_separate(self):
+-        c=default_combat();c['sampling']['heldout_seeds'].append(0)
+-        with self.assertRaises(ValueError):validate_combat(c)
+-    def test_draft_cannot_run_formal_search(self):
+-        self.assertFalse(formal_preflight(default_combat(),default_config())['allowed'])
+-    def test_counterexamples(self):
+-        for r in run():
+-            with self.subTest(case=r['case']):self.assertTrue(r['passed'])
+-
+-if __name__=='__main__':unittest.main()
+diff --git a/drafts/combat_phase1_4/reports/combat_v3/COMBAT_PROTOCOL.md b/drafts/combat_phase1_4/reports/combat_v3/COMBAT_PROTOCOL.md
+deleted file mode 100644
+index a0cdfc9..0000000
+--- a/drafts/combat_phase1_4/reports/combat_v3/COMBAT_PROTOCOL.md
++++ /dev/null
+@@ -1,17 +0,0 @@
+-# Phase 1.4 — 最小战斗协议草案
+-
+-可机读文件：combat_pcg/combat_config.json。所有新战斗数值均为研究假设，不是官方鼠王参数，未校准、不可正式实验。
+-
+-现有玩家半径.35、Boss半径.58模型米作为初值，玩家速度5 m/s；新增Boss速度4.2 m/s、HP1000，单发40伤害，.3秒射速、.35秒瞄准、2秒换弹、8发弹匣；初始总弹12含装填，6包x8=48，合计60发，理论总伤害2400。固定1把研究武器，只用于建立可比较射击行为。命中必须受相机感知、枪口射线、范围与角误差影响，不能“可见即自动扣血”。
+-
+-80度普通FOV、55度瞄准FOV、反应.25秒等均需敏感性校准。事件按实际发生时间处理；同一精确时刻致死命中和抓取相撞时草案采用死亡优先，并单独记录平局事件，禁止不同引擎不同口径。
+-
+-潜行者在Boss血量跨越50%时出现；必须在Boss附近找到不重叠的位置，不能瞬移到玩家盲区；短暂控制.8秒，.6秒预警、4秒冷却。此草案把玩家命中潜行者简化为打断撤退，不单独进行终战。这是代理假设而非原作精确复刻；其参数不进入Genome，Phase 3冻结前可校准。Boss死亡即胜利，出口无效；180秒为超时而非胜利。完整生命系统、酸液、制作、复杂动画不在首版评分范围。
+-
+-through:玩家A挤身.65秒；Boss撞开1.5秒。break:玩家不得破坏，Boss1.8秒后双方可过。玩家不得通过一次交互全局解锁Boss的通路。block独立碰撞/视觉高度；净空、门状态、攻击LOS均需Godot检查。
+-
+-成功采集每阶段：实际感知/丢失/重获目标，合法接敌时间、攻击预警、反应余量、相机与枪口判定、命中、弹药、换弹、拾取、分裂和Portal状态。Python与Godot共用字段但必须运行一致性测试，不能因字段一样就声称物理等价。
+-
+-Phase 1反例是评分输入测试：安全点/补给死锁/穿墙通过注入已确认违规旗标检查不能被Q抵消，并不声称代码已从地图自动发现这些漏洞。Phase 2必须补上真实场景和几何/物理检测；Phase 3补真实事件重算测试。
+-
+-正式预算32人口x(初始0代+20次繁殖)x3seedx3arm=6048评价请求。全部12局理论72576，实际早筛/缓存另计，不能补抽。搜索seed扰动0–3，独立验收101–104，不回流调参。完整调度未实现，preflight必须拒绝。
+diff --git a/drafts/combat_phase1_4/reports/combat_v3/IMPLEMENTATION_PLAN.md b/drafts/combat_phase1_4/reports/combat_v3/IMPLEMENTATION_PLAN.md
+deleted file mode 100644
+index 3a46b06..0000000
+--- a/drafts/combat_phase1_4/reports/combat_v3/IMPLEMENTATION_PLAN.md
++++ /dev/null
+@@ -1,41 +0,0 @@
+-# 实施主计划与阶段门槛
+-
+-本文件保留用户已批准计划的实施约束，后续补充不得静默替换评分权重、出生、战斗和回放规则。
+-
+-## 执行规则
+-
+-一阶段一任务，每阶段拆为可验证模块；模块测试后独立 Git Commit。检查既有改动并只暂存本轮文件，不自动推送。阶段报告关联 Commit、配置与来源哈希；大型实验置于运行目录，Git只保留清单与必要小型证据。
+-
+-6048次评价由Python调度，Depthmap真实分析，Godot按协议验证；语言模型只写代码、调试和审查证据，不逐图评分、不参与选择、不临时修改目标。必须能退出对话后独立运行、恢复。
+-
+-## Phase 1 — 当前任务
+-
+-1.1复用审查与来源保护；1.2数据合同；1.3评分规范与核；1.4战斗草案、反例与阶段验收。以合成算例证明计算正确，不声称已有战斗结果。正式校准留在Phase 3。
+-
+-## Phase 2 — 生成与战斗
+-
+-复用full_pcg唯一几何：8–18功能房，走廊/交叉另记，可变图、旋转、非矩形、增删边/环；through2–8、break1–5，有限8轮修复，实际Portal和交汇映射，无隐藏连接。基准可玩面积.75–1.25倍，先统一墙/障碍口径。
+-
+-玩家Boss同一真实核心区，不同位置朝向；核心区面积前25%、全开>=3邻区、初始>=2玩家可用路径，并有开场反应余量。按A挤身、Boss耗时撞through；break仅Boss破坏后双方可过；block是障碍。固定武器/能力/弹药总量，位置可变。射击胜利、大Boss抓取死亡、超时独立；分裂潜行者后半场干扰，不生成独立终战场地。
+-
+-复用移动/导航/交互和成熟射击模块，分离相机FOV、枪口射线与Depthmap可见性。Python代理不能透视；Godot验证物理机制。记录同一事件合同。100固定种子，几何拓扑合法>=80%、>=5房数、>=10精确非同构、>=3环数；记录全部失败/修复。完成单图保存重建、2D预览与代表Godot机制测试。
+-
+-## Phase 3 — 校准与冻结
+-
+-三策略x四扰动=12局/候选，共同随机条件且事件流分离。S全局50/区域50；F50/25/25；P35/30/20/15；D35/25/25/15，Q15/35/30/20仅展示。固定尺度、真实分母、阶段缺失、早死及低样本规则。基准/独立样本/反例校准，关键事件跨Python/Godot一致；做阈值敏感性与独立能力测试。所有数值、代码、工具哈希冻结，修改则新实验。追加样本独立预算、不混排。
+-
+-## Phase 4 — 程序进化与离线回放
+-
+-先小种群两次繁殖；专用可变Genome算子、1–3接口子图交叉、失败回退明确；交叉.8，每子代1–3变异、拓扑与几何/玩法约各半。测试固定seed、并行、缓存、恢复、谱系与fitness对应。Generation0初始+1–20繁殖，32人口，共672请求。
+-
+-正式单种子前必须有基础2D Viewer：滑块、前后/播放、完整种群、有效性与失败、当前/累计Pareto、目标轴、展示代表和各目标独立历史最优、双面板、拓扑、血缘和操作、战斗视域/事件。每代保存子代与幸存种群，原子提交。相同内容哈希不抹去出现ID。实际布局统一比例，真实GIF/MP4，不插值假装血缘；可加载合法3D，非法只提供诊断。出口不参与胜利。完整阶段不能只交曲线或冠军地图。
+-
+-## Phase 5 — A/B/C、消融、研究报告
+-
+-A固定Legacy+原算子、B全图+结构化GA、C全图随机。B/C同初始分布/修复/评价；A补齐同战斗条件，否则报告不可比。3组x3seedx672=6048请求，理论全模拟72576局；无效/重复/缓存照计请求，不补抽。ERROR恢复同请求，不冒充差地图。计真实CLI、模拟、缓存、修复、CPU/墙钟，做共同CPU截点。三seed不自动代表统计显著。
+-
+-比较合法率、战斗证据、拓扑、S/F/P/D、统一尺度参考点超体积及独立稳定性。消融优先去S/P/D，预算另列且仍记录完整指标。至少12张不同结构候选过Godot实际穿门/射击/战斗验证。最终区分几何、代理、Godot与真人；不预设GA必胜或比官方体验更好。
+-
+-## 完成入口目标（尚未实现）
+-
+-python -m full_pcg generate / experiment --resume / export --figures --gif --mp4 / verify；自动运行包含超时、有限重试、原子恢复和哈希校验。Phase 1仅提供 combat_pcg check/example/score/preflight，不能把它们称完整搜索引擎。
+diff --git a/drafts/full_pcg_godot/full_pcg/godot/layout_decoder.gd b/drafts/full_pcg_godot/full_pcg/godot/layout_decoder.gd
+deleted file mode 100644
+index e372d5a..0000000
+--- a/drafts/full_pcg_godot/full_pcg/godot/layout_decoder.gd
++++ /dev/null
+@@ -1,141 +0,0 @@
+-extends Node3D
+-## Reads Python's authoritative mesh and navigation polygons. No random generation.
+-var data: Dictionary = {}
+-var gates: Dictionary = {}
+-var links: Dictionary = {}
+-var maps: Dictionary = {}
+-var generated: Node3D
+-
+-func point(value, height: float = 0.0) -> Vector3:
+-	return Vector3(float(value[0]), height, float(value[1]))
+-
+-func material(color: Color) -> StandardMaterial3D:
+-	var m := StandardMaterial3D.new()
+-	m.albedo_color = color
+-	m.cull_mode = BaseMaterial3D.CULL_DISABLED
+-	return m
+-
+-func solid(faces: Array, label: String, color: Color, layer: int = 1) -> StaticBody3D:
+-	var body := StaticBody3D.new()
+-	body.name = label
+-	body.collision_layer = layer
+-	body.collision_mask = 0
+-	generated.add_child(body)
+-	if faces.is_empty(): return body
+-	var vertices := PackedVector3Array()
+-	for v in faces: vertices.append(Vector3(v[0], v[1], v[2]))
+-	var surface := SurfaceTool.new()
+-	surface.begin(Mesh.PRIMITIVE_TRIANGLES)
+-	for v in vertices: surface.add_vertex(v)
+-	surface.generate_normals()
+-	var mesh := MeshInstance3D.new()
+-	mesh.mesh = surface.commit()
+-	mesh.material_override = material(color)
+-	body.add_child(mesh)
+-	var collision := CollisionShape3D.new()
+-	var shape := ConcavePolygonShape3D.new()
+-	shape.set_faces(vertices)
+-	shape.backface_collision = true
+-	collision.shape = shape
+-	body.add_child(collision)
+-	return body
+-
+-func load_package(path: String) -> bool:
+-	var parsed = JSON.parse_string(FileAccess.get_file_as_string(path))
+-	if not parsed is Dictionary: return false
+-	clear_layout()
+-	data = parsed
+-	generated = Node3D.new()
+-	generated.name = "GeneratedFullPCG"
+-	add_child(generated)
+-	solid(data.floor_faces, "Floor", Color("aab4bd"))
+-	solid(data.wall_faces, "Walls", Color("dae0e6"))
+-	solid(data.obstacle_faces, "Obstacles", Color("626c78"))
+-	for gate in data.gates:
+-		var bodies: Array = []
+-		var color := Color("d17e35") if gate.kind == "through" else Color("c95665")
+-		bodies.append(solid(gate.faces, gate.id, color))
+-		var player_block: StaticBody3D = null
+-		if gate.kind == "through":
+-			player_block = solid(gate.middle_faces, gate.id + "_player", color, 2)
+-			bodies.append(player_block)
+-			bodies.append(solid(gate.middle_faces, gate.id + "_boss", color, 4))
+-		gates[gate.id] = {"bodies": bodies, "player_block": player_block, "opened": false, "kind": gate.kind}
+-	for role in ["player", "boss"]:
+-		var map: RID = NavigationServer3D.map_create()
+-		maps[role] = map
+-		NavigationServer3D.map_set_up(map, Vector3.UP)
+-		NavigationServer3D.map_set_cell_size(map, 0.001)
+-		NavigationServer3D.map_set_cell_height(map, 0.001)
+-		NavigationServer3D.map_set_edge_connection_margin(map, 0.002)
+-		NavigationServer3D.map_set_link_connection_radius(map, 0.05)
+-		NavigationServer3D.map_set_active(map, true)
+-		var nav := NavigationMesh.new()
+-		nav.cell_size = 0.001
+-		nav.cell_height = 0.001
+-		var vertices := PackedVector3Array()
+-		var polygons: Array[PackedInt32Array] = []
+-		var unique: Dictionary = {}
+-		for tri in data.navigation[role]:
+-			var indices := PackedInt32Array()
+-			for xy in tri:
+-				var v := point(xy)
+-				var key := "%.9f,%.9f" % [v.x, v.z]
+-				if not unique.has(key):
+-					unique[key] = vertices.size()
+-					vertices.append(v)
+-				indices.append(unique[key])
+-			polygons.append(indices)
+-		nav.vertices = vertices
+-		for polygon in polygons: nav.add_polygon(polygon)
+-		var region := NavigationRegion3D.new()
+-		region.name = role + "_navigation"
+-		region.navigation_mesh = nav
+-		generated.add_child(region)
+-		region.set_navigation_map(map)
+-	for entry in data.links:
+-		var link := NavigationLink3D.new()
+-		link.name = entry.role + "_" + entry.portal
+-		link.start_position = point(entry.points[0])
+-		link.end_position = point(entry.points[1])
+-		link.enabled = entry.kind == "normal" or (entry.role == "player" and entry.kind == "through")
+-		link.enter_cost = 3.25 if entry.kind == "through" and entry.role == "player" else 0.0
+-		generated.add_child(link)
+-		link.set_navigation_map(maps[entry.role])
+-		links[entry.role + ":" + entry.portal] = link
+-	return true
+-
+-func clear_layout() -> void:
+-	if is_instance_valid(generated):
+-		remove_child(generated)
+-		generated.free()
+-	for map in maps.values(): NavigationServer3D.free_rid(map)
+-	maps.clear()
+-	links.clear()
+-	gates.clear()
+-
+-func _exit_tree() -> void:
+-	clear_layout()
+-
+-func set_open(id: String, value: bool) -> void:
+-	if not gates.has(id): return
+-	var gate: Dictionary = gates[id]
+-	gate.opened = value
+-	for body in gate.bodies:
+-		body.visible = not value
+-		for child in body.get_children():
+-			if child is CollisionShape3D: child.disabled = value
+-	for role in ["player", "boss"]:
+-		var link: NavigationLink3D = links[role + ":" + id]
+-		link.enabled = value or (role == "player" and gate.kind == "through")
+-		link.enter_cost = 3.25 if not value and gate.kind == "through" and role == "player" else 0.0
+-
+-func allow_squeeze(id: String, enabled: bool) -> bool:
+-	if not gates.has(id) or gates[id].kind != "through": return false
+-	var body: StaticBody3D = gates[id].player_block
+-	for child in body.get_children():
+-		if child is CollisionShape3D: child.disabled = enabled
+-	return true
+-
+-func nav_path(role: String, start: Vector3, finish: Vector3) -> PackedVector3Array:
+-	return NavigationServer3D.map_get_path(maps[role], start, finish, true)
+diff --git a/drafts/full_pcg_godot/full_pcg/godot_export.py b/drafts/full_pcg_godot/full_pcg/godot_export.py
+deleted file mode 100644
+index 09a5e93..0000000
+--- a/drafts/full_pcg_godot/full_pcg/godot_export.py
++++ /dev/null
+@@ -1,85 +0,0 @@
+-"""Package the authoritative polygons for Godot; no second geometry generator."""
+-import numpy as np
+-from shapely import constrained_delaunay_triangles
+-from shapely.geometry import shape,Point,LineString
+-from shapely.ops import unary_union
+-from .geometry import parts
+-from .common import digest
+-
+-def triangles(geometry):
+-    return [list(t.exterior.coords)[:3] for p in parts(geometry) if p.geom_type=='Polygon'
+-            for t in constrained_delaunay_triangles(p).geoms]
+-
+-def prism(geometry,height,bottom=0.):
+-    faces=[]
+-    for p in parts(geometry):
+-        if p.geom_type!='Polygon':continue
+-        for t in triangles(p):
+-            a,b,c=[np.array(x) for x in t]
+-            if np.cross(b-a,c-a)<0:b,c=c,b
+-            faces.extend([[a[0],height,a[1]],[c[0],height,c[1]],[b[0],height,b[1]]])
+-            if bottom!=height:faces.extend([[a[0],bottom,a[1]],[b[0],bottom,b[1]],[c[0],bottom,c[1]]])
+-        if bottom!=height:
+-            for ring in [p.exterior,*p.interiors]:
+-                coords=list(ring.coords)
+-                for a,b in zip(coords,coords[1:]):
+-                    v=[[a[0],bottom,a[1]],[b[0],bottom,b[1]],[b[0],height,b[1]],[a[0],height,a[1]]]
+-                    faces.extend([v[i] for i in [0,1,2,0,2,3]])
+-    return faces
+-
+-def package(layout,config):
+-    from .validation import barrier
+-    floor=shape(layout['floor']);base=shape(layout['base_obstacles']);seals=[]
+-    for p in layout['portals']:
+-        c=np.array(p['center']);t=np.array(p['tangent'])
+-        seals.append(LineString([c-t*(p['width']/2+.12),c+t*(p['width']/2+.12)]).buffer(.09,cap_style='flat'))
+-    nav={};links=[]
+-    for role in ['player','boss']:
+-        free=floor.difference(unary_union([base,*seals]).buffer(config[role+'_radius']+.025))
+-        nav[role]=triangles(free)
+-        for p in layout['portals']:
+-            c=np.array(p['center']);n=np.array(p['normal']);endpoints=[]
+-            for sign in [-1,1]:
+-                selected=None
+-                for distance in np.arange(.55,1.51,.05):
+-                    q=c+sign*n*distance
+-                    if free.buffer(-.02).covers(Point(q)):selected=q.tolist();break
+-                if selected is None:raise ValueError('godot_link_endpoint_missing:'+role+':'+p['id'])
+-                endpoints.append(selected)
+-            # A navigation link must correspond to a collision-clear passage after opening.
+-            available=floor.difference(base.buffer(config[role+'_radius']+.025))
+-            if not available.covers(LineString(endpoints)):raise ValueError('godot_link_crosses_wall:'+p['id'])
+-            links.append({'portal':p['id'],'role':role,'kind':p['kind'],'points':endpoints})
+-    gates=[]
+-    for p in layout['portals']:
+-        if p['kind']=='normal':continue
+-        # Through shoulders are physical for both roles; central interaction blocker
+-        # is split by collision layers so the A action cannot unlock it for Boss.
+-        middle=LineString([np.array(p['center'])-np.array(p['tangent'])*.45,
+-                           np.array(p['center'])+np.array(p['tangent'])*.45]).buffer(.09,cap_style='flat')
+-        gates.append({'id':p['id'],'kind':p['kind'],'faces':prism(barrier(p),2.4),
+-                      'middle_faces':prism(middle,2.4) if p['kind']=='through' else []})
+-    pack={'schema_version':1,'layout_hash':layout['layout_hash'],'layout':layout,
+-          'floor_faces':prism(floor,0), 'wall_faces':prism(shape(layout['walls']),2.4),
+-          'obstacle_faces':prism(unary_union([Point(o['position']).buffer(o['radius'],quad_segs=12) for o in layout['obstacles']]),1.4),
+-          'navigation':nav,'links':links,'gates':gates,'role_radii':{r:config[r+'_radius'] for r in ['player','boss']}}
+-    pack['package_hash']=digest(pack)
+-    return pack
+-
+-def main():
+-    from pathlib import Path
+-    from .common import ROOT,read,write
+-    cfg=read(ROOT/'configs/full_pcg_v2.json');source=Path(read(ROOT/'full_pcg_output/latest_audit.json')['path'])
+-    selected=[];seen=set();rows=[read(p) for p in sorted(source.glob('seed_*.json'))]
+-    # Cover all available room counts first, then a further distinct seed.
+-    for row in rows:
+-        if row['validation']['ok'] and row['rooms'] not in seen:selected.append(row);seen.add(row['rooms'])
+-    for row in rows:
+-        if len(selected)>=12:break
+-        if row['validation']['ok'] and row not in selected:selected.append(row)
+-    paths=[]
+-    for row in selected:
+-        out=ROOT/f'full_pcg_output/godot/seed_{row["seed"]:04d}.json'
+-        write(out,package(row['layout'],cfg));paths.append(str(out));print('packaged',row['seed'],row['rooms'],flush=True)
+-    write(ROOT/'full_pcg_output/godot/manifest.json',{'packages':paths,'source_audit':str(source),'count':len(paths)})
+-if __name__=='__main__':main()
+diff --git a/full_pcg/STATUS.md b/full_pcg/STATUS.md
+index b8e5509..3892ffb 100644
+--- a/full_pcg/STATUS.md
++++ b/full_pcg/STATUS.md
+@@ -1,8 +1,3 @@
+-# Full-PCG 模块状态
++# 当前状态
+ 
+-项目阶段与历史提交集中见 [PROGRESS](../PROGRESS.md)。生成约束见 [PLANS](../PLANS.md) 的 2.2、3.2 与 3.3 节。
+-
+-- **当前布局**。Main 使用 Python 外壳分区。窗、同一对空间的多 Portal、共场出生和净面积通过 Phase 2 校准准入。当前外壳样本为 87/100，有 22 类无标签拓扑，房数 7–11，环数 1–3。[验收证据](../reports/combat_v3/SHELL_PHASE2_ACCEPTANCE.json)
+-- **历史基线**。旧锚点图的 90/100、8–18 房与旧 Godot 导出结果用于基线复算。各自入口和报告见 [模块说明](README.md) 与 [旧 Godot 解码报告](../reports/combat_v3/PHASE2_3_GODOT_LAYOUT.md)。
+-- **当前战斗**。自动战斗、交互与重放共用 Godot 的 CombatLevel。Phase 3 正在补齐评分采集、可胜及反例验证、尺度标定和协议冻结。[同步报告](../reports/combat_v3/PHASE3_GODOT_SYNC.md) · [Phase 4 准入](../PLANS.md#52-phase-4-准入与当前收口顺序)
+-- **Phase 4 实施项**。适配当前外壳 Genome 的受限变异及交叉，联通评分、选择与修复，验证小种群、缓存、恢复、谱系与离线回放。旧锚点图算子仍按原版本保留。
++状态只维护在 [根目录 PROGRESS](../PROGRESS.md)。当前主入口为 [B 组 Viewer 与 run 输出](../RUNS.md)。
+diff --git a/full_pcg/test_evolution_viewer.py b/full_pcg/test_evolution_viewer.py
+index da513e9..355ee29 100644
+--- a/full_pcg/test_evolution_viewer.py
++++ b/full_pcg/test_evolution_viewer.py
+@@ -271,6 +271,9 @@ class SingleParentViewerTest(unittest.TestCase):
+             layout = json.loads(chart.proto.spec)["layout"]
+             self.assertTrue(layout["autosize"])
+             self.assertNotIn("height", layout)
++            self.assertEqual(layout["xaxis"]["constrain"], "range")
++            self.assertEqual(layout["yaxis"]["constrain"], "range")
++            self.assertEqual(layout["yaxis"]["scaleanchor"], "x")
+             # Replay the points event sent by the Plotly component to its Streamlit callback.
+             widgets = at._tree.get_widget_states()
+             ids = json.loads(chart.proto.spec)["data"][0]["customdata"]
+diff --git a/full_pcg/viewer/README.md b/full_pcg/viewer/README.md
+index cab089c..ed94a70 100644
+--- a/full_pcg/viewer/README.md
++++ b/full_pcg/viewer/README.md
+@@ -1,6 +1,6 @@
+ # 关卡进化查看器
+ 
+-Phase 4 的离线 Viewer 默认展示 `shell_single_parent_v3` 的 G0–2。左上方可切到双亲 v2 或早期局部变异与随机对照。各档案使用对应的谱系和图例。
++当前推荐入口是 `shell_sampling_focused_g20_v1`（B 组，G0–G20）。在项目根目录执行 `& .\tools\open_viewer.ps1`。其他 run 见根目录 `RUNS.md` 和 `RUN_OUTPUTS.html`；下方 v3/v2 检查条目是历史归档复查方法。
+ 
+ 谱系顶端的三角形 Initial 展示原始 `鼠王关.dxf` 的墙线、特殊开口和障碍。蓝色点线标记 G0 初始种群的生成来源。实线连接归档中的真实亲代。所有轮廓使用同样大小的正方形外接框，正方形为初始种群、独立样本和区域重排，圆形为局部编辑，新单亲实验的加号形为成功的档案参考编辑，详情显示参考 ID，谱系线仍连接唯一实际亲代。历史双亲档案的加号形表示双亲交叉。已保存的 v3 试跑早于这项算子。× 表示验证无效，− 表示未入选，? 表示证据不足，≡ 表示布局重复，! 表示系统错误。候选轮廓按固定 0–100 的 Q 刻度着色。星标是截至所选代有效个体的最高完整 Q，粗线连接这个个体的实际祖先。
+ 
+@@ -21,12 +21,12 @@ Phase 4 的离线 Viewer 默认展示 `shell_single_parent_v3` 的 G0–2。左
+ ```powershell
+ $course = 'F:\大学作业\游戏空间设计微专业\.phase14-work'
+ $python = Join-Path $env:LOCALAPPDATA 'RatKingPCG\viewer\Scripts\python.exe'
+-$run = Join-Path $course 'shell_single_parent_v3'
++$run = Join-Path $course 'shell_sampling_focused_g20_v1'
+ $godot = 'D:\steam\steamapps\common\Godot Engine\godot.windows.opt.tools.64.exe'
+-& $python -B -m streamlit run full_pcg/viewer/app.py --server.address 127.0.0.1 --server.port 8501 --browser.gatherUsageStats false --theme.base light -- --run $run --godot $godot
++& $python -B -m streamlit run full_pcg/viewer/app.py --server.address 127.0.0.1 --server.port 8503 --browser.gatherUsageStats false --theme.base light -- --run $run --godot $godot
+ ```
+ 
+-浏览器地址为 <http://127.0.0.1:8501>。
++浏览器地址为 <http://127.0.0.1:8503>。
+ 
+ ## 检查新版单亲谱系
+ 
+diff --git a/full_pcg/viewer/lineage.py b/full_pcg/viewer/lineage.py
+index 795c418..b62b7a5 100644
+--- a/full_pcg/viewer/lineage.py
++++ b/full_pcg/viewer/lineage.py
+@@ -451,11 +451,13 @@ def build_lineage(archive, generations, rows, cutoff, highlighted=None, *, singl
+                     marker={"color": [0,100], "cmin": 0, "cmax": 100, "colorscale": RED_SCALE, "showscale": True,
+                             "colorbar": {"title": {"text": "Q"}, "thickness": 10, "len": .68, "tickvals": [0,25,50,75,100]}})
+     fig.update_layout(autosize=True, dragmode="pan", clickmode="event+select", hovermode="closest",
+-                      barmode="overlay", uirevision=f"{archive.config['run_id']}:{cutoff}:viewport",
++                      barmode="overlay", uirevision=f"{archive.config['run_id']}:{cutoff}:full-width",
+                       margin={"l": 14, "r": 66, "t": 8, "b": 10}, plot_bgcolor="white", paper_bgcolor="white")
+-    fig.update_xaxes(visible=False, range=[left-1.53, right+.93], fixedrange=False, constrain="domain")
++    # Keep the interactive plot area full width. Equal aspect expands the data range
++    # on resize instead of squeezing the clipping rectangle into a central strip.
++    fig.update_xaxes(visible=False, range=[left-1.53, right+.93], fixedrange=False, constrain="range")
+     fig.update_yaxes(visible=False, range=[min(y for _, y in placements.values())-.91, ROW+.81 if profile else .83],
+-                     fixedrange=False, constrain="domain", scaleanchor="x", scaleratio=1)
++                     fixedrange=False, constrain="range", scaleanchor="x", scaleratio=1)
+     return fig
+ 
+ 
+diff --git a/reports/combat_v3/PHASE4_SAMPLING_COMPARISON.md b/reports/combat_v3/PHASE4_SAMPLING_COMPARISON.md
+index 3de9d20..b0126e7 100644
+--- a/reports/combat_v3/PHASE4_SAMPLING_COMPARISON.md
++++ b/reports/combat_v3/PHASE4_SAMPLING_COMPARISON.md
+@@ -44,7 +44,7 @@ $random = Join-Path $archiveRoot 'shell_sampling_random_g20_v1'
+ 
+ 已登记的实验中断后，用同一 `--config` 加 `--resume`。若要重新做一组实验，复制配置并改用新的 `run_id`。A 组的历史核验使用登记的 19ce0bf 版本，避免当前版本的严格实现哈希检查拒绝旧归档。
+ 
+-试跑验收后也可以执行 `& './scripts/run_phase4_sampling.ps1'`。它按登记状态启动或续跑 B/C，并在两组完整验证后输出 `shell_sampling_comparison_v1.json` 和 `shell_sampling_comparison_v1.md`。每组的启动日志与归档目录并列。
++试跑验收后也可以执行 `& './tools/run_phase4_sampling.ps1'`。它按登记状态启动或续跑 B/C，并在两组完整验证后输出 `shell_sampling_comparison_v1.json` 和 `shell_sampling_comparison_v1.md`。每组的启动日志与归档目录并列。
+ 
+ Viewer 从既有的独立 Python 环境启动。示例查看 B 组，端口 8503 须空闲。查看 C 时把 `$focused` 换为 `$random` 并另选端口。只显示已提交的代次。
+ 
+diff --git a/scenes/Main.tscn b/scenes/Main.tscn
+index c3bf640..764f698 100644
+--- a/scenes/Main.tscn
++++ b/scenes/Main.tscn
+@@ -4,5 +4,16 @@
+ 
+ [node name="RatKingPCG" type="Node3D" unique_id=1724627372]
+ script = ExtResource("1_main")
+-map_seed = 176
++map_seed = 178
++map_size = 1.5
++player_aim_speed = 2.65
+ boss_speed = 2.0
++boss_attack_warning = 0.85
++stalker_speed = 2.2
++stalker_damage = 17.0
++weapon_damage = 51.0
++weapon_fire_interval = 0.26
++weapon_aim_seconds = 0.25
++weapon_reload_seconds = 1.6
++supply_pickup_seconds = 0.3
++supply_pickup_range = null
+diff --git a/scripts/run_phase4_sampling.ps1 b/scripts/run_phase4_sampling.ps1
+deleted file mode 100644
+index a1067a5..0000000
+--- a/scripts/run_phase4_sampling.ps1
++++ /dev/null
+@@ -1,59 +0,0 @@
+-# Run or resume the two new arms after the smoke archive has passed verification.
+-[CmdletBinding()]
+-param()
+-
+-$ErrorActionPreference = 'Stop'
+-$project = Split-Path -Parent $PSScriptRoot
+-Set-Location -LiteralPath $project
+-$pcgPython = Join-Path $project 'evolution\.venv\Scripts\python.exe'
+-$smokeConfig = Get-Content -Raw -Encoding utf8 -LiteralPath 'configs/shell_sampling_focused_smoke.json' | ConvertFrom-Json
+-$archiveRoot = $smokeConfig.output_root
+-$smoke = Join-Path $archiveRoot $smokeConfig.run_id
+-$baseline = Join-Path $archiveRoot 'shell_local_g20_pop8_20261125_143448_831'
+-if (-not (Test-Path -LiteralPath (Join-Path $smoke 'overview.json'))) {
+-    throw 'Finish the registered G0-G2 smoke run before starting the comparison.'
+-}
+-
+-$arms = @('focused', 'random')
+-$jobs = @()
+-foreach ($arm in $arms) {
+-    $config = "configs/shell_sampling_${arm}_g20.json"
+-    $settings = Get-Content -LiteralPath $config -Raw -Encoding utf8 | ConvertFrom-Json
+-    $run = Join-Path $settings.output_root $settings.run_id
+-    if (Test-Path -LiteralPath (Join-Path $run 'overview.json')) {
+-        continue
+-    }
+-    $command = "-B -m full_pcg experiment --config $config"
+-    if (Test-Path -LiteralPath (Join-Path $run 'registration.json')) {
+-        $command += ' --resume'
+-    }
+-    $logPrefix = "$run.$(Get-Date -Format 'yyyyMMdd_HHmmss_fff')"
+-    $jobs += Start-Process -FilePath $pcgPython -WorkingDirectory $project -WindowStyle Hidden `
+-        -ArgumentList $command -RedirectStandardOutput "$logPrefix.out.log" `
+-        -RedirectStandardError "$logPrefix.err.log" -PassThru
+-    Write-Output "$arm archive: $run"
+-    Write-Output "$arm logs: $logPrefix"
+-}
+-foreach ($job in $jobs) {
+-    $job.WaitForExit()
+-}
+-if ($jobs | Where-Object { $_.ExitCode -ne 0 }) {
+-    throw 'A comparison arm exited with an error. See its logs and resume the registered run.'
+-}
+-
+-$focused = Join-Path $archiveRoot 'shell_sampling_focused_g20_v1'
+-$random = Join-Path $archiveRoot 'shell_sampling_random_g20_v1'
+-foreach ($run in @($focused, $random)) {
+-    & $pcgPython -B -m full_pcg verify --run $run --workers 4
+-    if ($LASTEXITCODE -ne 0) {
+-        throw "Verification failed: $run"
+-    }
+-}
+-$report = Join-Path $archiveRoot 'shell_sampling_comparison_v1.json'
+-$markdown = Join-Path $archiveRoot 'shell_sampling_comparison_v1.md'
+-& $pcgPython -B -m full_pcg.viewer.sampling_report --baseline $baseline --focused $focused --random $random --output $report --markdown $markdown
+-if ($LASTEXITCODE -ne 0) {
+-    throw 'Comparison failed. Review the evidence or configuration mismatch.'
+-}
+-Write-Output "Comparison report: $report"
+-Write-Output "Readable report: $markdown"

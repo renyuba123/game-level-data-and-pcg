@@ -1,0 +1,16 @@
+[
+  {
+    "seed": 42,
+    "genes": {
+      "R05_width": 1.02,
+      "door_offset_0": 0.6
+    }
+  },
+  {
+    "seed": 42,
+    "genes": {
+      "R05_width": 1.02,
+      "door_offset_0": 0.6
+    }
+  }
+]

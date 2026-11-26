@@ -1,0 +1,13 @@
+{
+  "run": "smoke_evolution",
+  "valid_evolution_candidates": 18,
+  "fairness_feasible": 1,
+  "pareto_count": 1,
+  "presets": {
+    "balanced": "53e26f8ed091bd6b2655b9822db68f31be5c4283cf0a514c88c7f93fe9c94a1b",
+    "exploration": "53e26f8ed091bd6b2655b9822db68f31be5c4283cf0a514c88c7f93fe9c94a1b",
+    "pressure": "53e26f8ed091bd6b2655b9822db68f31be5c4283cf0a514c88c7f93fe9c94a1b"
+  },
+  "completed_batches": 6,
+  "note": "Proxy evaluation only. No claim of better player experience or global optimum."
+}

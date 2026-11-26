@@ -1,0 +1,10 @@
+{
+  "visual_review": "All six final pages reviewed",
+  "figures": 4,
+  "renderer": "Microsoft Word PDF export and Poppler page rendering",
+  "variable_count_verified": 77,
+  "pages": 6,
+  "renderer_fallback": "Bundled render_docx.py attempted; LibreOffice not installed",
+  "tables": "Table 1 and grouped Table 2A/2B",
+  "new_optimization_run": false
+}

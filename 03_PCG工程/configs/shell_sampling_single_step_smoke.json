@@ -1,0 +1,15 @@
+{
+  "schema": "shell-single-parent-experiment/1",
+  "purpose": "development_only",
+  "run_id": "shell_sampling_single_step_smoke_v1",
+  "sampling": "focused",
+  "diff_operator": "single_opening_or_partition",
+  "optimizer_seed": 177,
+  "population": 8,
+  "reproductions": 2,
+  "workers": 4,
+  "initial_seeds": [177, 6, 84, 78, 44, 48, 4, 37],
+  "output_root": "F:/大学作业/游戏空间设计微专业/04_PCG实验输出/runs",
+  "godot": "D:/steam/steamapps/common/Godot Engine/godot.windows.opt.tools.64.exe",
+  "depthmap": "F:/大学作业/游戏空间设计微专业/.tools/depthmapXcli_win64.exe"
+}

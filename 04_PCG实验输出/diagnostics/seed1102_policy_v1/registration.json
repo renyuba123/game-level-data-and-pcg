@@ -1,0 +1,23 @@
+{
+  "schema": "seed1102-policy-development/1",
+  "combat_hash": "5ac31bc5c2e3dbf7babfc24d3b46418553e74a5be1f43764ca84c6f611bce4bf",
+  "layout_scale": 1.5,
+  "arms": [
+    "paced",
+    "paced_supply_v1",
+    "paced_exit_v1",
+    "paced_tactics_v1"
+  ],
+  "policies": [
+    "output",
+    "occlusion",
+    "supply"
+  ],
+  "scenario_seeds": [
+    110,
+    111,
+    112,
+    113
+  ],
+  "formal_requests": 0
+}

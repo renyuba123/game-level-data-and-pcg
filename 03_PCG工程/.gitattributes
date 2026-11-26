@@ -1,0 +1,5 @@
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+
+# Preserve the byte fingerprint of the verified local runner on checkout.
+/full_pcg/single_parent/experiment.py text eol=crlf

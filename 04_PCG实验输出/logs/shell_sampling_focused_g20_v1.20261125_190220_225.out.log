@@ -1,0 +1,379 @@
+proposal initial-00 initial 0 f66e941bd5a9716f34e8cc33e60762d5723dfe76c48b36ad71f6815a6c6d572d
+proposal initial-01 initial 0 b58adb8129c50117ec45c81a31c5a1373f778cfe50def19c0bb010ce88be993e
+proposal initial-02 initial 0 c9bb605eb37440cc80c0e5dee32d2f3ffc2fb435f30d8f6813bef630b0793a20
+proposal initial-03 initial 0 dd2c8cad36682fd0d925fcef1e5b12d3d374402c56099495ad673be3249b4332
+proposal initial-04 initial 0 450c0b20ce8f1b2379aac0fc536555392d178645e798e609fc5e6c001b82a47b
+proposal initial-05 initial 0 3d23e144d23d0c767f03de5b23177920c9e1e680c752cf1316c4ca6664b3b12c
+proposal initial-06 initial 0 79d26d71398bc1be8dce4141169eab8d9b125fb8ac6c5f9f5af6796e9ddc1718
+proposal initial-07 initial 0 ef1047d5e8c3934e2b2d7867fda91c66d05b3ac8cd6889fe83186342b9adf1c5
+evaluation 6 b58adb8129c50117ec45c81a31c5a1373f778cfe50def19c0bb010ce88be993e {'victory': 8, 'death': 4} phase2 12
+evaluation 84 c9bb605eb37440cc80c0e5dee32d2f3ffc2fb435f30d8f6813bef630b0793a20 {'victory': 12} phase2 12
+evaluation 177 f66e941bd5a9716f34e8cc33e60762d5723dfe76c48b36ad71f6815a6c6d572d {'victory': 12} phase2 12
+evaluation 78 dd2c8cad36682fd0d925fcef1e5b12d3d374402c56099495ad673be3249b4332 {'death': 7, 'timeout': 3, 'victory': 2} phase2 6
+evaluation 44 450c0b20ce8f1b2379aac0fc536555392d178645e798e609fc5e6c001b82a47b {'victory': 12} phase2 12
+evaluation 48 3d23e144d23d0c767f03de5b23177920c9e1e680c752cf1316c4ca6664b3b12c {'death': 9, 'victory': 3} phase2 11
+evaluation 37 ef1047d5e8c3934e2b2d7867fda91c66d05b3ac8cd6889fe83186342b9adf1c5 {'death': 10, 'victory': 2} phase2 6
+evaluation 4 79d26d71398bc1be8dce4141169eab8d9b125fb8ac6c5f9f5af6796e9ddc1718 {'timeout': 2, 'death': 3, 'victory': 7} phase2 10
+G0 committed (8 requests)
+proposal single-1-00 diff 2 4d0ffffdbd9fe69bd0bf8fc56f2ee3839184ba5d8326ea22d5616ab12ad5eba6
+proposal single-1-01 full 1 4baea5fe91b0f8e74fee7470d0eeab942ab2d8a2044dbc2534a2748c3ac2f30b
+proposal single-1-02 full 1 61d2a918e6ed39629b8aa4a4eef3266ba52352df9e7d37c8446744f97e0c5266
+proposal single-1-03 full 1 1a4bd4d0cd89e091153dddac597ad7a60bcb530bf4d83d0ff5b005907e968847
+proposal single-1-04 diff 2 00a631b02ec3d76d554ac91dd320a4f4c0a046cfeb23738cd008413d4c90023e
+proposal single-1-05 diff 1 b5807406b977a816e65704c65c7208cf6930cd412900f643c1489decc7044731
+proposal single-1-06 full 1 d75392079a4a9e9765b227e916537602014903538e2c8ae95f41d2216f21c788
+proposal single-1-07 diff 3 ad497b5d6f7e056251c5b3d9b52299b96b8e67057af9536542ac61052170ebea
+evaluation 177 61d2a918e6ed39629b8aa4a4eef3266ba52352df9e7d37c8446744f97e0c5266 {'victory': 12} phase2 12
+evaluation 44 4baea5fe91b0f8e74fee7470d0eeab942ab2d8a2044dbc2534a2748c3ac2f30b {'death': 9, 'victory': 3} phase2 12
+evaluation 177 4d0ffffdbd9fe69bd0bf8fc56f2ee3839184ba5d8326ea22d5616ab12ad5eba6 {'victory': 10, 'death': 2} phase2 12
+evaluation 177 1a4bd4d0cd89e091153dddac597ad7a60bcb530bf4d83d0ff5b005907e968847 {'death': 3, 'victory': 9} phase2 12
+evaluation 37 ad497b5d6f7e056251c5b3d9b52299b96b8e67057af9536542ac61052170ebea {'death': 8, 'victory': 4} phase2 4
+evaluation 177 00a631b02ec3d76d554ac91dd320a4f4c0a046cfeb23738cd008413d4c90023e {'victory': 4, 'death': 8} phase2 7
+evaluation 84 d75392079a4a9e9765b227e916537602014903538e2c8ae95f41d2216f21c788 {'victory': 10, 'death': 1, 'timeout': 1} phase2 11
+evaluation 78 b5807406b977a816e65704c65c7208cf6930cd412900f643c1489decc7044731 {'death': 6, 'timeout': 3, 'victory': 3} phase2 6
+G1 committed (8 requests)
+proposal single-2-00 diff 1 7378dc6a979e73b923bd342ed55fd1bc208e06e43d168b51234410ee7e399de9
+proposal single-2-01 full 1 546261f2e7892d6eeec73d00dcb410bb2f858e397165167634c984165364d3b7
+proposal single-2-02 full 1 1fc565e8222307d3788f4e95c67b2daa787b3afe0e2cf476062a926c24cc8fc5
+proposal single-2-03 full 1 9f179fc3745d2b724cf4d0976497a03d11efc16c60ad8d1ee5f21e994054d1b1
+proposal single-2-04 full 1 2041b75fa0811f94dece0be2311c6a50f54d4e3db82acfafd23a1a820c217a61
+proposal single-2-05 full 1 7a862fe9766f1d7ddc7026cc9610b0ba1b190554226199ea01150aa0f62ecde4
+proposal single-2-06 diff 1 4fc1e31b822bbecaecf47fde0e9f8d34c62fdcc470879daa0b985cf285e9398a
+proposal single-2-07 full 0 None
+evaluation 4 9f179fc3745d2b724cf4d0976497a03d11efc16c60ad8d1ee5f21e994054d1b1 {'death': 6, 'victory': 6} phase2 6
+evaluation 177 1fc565e8222307d3788f4e95c67b2daa787b3afe0e2cf476062a926c24cc8fc5 {'death': 5, 'victory': 7} phase2 12
+evaluation 44 546261f2e7892d6eeec73d00dcb410bb2f858e397165167634c984165364d3b7 {'death': 5, 'victory': 7} phase2 12
+evaluation 4 7378dc6a979e73b923bd342ed55fd1bc208e06e43d168b51234410ee7e399de9 {'timeout': 2, 'death': 2, 'victory': 8} phase2 10
+evaluation 177 2041b75fa0811f94dece0be2311c6a50f54d4e3db82acfafd23a1a820c217a61 {'victory': 5, 'death': 7} phase2 12
+evaluation 6 4fc1e31b822bbecaecf47fde0e9f8d34c62fdcc470879daa0b985cf285e9398a {'victory': 8, 'death': 4} phase2 12
+evaluation 44 7a862fe9766f1d7ddc7026cc9610b0ba1b190554226199ea01150aa0f62ecde4 {'death': 5, 'victory': 7} phase2 12
+G2 committed (8 requests)
+proposal single-3-00 diff 2 8ca4b41cc5aa4282a0538dd149bc9d2cb1223773315ab3aa656eb82036b8c188
+proposal single-3-01 full 1 74184951d95c733e65ef8f4b50075da2ed48395f8b664812988e7872eed541a4
+proposal single-3-02 diff 2 327bee6598350ba2bbbbbbd985c53c393c278e2e195ad9bd4cfd5d818a1db268
+proposal single-3-03 diff 2 e5bb815a3a71c2fadf0f7f85551af71a7622f67110795af6310a277d42116cbf
+proposal single-3-04 full 1 ac4c92feb4336b7686501d6ee7892819a5c8719a5377a4d833fa200e4da225d9
+proposal single-3-05 diff 1 6c55ba4820fd83ada396ee2d1ddaed3736640b935b16e3212e643dee3fae0a84
+proposal single-3-06 diff 3 53dc1e7b22d7a4360beb7c7fce0eaa4fdc2fecb4bd638ea98bacb175811aa4e8
+proposal single-3-07 full 1 443b01a434d59f49c4c6468bced0f0b75d3a59e6c17451f211d725fe405549c3
+evaluation 6 74184951d95c733e65ef8f4b50075da2ed48395f8b664812988e7872eed541a4 {'victory': 8, 'death': 4} phase2 12
+evaluation 84 8ca4b41cc5aa4282a0538dd149bc9d2cb1223773315ab3aa656eb82036b8c188 {'victory': 7, 'death': 5} phase2 11
+evaluation 84 e5bb815a3a71c2fadf0f7f85551af71a7622f67110795af6310a277d42116cbf {'victory': 10, 'death': 2} phase2 12
+evaluation 84 327bee6598350ba2bbbbbbd985c53c393c278e2e195ad9bd4cfd5d818a1db268 {'victory': 11, 'timeout': 1} phase2 11
+evaluation 84 6c55ba4820fd83ada396ee2d1ddaed3736640b935b16e3212e643dee3fae0a84 {'victory': 12} phase2 12
+evaluation 37 53dc1e7b22d7a4360beb7c7fce0eaa4fdc2fecb4bd638ea98bacb175811aa4e8 {'death': 11, 'victory': 1} phase2 8
+evaluation 4 ac4c92feb4336b7686501d6ee7892819a5c8719a5377a4d833fa200e4da225d9 {'victory': 11, 'death': 1} phase2 12
+evaluation 4 443b01a434d59f49c4c6468bced0f0b75d3a59e6c17451f211d725fe405549c3 {'victory': 12} phase2 12
+G3 committed (8 requests)
+proposal single-4-00 archive_reference 1 23f61c1aeb6faf4eedb487467fb2066cc928557a48f77d35fb885148cca81ffd
+proposal single-4-01 full 1 47da9ffd21845a80365c0e386df412250d2caa84fd56dd1e673f61d12d7fbe72
+proposal single-4-02 full 1 4f1006265aea557339b7742bf965d96cf259b09e6df145a3cc90bc2a055d7354
+proposal single-4-03 diff 3 2d744ada2f9c287364e5cf44be43e18b1b9a5370946606ba7d25a40d5692051c
+proposal single-4-04 diff 2 bbac3dc571f61774615df45432b84526bcac8ed7cfafa937cc32be2c8b23461f
+proposal single-4-05 full 1 d4743d5260926b9ea3c2fd7abb1505e2d3245a67fdff051a77bc108f6254f16d
+proposal single-4-06 full 1 72a871877c0208a5790e26f57bcc4d1faf791cb3234fecb3d08ea5bb7c23d3af
+proposal single-4-07 full 1 d6f0f7b1b92f1ca5dee75da7bfef6916e8ad588044003a29c61b93ed11e46cca
+evaluation 6 2d744ada2f9c287364e5cf44be43e18b1b9a5370946606ba7d25a40d5692051c {'victory': 12} phase2 12
+evaluation 84 47da9ffd21845a80365c0e386df412250d2caa84fd56dd1e673f61d12d7fbe72 {'victory': 9, 'death': 3} phase2 12
+evaluation 84 4f1006265aea557339b7742bf965d96cf259b09e6df145a3cc90bc2a055d7354 {'victory': 12} phase2 12
+evaluation 44 23f61c1aeb6faf4eedb487467fb2066cc928557a48f77d35fb885148cca81ffd {'death': 7, 'victory': 5} phase2 12
+evaluation 6 bbac3dc571f61774615df45432b84526bcac8ed7cfafa937cc32be2c8b23461f {'victory': 8, 'death': 4} phase2 12
+evaluation 84 72a871877c0208a5790e26f57bcc4d1faf791cb3234fecb3d08ea5bb7c23d3af {'victory': 10, 'death': 2} phase2 12
+evaluation 4 d6f0f7b1b92f1ca5dee75da7bfef6916e8ad588044003a29c61b93ed11e46cca {'death': 6, 'victory': 6} phase2 9
+evaluation 44 d4743d5260926b9ea3c2fd7abb1505e2d3245a67fdff051a77bc108f6254f16d {'death': 6, 'victory': 6} phase2 12
+G4 committed (8 requests)
+proposal single-5-00 full 1 e9fddd9cafa098e447aa5c3cda1060191119cf8496b40ca9efb6908752c3f503
+proposal single-5-01 diff 3 a2f0ebd03371460105d99b49e16e656921e89c58a6e16fc23ef87ef884d6c885
+proposal single-5-02 diff 1 71d46055d4936259858141ed9d644439abeeb30fbc3d11d63f2611c71b30b75a
+proposal single-5-03 full 1 dfdb66c5d1221c27c7b9d5450ace4e9f07601e7af7c13f89d6ce6ffef9220273
+proposal single-5-04 diff 3 c221aff02edb241c0f636513ade3d56caa07a3d420f2f80393e9839a89bcca95
+proposal single-5-05 full 1 4aaab4abae2c3a0ad2ee69379e2df59ac90c0dd8acf2d5c55c23fddd143232e9
+proposal single-5-06 archive_reference 1 eff533717b441dfb19baf51f716fb571010c0794d5363251c870ea2a19920fdc
+proposal single-5-07 full 1 8ba0de3483aaffcc844891ced1ef2a6b03f080e29e03b4a749358958ec47ebef
+evaluation 84 71d46055d4936259858141ed9d644439abeeb30fbc3d11d63f2611c71b30b75a {'victory': 12} phase2 12
+evaluation 44 dfdb66c5d1221c27c7b9d5450ace4e9f07601e7af7c13f89d6ce6ffef9220273 {'death': 5, 'victory': 7} phase2 12
+evaluation 84 e9fddd9cafa098e447aa5c3cda1060191119cf8496b40ca9efb6908752c3f503 {'victory': 8, 'death': 4} phase2 12
+evaluation 84 a2f0ebd03371460105d99b49e16e656921e89c58a6e16fc23ef87ef884d6c885 {'victory': 7, 'death': 4, 'timeout': 1} phase2 11
+evaluation 177 c221aff02edb241c0f636513ade3d56caa07a3d420f2f80393e9839a89bcca95 {'death': 10, 'victory': 2} phase2 6
+evaluation 84 8ba0de3483aaffcc844891ced1ef2a6b03f080e29e03b4a749358958ec47ebef {'victory': 9, 'death': 3} phase2 12
+evaluation 6 eff533717b441dfb19baf51f716fb571010c0794d5363251c870ea2a19920fdc {'death': 3, 'victory': 8, 'timeout': 1} phase2 11
+evaluation 84 4aaab4abae2c3a0ad2ee69379e2df59ac90c0dd8acf2d5c55c23fddd143232e9 {'victory': 10, 'timeout': 2} phase2 11
+G5 committed (8 requests)
+proposal single-6-00 archive_reference 1 7c5457375ea7e0cb7d51f49c70db6f726bf1d1f9a7912abe187c7c79e39b0869
+proposal single-6-01 full 1 a05cc3cd822a6307c9b583973f6c980aaa943cafe3b3db1f56185e106e9dfdf9
+proposal single-6-02 diff 3 8ea7cf1c19d1d105d305432653d5c63045759bbd61dc6a241027aa58602528c1
+proposal single-6-03 full 1 060798a7c8dcc8eceba4b9afa2a0bf0a27750b24e194c46f33f80b0866c3ee68
+proposal single-6-04 full 1 61f7c0ab3bc7381c817793a840b589fc9ce590f7638c82cce3374f548386d080
+proposal single-6-05 diff 1 b427e850c5a28a4aa57edd32ccc5597996ea84b2cc9f4c3e253e62444ceed824
+proposal single-6-06 full 1 d70e3dd4d0363aab9ef6567a3dc0655ce8d626dfad6aa309f12e00296832fb95
+proposal single-6-07 diff 3 f00ce418e22ac94a1506256874bcdcc28aeead7d5fd892bc5528dcb8138af0a8
+evaluation 84 8ea7cf1c19d1d105d305432653d5c63045759bbd61dc6a241027aa58602528c1 {'victory': 12} phase2 12
+evaluation 84 7c5457375ea7e0cb7d51f49c70db6f726bf1d1f9a7912abe187c7c79e39b0869 {'victory': 8, 'death': 4} phase2 12
+evaluation 4 a05cc3cd822a6307c9b583973f6c980aaa943cafe3b3db1f56185e106e9dfdf9 {'death': 2, 'victory': 10} phase2 10
+evaluation 44 060798a7c8dcc8eceba4b9afa2a0bf0a27750b24e194c46f33f80b0866c3ee68 {'death': 8, 'victory': 4} phase2 11
+evaluation 84 61f7c0ab3bc7381c817793a840b589fc9ce590f7638c82cce3374f548386d080 {'victory': 7, 'death': 4, 'timeout': 1} phase2 11
+evaluation 4 d70e3dd4d0363aab9ef6567a3dc0655ce8d626dfad6aa309f12e00296832fb95 {'victory': 12} phase2 12
+evaluation 44 f00ce418e22ac94a1506256874bcdcc28aeead7d5fd892bc5528dcb8138af0a8 {'victory': 5, 'death': 7} phase2 12
+evaluation 4 b427e850c5a28a4aa57edd32ccc5597996ea84b2cc9f4c3e253e62444ceed824 {'timeout': 2, 'death': 4, 'victory': 6} phase2 10
+G6 committed (8 requests)
+proposal single-7-00 full 1 9a00a9ab712d65c913ac7c3663f9b336376ba11f0288c6dddcaf4471f144ded2
+proposal single-7-01 full 1 dc6cb87abc7cdc70d6eb36814e09a3c7f86b983083e2b6451d76c868e1dba73a
+proposal single-7-02 full 0 None
+proposal single-7-03 diff 1 20d7f20b246b07f0aabe08635ecddd8aaa516434871452954a566130f8d052d2
+proposal single-7-04 full 1 8ae668eeecd5fd2180e4b7973ab0d099e85027c3d1a254c6e9e0680c24f6bbcf
+proposal single-7-05 diff 1 05662ef8833e403aecb2a44a2304c46a60e704681d2d78a522ccc521758fcbd8
+proposal single-7-06 archive_reference 1 533051106574ceae9a402a13a67dac014cc9e8bc712e6abebf458d243160b8f4
+proposal single-7-07 full 1 41fd88d0f30fcb32b424836d7e88a39906e3b5f5001e8ac47e83e863094a5afe
+evaluation 4 9a00a9ab712d65c913ac7c3663f9b336376ba11f0288c6dddcaf4471f144ded2 {'victory': 11, 'death': 1} phase2 12
+evaluation 84 dc6cb87abc7cdc70d6eb36814e09a3c7f86b983083e2b6451d76c868e1dba73a {'victory': 11, 'timeout': 1} phase2 11
+evaluation 4 20d7f20b246b07f0aabe08635ecddd8aaa516434871452954a566130f8d052d2 {'timeout': 1, 'victory': 10, 'death': 1} phase2 11
+evaluation 4 8ae668eeecd5fd2180e4b7973ab0d099e85027c3d1a254c6e9e0680c24f6bbcf {'death': 3, 'victory': 9} phase2 12
+evaluation 4 05662ef8833e403aecb2a44a2304c46a60e704681d2d78a522ccc521758fcbd8 {'death': 2, 'victory': 10} phase2 12
+evaluation 177 533051106574ceae9a402a13a67dac014cc9e8bc712e6abebf458d243160b8f4 {'victory': 6, 'death': 6} phase2 12
+evaluation 177 41fd88d0f30fcb32b424836d7e88a39906e3b5f5001e8ac47e83e863094a5afe {'victory': 12} phase2 12
+G7 committed (8 requests)
+proposal single-8-00 diff 3 0ff438de1f5118c598a9852610baea6f2ea2dc251fbbdc4b1388858ee149f5fd
+proposal single-8-01 diff 2 bbb657eb411c7dae49e7b76c1bb0c686f164b77bdac17d5a27ae125dc036224c
+proposal single-8-02 full 1 bcec2f2dafbf7a0b3d72bc34fb6339530dfa7a8f08b8e49e5477b58efbfb9f94
+proposal single-8-03 archive_reference 1 26e61ed0619494bfb56967e0af0895df464e2db7e5213e21d9d6fc1ad7ac683b
+proposal single-8-04 diff 1 857892dfa64ee35bc8d5bb82a6ac6c9ad8ad1bc69089fafd5e86057471544aea
+proposal single-8-05 diff 3 e82d7dfc390a074404b2a0216516fe13e9f158bde2ca05164a5fc6a42aa515b5
+proposal single-8-06 full 1 cd33fc8cba48700704348108490e54fa670f169eb9c3669bee85b457ef978a6d
+proposal single-8-07 full 0 None
+evaluation 6 26e61ed0619494bfb56967e0af0895df464e2db7e5213e21d9d6fc1ad7ac683b {'victory': 8, 'death': 4} phase2 12
+evaluation 84 0ff438de1f5118c598a9852610baea6f2ea2dc251fbbdc4b1388858ee149f5fd {'victory': 12} phase2 12
+evaluation 177 bbb657eb411c7dae49e7b76c1bb0c686f164b77bdac17d5a27ae125dc036224c {'victory': 10, 'death': 2} phase2 12
+evaluation 44 bcec2f2dafbf7a0b3d72bc34fb6339530dfa7a8f08b8e49e5477b58efbfb9f94 {'death': 6, 'victory': 6} phase2 12
+evaluation 177 e82d7dfc390a074404b2a0216516fe13e9f158bde2ca05164a5fc6a42aa515b5 {'victory': 5, 'death': 7} phase2 7
+evaluation 4 857892dfa64ee35bc8d5bb82a6ac6c9ad8ad1bc69089fafd5e86057471544aea {'victory': 4, 'death': 8} phase2 8
+evaluation 177 cd33fc8cba48700704348108490e54fa670f169eb9c3669bee85b457ef978a6d {'victory': 10, 'timeout': 1, 'death': 1} phase2 12
+G8 committed (8 requests)
+proposal single-9-00 archive_reference 1 49fe3fe85af4297e41238da1d35662384e55a7a1ef2c5138d7621ada4998694f
+proposal single-9-01 diff 3 a542a45dc79c3c6f1dff54c2337c88c2f15c3d5c69a9962f01ab16df5751b88c
+proposal single-9-02 full 1 a1e0265067c9c1190a74789703e422a41452803e5e9986835930e19d3e9645fc
+proposal single-9-03 diff 3 92f22eca51446eba0266547c8406ac5c8e80d8f94cf6592239e0ba8b89f9c2fb
+proposal single-9-04 full 1 721ecfda65e6f7583ce4204ccdd087afa130b0fb40178c83257c3cacc5a7a0ee
+proposal single-9-05 full 1 9008d55647a893c4fd2424dbdf87363dcc89d254d5d957d2c8042a2c5b55e8dd
+proposal single-9-06 diff 3 9e820b72258e70d99cac51b192abdf5a5a9a005f6b58717cf710dcd8aff52a28
+proposal single-9-07 full 1 d76861ba9eaef2d4fe9062009d79a35411c4d3d52d9f1ffbe710af7b160875da
+evaluation 6 92f22eca51446eba0266547c8406ac5c8e80d8f94cf6592239e0ba8b89f9c2fb {'victory': 8, 'death': 4} phase2 12
+evaluation 4 49fe3fe85af4297e41238da1d35662384e55a7a1ef2c5138d7621ada4998694f {'death': 3, 'victory': 9} phase2 10
+evaluation 177 a1e0265067c9c1190a74789703e422a41452803e5e9986835930e19d3e9645fc {'victory': 11, 'death': 1} phase2 12
+evaluation 6 a542a45dc79c3c6f1dff54c2337c88c2f15c3d5c69a9962f01ab16df5751b88c {'victory': 10, 'death': 1, 'timeout': 1} phase2 12
+evaluation 4 721ecfda65e6f7583ce4204ccdd087afa130b0fb40178c83257c3cacc5a7a0ee {'victory': 10, 'death': 2} phase2 11
+evaluation 177 9008d55647a893c4fd2424dbdf87363dcc89d254d5d957d2c8042a2c5b55e8dd {'victory': 4, 'death': 8} phase2 12
+evaluation 6 d76861ba9eaef2d4fe9062009d79a35411c4d3d52d9f1ffbe710af7b160875da {'victory': 8, 'death': 4} phase2 12
+evaluation 84 9e820b72258e70d99cac51b192abdf5a5a9a005f6b58717cf710dcd8aff52a28 {'victory': 3, 'death': 8, 'timeout': 1} phase2 11
+G9 committed (8 requests)
+proposal single-10-00 full 1 6c94a1217abe503a0878e4525af09df68bae7edfc0d012e79906a23fdeeda685
+proposal single-10-01 diff 3 b99e9a3e6bcf4ed4752b3c4ef4cdd8bdec4b2fdaaede18906a89bf10bc7ab47d
+proposal single-10-02 archive_reference 1 2c87e0a2d58aa33b12e97622b598f8ed624270facd35e89290e3620737b4da76
+proposal single-10-03 diff 2 4bdb5ff28f5acd284ebfee5ee8dd2e5fc038de5b8c4bce346b7481a19c513701
+proposal single-10-04 diff 2 40a743136931fe8cb41755a4c6beb5b45b1eeed3f8e6d03aae8fcfef229d2081
+proposal single-10-05 full 1 3402e62a9123adc44ba4162a71d1e70c14f955fe621e7e16cba4b2bed01a5feb
+proposal single-10-06 full 1 6cee7ed210d53e877c437052b4a2c66fad9aac338f8999b86143dd329ce3fd76
+proposal single-10-07 diff 3 2c986ccc58896a9af894df9585595d4c85e37953b4d7d6b337a0cede43c0628f
+evaluation 6 6c94a1217abe503a0878e4525af09df68bae7edfc0d012e79906a23fdeeda685 {'victory': 12} phase2 12
+evaluation 84 4bdb5ff28f5acd284ebfee5ee8dd2e5fc038de5b8c4bce346b7481a19c513701 {'victory': 11, 'death': 1} phase2 12
+evaluation 4 2c87e0a2d58aa33b12e97622b598f8ed624270facd35e89290e3620737b4da76 {'victory': 9, 'death': 3} phase2 11
+evaluation 4 b99e9a3e6bcf4ed4752b3c4ef4cdd8bdec4b2fdaaede18906a89bf10bc7ab47d {'victory': 12} phase2 12
+evaluation 84 40a743136931fe8cb41755a4c6beb5b45b1eeed3f8e6d03aae8fcfef229d2081 {'victory': 12} phase2 12
+evaluation 6 3402e62a9123adc44ba4162a71d1e70c14f955fe621e7e16cba4b2bed01a5feb {'victory': 8, 'death': 4} phase2 12
+evaluation 6 6cee7ed210d53e877c437052b4a2c66fad9aac338f8999b86143dd329ce3fd76 {'victory': 12} phase2 12
+evaluation 4 2c986ccc58896a9af894df9585595d4c85e37953b4d7d6b337a0cede43c0628f {'victory': 10, 'death': 2} phase2 10
+G10 committed (8 requests)
+proposal single-11-00 full 1 59df57c7f4731ae188b4350737bb398257d2bdfbbd749d0eaa8609a52dbb53e0
+proposal single-11-01 diff 3 12104065228ab52fc30a06b9f4099cb6edbacfcd6e64c90942b5417bb83022ea
+proposal single-11-02 full 1 4504d2a39dab0d006a97014f8fc843305b1d696f082cba6e74e95b76555a63bf
+proposal single-11-03 diff 2 9077b742bfcd7660a8e7052135b62c1b6f248645e6514289afbe6f8d9874e133
+proposal single-11-04 diff 2 951b007a21e191b23d8994ca9c1589e0fdc3ff5c809da56dfc698acff5cbcd4a
+proposal single-11-05 archive_reference 1 620345038d8c930050ce418b55266121d0fbb998a8445d8fb41b2132472d2fa7
+proposal single-11-06 diff 3 0468ef19653c8c30bd2ce3d884b13d02c3329f23916d52b749642672b58935ea
+proposal single-11-07 diff 1 d4a04e601691c31fafd6b1df4fa64cce2d2034bebaebc77a5453652863f3fd68
+evaluation 6 4504d2a39dab0d006a97014f8fc843305b1d696f082cba6e74e95b76555a63bf {'victory': 7, 'death': 5} phase2 12
+evaluation 6 12104065228ab52fc30a06b9f4099cb6edbacfcd6e64c90942b5417bb83022ea {'death': 6, 'victory': 6} phase2 12
+evaluation 4 9077b742bfcd7660a8e7052135b62c1b6f248645e6514289afbe6f8d9874e133 {'victory': 8, 'death': 4} phase2 11
+evaluation 6 59df57c7f4731ae188b4350737bb398257d2bdfbbd749d0eaa8609a52dbb53e0 {'victory': 9, 'timeout': 3} phase2 12
+evaluation 6 620345038d8c930050ce418b55266121d0fbb998a8445d8fb41b2132472d2fa7 {'victory': 7, 'death': 5} phase2 12
+evaluation 4 951b007a21e191b23d8994ca9c1589e0fdc3ff5c809da56dfc698acff5cbcd4a {'victory': 11, 'death': 1} phase2 12
+evaluation 4 0468ef19653c8c30bd2ce3d884b13d02c3329f23916d52b749642672b58935ea {'death': 4, 'victory': 8} phase2 10
+evaluation 84 d4a04e601691c31fafd6b1df4fa64cce2d2034bebaebc77a5453652863f3fd68 {'victory': 12} phase2 12
+G11 committed (8 requests)
+proposal single-12-00 full 1 658f7305daf0c4def103facbdbf9708496fb146554778d5fb06c5fb9fe8a2981
+proposal single-12-01 diff 2 4cab15afc602a4ce7dd6d6e26a26026651ff4f123324fd055b589682a70d6744
+proposal single-12-02 full 1 27de5dd7ea03f1c612840039432b10d1883b2d302c28be3ea3a189abdfc53a66
+proposal single-12-03 diff 3 8b525b5fa12508c8fd0a14d07b960012c23ffce30fccb84fddde8b9dddda3656
+proposal single-12-04 diff 1 4e6f284296f5e6ccc5a92041ceca2daec933b4c36e0ae902b8fda514abc1a318
+proposal single-12-05 diff 2 da752656c78028831966c8ece3c9e4e089db516c800cfc99734b470711e7946f
+proposal single-12-06 full 1 4021325888d79ffe03818c546f4ac904b016ef91e660e504364c80bf641473b1
+proposal single-12-07 diff 3 a6da90c0d76856f9f6880fc0b98fa77822b2748e382dbf017959b7fc1be3521b
+evaluation 4 27de5dd7ea03f1c612840039432b10d1883b2d302c28be3ea3a189abdfc53a66 {'death': 12} phase2 0
+evaluation 6 8b525b5fa12508c8fd0a14d07b960012c23ffce30fccb84fddde8b9dddda3656 {'victory': 8, 'death': 4} phase2 12
+evaluation 4 658f7305daf0c4def103facbdbf9708496fb146554778d5fb06c5fb9fe8a2981 {'death': 6, 'victory': 6} phase2 11
+evaluation 4 4cab15afc602a4ce7dd6d6e26a26026651ff4f123324fd055b589682a70d6744 {'timeout': 2, 'victory': 7, 'death': 3} phase2 10
+evaluation 4 4e6f284296f5e6ccc5a92041ceca2daec933b4c36e0ae902b8fda514abc1a318 {'timeout': 2, 'victory': 8, 'death': 2} phase2 10
+evaluation 6 da752656c78028831966c8ece3c9e4e089db516c800cfc99734b470711e7946f {'victory': 12} phase2 12
+evaluation 4 a6da90c0d76856f9f6880fc0b98fa77822b2748e382dbf017959b7fc1be3521b {'death': 12} phase2 0
+evaluation 4 4021325888d79ffe03818c546f4ac904b016ef91e660e504364c80bf641473b1 {'victory': 9, 'death': 3} phase2 12
+G12 committed (8 requests)
+proposal single-13-00 full 1 a8daaffed1ba84b6b54700ab614008d8a00f35867c02ce4abe4a8dcf70fb1c63
+proposal single-13-01 archive_reference 1 c9ca9b966bd3b4a4e0a1b0178f2343c398a1e8036819f008c6610cdf4454d879
+proposal single-13-02 diff 1 c356f934c9c871f8fbc74659710e178612341177988bda76c596167f3d7e745d
+proposal single-13-03 diff 1 bf39a1d8f1d048755a6e6166d5d450f51b400209355c4dd7750d680f618fed03
+proposal single-13-04 full 1 05525f51bd6f774bc62e5c45fd1bdece4a52fae8cb01e7771153b05668e88966
+proposal single-13-05 diff 2 00fd5965ea3d4e65bda7b79fd9dad560f266910669ab16e8b1d4623781637f51
+proposal single-13-06 full 1 6244268edfa613f380bab8283b9158110ecdc71a8d378dea88bacd64f12c2eb6
+proposal single-13-07 diff 2 8f6ebaf2d7032dda3880e03c04570855f8c35dcdbfa6e264c0b5d8c5d401c0a1
+evaluation 6 c9ca9b966bd3b4a4e0a1b0178f2343c398a1e8036819f008c6610cdf4454d879 {'death': 1, 'victory': 11} phase2 12
+evaluation 177 bf39a1d8f1d048755a6e6166d5d450f51b400209355c4dd7750d680f618fed03 {'victory': 10, 'death': 2} phase2 10
+evaluation 4 c356f934c9c871f8fbc74659710e178612341177988bda76c596167f3d7e745d {'victory': 12} phase2 12
+evaluation 4 a8daaffed1ba84b6b54700ab614008d8a00f35867c02ce4abe4a8dcf70fb1c63 {'victory': 11, 'death': 1} phase2 11
+evaluation 4 05525f51bd6f774bc62e5c45fd1bdece4a52fae8cb01e7771153b05668e88966 {'victory': 7, 'death': 5} phase2 10
+evaluation 6 6244268edfa613f380bab8283b9158110ecdc71a8d378dea88bacd64f12c2eb6 {'death': 4, 'victory': 8} phase2 12
+evaluation 4 00fd5965ea3d4e65bda7b79fd9dad560f266910669ab16e8b1d4623781637f51 {'timeout': 2, 'death': 3, 'victory': 7} phase2 10
+evaluation 6 8f6ebaf2d7032dda3880e03c04570855f8c35dcdbfa6e264c0b5d8c5d401c0a1 {'victory': 9, 'timeout': 3} phase2 12
+G13 committed (8 requests)
+proposal single-14-00 full 1 de2cc1b476750079e3a40bf7b6441255aa81fda9d59907f06755457b8b645d8d
+proposal single-14-01 archive_reference 1 0fc4afb0d9e7d857a4621168f0010a94cd12e240af87a703485b16af27bc2b0d
+proposal single-14-02 diff 3 c28c3cadbf49742e73b48e8d71b44a47cae6d378c883736fe982863ff09e62f7
+proposal single-14-03 diff 1 4ca9a01ee86b7aa02d1cc58aad047f09d1b24e02a245c5a167e679069f1117f9
+proposal single-14-04 diff 3 0007489a91979affd4845e5c53da3d151eafc05feced85253bbcaddb9615a87b
+proposal single-14-05 diff 3 8fc95a023e7ae8f5ac5dd9e41dff8e32ede636ac2e171d1af0a7a0f6052f8022
+proposal single-14-06 full 1 f0333475bc3b7cce36dd0151f2b7dbe8843dadb2f2cf566bb0cea6a63df84326
+proposal single-14-07 diff 1 964e610d7ad0730730c6e5243a75d44bfc87ef7d3f2793f4bc2a472bbe9efd9b
+evaluation 177 c28c3cadbf49742e73b48e8d71b44a47cae6d378c883736fe982863ff09e62f7 {'death': 11, 'victory': 1} phase2 9
+evaluation 6 4ca9a01ee86b7aa02d1cc58aad047f09d1b24e02a245c5a167e679069f1117f9 {'victory': 11, 'death': 1} phase2 12
+evaluation 6 de2cc1b476750079e3a40bf7b6441255aa81fda9d59907f06755457b8b645d8d {'death': 6, 'victory': 5, 'timeout': 1} phase2 12
+evaluation 4 0fc4afb0d9e7d857a4621168f0010a94cd12e240af87a703485b16af27bc2b0d {'death': 7, 'victory': 5} phase2 11
+evaluation 6 8fc95a023e7ae8f5ac5dd9e41dff8e32ede636ac2e171d1af0a7a0f6052f8022 {'death': 3, 'victory': 9} phase2 10
+evaluation 6 964e610d7ad0730730c6e5243a75d44bfc87ef7d3f2793f4bc2a472bbe9efd9b {'death': 3, 'victory': 9} phase2 11
+evaluation 4 f0333475bc3b7cce36dd0151f2b7dbe8843dadb2f2cf566bb0cea6a63df84326 {'victory': 11, 'death': 1} phase2 11
+evaluation 4 0007489a91979affd4845e5c53da3d151eafc05feced85253bbcaddb9615a87b {'victory': 6, 'death': 6} phase2 11
+G14 committed (8 requests)
+proposal single-15-00 diff 2 f71a91acbdc8343d5dc92bb3e9c921a86c87bdf6fe2cd262cdcd793e7a60e4f6
+proposal single-15-01 diff 3 a21763d3a00249e81bad2f51100a3f0c28ae5d7486451d878cb75560bfdcaf6a
+proposal single-15-02 diff 3 91f5e3382c5865b153e4c1e3c4d862c78d54c581435902e500557f3e8c1eca9e
+proposal single-15-03 full 0 None
+proposal single-15-04 archive_reference 1 0902f5131c6ba08c468d372d396173d9146950a84f6c2775d4c220bc7536a66c
+proposal single-15-05 full 1 a1399fce522e0ca90bd05971e1a29ec38ceae2b8b431f7be04316cef9d48506b
+proposal single-15-06 diff 3 a1fc63634e277809d3197ae2d1225d357de01ea2ab9deff6280d5ea73f2f250a
+proposal single-15-07 full 1 1a94684447dfb3fecb25b6da0e3ce78ce67fb2fc2bbcc6c31ac32b36f57079da
+evaluation 6 a21763d3a00249e81bad2f51100a3f0c28ae5d7486451d878cb75560bfdcaf6a {'victory': 8, 'death': 4} phase2 12
+evaluation 6 f71a91acbdc8343d5dc92bb3e9c921a86c87bdf6fe2cd262cdcd793e7a60e4f6 {'death': 1, 'victory': 11} phase2 12
+evaluation 84 0902f5131c6ba08c468d372d396173d9146950a84f6c2775d4c220bc7536a66c {'victory': 5, 'death': 7} phase2 12
+evaluation 6 91f5e3382c5865b153e4c1e3c4d862c78d54c581435902e500557f3e8c1eca9e {'victory': 11, 'timeout': 1} phase2 12
+evaluation 4 a1399fce522e0ca90bd05971e1a29ec38ceae2b8b431f7be04316cef9d48506b {'death': 8, 'victory': 4} phase2 9
+evaluation 6 a1fc63634e277809d3197ae2d1225d357de01ea2ab9deff6280d5ea73f2f250a {'victory': 8, 'death': 4} phase2 12
+evaluation 6 1a94684447dfb3fecb25b6da0e3ce78ce67fb2fc2bbcc6c31ac32b36f57079da {'victory': 12} phase2 12
+G15 committed (8 requests)
+proposal single-16-00 full 1 ca7fce05568c37f58bae28d6fcb591a3f5bca815db9721764df2853cd64c38b3
+proposal single-16-01 diff 1 08ae5e7af49ae71b8f6756def34d0d40b7f7831fd1eec7d951127d4eab67a36a
+proposal single-16-02 full 1 6797c483a334450a2e596d54b2f95924743dac5e7389bae4e48620205e3545c1
+proposal single-16-03 full 1 a335ca10a1cd65eacd74d9597893d7f434f0c2d60fce38234298abf9a79ce4a9
+proposal single-16-04 diff 3 49ad1ac38c060a0a6a3b445f25113d49ae63e3c56ac34f8a79ea4245eeaec0cb
+proposal single-16-05 full 1 f28c0fda9e26d69e3fd6b2945f273fd0813345ef3282a10478c31210353914c4
+proposal single-16-06 full 0 None
+proposal single-16-07 diff 3 7c01a621d38f617fe4b0970e50dac82da4dd3461ac8c8eae5422ac33c0f966b6
+evaluation 4 6797c483a334450a2e596d54b2f95924743dac5e7389bae4e48620205e3545c1 {'victory': 8, 'death': 4} phase2 8
+evaluation 4 ca7fce05568c37f58bae28d6fcb591a3f5bca815db9721764df2853cd64c38b3 {'victory': 8, 'death': 4} phase2 10
+evaluation 4 08ae5e7af49ae71b8f6756def34d0d40b7f7831fd1eec7d951127d4eab67a36a {'death': 6, 'victory': 6} phase2 12
+evaluation 4 a335ca10a1cd65eacd74d9597893d7f434f0c2d60fce38234298abf9a79ce4a9 {'victory': 8, 'death': 4} phase2 12
+evaluation 4 49ad1ac38c060a0a6a3b445f25113d49ae63e3c56ac34f8a79ea4245eeaec0cb {'death': 2, 'victory': 10} phase2 11
+evaluation 6 7c01a621d38f617fe4b0970e50dac82da4dd3461ac8c8eae5422ac33c0f966b6 {'victory': 11, 'death': 1} phase2 12
+evaluation 4 f28c0fda9e26d69e3fd6b2945f273fd0813345ef3282a10478c31210353914c4 {'timeout': 2, 'victory': 10} phase2 12
+G16 committed (8 requests)
+proposal single-17-00 diff 3 d98f7af8578b7c9cdb6bd990a0a9eb1043c8b71e86b4016393fa7db50e90c4b4
+proposal single-17-01 diff 3 ae83c32b761c4ab2d0d4ae5b07c72c1f3906b40ed3e8479275f222c196748566
+proposal single-17-02 full 1 e32ffb7f0926aabfaca234d5077122f859b3b597e06618bc4345b4c04d3a5d05
+proposal single-17-03 archive_reference 1 5e70f7790d46b2cc464c44a5045b23f3d88a2f3c7afc274dd203d1423d8f5fc9
+proposal single-17-04 full 1 18b63c8b5de6e8c6d9e1a5cb3f16d9c9aed478874c7e84ac4a65db5681172511
+proposal single-17-05 full 0 None
+proposal single-17-06 full 1 ddf4ceceaa9bd50a121ef6a7cb2d0081233171194af10d90053576e661809dbd
+proposal single-17-07 diff 2 5e6bcf8f57c63e8e7d792581f518ffcac06ec3b73575b89d0173e6bf38d41fac
+evaluation 4 ae83c32b761c4ab2d0d4ae5b07c72c1f3906b40ed3e8479275f222c196748566 {'death': 5, 'victory': 7} phase2 8
+evaluation 6 d98f7af8578b7c9cdb6bd990a0a9eb1043c8b71e86b4016393fa7db50e90c4b4 {'victory': 11, 'death': 1} phase2 12
+evaluation 4 5e70f7790d46b2cc464c44a5045b23f3d88a2f3c7afc274dd203d1423d8f5fc9 {'victory': 6, 'death': 6} phase2 9
+evaluation 4 e32ffb7f0926aabfaca234d5077122f859b3b597e06618bc4345b4c04d3a5d05 {'victory': 9, 'death': 2, 'timeout': 1} phase2 11
+evaluation 6 ddf4ceceaa9bd50a121ef6a7cb2d0081233171194af10d90053576e661809dbd {'victory': 8, 'death': 4} phase2 12
+evaluation 4 18b63c8b5de6e8c6d9e1a5cb3f16d9c9aed478874c7e84ac4a65db5681172511 {'timeout': 2, 'death': 9, 'victory': 1} phase2 7
+evaluation 4 5e6bcf8f57c63e8e7d792581f518ffcac06ec3b73575b89d0173e6bf38d41fac {'death': 4, 'victory': 7, 'timeout': 1} phase2 11
+G17 committed (8 requests)
+proposal single-18-00 full 1 5a7b03b42f5bf35e0246441206aa1474fe88fb383586d47bc5c466c8faf16ee4
+proposal single-18-01 diff 3 204c4829ec6e20a725f81c59861dcce7bd57f8daf8b054bc8e45a5732289ad62
+proposal single-18-02 full 1 f7a60bade449efd096a9c6810340066ba3ddfeff57911c7b360140373a51c406
+proposal single-18-03 archive_reference 1 4d83bd9ff6937ac35b7c5ececd3d255075688827d70abc15e8f90696bd06e5c6
+proposal single-18-04 diff 2 82ac5dc63028cab055a1cc3b285780cdcf156e939238139dd1d1b19bbda09fa5
+proposal single-18-05 diff 3 bcc74c4cfcab37717a307467a6eb3ae1eef0f71e6d7c83c49ffbbdb592ea40b2
+proposal single-18-06 full 1 195ab1e699aa8729d643d674607d93046fd963657d80131894cc3630dc2bed5f
+proposal single-18-07 diff 1 255e21d82e2108f50f282fb65bdaa9a77b60dc0666d314a3cc7b773cec71f550
+evaluation 6 204c4829ec6e20a725f81c59861dcce7bd57f8daf8b054bc8e45a5732289ad62 {'death': 4, 'victory': 8} phase2 12
+evaluation 4 5a7b03b42f5bf35e0246441206aa1474fe88fb383586d47bc5c466c8faf16ee4 {'victory': 7, 'death': 5} phase2 9
+evaluation 6 f7a60bade449efd096a9c6810340066ba3ddfeff57911c7b360140373a51c406 {'death': 6, 'victory': 6} phase2 12
+evaluation 177 4d83bd9ff6937ac35b7c5ececd3d255075688827d70abc15e8f90696bd06e5c6 {'victory': 12} phase2 12
+evaluation 6 82ac5dc63028cab055a1cc3b285780cdcf156e939238139dd1d1b19bbda09fa5 {'victory': 11, 'death': 1} phase2 12
+evaluation 6 255e21d82e2108f50f282fb65bdaa9a77b60dc0666d314a3cc7b773cec71f550 {'victory': 8, 'death': 4} phase2 12
+evaluation 4 bcc74c4cfcab37717a307467a6eb3ae1eef0f71e6d7c83c49ffbbdb592ea40b2 {'victory': 10, 'death': 2} phase2 12
+evaluation 84 195ab1e699aa8729d643d674607d93046fd963657d80131894cc3630dc2bed5f {'victory': 10, 'death': 1, 'timeout': 1} phase2 11
+G18 committed (8 requests)
+proposal single-19-00 full 1 97a4c322d88a87973ab74590de18aadeb1c7981be8ff24ceb7f565ad57e25301
+proposal single-19-01 full 1 b26c8953882adbf90287caf0936778186a80a5eff75cd53c40ece1eb0a2f7f71
+proposal single-19-02 diff 2 3f7d9d8eafae4ecde1bd6bf1217bad11e7cc33279695a521d036b292aed0b7cb
+proposal single-19-03 diff 2 e851752a32521fdb0dff8b6c8ea5f0756537fd4404e5fe670cceb3939157b912
+proposal single-19-04 diff 1 3167c6d365ed7b21968f74c07771a0030850bdefbb39f47fac84faf46e1d02df
+proposal single-19-05 diff 1 f4197e84745a3f77e4ea9e67e6f41dd1e07bf3d8477713c3c348bacd240f203f
+proposal single-19-06 diff 1 45b86434661d9ba8036f7937d3d64f8b8e2767bd812400de2ea1623a94506319
+proposal single-19-07 full 1 9fb75da014a001127a9eeabad89efc4c1e586ebb3f26cee9a1d3489e7e26f755
+evaluation 6 b26c8953882adbf90287caf0936778186a80a5eff75cd53c40ece1eb0a2f7f71 {'victory': 10, 'death': 2} phase2 12
+evaluation 6 3f7d9d8eafae4ecde1bd6bf1217bad11e7cc33279695a521d036b292aed0b7cb {'victory': 8, 'death': 4} phase2 12
+evaluation 6 e851752a32521fdb0dff8b6c8ea5f0756537fd4404e5fe670cceb3939157b912 {'victory': 7, 'death': 5} phase2 12
+evaluation 4 97a4c322d88a87973ab74590de18aadeb1c7981be8ff24ceb7f565ad57e25301 {'victory': 7, 'death': 5} phase2 11
+evaluation 6 3167c6d365ed7b21968f74c07771a0030850bdefbb39f47fac84faf46e1d02df {'victory': 8, 'death': 4} phase2 12
+evaluation 6 45b86434661d9ba8036f7937d3d64f8b8e2767bd812400de2ea1623a94506319 {'victory': 8, 'death': 4} phase2 12
+evaluation 4 f4197e84745a3f77e4ea9e67e6f41dd1e07bf3d8477713c3c348bacd240f203f {'victory': 12} phase2 12
+evaluation 4 9fb75da014a001127a9eeabad89efc4c1e586ebb3f26cee9a1d3489e7e26f755 {'victory': 9, 'death': 3} phase2 12
+G19 committed (8 requests)
+proposal single-20-00 full 1 fb832c1678fd1706bc7ffbb306959035118c2f43d35d2ef5c6787832c1c2ae80
+proposal single-20-01 diff 1 e4108698795ea448fb9a15f359dedc64fdee5a3cdb4f8672df2fcdbdfc986059
+proposal single-20-02 full 1 f8dc7f15d2a4386364bc79fc91ee3152c6055978439eeb0284f6aaa21cf2cff2
+proposal single-20-03 diff 1 b8517b3ca7cf42b6c69b00826a28ac8c3725880847a1cd3aa9f0f8da1420d351
+proposal single-20-04 archive_reference 1 4b75d9ddb8d1996ca883fcc5f682874205ac7288c13e8c30ddabd445b9bafa5e
+proposal single-20-05 full 1 03c80113fa7c85d3854ca163f41d4c8ff2a1fb1ae2a3ae9b783efbc64c49912e
+proposal single-20-06 full 1 97a6fb58977f3f7500c26d8934196f78fbb2d0cadc02db18e0b242bebe7b107c
+proposal single-20-07 diff 2 3ca41c1ebfe112c6d749d5e3179bbe93175733221060b101d675bd67d4b0cabd
+evaluation 4 e4108698795ea448fb9a15f359dedc64fdee5a3cdb4f8672df2fcdbdfc986059 {'victory': 9, 'death': 3} phase2 12
+evaluation 4 fb832c1678fd1706bc7ffbb306959035118c2f43d35d2ef5c6787832c1c2ae80 {'victory': 11, 'death': 1} phase2 12
+evaluation 6 f8dc7f15d2a4386364bc79fc91ee3152c6055978439eeb0284f6aaa21cf2cff2 {'victory': 7, 'death': 5} phase2 12
+evaluation 4 b8517b3ca7cf42b6c69b00826a28ac8c3725880847a1cd3aa9f0f8da1420d351 {'victory': 6, 'death': 6} phase2 8
+evaluation 4 4b75d9ddb8d1996ca883fcc5f682874205ac7288c13e8c30ddabd445b9bafa5e {'victory': 8, 'death': 4} phase2 8
+evaluation 6 03c80113fa7c85d3854ca163f41d4c8ff2a1fb1ae2a3ae9b783efbc64c49912e {'victory': 8, 'death': 4} phase2 12
+evaluation 4 97a6fb58977f3f7500c26d8934196f78fbb2d0cadc02db18e0b242bebe7b107c {'victory': 4, 'death': 8} phase2 6
+evaluation 4 3ca41c1ebfe112c6d749d5e3179bbe93175733221060b101d675bd67d4b0cabd {'victory': 5, 'death': 7} phase2 9
+G20 committed (8 requests)
+{
+  "run": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\shell_sampling_focused_g20_v1",
+  "through": 20,
+  "requests": 168,
+  "official_requests": 0,
+  "unique_genomes": 162,
+  "evaluated_layouts": 162,
+  "status": {
+    "COMPLETE_DRAFT": 157,
+    "INVALID": 6,
+    "UNCERTAIN": 5
+  },
+  "new_certified_battles": 1944,
+  "inherited_battles": 0,
+  "duplicate_requests": 0,
+  "edits_requested": {
+    "diff": 73,
+    "full": 73,
+    "archive_reference": 14
+  },
+  "edits_realized": {
+    "diff": 73,
+    "full": 67,
+    "archive_reference": 14
+  },
+  "actual_topology_changes": 66,
+  "runtime_log": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\shell_sampling_focused_g20_v1\\runtime\\20261125T110223-a4717c7c.jsonl"
+}

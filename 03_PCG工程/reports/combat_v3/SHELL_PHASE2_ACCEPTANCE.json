@@ -1,0 +1,60 @@
+{
+  "status": "passed_for_calibration",
+  "human_layout_review": "confirmed",
+  "evidence_root": "F:\\大学作业\\游戏空间设计微专业\\04_PCG实验输出\\runs\\shell_phase2_current_net",
+  "generation": {
+    "valid": 87,
+    "room_counts": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "cycle_counts": [
+      1,
+      2,
+      3
+    ],
+    "classes": 22
+  },
+  "net_area_range": [
+    161.95278198439195,
+    174.23477264646988
+  ],
+  "reference_net_area": 139.71206194563652,
+  "physical_wing_routes": 87,
+  "godot_packages": 12,
+  "editor_and_runtime_hash": "58c6f75205ae6f5cf4104da24d3fc227e6007048e66cae724ab0132c3ef9aab4",
+  "mechanism_events": [
+    "spawn",
+    "smash_start",
+    "shot",
+    "hit",
+    "smash_start",
+    "portal_open",
+    "pickup_end",
+    "reload_end",
+    "hit",
+    "split",
+    "hit",
+    "victory"
+  ],
+  "counting": "All physical partitions including hall and optional foyer once each. Current calibration sample range 7–11. Parallel doors do not add neighbors.",
+  "controls": "External wing spans, inset and straight partitions, doorway placement and type; shell area and net floor checked separately. Seed 6 east pair locked.",
+  "limitations": [
+    "NavigationServer edge-merge warnings; tested endpoints reached.",
+    "Independent playable battle performance is a Phase 3 question.",
+    "Uncalibrated model metres."
+  ],
+  "evidence_sha256": {
+    "audit.json": "74fa6df3c471d4e4aed93949acd9a4b43d894f63ad168ac1863632fa88081501",
+    "wing_routes.json": "751c05fc772abe558bdaff0038ee7da4f8adf1c57e498f67931356d7f8f9c7d7",
+    "godot/godot_navigation.json": "a56744b671f7fe4b620215766fb0000dc8c7be6214c39bfe3b2388397fd7c38a",
+    "godot/combat.json": "20593ea099577d2f21b0cd4ef2909cef2963c09f6726b19ed487f10481e930e4",
+    "godot/manifest.json": "512a7de3b6f0e17e67962234e3e08bb17b41a5d070cb6e70bc981c40c601a5b2",
+    "editor_first.log": "aec323d4e11b1339e3a20aee3791e4ec28b71d3ed4a8b3333d390eb69e52dfab",
+    "editor_reopen.log": "aec323d4e11b1339e3a20aee3791e4ec28b71d3ed4a8b3333d390eb69e52dfab",
+    "runtime.log": "ae7c2a08c531f5275810786e1fbec2805fcf008d9b1f22fe4219cb399ea49c82"
+  }
+}

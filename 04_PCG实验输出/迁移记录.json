@@ -1,0 +1,458 @@
+{
+  "date": "2026-11-26",
+  "source": ".phase14-work",
+  "destination": "04_PCG实验输出",
+  "note": "原始 run ID 与目录内部结构不变；只改父目录。大体积 evaluation/space/packages 等原始输出本地保留，不进入 Git。",
+  "moves": [
+    {
+      "from": ".phase14-work\\shell_sampling_focused_g20_v1",
+      "to": "04_PCG实验输出\\runs\\shell_sampling_focused_g20_v1",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_local_g20_pop8_20261125_143448_831",
+      "to": "04_PCG实验输出\\runs\\shell_local_g20_pop8_20261125_143448_831",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_sampling_random_g20_v1",
+      "to": "04_PCG实验输出\\runs\\shell_sampling_random_g20_v1",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_breeding_v2",
+      "to": "04_PCG实验输出\\runs\\shell_breeding_v2",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_draft_pilot_v1",
+      "to": "04_PCG实验输出\\runs\\shell_draft_pilot_v1",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_local_g20_20261125_042640_509",
+      "to": "04_PCG实验输出\\runs\\shell_local_g20_20261125_042640_509",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_local_g20_20261125_042444_738",
+      "to": "04_PCG实验输出\\runs\\shell_local_g20_20261125_042444_738",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_local_v1_continuous",
+      "to": "04_PCG实验输出\\runs\\shell_local_v1_continuous",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_local_v1_resumed",
+      "to": "04_PCG实验输出\\runs\\shell_local_v1_resumed",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_local_v2_continuous",
+      "to": "04_PCG实验输出\\runs\\shell_local_v2_continuous",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_local_v2_resumed",
+      "to": "04_PCG实验输出\\runs\\shell_local_v2_resumed",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_pilot_contract_smoke",
+      "to": "04_PCG实验输出\\runs\\shell_pilot_contract_smoke",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_pilot_genome_smoke",
+      "to": "04_PCG实验输出\\runs\\shell_pilot_genome_smoke",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_pilot_genome_verified",
+      "to": "04_PCG实验输出\\runs\\shell_pilot_genome_verified",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_sampling_focused_smoke_v1",
+      "to": "04_PCG实验输出\\runs\\shell_sampling_focused_smoke_v1",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_sampling_single_step_smoke_v1",
+      "to": "04_PCG实验输出\\runs\\shell_sampling_single_step_smoke_v1",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_single_parent_v3",
+      "to": "04_PCG实验输出\\runs\\shell_single_parent_v3",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_v1",
+      "to": "04_PCG实验输出\\runs\\shell_v1",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_phase2_current",
+      "to": "04_PCG实验输出\\runs\\shell_phase2_current",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_phase2_current_net",
+      "to": "04_PCG实验输出\\runs\\shell_phase2_current_net",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell-local-v1-evidence",
+      "to": "04_PCG实验输出\\runs\\shell-local-v1-evidence",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell-local-v2-evidence",
+      "to": "04_PCG实验输出\\runs\\shell-local-v2-evidence",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\seed1102_policy_v1",
+      "to": "04_PCG实验输出\\diagnostics\\seed1102_policy_v1",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\seed1102_phase4_review_01",
+      "to": "04_PCG实验输出\\diagnostics\\seed1102_phase4_review_01",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\phase3_inspector_177_v1",
+      "to": "04_PCG实验输出\\diagnostics\\phase3_inspector_177_v1",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\phase4_holdout_1102_diagnostic_v1",
+      "to": "04_PCG实验输出\\diagnostics\\phase4_holdout_1102_diagnostic_v1",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_pilot_diagnostic_1102",
+      "to": "04_PCG实验输出\\diagnostics\\shell_pilot_diagnostic_1102",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\inspector_runtime_probe_v1",
+      "to": "04_PCG实验输出\\diagnostics\\inspector_runtime_probe_v1",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\inspector_binding",
+      "to": "04_PCG实验输出\\diagnostics\\inspector_binding",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\inspector_godot_user",
+      "to": "04_PCG实验输出\\diagnostics\\inspector_godot_user",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\inspector_godot_user_verify",
+      "to": "04_PCG实验输出\\diagnostics\\inspector_godot_user_verify",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\ammo_pickup",
+      "to": "04_PCG实验输出\\diagnostics\\ammo_pickup",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\map_size_structure_only",
+      "to": "04_PCG实验输出\\checks\\map_size_structure_only",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\map_size_through",
+      "to": "04_PCG实验输出\\checks\\map_size_through",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\phase2_previews",
+      "to": "04_PCG实验输出\\checks\\phase2_previews",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\gate_177_scale15.json",
+      "to": "04_PCG实验输出\\checks\\gate_177_scale15.json",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\normal_gates_177_scale15.json",
+      "to": "04_PCG实验输出\\checks\\normal_gates_177_scale15.json",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\normal_gates_177_scale15_after.json",
+      "to": "04_PCG实验输出\\checks\\normal_gates_177_scale15_after.json",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\inspector_177_snapshot_v1.json",
+      "to": "04_PCG实验输出\\checks\\inspector_177_snapshot_v1.json",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_local_g20_20261125_042444_738.json",
+      "to": "04_PCG实验输出\\runs\\shell_local_g20_20261125_042444_738.json",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_local_g20_20261125_042640_509.json",
+      "to": "04_PCG实验输出\\runs\\shell_local_g20_20261125_042640_509.json",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_sampling_comparison_v1.json",
+      "to": "04_PCG实验输出\\diagnostics\\shell_sampling_comparison_v1\\shell_sampling_comparison_v1.json",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_sampling_comparison_v1.md",
+      "to": "04_PCG实验输出\\diagnostics\\shell_sampling_comparison_v1\\shell_sampling_comparison_v1.md",
+      "status": "already-moved"
+    },
+    {
+      "from": ".phase14-work\\shell_sampling_focused_g20_v1_viewer_8503.err.log",
+      "to": "04_PCG实验输出\\logs\\shell_sampling_focused_g20_v1_viewer_8503.err.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\shell_sampling_focused_g20_v1_viewer_8503.out.log",
+      "to": "04_PCG实验输出\\logs\\shell_sampling_focused_g20_v1_viewer_8503.out.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\shell_sampling_random_g20_v1.20261125_190220_296.err.log",
+      "to": "04_PCG实验输出\\logs\\shell_sampling_random_g20_v1.20261125_190220_296.err.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\shell_sampling_random_g20_v1.20261125_190220_296.out.log",
+      "to": "04_PCG实验输出\\logs\\shell_sampling_random_g20_v1.20261125_190220_296.out.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\shell_sampling_random_g20_v1_viewer_8504.err.log",
+      "to": "04_PCG实验输出\\logs\\shell_sampling_random_g20_v1_viewer_8504.err.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\shell_sampling_random_g20_v1_viewer_8504.out.log",
+      "to": "04_PCG实验输出\\logs\\shell_sampling_random_g20_v1_viewer_8504.out.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261124-234332-425.err",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261124-234332-425.err",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261124-234332-425.out",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261124-234332-425.out",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-001947-339.err",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-001947-339.err",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-001947-339.out",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-001947-339.out",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-003323-627.err",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-003323-627.err",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-003323-627.out",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-003323-627.out",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-004433-065.err",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-004433-065.err",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-004433-065.out",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-004433-065.out",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-010358-658.err",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-010358-658.err",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-010358-658.out",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-010358-658.out",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-011320-846.err",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-011320-846.err",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-011320-846.out",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-011320-846.out",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-012720-675.err",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-012720-675.err",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-012720-675.out",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-012720-675.out",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-014720-028.err",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-014720-028.err",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-014720-028.out",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-014720-028.out",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-020025-181.err",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-020025-181.err",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-020025-181.out",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-020025-181.out",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-021041-802.err",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-021041-802.err",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-021041-802.out",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-021041-802.out",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-023333-653.err",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-023333-653.err",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-023333-653.out",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-023333-653.out",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-025933-140.err.log",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-025933-140.err.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-025933-140.out.log",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-025933-140.out.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-033701-688.err.log",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-033701-688.err.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-8501-20261125-033701-688.out.log",
+      "to": "04_PCG实验输出\\logs\\viewer-8501-20261125-033701-688.out.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-reference-20261125-032439-409.err.log",
+      "to": "04_PCG实验输出\\logs\\viewer-reference-20261125-032439-409.err.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer-reference-20261125-032439-409.out.log",
+      "to": "04_PCG实验输出\\logs\\viewer-reference-20261125-032439-409.out.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer_full_fit_8502.err.log",
+      "to": "04_PCG实验输出\\logs\\viewer_full_fit_8502.err.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer_full_fit_8502.out.log",
+      "to": "04_PCG实验输出\\logs\\viewer_full_fit_8502.out.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer_full_fit_8503.err.log",
+      "to": "04_PCG实验输出\\logs\\viewer_full_fit_8503.err.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer_full_fit_8503.out.log",
+      "to": "04_PCG实验输出\\logs\\viewer_full_fit_8503.out.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer_full_fit_8504.err.log",
+      "to": "04_PCG实验输出\\logs\\viewer_full_fit_8504.err.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer_full_fit_8504.out.log",
+      "to": "04_PCG实验输出\\logs\\viewer_full_fit_8504.out.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer_server.stderr.log",
+      "to": "04_PCG实验输出\\logs\\viewer_server.stderr.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer_server.stdout.log",
+      "to": "04_PCG实验输出\\logs\\viewer_server.stdout.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer_v2_server.stderr.log",
+      "to": "04_PCG实验输出\\logs\\viewer_v2_server.stderr.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer_v2_server.stdout.log",
+      "to": "04_PCG实验输出\\logs\\viewer_v2_server.stdout.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer_viewport_8505.err.log",
+      "to": "04_PCG实验输出\\logs\\viewer_viewport_8505.err.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\viewer_viewport_8505.out.log",
+      "to": "04_PCG实验输出\\logs\\viewer_viewport_8505.out.log",
+      "status": "moved"
+    },
+    {
+      "from": ".phase14-work\\output\\playwright",
+      "to": "04_PCG实验输出\\checks\\playwright_screenshots",
+      "status": "moved"
+    }
+  ]
+}

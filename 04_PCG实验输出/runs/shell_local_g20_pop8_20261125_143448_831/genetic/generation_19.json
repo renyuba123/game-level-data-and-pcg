@@ -1,0 +1,6472 @@
+{
+  "generation": 19,
+  "arm": "genetic",
+  "random_seed": 177,
+  "parent_pool": [
+    {
+      "id": "initial-00",
+      "layout_hash": "f66e941bd5a9716f34e8cc33e60762d5723dfe76c48b36ad71f6815a6c6d572d",
+      "rank": 1,
+      "prior_requests": 3,
+      "weight": 0.25
+    },
+    {
+      "id": "initial-02",
+      "layout_hash": "c9bb605eb37440cc80c0e5dee32d2f3ffc2fb435f30d8f6813bef630b0793a20",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "initial-04",
+      "layout_hash": "450c0b20ce8f1b2379aac0fc536555392d178645e798e609fc5e6c001b82a47b",
+      "rank": 1,
+      "prior_requests": 4,
+      "weight": 0.2
+    },
+    {
+      "id": "single-10-01",
+      "layout_hash": "c1a0dfd25ebc7b83b169f713e07b14194f25662461dbd3c056270087013a2fe5",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-10-06",
+      "layout_hash": "81cab796f17cd394a86700115c6c63df48ddf446db978d1fa20035c34bf64d10",
+      "rank": 1,
+      "prior_requests": 3,
+      "weight": 0.25
+    },
+    {
+      "id": "single-10-07",
+      "layout_hash": "82d5ceaf29d3e2b83f9df8e8e4bc1802945e4af429ec8c6a5996c0029e1254df",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-11-02",
+      "layout_hash": "fa14433e028ec4a9062d7de063096eb2d68f52bf0e39877f46bd6b1cb66506d5",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-11-03",
+      "layout_hash": "5253802fbb66f017b8bfb8ba12778cb0b1c6aa3d63b9086dc99f3e040559c0ee",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-11-05",
+      "layout_hash": "b9bab44c64bd1677759a76912fd04c45c62095724239ece6b4ca50da1b6e7e13",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-12-00",
+      "layout_hash": "11e69e0386976ce8056003283912a1503e5d3652b5a69dde1e6927de9581ea02",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-12-01",
+      "layout_hash": "2e7ffb2bb7c9c6c5d7a14fd9b77f57eff84f9f67abdb96a4ad1b0df13bb1c1e6",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-12-02",
+      "layout_hash": "449afa388fbe25c55c2615e57d5db041dbb0098f023eae5e6c837fa48a380840",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-12-04",
+      "layout_hash": "10c0c927b271b28ce21495b59e55b34e1026e2c44e4d452ba589a0fbc63f9cea",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-12-05",
+      "layout_hash": "439621dba8685597a3fc5cf512709dc3076c31b8c21d18e2f024ba3588eb5931",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-12-06",
+      "layout_hash": "0cbe23da284b36c43fe0494b0ae2f6e86d795f2e29cc8964a5fe8584154743da",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-13-01",
+      "layout_hash": "730ca4f796bd071165c185fb085aa76a615ee1ae6121530bfde4fe23a5efc3ef",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-13-04",
+      "layout_hash": "773333dc4da7e07b597cda71eb35e2044b6ec4174c245ed7074850dc967762bd",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-13-06",
+      "layout_hash": "f52444e9207dad49f7b3e0e0b7e54b034bb636863859a2899544d5af00d5d266",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-13-07",
+      "layout_hash": "d21699e4b5f881b6da99ca92b8b5da5c648d572d5c4f5e904c958d7a994f748e",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-14-04",
+      "layout_hash": "4fae172df12c8e1ef68a7165b8d7621360f928fba05b95f14778c84cb2a71dfc",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-14-05",
+      "layout_hash": "b6f9551c736a1f69244250b74b6b8de6f06b46eee39dbf9990ed482621d14a56",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-14-07",
+      "layout_hash": "7c98ae738555566b074fb8b0b4ecc74124cbe39353f3ce606453e83e2dcd9cb2",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-15-01",
+      "layout_hash": "f1284568026e287d7dcccff69e737b019f763150a03b6da0fb3a47c5150beacd",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-15-03",
+      "layout_hash": "8a75a0abd2e870f92f50bdc85f2556b9ba0a358de62e62bd0778e1bc09bc3e9b",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-15-04",
+      "layout_hash": "bbc070f195a69aa71aeba6d9c9ca28031e53f3311f3375eb1533a390cfcc7192",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-15-06",
+      "layout_hash": "225901ff5a6076a8f4a6cf26494525c402d059b4655f703b41b7fdd095939167",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-16-05",
+      "layout_hash": "b35af510e88aca04f9aecc963cf78931527d3f522a2fbfe73bef17a6809bd6e5",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-16-06",
+      "layout_hash": "c4deaaa1d5d39a541e68bb01d68df71af8d130d5ba1c4d45e00821b27040dc11",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-17-02",
+      "layout_hash": "1035856e9e20be77371c573936e4e542da328fdbb9fb2001ad1e71c3b9fd5490",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-17-04",
+      "layout_hash": "1c28dd7af07cfb652f5153471a425f878384b93c26465f8083cbb37dc8ea4179",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-17-06",
+      "layout_hash": "bafdf87fb619185db35b09e7aebe3233d1d66d6835993d7507f7252c40c7dc99",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-17-07",
+      "layout_hash": "bcae4cfebdc8cb85b6e706a7db45b873f4f2c3fe4aa7964c35061432b7199c87",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-18-00",
+      "layout_hash": "5752c5d438d968e4e9255dade12bf7ae1f1bec0c24d4ec2aa1f6b54422842838",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-18-02",
+      "layout_hash": "97e691cab0a7d62ecbf5e2296d14c8906cffac70681be34ab5b2ea4737dd9d4d",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-18-04",
+      "layout_hash": "873f619cc3b700876a9de0f846e005f15a292c9b33e4036043b8caf6d3f4057c",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-18-05",
+      "layout_hash": "8dc88e17838e005802fc26ee6407acde8b8250b9fa7667ae96f123bb992af93a",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-18-07",
+      "layout_hash": "10ad8889b35154cf99eedcab7efc5fbd54e117961050ffb8e0dd55fa2971d5ee",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-2-03",
+      "layout_hash": "e7125d772c2c558d1f61089095b11e2815e29cba8abdc357f34c2ef9a8674c06",
+      "rank": 1,
+      "prior_requests": 3,
+      "weight": 0.25
+    },
+    {
+      "id": "single-2-07",
+      "layout_hash": "9fca9b20f8dfe064922e2fd7fa5c9da61848684bb8d87b030ca8006f36cc62e4",
+      "rank": 1,
+      "prior_requests": 3,
+      "weight": 0.25
+    },
+    {
+      "id": "single-3-03",
+      "layout_hash": "f7a4b56ebfaee95e24c865e575f76e9157b2d177a738be6b52fd7d0131c48167",
+      "rank": 1,
+      "prior_requests": 3,
+      "weight": 0.25
+    },
+    {
+      "id": "single-3-05",
+      "layout_hash": "f1f2920d28788e468868ebed2fa284c8637f6daa6a228b6cd6b318de7b752c97",
+      "rank": 1,
+      "prior_requests": 4,
+      "weight": 0.2
+    },
+    {
+      "id": "single-3-07",
+      "layout_hash": "3e2be0fae8e50f8df0d181e33bdd9e58ef441077f18e1216aaad95dac731f2fc",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-4-01",
+      "layout_hash": "62bf6a6b43485c80c96de97e6dd46b3e4ec67a975b241d875cccc58d54976f6a",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-4-03",
+      "layout_hash": "2d7999b3cf4d34fbe22f7ef08111a542318cfcb5a06904af6e065e821617bdb0",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-5-07",
+      "layout_hash": "e3a7c36d5ff074e66b8eabfc2712f204eeb4aa14fd6285bf083976ecc47a963a",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-6-00",
+      "layout_hash": "dcbad2c6eb33a683b4eb970b56265ec678d8b74837bed39942958d5a49954451",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-6-02",
+      "layout_hash": "1fbdeff095c2c57eb390ab18c74990bcf40e1341de2593f2994795c96509c4e8",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-6-03",
+      "layout_hash": "79945d7c9f75fb6d065bba5c01760555736fb738288362c2f0ce080a07d73dc2",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-7-00",
+      "layout_hash": "efa0d2add98f73697ae06a108c2a1314b9bdf150c88f192ca0a8f6021ff1d8dd",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-7-04",
+      "layout_hash": "dd06eef0f9c3643485916c93b172d695d83345d5d3685b5d12cd37c243c9d607",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-8-01",
+      "layout_hash": "115aa74aab5358b70abbf674a53e492747200f815526c133029b543f29921788",
+      "rank": 1,
+      "prior_requests": 3,
+      "weight": 0.25
+    },
+    {
+      "id": "single-8-04",
+      "layout_hash": "8a656b7631ec2530eb39d6df18e1baf8b068f8465fcd1cee71e768c9e6a47517",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-9-04",
+      "layout_hash": "ecad3198381d769deedcdc77898c0bbbb8ff12cfb54c64cc85b0c8493e3ae04f",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-9-05",
+      "layout_hash": "4e4ddce92bd6b489accfb8c4711fa768e31b8bcfd7a1cd55f6a428bf94e8a392",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-9-06",
+      "layout_hash": "c6194dd6ec10165016fae29b16370e88f08d22c24fdef252935d2ea3192b3472",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "initial-06",
+      "layout_hash": "79d26d71398bc1be8dce4141169eab8d9b125fb8ac6c5f9f5af6796e9ddc1718",
+      "rank": 2,
+      "prior_requests": 3,
+      "weight": 0.125
+    },
+    {
+      "id": "single-11-07",
+      "layout_hash": "1afeccddffafa458a51a2ba5568cf5dcdc62cdc39f482319eec89da2df4ac71f",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-13-00",
+      "layout_hash": "13127eeb17ab34887cf46ba6afc4c51b7d7f257ccb73b6cc810735abd3b1272a",
+      "rank": 2,
+      "prior_requests": 1,
+      "weight": 0.25
+    },
+    {
+      "id": "single-13-02",
+      "layout_hash": "c4a9fe431a733729018020e1438645461972f85bc2847333cd744e65ffc5b249",
+      "rank": 2,
+      "prior_requests": 1,
+      "weight": 0.25
+    },
+    {
+      "id": "single-13-03",
+      "layout_hash": "739ff770cce1135884c082a79eb377edff2a693c5da0c422c3b7a3b61ee21189",
+      "rank": 2,
+      "prior_requests": 1,
+      "weight": 0.25
+    },
+    {
+      "id": "single-13-05",
+      "layout_hash": "61e4da46ebed7b60e0410516b8cdc01d64ec97cdcb227360b9d4242f659b4ff7",
+      "rank": 2,
+      "prior_requests": 1,
+      "weight": 0.25
+    },
+    {
+      "id": "single-14-00",
+      "layout_hash": "cf42cde1e73b087bdea1718be48da79f0f3cdc2e651e93f59f2ed0132e86cff4",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-14-02",
+      "layout_hash": "c85cf97f61fd5383c5143756c099bf0e8fac7714f6c62dc3110bdd47a8db7033",
+      "rank": 2,
+      "prior_requests": 1,
+      "weight": 0.25
+    },
+    {
+      "id": "single-15-02",
+      "layout_hash": "eb1b958a66a11bf308b628bc196b9bc45fd1542869574e5a9c47f7bc1a3a6dee",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-15-05",
+      "layout_hash": "adf0bb43c6296f7fc3f344fc55b4ae1c58e3f3f22efb76d0b8ab687ba926eeb5",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-15-07",
+      "layout_hash": "31cdf31067c89571400b4ba85eee118d1cf77e5132a9d85ecd3077581244312b",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-16-01",
+      "layout_hash": "0974242e468764730e09fcb1815278e509f9ff4560ae629cf4f7392b3adeb697",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-16-04",
+      "layout_hash": "2f76e64791b249ec53f1bb80476e07bcf8390bfd9006bd427f9dc2e7d266967f",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-16-07",
+      "layout_hash": "0718a3af100d046c1d3562b25229b0604f5f0bd5d5add7d751d06532f44fa273",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-17-05",
+      "layout_hash": "f90dc85c9c02b5b673ee42735f2ff2eeeb334b1aba67b9557fb4299857abe58e",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-18-03",
+      "layout_hash": "292988a031f3434c689a5e10448c8435da11ef699b0f2bcca1985d90539d7012",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-2-00",
+      "layout_hash": "927110349750cfcf7fa9638d7688a81d0e2a45c51587e636113d6e8b39b9c707",
+      "rank": 2,
+      "prior_requests": 2,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-3-02",
+      "layout_hash": "1da6c61de190e4ee55c59701983235d747f4f217ab4beea49d54e45ea03353cb",
+      "rank": 2,
+      "prior_requests": 2,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-4-05",
+      "layout_hash": "9dcaef96813a1e9982cdd49702a9cc2db0192a9d9f554721e99077a730490cbd",
+      "rank": 2,
+      "prior_requests": 2,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-4-07",
+      "layout_hash": "4a0181199ea261d039e1f3a13fff6fba61e5099cdf6f192bc12e4f6f2b5a3564",
+      "rank": 2,
+      "prior_requests": 3,
+      "weight": 0.125
+    },
+    {
+      "id": "single-5-02",
+      "layout_hash": "d2d7053c2b7004865ca3f039f20396390ed00d1128ab1b428bf9b4928225bc1a",
+      "rank": 2,
+      "prior_requests": 2,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-5-06",
+      "layout_hash": "00b474ec0db575ebca33c72cc84c52b7f1ab4e37f1178577b74a0e3ba0f414e9",
+      "rank": 2,
+      "prior_requests": 3,
+      "weight": 0.125
+    },
+    {
+      "id": "single-6-04",
+      "layout_hash": "933a76d1b00f211b5cd0ae482e3866302a920366eb10f519ff6ac4e7051df05d",
+      "rank": 2,
+      "prior_requests": 1,
+      "weight": 0.25
+    },
+    {
+      "id": "single-6-06",
+      "layout_hash": "d9cb02df86b6627461cf35b77426ad3dc762e6a81788a06c27549e2f55776da4",
+      "rank": 2,
+      "prior_requests": 2,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-6-07",
+      "layout_hash": "df112f56b974b954fdceb35251f7156c40966389d63bd62df7bd7aa1ea169ee1",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-7-06",
+      "layout_hash": "a4bedc417a7d1297a926f0ec08aea22856f1141b3beb1a1a2f046d43e348cec9",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-8-00",
+      "layout_hash": "fd7c662523cc88cb62b19d5d14108b4ec846e408735a11ae1a508ee606711298",
+      "rank": 2,
+      "prior_requests": 1,
+      "weight": 0.25
+    },
+    {
+      "id": "single-10-03",
+      "layout_hash": "29c41903874f4e7560eb46b19df12fe4212d4a9a3231187c395420627240c6d7",
+      "rank": 3,
+      "prior_requests": 1,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-12-07",
+      "layout_hash": "c35225440b553da390a0a98e6a70ed6aa8ecbbf7e64839598c45aea644e569d2",
+      "rank": 3,
+      "prior_requests": 1,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-14-01",
+      "layout_hash": "fc835c0a79a548c77ae3896c5765c141f21992cf149118800198dc1907888a45",
+      "rank": 3,
+      "prior_requests": 0,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-14-03",
+      "layout_hash": "8645ebc07b57ea33c9ccfa605fe7c8a9e29686134ee817a654f834133f2364f4",
+      "rank": 3,
+      "prior_requests": 0,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-15-00",
+      "layout_hash": "a088dadfb8922f2f89a05e3ce86f80ac70359ec4ee47f474330e9c42935bf3d4",
+      "rank": 3,
+      "prior_requests": 0,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-16-00",
+      "layout_hash": "b30520960589cb0825f484ea2893803f4fb1126e1aac0d0d886a80b5910b0538",
+      "rank": 3,
+      "prior_requests": 0,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-16-03",
+      "layout_hash": "3b48445519eb746d118310c28e7754c66c5c41c8aa3c18a9517fcf9cfcb3eecf",
+      "rank": 3,
+      "prior_requests": 0,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-17-01",
+      "layout_hash": "b37e7a8012189f0cb7f9feceb131231bb59530a84c853b5e5d697f8960f2669f",
+      "rank": 3,
+      "prior_requests": 0,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-17-03",
+      "layout_hash": "f3abb81fa30c9dcbf458d640da800b492c0b369cdb665ba61b801b1721118139",
+      "rank": 3,
+      "prior_requests": 0,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-18-01",
+      "layout_hash": "3777ac8305a315e1145bd0ebfcb75e2b918737eb407c69f89f35cdf865784374",
+      "rank": 3,
+      "prior_requests": 0,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-2-05",
+      "layout_hash": "7f3c01bc3c8e463bfdce073cfa2a567f8b576809386b6d62287deebf2b9b2979",
+      "rank": 3,
+      "prior_requests": 3,
+      "weight": 0.08333333333333333
+    },
+    {
+      "id": "single-2-06",
+      "layout_hash": "4fc1e31b822bbecaecf47fde0e9f8d34c62fdcc470879daa0b985cf285e9398a",
+      "rank": 3,
+      "prior_requests": 1,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-3-04",
+      "layout_hash": "e2519a27a8a6302637bc1274c60a73994bc0781ebfb1f5032e9fadff7936bddf",
+      "rank": 3,
+      "prior_requests": 3,
+      "weight": 0.08333333333333333
+    },
+    {
+      "id": "single-4-00",
+      "layout_hash": "f146578e10e251ed0b7b7da7199e1b219e2ef367fc07af1179ac0892e00b8d00",
+      "rank": 3,
+      "prior_requests": 1,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-5-00",
+      "layout_hash": "c5940b63af4c0c77b4c9925aa1fb171ce6b9230e3ff5bb75f4da516d3316fe2d",
+      "rank": 3,
+      "prior_requests": 1,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-5-03",
+      "layout_hash": "3149d586be6d4219ee5c7f1518125d6127a886188ab1dfc12b2c7a382344b0ea",
+      "rank": 3,
+      "prior_requests": 1,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-7-01",
+      "layout_hash": "2ab3676189f15683ff923354eb8a41718cb9055bcf4fe99b11fcf76e04d95d22",
+      "rank": 3,
+      "prior_requests": 2,
+      "weight": 0.1111111111111111
+    },
+    {
+      "id": "single-9-02",
+      "layout_hash": "29112e183d10ac8b964666c7844e54d290f696d44c209f1b874a4392630c2263",
+      "rank": 3,
+      "prior_requests": 0,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-9-03",
+      "layout_hash": "39dcf2fbcbba66bf42ff15aa7a8dfa7df1675ec67a7d9afa32d6cc571c7eae41",
+      "rank": 3,
+      "prior_requests": 3,
+      "weight": 0.08333333333333333
+    },
+    {
+      "id": "initial-01",
+      "layout_hash": "b58adb8129c50117ec45c81a31c5a1373f778cfe50def19c0bb010ce88be993e",
+      "rank": 4,
+      "prior_requests": 4,
+      "weight": 0.05
+    },
+    {
+      "id": "initial-05",
+      "layout_hash": "3d23e144d23d0c767f03de5b23177920c9e1e680c752cf1316c4ca6664b3b12c",
+      "rank": 4,
+      "prior_requests": 3,
+      "weight": 0.0625
+    },
+    {
+      "id": "single-1-00",
+      "layout_hash": "9a41663e5d01c8a0d128e1d3845ba5fee1cb082e423b53425024103390e15df4",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "single-1-02",
+      "layout_hash": "5b6790572d07492b390735b49e729d061ee0b50b032806b5ed42f1e6ae075970",
+      "rank": 4,
+      "prior_requests": 2,
+      "weight": 0.08333333333333333
+    },
+    {
+      "id": "single-1-06",
+      "layout_hash": "95e6fda536a1b4e39b661779a7a18137cbb9f818649cce2dc099c0803db13823",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "single-1-07",
+      "layout_hash": "c4f27dcb748f13ceb5eb1019dbd3d2977a5ff2f2563c43f06a880efc17540231",
+      "rank": 4,
+      "prior_requests": 2,
+      "weight": 0.08333333333333333
+    },
+    {
+      "id": "single-10-04",
+      "layout_hash": "2b62c12be57894056f01107b45ba1b0574d2e77cdbe462360846ef5cfcf08a8f",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "single-10-05",
+      "layout_hash": "b30463c807b673f549e90acdca91e561feb639b74c44289db285a89ae487c716",
+      "rank": 4,
+      "prior_requests": 0,
+      "weight": 0.25
+    },
+    {
+      "id": "single-11-04",
+      "layout_hash": "f4ad7af4f9cf824b2a6fe1ee3209574943c3a29e73dfad0e092dd8faaff5a0e1",
+      "rank": 4,
+      "prior_requests": 0,
+      "weight": 0.25
+    },
+    {
+      "id": "single-11-06",
+      "layout_hash": "2b4304f72575091d7e1558077e796081cd1b432341493223800791506829cc0a",
+      "rank": 4,
+      "prior_requests": 0,
+      "weight": 0.25
+    },
+    {
+      "id": "single-2-04",
+      "layout_hash": "fb0859c62b991930860ade8cbc92ffe0048258b22b38e1c1da579e55eba5d535",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "single-3-01",
+      "layout_hash": "1728b4fdfecb435ce50f1c322af63b039782efc6068876907426bca25a88baf1",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "single-4-04",
+      "layout_hash": "9f3db9c95f696119933fa83013e5c68188162890fd7361257071f8cfe629e82f",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "single-5-05",
+      "layout_hash": "17b41a8bee3c67be2819f5cae0ecf1953c97117e40273d58217558ecd1e7faa0",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "single-6-01",
+      "layout_hash": "7a61690351157ba61ceea3348b16da24df56b95e2961c9c97edfb99704e9905d",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "single-8-02",
+      "layout_hash": "746b013ef4a7a19aca5d1de029cbf218015656deb64af7b5db51c936363abc54",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "single-8-05",
+      "layout_hash": "77cf622c7bd3f756bf0dd651d26b759a7c98c4f07e91f0f3f9dd5cb25954f14e",
+      "rank": 4,
+      "prior_requests": 0,
+      "weight": 0.25
+    },
+    {
+      "id": "single-9-00",
+      "layout_hash": "df07617aa4209ad32a273062f5218dc8478c2208f3e600c39951086f974712b1",
+      "rank": 4,
+      "prior_requests": 0,
+      "weight": 0.25
+    },
+    {
+      "id": "single-9-07",
+      "layout_hash": "2e04219d1e2c924b610190c25a0f892fe1d46fd160677a4c3854fa58b1f4ae1f",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "initial-07",
+      "layout_hash": "ef1047d5e8c3934e2b2d7867fda91c66d05b3ac8cd6889fe83186342b9adf1c5",
+      "rank": 5,
+      "prior_requests": 4,
+      "weight": 0.04
+    },
+    {
+      "id": "single-1-01",
+      "layout_hash": "0083f3d02e45dd681d0c78c917e820cad5f6c24aeb2a1497499068afc0d53a61",
+      "rank": 5,
+      "prior_requests": 1,
+      "weight": 0.1
+    },
+    {
+      "id": "single-1-03",
+      "layout_hash": "d023546a420a231f74c1c4e8547078dbe7aecfa323d49e84dc8c34105dc7dcd8",
+      "rank": 5,
+      "prior_requests": 1,
+      "weight": 0.1
+    },
+    {
+      "id": "single-1-05",
+      "layout_hash": "32eea91a256e5cd899e1b251bfb70b3731094e1c1ac8a578a4fc10598cceedc6",
+      "rank": 5,
+      "prior_requests": 1,
+      "weight": 0.1
+    },
+    {
+      "id": "single-11-01",
+      "layout_hash": "c397d9e3436e8f7b71b203dce3fd4b190b400b7c35e9e323059a369b081c7f46",
+      "rank": 5,
+      "prior_requests": 0,
+      "weight": 0.2
+    },
+    {
+      "id": "single-3-06",
+      "layout_hash": "7d5de5896eb7520243fc5760fbb27f88a79bd62220dadbd3f0583fc3291eb478",
+      "rank": 5,
+      "prior_requests": 1,
+      "weight": 0.1
+    },
+    {
+      "id": "single-7-03",
+      "layout_hash": "9ae49a804ee61d7f2d765d6c512288815306bdb7a13d00a6ba414956f265cf68",
+      "rank": 5,
+      "prior_requests": 2,
+      "weight": 0.06666666666666667
+    },
+    {
+      "id": "single-7-07",
+      "layout_hash": "095906f8b4aeacac52a12a3dff91e12eefdf8e4e0482d60de75c3002c378ac29",
+      "rank": 5,
+      "prior_requests": 2,
+      "weight": 0.06666666666666667
+    },
+    {
+      "id": "single-9-01",
+      "layout_hash": "d563bea881a59cb02fcdd8c605916ae3e2ae8ec0c4132ccc1e4cdc99b67ed871",
+      "rank": 5,
+      "prior_requests": 0,
+      "weight": 0.2
+    },
+    {
+      "id": "initial-03",
+      "layout_hash": "dd2c8cad36682fd0d925fcef1e5b12d3d374402c56099495ad673be3249b4332",
+      "rank": 6,
+      "prior_requests": 0,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-1-04",
+      "layout_hash": "48a315795ddd8d069c870ab1b1cb17d93c68f923bdbbba221c91f3629f6a9607",
+      "rank": 6,
+      "prior_requests": 1,
+      "weight": 0.08333333333333333
+    },
+    {
+      "id": "single-3-00",
+      "layout_hash": "023c446f55c5662a4c317109fdd1f34649ab84cd501a412490dd96bdf8d41c7a",
+      "rank": 6,
+      "prior_requests": 2,
+      "weight": 0.05555555555555555
+    }
+  ],
+  "requests": [
+    {
+      "parents": [
+        "single-16-06"
+      ],
+      "parent_layout_hash": "c4deaaa1d5d39a541e68bb01d68df71af8d130d5ba1c4d45e00821b27040dc11",
+      "genome": {
+        "schema": "shell-pilot-genome/1",
+        "seed": 84,
+        "door_attempt": 1,
+        "repair_reasons": [
+          "net_playable_area_ratio"
+        ],
+        "partitions": [
+          [
+            "hall",
+            [
+              [
+                17.668079,
+                -3.405344
+              ],
+              [
+                15.767198,
+                -3.405344
+              ],
+              [
+                15.767198,
+                2.538911
+              ],
+              [
+                10.970496,
+                2.538911
+              ],
+              [
+                10.970496,
+                2.290611
+              ],
+              [
+                10.847336,
+                2.290611
+              ],
+              [
+                8.609741,
+                2.290611
+              ],
+              [
+                8.609741,
+                2.538911
+              ],
+              [
+                8.239189,
+                2.538911
+              ],
+              [
+                8.239189,
+                4.402488
+              ],
+              [
+                8.722581,
+                4.402488
+              ],
+              [
+                8.722581,
+                5.381195
+              ],
+              [
+                10.75554,
+                4.259878
+              ],
+              [
+                10.847336,
+                4.259878
+              ],
+              [
+                17.030991,
+                4.259878
+              ],
+              [
+                17.668079,
+                3.60656
+              ],
+              [
+                17.668079,
+                2.010751
+              ],
+              [
+                17.668079,
+                -2.420299
+              ],
+              [
+                17.668079,
+                -3.405344
+              ]
+            ]
+          ],
+          [
+            "east_end",
+            [
+              [
+                17.668079,
+                2.010751
+              ],
+              [
+                20.488089,
+                2.010751
+              ],
+              [
+                21.542334,
+                1.164118
+              ],
+              [
+                21.542334,
+                -2.420299
+              ],
+              [
+                17.668079,
+                -2.420299
+              ],
+              [
+                17.668079,
+                2.010751
+              ]
+            ]
+          ],
+          [
+            "left_core",
+            [
+              [
+                2.153914,
+                -1.967009
+              ],
+              [
+                -1.045602,
+                -1.967009
+              ],
+              [
+                -1.045602,
+                2.787584
+              ],
+              [
+                1.72987,
+                2.787584
+              ],
+              [
+                1.72987,
+                2.538911
+              ],
+              [
+                2.153914,
+                2.538911
+              ],
+              [
+                5.578689,
+                2.538911
+              ],
+              [
+                5.578689,
+                -0.881089
+              ],
+              [
+                2.153914,
+                -0.881089
+              ],
+              [
+                2.153914,
+                -1.967009
+              ]
+            ]
+          ],
+          [
+            "left_inner",
+            [
+              [
+                2.153914,
+                -0.881089
+              ],
+              [
+                5.940989506810366,
+                -0.881089
+              ],
+              [
+                8.609741,
+                -0.881089
+              ],
+              [
+                8.609741,
+                -6.276535
+              ],
+              [
+                5.9242,
+                -6.276535
+              ],
+              [
+                5.8900189327600945,
+                -6.276535
+              ],
+              [
+                5.8900189327600945,
+                -4.170991987223986
+              ],
+              [
+                2.153914,
+                -4.170991987223986
+              ],
+              [
+                2.153914,
+                -2.947625162523143
+              ],
+              [
+                2.153914,
+                -0.881089
+              ]
+            ]
+          ],
+          [
+            "left_low",
+            [
+              [
+                2.153914,
+                -6.276535
+              ],
+              [
+                2.153914,
+                -4.232277
+              ],
+              [
+                2.153914,
+                -4.170991987223986
+              ],
+              [
+                5.8900189327600945,
+                -4.170991987223986
+              ],
+              [
+                5.8900189327600945,
+                -6.276535
+              ],
+              [
+                2.153914,
+                -6.276535
+              ]
+            ]
+          ],
+          [
+            "left_upper",
+            [
+              [
+                5.578689,
+                -0.881089
+              ],
+              [
+                5.578689,
+                2.538911
+              ],
+              [
+                8.609741,
+                2.538911
+              ],
+              [
+                8.609741,
+                2.290611
+              ],
+              [
+                8.609741,
+                -0.881089
+              ],
+              [
+                5.578689,
+                -0.881089
+              ]
+            ]
+          ],
+          [
+            "north",
+            [
+              [
+                6.198813,
+                8.141386
+              ],
+              [
+                6.198813,
+                4.402488
+              ],
+              [
+                2.153914,
+                4.402488
+              ],
+              [
+                1.72987,
+                4.402488
+              ],
+              [
+                1.72987,
+                8.141386
+              ],
+              [
+                2.153914,
+                8.141386
+              ],
+              [
+                6.198813,
+                8.141386
+              ]
+            ]
+          ],
+          [
+            "north_side",
+            [
+              [
+                6.198813,
+                4.402488
+              ],
+              [
+                6.198813,
+                8.141386
+              ],
+              [
+                8.722581,
+                8.141386
+              ],
+              [
+                8.722581,
+                5.381195
+              ],
+              [
+                8.722581,
+                4.402488
+              ],
+              [
+                6.198813,
+                4.402488
+              ]
+            ]
+          ],
+          [
+            "east_high",
+            [
+              [
+                15.767198,
+                2.538911
+              ],
+              [
+                15.767198,
+                -3.405344
+              ],
+              [
+                10.970496,
+                -3.405344
+              ],
+              [
+                10.970496,
+                -1.184528
+              ],
+              [
+                13.069911,
+                -1.184528
+              ],
+              [
+                13.069911,
+                2.538911
+              ],
+              [
+                15.767198,
+                2.538911
+              ]
+            ]
+          ],
+          [
+            "east_low",
+            [
+              [
+                13.069911,
+                -1.184528
+              ],
+              [
+                10.970496,
+                -1.184528
+              ],
+              [
+                10.970496,
+                2.290611
+              ],
+              [
+                10.970496,
+                2.538911
+              ],
+              [
+                13.069911,
+                2.538911
+              ],
+              [
+                13.069911,
+                -1.184528
+              ]
+            ]
+          ],
+          [
+            "foyer",
+            [
+              [
+                2.153914,
+                4.402488
+              ],
+              [
+                8.239189,
+                4.402488
+              ],
+              [
+                8.239189,
+                2.538911
+              ],
+              [
+                2.153914,
+                2.538911
+              ],
+              [
+                1.72987,
+                2.538911
+              ],
+              [
+                1.72987,
+                2.787584
+              ],
+              [
+                1.72987,
+                4.402488
+              ],
+              [
+                2.153914,
+                4.402488
+              ]
+            ]
+          ]
+        ],
+        "edited_partition": true,
+        "closed_pairs": [],
+        "opening_shifts": [
+          [
+            [
+              "left_core",
+              "left_low"
+            ],
+            -0.16
+          ],
+          [
+            [
+              "left_inner",
+              "left_upper"
+            ],
+            -0.16
+          ]
+        ]
+      },
+      "genome_hash": "688123436988e0e55d2413e1259f00fe1ca920c7da63741480d49043ac082a13",
+      "edit": "full",
+      "edit_target": 1,
+      "operation": null,
+      "operations": [],
+      "failures": [
+        {
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "issue": "outside_adjacency_changed"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "issue": "godot_link_crosses_wall:player:gate_9"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "issue": "same_corner"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "issue": "same_corner"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "issue": "same_corner"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "issue": "same_corner"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "issue": "outside_adjacency_changed"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "issue": "same_corner"
+        }
+      ],
+      "checks": 8,
+      "id": "single-19-00",
+      "seed": 84,
+      "random_key": "177:single-parent-v3:19:0",
+      "parent_sample": {
+        "id": "single-16-06",
+        "layout_hash": "c4deaaa1d5d39a541e68bb01d68df71af8d130d5ba1c4d45e00821b27040dc11",
+        "rank": 1,
+        "prior_requests": 1,
+        "weight": 0.5
+      },
+      "layout_hash": null,
+      "topology_changed": null,
+      "shared_evaluation": false,
+      "evidence_origin": null,
+      "duplicate_layout": false,
+      "status": "INVALID"
+    },
+    {
+      "parents": [
+        "single-17-03"
+      ],
+      "parent_layout_hash": "f3abb81fa30c9dcbf458d640da800b492c0b369cdb665ba61b801b1721118139",
+      "genome": {
+        "schema": "shell-pilot-genome/1",
+        "seed": 6,
+        "door_attempt": 1,
+        "repair_reasons": [
+          "net_playable_area_ratio"
+        ],
+        "partitions": [
+          [
+            "hall",
+            [
+              [
+                17.854675,
+                4.192297
+              ],
+              [
+                17.854675,
+                3.072729
+              ],
+              [
+                17.155409,
+                2.390828
+              ],
+              [
+                10.911859,
+                2.390828
+              ],
+              [
+                10.821611,
+                2.390828
+              ],
+              [
+                8.822921,
+                1.220451
+              ],
+              [
+                8.822921,
+                1.052871
+              ],
+              [
+                3.016529,
+                1.052871
+              ],
+              [
+                3.016529,
+                3.927536
+              ],
+              [
+                3.016529,
+                4.343086
+              ],
+              [
+                8.710499,
+                4.343086
+              ],
+              [
+                8.710499,
+                4.446252
+              ],
+              [
+                10.911859,
+                4.446252
+              ],
+              [
+                11.032943,
+                4.446252
+              ],
+              [
+                11.032943,
+                4.343086
+              ],
+              [
+                15.834151,
+                4.343086
+              ],
+              [
+                15.834151,
+                10.391411
+              ],
+              [
+                17.854675,
+                10.391411
+              ],
+              [
+                17.854675,
+                9.285033
+              ],
+              [
+                17.854675,
+                4.192297
+              ]
+            ]
+          ],
+          [
+            "east_end",
+            [
+              [
+                17.854675,
+                9.285033
+              ],
+              [
+                21.089746,
+                9.285033
+              ],
+              [
+                21.089746,
+                5.07597
+              ],
+              [
+                20.001046,
+                4.192297
+              ],
+              [
+                17.854675,
+                4.192297
+              ],
+              [
+                17.854675,
+                9.285033
+              ]
+            ]
+          ],
+          [
+            "left_core",
+            [
+              [
+                2.179121,
+                7.763086
+              ],
+              [
+                5.60206,
+                7.763086
+              ],
+              [
+                5.60206,
+                4.343086
+              ],
+              [
+                3.016529,
+                4.343086
+              ],
+              [
+                3.016529,
+                3.927536
+              ],
+              [
+                2.179121,
+                3.927536
+              ],
+              [
+                -1.94713,
+                3.927536
+              ],
+              [
+                -1.94713,
+                8.890148
+              ],
+              [
+                2.179121,
+                8.890148
+              ],
+              [
+                2.179121,
+                7.763086
+              ]
+            ]
+          ],
+          [
+            "left_inner",
+            [
+              [
+                4.90098,
+                11.73867
+              ],
+              [
+                4.90098,
+                9.739866
+              ],
+              [
+                8.710499,
+                9.739866
+              ],
+              [
+                8.710499,
+                7.763086
+              ],
+              [
+                2.179121,
+                7.763086
+              ],
+              [
+                2.179121,
+                11.73867
+              ],
+              [
+                4.90098,
+                11.73867
+              ]
+            ]
+          ],
+          [
+            "left_low",
+            [
+              [
+                8.710499,
+                9.739866
+              ],
+              [
+                4.90098,
+                9.739866
+              ],
+              [
+                4.90098,
+                11.73867
+              ],
+              [
+                8.710499,
+                11.73867
+              ],
+              [
+                8.710499,
+                9.739866
+              ]
+            ]
+          ],
+          [
+            "left_upper",
+            [
+              [
+                5.60206,
+                4.343086
+              ],
+              [
+                5.60206,
+                7.763086
+              ],
+              [
+                8.710499,
+                7.763086
+              ],
+              [
+                8.710499,
+                4.446252
+              ],
+              [
+                8.710499,
+                4.343086
+              ],
+              [
+                5.60206,
+                4.343086
+              ]
+            ]
+          ],
+          [
+            "north",
+            [
+              [
+                3.016529,
+                1.052871
+              ],
+              [
+                8.822921,
+                1.052871
+              ],
+              [
+                8.822921,
+                -2.451884
+              ],
+              [
+                3.016529,
+                -2.451884
+              ],
+              [
+                3.016529,
+                1.052871
+              ]
+            ]
+          ],
+          [
+            "east_high",
+            [
+              [
+                15.834151,
+                4.343086
+              ],
+              [
+                13.833818109343161,
+                4.343086
+              ],
+              [
+                13.782728,
+                4.343086
+              ],
+              [
+                11.032943,
+                4.343086
+              ],
+              [
+                11.032943,
+                4.446252
+              ],
+              [
+                11.032943,
+                10.391411
+              ],
+              [
+                13.772977746531431,
+                10.391411
+              ],
+              [
+                13.774556002843065,
+                10.391411
+              ],
+              [
+                13.774556002843065,
+                6.628082242053384
+              ],
+              [
+                15.834151,
+                6.628082242053384
+              ],
+              [
+                15.834151,
+                4.343086
+              ]
+            ]
+          ],
+          [
+            "east_low",
+            [
+              [
+                15.834151,
+                6.628082242053384
+              ],
+              [
+                13.774556002843065,
+                6.628082242053384
+              ],
+              [
+                13.774556002843065,
+                10.391411
+              ],
+              [
+                13.81117751363631,
+                10.391411
+              ],
+              [
+                15.834151,
+                10.391411
+              ],
+              [
+                15.834151,
+                8.098996
+              ],
+              [
+                15.834151,
+                8.0912060251446
+              ],
+              [
+                15.834151,
+                6.6557646297154065
+              ],
+              [
+                15.834151,
+                6.648453088218023
+              ],
+              [
+                15.834151,
+                6.628082242053384
+              ]
+            ]
+          ]
+        ],
+        "edited_partition": true,
+        "closed_pairs": [
+          [
+            "left_core",
+            "left_inner"
+          ]
+        ],
+        "opening_shifts": [
+          [
+            [
+              "left_core",
+              "left_upper"
+            ],
+            0.16
+          ],
+          [
+            [
+              "left_inner",
+              "left_low"
+            ],
+            0.16
+          ]
+        ]
+      },
+      "genome_hash": "4569c5a8d2c88e0b19cd07f7c75ee8b41862f14a29883c738f5ab78bfa4ff4de",
+      "edit": "full",
+      "edit_target": 1,
+      "operation": [
+        "rewrite_region",
+        "east_high",
+        "east_low"
+      ],
+      "operations": [
+        {
+          "kind": "rewrite_region",
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "before_genome": "36e04798492b3007b6935e58958734034b5697f9f5c7b10adc060f2ee7c239b5",
+          "after_genome": "4569c5a8d2c88e0b19cd07f7c75ee8b41862f14a29883c738f5ab78bfa4ff4de",
+          "partitions": {
+            "east_high": {
+              "before": [
+                [
+                  13.81117751363631,
+                  10.391411
+                ],
+                [
+                  15.834151,
+                  10.391411
+                ],
+                [
+                  15.834151,
+                  8.098996
+                ],
+                [
+                  15.834151,
+                  8.0912060251446
+                ],
+                [
+                  13.833818109343161,
+                  8.0912060251446
+                ],
+                [
+                  13.833818109343161,
+                  4.343086
+                ],
+                [
+                  13.782728,
+                  4.343086
+                ],
+                [
+                  11.032943,
+                  4.343086
+                ],
+                [
+                  11.032943,
+                  4.446252
+                ],
+                [
+                  11.032943,
+                  10.391411
+                ],
+                [
+                  13.772977746531431,
+                  10.391411
+                ],
+                [
+                  13.81117751363631,
+                  10.391411
+                ]
+              ],
+              "after": [
+                [
+                  15.834151,
+                  4.343086
+                ],
+                [
+                  13.833818109343161,
+                  4.343086
+                ],
+                [
+                  13.782728,
+                  4.343086
+                ],
+                [
+                  11.032943,
+                  4.343086
+                ],
+                [
+                  11.032943,
+                  4.446252
+                ],
+                [
+                  11.032943,
+                  10.391411
+                ],
+                [
+                  13.772977746531431,
+                  10.391411
+                ],
+                [
+                  13.774556002843065,
+                  10.391411
+                ],
+                [
+                  13.774556002843065,
+                  6.628082242053384
+                ],
+                [
+                  15.834151,
+                  6.628082242053384
+                ],
+                [
+                  15.834151,
+                  4.343086
+                ]
+              ]
+            },
+            "east_low": {
+              "before": [
+                [
+                  15.834151,
+                  6.6557646297154065
+                ],
+                [
+                  15.834151,
+                  6.648453088218023
+                ],
+                [
+                  15.834151,
+                  4.343086
+                ],
+                [
+                  13.833818109343161,
+                  4.343086
+                ],
+                [
+                  13.833818109343161,
+                  8.0912060251446
+                ],
+                [
+                  15.834151,
+                  8.0912060251446
+                ],
+                [
+                  15.834151,
+                  6.6557646297154065
+                ]
+              ],
+              "after": [
+                [
+                  15.834151,
+                  6.628082242053384
+                ],
+                [
+                  13.774556002843065,
+                  6.628082242053384
+                ],
+                [
+                  13.774556002843065,
+                  10.391411
+                ],
+                [
+                  13.81117751363631,
+                  10.391411
+                ],
+                [
+                  15.834151,
+                  10.391411
+                ],
+                [
+                  15.834151,
+                  8.098996
+                ],
+                [
+                  15.834151,
+                  8.0912060251446
+                ],
+                [
+                  15.834151,
+                  6.6557646297154065
+                ],
+                [
+                  15.834151,
+                  6.648453088218023
+                ],
+                [
+                  15.834151,
+                  6.628082242053384
+                ]
+              ]
+            }
+          },
+          "opening_shifts": [
+            [
+              [
+                [
+                  "left_core",
+                  "left_upper"
+                ],
+                0.16
+              ],
+              [
+                [
+                  "left_inner",
+                  "left_low"
+                ],
+                0.16
+              ]
+            ],
+            [
+              [
+                [
+                  "left_core",
+                  "left_upper"
+                ],
+                0.16
+              ],
+              [
+                [
+                  "left_inner",
+                  "left_low"
+                ],
+                0.16
+              ]
+            ]
+          ],
+          "closed_pairs": [
+            [
+              [
+                "left_core",
+                "left_inner"
+              ]
+            ],
+            [
+              [
+                "left_core",
+                "left_inner"
+              ]
+            ]
+          ],
+          "adjacency_added": [],
+          "adjacency_removed": []
+        }
+      ],
+      "failures": [
+        {
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "issue": "godot_link_endpoint_missing:player:gate_12"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "issue": "same_corner"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "issue": "godot_link_endpoint_missing:player:gate_10"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "issue": "same_corner"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "issue": "same_corner"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "issue": "no_safe_window"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "issue": "godot_link_crosses_wall:player:gate_10"
+        }
+      ],
+      "checks": 8,
+      "id": "single-19-01",
+      "seed": 6,
+      "random_key": "177:single-parent-v3:19:1",
+      "parent_sample": {
+        "id": "single-17-03",
+        "layout_hash": "f3abb81fa30c9dcbf458d640da800b492c0b369cdb665ba61b801b1721118139",
+        "rank": 3,
+        "prior_requests": 0,
+        "weight": 0.3333333333333333
+      },
+      "layout_hash": "7eeb064d5e1281aaf75801f94afe4aebe68e37a1f36f4841d8dff46e97c90961",
+      "topology_changed": false,
+      "shared_evaluation": false,
+      "evidence_origin": "evaluation",
+      "duplicate_layout": false,
+      "scores": {
+        "S": 87.30899052967688,
+        "F": 71.17179783950617,
+        "P": 51.77322487823251,
+        "D": 7.405617754164116
+      },
+      "outcomes": {
+        "victory": 8,
+        "death": 4
+      },
+      "phase2": 12,
+      "missing": [],
+      "violations": {},
+      "status": "COMPLETE_DRAFT"
+    },
+    {
+      "parents": [
+        "single-15-05"
+      ],
+      "parent_layout_hash": "adf0bb43c6296f7fc3f344fc55b4ae1c58e3f3f22efb76d0b8ab687ba926eeb5",
+      "genome": {
+        "schema": "shell-pilot-genome/1",
+        "seed": 6,
+        "door_attempt": 1,
+        "repair_reasons": [
+          "net_playable_area_ratio"
+        ],
+        "partitions": [
+          [
+            "hall",
+            [
+              [
+                17.854675,
+                4.192297
+              ],
+              [
+                17.854675,
+                3.072729
+              ],
+              [
+                17.155409,
+                2.390828
+              ],
+              [
+                10.911859,
+                2.390828
+              ],
+              [
+                10.821611,
+                2.390828
+              ],
+              [
+                8.822921,
+                1.220451
+              ],
+              [
+                8.822921,
+                1.052871
+              ],
+              [
+                3.016529,
+                1.052871
+              ],
+              [
+                3.016529,
+                3.927536
+              ],
+              [
+                3.016529,
+                4.343086
+              ],
+              [
+                8.710499,
+                4.343086
+              ],
+              [
+                8.710499,
+                4.446252
+              ],
+              [
+                10.911859,
+                4.446252
+              ],
+              [
+                11.032943,
+                4.446252
+              ],
+              [
+                11.032943,
+                4.343086
+              ],
+              [
+                15.834151,
+                4.343086
+              ],
+              [
+                15.834151,
+                10.391411
+              ],
+              [
+                17.854675,
+                10.391411
+              ],
+              [
+                17.854675,
+                9.285033
+              ],
+              [
+                17.854675,
+                4.192297
+              ]
+            ]
+          ],
+          [
+            "east_end",
+            [
+              [
+                17.854675,
+                9.285033
+              ],
+              [
+                21.089746,
+                9.285033
+              ],
+              [
+                21.089746,
+                5.07597
+              ],
+              [
+                20.001046,
+                4.192297
+              ],
+              [
+                17.854675,
+                4.192297
+              ],
+              [
+                17.854675,
+                9.285033
+              ]
+            ]
+          ],
+          [
+            "left_core",
+            [
+              [
+                2.179121,
+                7.763086
+              ],
+              [
+                5.60206,
+                7.763086
+              ],
+              [
+                5.60206,
+                4.343086
+              ],
+              [
+                3.016529,
+                4.343086
+              ],
+              [
+                3.016529,
+                3.927536
+              ],
+              [
+                2.179121,
+                3.927536
+              ],
+              [
+                -1.94713,
+                3.927536
+              ],
+              [
+                -1.94713,
+                8.890148
+              ],
+              [
+                2.179121,
+                8.890148
+              ],
+              [
+                2.179121,
+                7.763086
+              ]
+            ]
+          ],
+          [
+            "left_inner",
+            [
+              [
+                2.179121,
+                7.763086
+              ],
+              [
+                2.179121,
+                11.73867
+              ],
+              [
+                4.90098,
+                11.73867
+              ],
+              [
+                8.710499,
+                11.73867
+              ],
+              [
+                8.710499,
+                9.760115711718335
+              ],
+              [
+                4.890997646353224,
+                9.760115711718335
+              ],
+              [
+                4.890997646353224,
+                7.763086
+              ],
+              [
+                2.179121,
+                7.763086
+              ]
+            ]
+          ],
+          [
+            "left_low",
+            [
+              [
+                4.890997646353224,
+                7.763086
+              ],
+              [
+                4.890997646353224,
+                9.760115711718335
+              ],
+              [
+                8.710499,
+                9.760115711718335
+              ],
+              [
+                8.710499,
+                9.739866
+              ],
+              [
+                8.710499,
+                7.763086
+              ],
+              [
+                4.890997646353224,
+                7.763086
+              ]
+            ]
+          ],
+          [
+            "left_upper",
+            [
+              [
+                5.60206,
+                4.343086
+              ],
+              [
+                5.60206,
+                7.763086
+              ],
+              [
+                8.710499,
+                7.763086
+              ],
+              [
+                8.710499,
+                4.446252
+              ],
+              [
+                8.710499,
+                4.343086
+              ],
+              [
+                5.60206,
+                4.343086
+              ]
+            ]
+          ],
+          [
+            "north",
+            [
+              [
+                3.016529,
+                1.052871
+              ],
+              [
+                8.822921,
+                1.052871
+              ],
+              [
+                8.822921,
+                -2.451884
+              ],
+              [
+                3.016529,
+                -2.451884
+              ],
+              [
+                3.016529,
+                1.052871
+              ]
+            ]
+          ],
+          [
+            "east_high",
+            [
+              [
+                13.74722515550138,
+                4.343086
+              ],
+              [
+                11.032943,
+                4.343086
+              ],
+              [
+                11.032943,
+                4.446252
+              ],
+              [
+                11.032943,
+                10.391411
+              ],
+              [
+                13.772977746531431,
+                10.391411
+              ],
+              [
+                13.793997946868707,
+                10.391411
+              ],
+              [
+                13.819880072221585,
+                10.391411
+              ],
+              [
+                15.834151,
+                10.391411
+              ],
+              [
+                15.834151,
+                8.118720084054468
+              ],
+              [
+                15.834151,
+                8.111029156527511
+              ],
+              [
+                13.758882054448527,
+                8.111029156527511
+              ],
+              [
+                13.758882054448527,
+                4.343086
+              ],
+              [
+                13.74722515550138,
+                4.343086
+              ]
+            ]
+          ],
+          [
+            "east_low",
+            [
+              [
+                13.758882054448527,
+                4.343086
+              ],
+              [
+                13.758882054448527,
+                8.111029156527511
+              ],
+              [
+                15.834151,
+                8.111029156527511
+              ],
+              [
+                15.834151,
+                8.098996
+              ],
+              [
+                15.834151,
+                6.648453088218023
+              ],
+              [
+                15.834151,
+                6.641897383779984
+              ],
+              [
+                15.834151,
+                6.634864857426283
+              ],
+              [
+                15.834151,
+                4.343086
+              ],
+              [
+                13.782728,
+                4.343086
+              ],
+              [
+                13.758882054448527,
+                4.343086
+              ]
+            ]
+          ]
+        ],
+        "edited_partition": true,
+        "closed_pairs": [],
+        "opening_shifts": [
+          [
+            [
+              "left_core",
+              "left_inner"
+            ],
+            -0.16
+          ],
+          [
+            [
+              "left_core",
+              "left_upper"
+            ],
+            -0.32
+          ]
+        ]
+      },
+      "genome_hash": "d0ca23eea82324d06c9bb53870129d63fee4397983fa0f9063336fd8b4505a2d",
+      "edit": "diff",
+      "edit_target": 2,
+      "operation": [
+        "shift_opening",
+        "left_core",
+        "left_upper"
+      ],
+      "operations": [
+        {
+          "kind": "shift_opening",
+          "operation": [
+            "shift_opening",
+            "left_core",
+            "left_upper"
+          ],
+          "before_genome": "0e470b2feeb2df4211f9fdc563224554456db9f03df9c789b8eee691e313498f",
+          "after_genome": "6cd21b49503cdc06b6496c3fe5715104df517837d35ebe5a5fbb0be5d7c96ff7",
+          "partitions": {},
+          "opening_shifts": [
+            [
+              [
+                [
+                  "left_core",
+                  "left_upper"
+                ],
+                -0.16
+              ]
+            ],
+            [
+              [
+                [
+                  "left_core",
+                  "left_upper"
+                ],
+                -0.32
+              ]
+            ]
+          ],
+          "closed_pairs": [
+            [],
+            []
+          ],
+          "adjacency_added": [],
+          "adjacency_removed": []
+        },
+        {
+          "kind": "shift_opening",
+          "operation": [
+            "shift_opening",
+            "left_core",
+            "left_inner"
+          ],
+          "before_genome": "6cd21b49503cdc06b6496c3fe5715104df517837d35ebe5a5fbb0be5d7c96ff7",
+          "after_genome": "d0ca23eea82324d06c9bb53870129d63fee4397983fa0f9063336fd8b4505a2d",
+          "partitions": {},
+          "opening_shifts": [
+            [
+              [
+                [
+                  "left_core",
+                  "left_upper"
+                ],
+                -0.32
+              ]
+            ],
+            [
+              [
+                [
+                  "left_core",
+                  "left_inner"
+                ],
+                -0.16
+              ],
+              [
+                [
+                  "left_core",
+                  "left_upper"
+                ],
+                -0.32
+              ]
+            ]
+          ],
+          "closed_pairs": [
+            [],
+            []
+          ],
+          "adjacency_added": [],
+          "adjacency_removed": []
+        }
+      ],
+      "failures": [],
+      "checks": 2,
+      "id": "single-19-02",
+      "seed": 6,
+      "random_key": "177:single-parent-v3:19:2",
+      "parent_sample": {
+        "id": "single-15-05",
+        "layout_hash": "adf0bb43c6296f7fc3f344fc55b4ae1c58e3f3f22efb76d0b8ab687ba926eeb5",
+        "rank": 2,
+        "prior_requests": 0,
+        "weight": 0.5
+      },
+      "layout_hash": "aba7232ab1fb754df90aba3bc7853b9dbec1ee28ea759bddb10deb4ba20b8469",
+      "topology_changed": false,
+      "shared_evaluation": false,
+      "evidence_origin": "evaluation",
+      "duplicate_layout": false,
+      "scores": {
+        "S": 88.96792633835184,
+        "F": 51.44097222222223,
+        "P": 57.05889444475078,
+        "D": 16.288517859321193
+      },
+      "outcomes": {
+        "victory": 12
+      },
+      "phase2": 12,
+      "missing": [],
+      "violations": {},
+      "status": "COMPLETE_DRAFT"
+    },
+    {
+      "parents": [
+        "initial-00"
+      ],
+      "parent_layout_hash": "f66e941bd5a9716f34e8cc33e60762d5723dfe76c48b36ad71f6815a6c6d572d",
+      "genome": {
+        "schema": "shell-pilot-genome/1",
+        "seed": 177,
+        "door_attempt": 2,
+        "repair_reasons": [
+          "net_playable_area_ratio",
+          "small_room:left_core"
+        ],
+        "partitions": [
+          [
+            "hall",
+            [
+              [
+                17.807561,
+                4.807021
+              ],
+              [
+                17.807561,
+                3.297035
+              ],
+              [
+                17.094742,
+                2.565355
+              ],
+              [
+                11.068672,
+                2.565355
+              ],
+              [
+                8.994962,
+                2.565355
+              ],
+              [
+                8.994962,
+                2.812269
+              ],
+              [
+                3.115041,
+                2.812269
+              ],
+              [
+                3.115041,
+                3.121937
+              ],
+              [
+                3.115041,
+                6.319955
+              ],
+              [
+                9.105499,
+                6.319955
+              ],
+              [
+                9.105499,
+                6.026636
+              ],
+              [
+                10.983857,
+                4.770823
+              ],
+              [
+                11.068672,
+                4.770823
+              ],
+              [
+                11.182466,
+                4.770823
+              ],
+              [
+                11.182466,
+                4.523909
+              ],
+              [
+                15.627045,
+                4.523909
+              ],
+              [
+                15.627045,
+                11.149971
+              ],
+              [
+                17.807561,
+                11.149971
+              ],
+              [
+                17.807561,
+                9.501192
+              ],
+              [
+                17.807561,
+                4.807021
+              ]
+            ]
+          ],
+          [
+            "east_end",
+            [
+              [
+                17.807561,
+                9.501192
+              ],
+              [
+                20.925872,
+                9.501192
+              ],
+              [
+                21.589008,
+                8.500335
+              ],
+              [
+                21.589008,
+                5.807879
+              ],
+              [
+                20.925872,
+                4.807021
+              ],
+              [
+                17.807561,
+                4.807021
+              ],
+              [
+                17.807561,
+                9.501192
+              ]
+            ]
+          ],
+          [
+            "left_core",
+            [
+              [
+                2.250286,
+                -2.202939
+              ],
+              [
+                0.040767,
+                -2.202939
+              ],
+              [
+                0.040767,
+                3.121937
+              ],
+              [
+                2.250286,
+                3.121937
+              ],
+              [
+                3.115041,
+                3.121937
+              ],
+              [
+                3.115041,
+                2.812269
+              ],
+              [
+                5.838634,
+                2.812269
+              ],
+              [
+                5.838634,
+                -0.774243
+              ],
+              [
+                2.250286,
+                -0.774243
+              ],
+              [
+                2.250286,
+                -2.202939
+              ]
+            ]
+          ],
+          [
+            "left_inner",
+            [
+              [
+                2.250286,
+                -2.990976
+              ],
+              [
+                2.250286,
+                -0.774243
+              ],
+              [
+                8.994962,
+                -0.774243
+              ],
+              [
+                8.994962,
+                -5.063827
+              ],
+              [
+                6.068192513192779,
+                -5.063827
+              ],
+              [
+                6.068192513192779,
+                -3.0425126169848276
+              ],
+              [
+                2.250286,
+                -3.0425126169848276
+              ],
+              [
+                2.250286,
+                -2.990976
+              ]
+            ]
+          ],
+          [
+            "left_low",
+            [
+              [
+                2.250286,
+                -3.0425126169848276
+              ],
+              [
+                6.068192513192779,
+                -3.0425126169848276
+              ],
+              [
+                6.068192513192779,
+                -5.063827
+              ],
+              [
+                5.974385,
+                -5.063827
+              ],
+              [
+                2.250286,
+                -5.063827
+              ],
+              [
+                2.250286,
+                -3.0425126169848276
+              ]
+            ]
+          ],
+          [
+            "left_upper",
+            [
+              [
+                5.838634,
+                -0.774243
+              ],
+              [
+                5.838634,
+                2.812269
+              ],
+              [
+                8.994962,
+                2.812269
+              ],
+              [
+                8.994962,
+                2.565355
+              ],
+              [
+                8.994962,
+                -0.774243
+              ],
+              [
+                5.838634,
+                -0.774243
+              ]
+            ]
+          ],
+          [
+            "north",
+            [
+              [
+                3.115041,
+                6.319955
+              ],
+              [
+                3.115041,
+                9.705308
+              ],
+              [
+                9.105499,
+                9.705308
+              ],
+              [
+                9.105499,
+                6.319955
+              ],
+              [
+                3.115041,
+                6.319955
+              ]
+            ]
+          ],
+          [
+            "east_high",
+            [
+              [
+                15.627045,
+                4.523909
+              ],
+              [
+                11.182466,
+                4.523909
+              ],
+              [
+                11.182466,
+                4.770823
+              ],
+              [
+                11.182466,
+                11.149971
+              ],
+              [
+                13.618868218475788,
+                11.149971
+              ],
+              [
+                13.618868218475788,
+                7.369876387255944
+              ],
+              [
+                15.627045,
+                7.369876387255944
+              ],
+              [
+                15.627045,
+                4.523909
+              ]
+            ]
+          ],
+          [
+            "east_low",
+            [
+              [
+                15.627045,
+                11.149971
+              ],
+              [
+                15.627045,
+                7.379301
+              ],
+              [
+                15.627045,
+                7.369876387255944
+              ],
+              [
+                13.618868218475788,
+                7.369876387255944
+              ],
+              [
+                13.618868218475788,
+                11.149971
+              ],
+              [
+                13.626514,
+                11.149971
+              ],
+              [
+                15.627045,
+                11.149971
+              ]
+            ]
+          ]
+        ],
+        "edited_partition": true,
+        "closed_pairs": [],
+        "opening_shifts": []
+      },
+      "genome_hash": "74add5accc65730af12b6698f490c3ab0a58009f4be3f7cab093eb0c2ff6582c",
+      "edit": "diff",
+      "edit_target": 2,
+      "operation": [
+        "move_partition",
+        "east_high",
+        "east_low"
+      ],
+      "operations": [
+        {
+          "kind": "move_partition",
+          "operation": [
+            "move_partition",
+            "east_high",
+            "east_low"
+          ],
+          "before_genome": "dd34a40f14cad3ee78fc84fe14c9759be5fb276272f58ac1e911914401abea42",
+          "after_genome": "b655a31cff2cb10aa2f78dbb5dbe25cbca390bb28c8dcd960c2b76796de3e26d",
+          "partitions": {
+            "east_end": {
+              "before": [
+                [
+                  17.807561,
+                  9.501192
+                ],
+                [
+                  20.925872,
+                  9.501192
+                ],
+                [
+                  21.589008,
+                  8.500335
+                ],
+                [
+                  21.589008,
+                  5.807879
+                ],
+                [
+                  20.925872,
+                  4.807021
+                ],
+                [
+                  17.807561,
+                  4.807021
+                ],
+                [
+                  17.807561,
+                  9.501192
+                ]
+              ],
+              "after": [
+                [
+                  17.807561,
+                  9.501192
+                ],
+                [
+                  20.925872,
+                  9.501192
+                ],
+                [
+                  21.589008,
+                  8.500335
+                ],
+                [
+                  21.589008,
+                  5.807879
+                ],
+                [
+                  20.925872,
+                  4.807021
+                ],
+                [
+                  17.807561,
+                  4.807021
+                ],
+                [
+                  17.807561,
+                  9.501192
+                ]
+              ]
+            },
+            "east_high": {
+              "before": [
+                [
+                  11.182466,
+                  11.149971
+                ],
+                [
+                  13.626514,
+                  11.149971
+                ],
+                [
+                  13.626514,
+                  7.379301
+                ],
+                [
+                  15.627045,
+                  7.379301
+                ],
+                [
+                  15.627045,
+                  4.523909
+                ],
+                [
+                  11.182466,
+                  4.523909
+                ],
+                [
+                  11.182466,
+                  4.770823
+                ],
+                [
+                  11.182466,
+                  11.149971
+                ]
+              ],
+              "after": [
+                [
+                  15.627045,
+                  4.523909
+                ],
+                [
+                  11.182466,
+                  4.523909
+                ],
+                [
+                  11.182466,
+                  4.770823
+                ],
+                [
+                  11.182466,
+                  11.149971
+                ],
+                [
+                  13.618868218475788,
+                  11.149971
+                ],
+                [
+                  13.618868218475788,
+                  7.369876387255944
+                ],
+                [
+                  15.627045,
+                  7.369876387255944
+                ],
+                [
+                  15.627045,
+                  4.523909
+                ]
+              ]
+            },
+            "east_low": {
+              "before": [
+                [
+                  15.627045,
+                  7.379301
+                ],
+                [
+                  13.626514,
+                  7.379301
+                ],
+                [
+                  13.626514,
+                  11.149971
+                ],
+                [
+                  15.627045,
+                  11.149971
+                ],
+                [
+                  15.627045,
+                  7.379301
+                ]
+              ],
+              "after": [
+                [
+                  15.627045,
+                  11.149971
+                ],
+                [
+                  15.627045,
+                  7.379301
+                ],
+                [
+                  15.627045,
+                  7.369876387255944
+                ],
+                [
+                  13.618868218475788,
+                  7.369876387255944
+                ],
+                [
+                  13.618868218475788,
+                  11.149971
+                ],
+                [
+                  13.626514,
+                  11.149971
+                ],
+                [
+                  15.627045,
+                  11.149971
+                ]
+              ]
+            },
+            "hall": {
+              "before": [
+                [
+                  17.807561,
+                  4.807021
+                ],
+                [
+                  17.807561,
+                  3.297035
+                ],
+                [
+                  17.094742,
+                  2.565355
+                ],
+                [
+                  11.068672,
+                  2.565355
+                ],
+                [
+                  8.994962,
+                  2.565355
+                ],
+                [
+                  8.994962,
+                  2.812269
+                ],
+                [
+                  3.115041,
+                  2.812269
+                ],
+                [
+                  3.115041,
+                  3.121937
+                ],
+                [
+                  3.115041,
+                  6.319955
+                ],
+                [
+                  9.105499,
+                  6.319955
+                ],
+                [
+                  9.105499,
+                  6.026636
+                ],
+                [
+                  10.983857,
+                  4.770823
+                ],
+                [
+                  11.068672,
+                  4.770823
+                ],
+                [
+                  11.182466,
+                  4.770823
+                ],
+                [
+                  11.182466,
+                  4.523909
+                ],
+                [
+                  15.627045,
+                  4.523909
+                ],
+                [
+                  15.627045,
+                  11.149971
+                ],
+                [
+                  17.807561,
+                  11.149971
+                ],
+                [
+                  17.807561,
+                  9.501192
+                ],
+                [
+                  17.807561,
+                  4.807021
+                ]
+              ],
+              "after": [
+                [
+                  17.807561,
+                  4.807021
+                ],
+                [
+                  17.807561,
+                  3.297035
+                ],
+                [
+                  17.094742,
+                  2.565355
+                ],
+                [
+                  11.068672,
+                  2.565355
+                ],
+                [
+                  8.994962,
+                  2.565355
+                ],
+                [
+                  8.994962,
+                  2.812269
+                ],
+                [
+                  3.115041,
+                  2.812269
+                ],
+                [
+                  3.115041,
+                  3.121937
+                ],
+                [
+                  3.115041,
+                  6.319955
+                ],
+                [
+                  9.105499,
+                  6.319955
+                ],
+                [
+                  9.105499,
+                  6.026636
+                ],
+                [
+                  10.983857,
+                  4.770823
+                ],
+                [
+                  11.068672,
+                  4.770823
+                ],
+                [
+                  11.182466,
+                  4.770823
+                ],
+                [
+                  11.182466,
+                  4.523909
+                ],
+                [
+                  15.627045,
+                  4.523909
+                ],
+                [
+                  15.627045,
+                  11.149971
+                ],
+                [
+                  17.807561,
+                  11.149971
+                ],
+                [
+                  17.807561,
+                  9.501192
+                ],
+                [
+                  17.807561,
+                  4.807021
+                ]
+              ]
+            },
+            "left_core": {
+              "before": [
+                [
+                  2.250286,
+                  -2.202939
+                ],
+                [
+                  0.040767,
+                  -2.202939
+                ],
+                [
+                  0.040767,
+                  3.121937
+                ],
+                [
+                  2.250286,
+                  3.121937
+                ],
+                [
+                  3.115041,
+                  3.121937
+                ],
+                [
+                  3.115041,
+                  2.812269
+                ],
+                [
+                  5.838634,
+                  2.812269
+                ],
+                [
+                  5.838634,
+                  -0.774243
+                ],
+                [
+                  2.250286,
+                  -0.774243
+                ],
+                [
+                  2.250286,
+                  -2.202939
+                ]
+              ],
+              "after": [
+                [
+                  2.250286,
+                  -2.202939
+                ],
+                [
+                  0.040767,
+                  -2.202939
+                ],
+                [
+                  0.040767,
+                  3.121937
+                ],
+                [
+                  2.250286,
+                  3.121937
+                ],
+                [
+                  3.115041,
+                  3.121937
+                ],
+                [
+                  3.115041,
+                  2.812269
+                ],
+                [
+                  5.838634,
+                  2.812269
+                ],
+                [
+                  5.838634,
+                  -0.774243
+                ],
+                [
+                  2.250286,
+                  -0.774243
+                ],
+                [
+                  2.250286,
+                  -2.202939
+                ]
+              ]
+            },
+            "left_inner": {
+              "before": [
+                [
+                  8.994962,
+                  -0.774243
+                ],
+                [
+                  8.994962,
+                  -5.063827
+                ],
+                [
+                  5.974385,
+                  -5.063827
+                ],
+                [
+                  5.974385,
+                  -2.990976
+                ],
+                [
+                  2.250286,
+                  -2.990976
+                ],
+                [
+                  2.250286,
+                  -0.774243
+                ],
+                [
+                  8.994962,
+                  -0.774243
+                ]
+              ],
+              "after": [
+                [
+                  8.994962,
+                  -0.774243
+                ],
+                [
+                  8.994962,
+                  -5.063827
+                ],
+                [
+                  5.974385,
+                  -5.063827
+                ],
+                [
+                  5.974385,
+                  -2.990976
+                ],
+                [
+                  2.250286,
+                  -2.990976
+                ],
+                [
+                  2.250286,
+                  -0.774243
+                ],
+                [
+                  8.994962,
+                  -0.774243
+                ]
+              ]
+            },
+            "left_low": {
+              "before": [
+                [
+                  5.974385,
+                  -2.990976
+                ],
+                [
+                  5.974385,
+                  -5.063827
+                ],
+                [
+                  2.250286,
+                  -5.063827
+                ],
+                [
+                  2.250286,
+                  -2.990976
+                ],
+                [
+                  5.974385,
+                  -2.990976
+                ]
+              ],
+              "after": [
+                [
+                  5.974385,
+                  -2.990976
+                ],
+                [
+                  5.974385,
+                  -5.063827
+                ],
+                [
+                  2.250286,
+                  -5.063827
+                ],
+                [
+                  2.250286,
+                  -2.990976
+                ],
+                [
+                  5.974385,
+                  -2.990976
+                ]
+              ]
+            },
+            "left_upper": {
+              "before": [
+                [
+                  5.838634,
+                  -0.774243
+                ],
+                [
+                  5.838634,
+                  2.812269
+                ],
+                [
+                  8.994962,
+                  2.812269
+                ],
+                [
+                  8.994962,
+                  2.565355
+                ],
+                [
+                  8.994962,
+                  -0.774243
+                ],
+                [
+                  5.838634,
+                  -0.774243
+                ]
+              ],
+              "after": [
+                [
+                  5.838634,
+                  -0.774243
+                ],
+                [
+                  5.838634,
+                  2.812269
+                ],
+                [
+                  8.994962,
+                  2.812269
+                ],
+                [
+                  8.994962,
+                  2.565355
+                ],
+                [
+                  8.994962,
+                  -0.774243
+                ],
+                [
+                  5.838634,
+                  -0.774243
+                ]
+              ]
+            },
+            "north": {
+              "before": [
+                [
+                  3.115041,
+                  6.319955
+                ],
+                [
+                  3.115041,
+                  9.705308
+                ],
+                [
+                  9.105499,
+                  9.705308
+                ],
+                [
+                  9.105499,
+                  6.319955
+                ],
+                [
+                  3.115041,
+                  6.319955
+                ]
+              ],
+              "after": [
+                [
+                  3.115041,
+                  6.319955
+                ],
+                [
+                  3.115041,
+                  9.705308
+                ],
+                [
+                  9.105499,
+                  9.705308
+                ],
+                [
+                  9.105499,
+                  6.319955
+                ],
+                [
+                  3.115041,
+                  6.319955
+                ]
+              ]
+            }
+          },
+          "opening_shifts": [
+            [],
+            []
+          ],
+          "closed_pairs": [
+            [],
+            []
+          ],
+          "adjacency_added": [],
+          "adjacency_removed": []
+        },
+        {
+          "kind": "move_partition",
+          "operation": [
+            "move_partition",
+            "left_inner",
+            "left_low"
+          ],
+          "before_genome": "b655a31cff2cb10aa2f78dbb5dbe25cbca390bb28c8dcd960c2b76796de3e26d",
+          "after_genome": "74add5accc65730af12b6698f490c3ab0a58009f4be3f7cab093eb0c2ff6582c",
+          "partitions": {
+            "left_inner": {
+              "before": [
+                [
+                  8.994962,
+                  -0.774243
+                ],
+                [
+                  8.994962,
+                  -5.063827
+                ],
+                [
+                  5.974385,
+                  -5.063827
+                ],
+                [
+                  5.974385,
+                  -2.990976
+                ],
+                [
+                  2.250286,
+                  -2.990976
+                ],
+                [
+                  2.250286,
+                  -0.774243
+                ],
+                [
+                  8.994962,
+                  -0.774243
+                ]
+              ],
+              "after": [
+                [
+                  2.250286,
+                  -2.990976
+                ],
+                [
+                  2.250286,
+                  -0.774243
+                ],
+                [
+                  8.994962,
+                  -0.774243
+                ],
+                [
+                  8.994962,
+                  -5.063827
+                ],
+                [
+                  6.068192513192779,
+                  -5.063827
+                ],
+                [
+                  6.068192513192779,
+                  -3.0425126169848276
+                ],
+                [
+                  2.250286,
+                  -3.0425126169848276
+                ],
+                [
+                  2.250286,
+                  -2.990976
+                ]
+              ]
+            },
+            "left_low": {
+              "before": [
+                [
+                  5.974385,
+                  -2.990976
+                ],
+                [
+                  5.974385,
+                  -5.063827
+                ],
+                [
+                  2.250286,
+                  -5.063827
+                ],
+                [
+                  2.250286,
+                  -2.990976
+                ],
+                [
+                  5.974385,
+                  -2.990976
+                ]
+              ],
+              "after": [
+                [
+                  2.250286,
+                  -3.0425126169848276
+                ],
+                [
+                  6.068192513192779,
+                  -3.0425126169848276
+                ],
+                [
+                  6.068192513192779,
+                  -5.063827
+                ],
+                [
+                  5.974385,
+                  -5.063827
+                ],
+                [
+                  2.250286,
+                  -5.063827
+                ],
+                [
+                  2.250286,
+                  -3.0425126169848276
+                ]
+              ]
+            }
+          },
+          "opening_shifts": [
+            [],
+            []
+          ],
+          "closed_pairs": [
+            [],
+            []
+          ],
+          "adjacency_added": [],
+          "adjacency_removed": []
+        }
+      ],
+      "failures": [],
+      "checks": 2,
+      "id": "single-19-03",
+      "seed": 177,
+      "random_key": "177:single-parent-v3:19:3",
+      "parent_sample": {
+        "id": "initial-00",
+        "layout_hash": "f66e941bd5a9716f34e8cc33e60762d5723dfe76c48b36ad71f6815a6c6d572d",
+        "rank": 1,
+        "prior_requests": 3,
+        "weight": 0.25
+      },
+      "layout_hash": "847f238695cfd5ddb4ce8fce3acc9c5fdf0bceb87374e606c2f76406276c950c",
+      "topology_changed": false,
+      "shared_evaluation": false,
+      "evidence_origin": "evaluation",
+      "duplicate_layout": false,
+      "scores": {
+        "S": 86.46859628929889,
+        "F": 53.52239774114774,
+        "P": 85.82379115776398,
+        "D": 14.627887603242257
+      },
+      "outcomes": {
+        "victory": 12
+      },
+      "phase2": 12,
+      "missing": [],
+      "violations": {},
+      "status": "COMPLETE_DRAFT"
+    },
+    {
+      "parents": [
+        "single-8-00"
+      ],
+      "parent_layout_hash": "fd7c662523cc88cb62b19d5d14108b4ec846e408735a11ae1a508ee606711298",
+      "genome": {
+        "schema": "shell-pilot-genome/1",
+        "seed": 44,
+        "door_attempt": 2,
+        "repair_reasons": [
+          "net_playable_area_ratio",
+          "small_room:left_inner_side"
+        ],
+        "partitions": [
+          [
+            "hall",
+            [
+              [
+                17.060558,
+                4.273839
+              ],
+              [
+                17.060558,
+                3.03019
+              ],
+              [
+                16.308935,
+                2.357729
+              ],
+              [
+                10.168788,
+                2.357729
+              ],
+              [
+                8.083207,
+                2.357729
+              ],
+              [
+                8.083207,
+                2.494279
+              ],
+              [
+                2.799292,
+                2.494279
+              ],
+              [
+                2.799292,
+                2.869264
+              ],
+              [
+                2.799292,
+                6.584212
+              ],
+              [
+                8.188723,
+                6.584212
+              ],
+              [
+                8.188723,
+                5.538872
+              ],
+              [
+                10.083243,
+                4.384698
+              ],
+              [
+                10.168788,
+                4.384698
+              ],
+              [
+                10.283561,
+                4.384698
+              ],
+              [
+                10.283561,
+                4.248148
+              ],
+              [
+                14.758417,
+                4.248148
+              ],
+              [
+                14.758417,
+                10.247552
+              ],
+              [
+                17.060558,
+                10.247552
+              ],
+              [
+                17.060558,
+                9.035832
+              ],
+              [
+                17.060558,
+                4.273839
+              ]
+            ]
+          ],
+          [
+            "east_end",
+            [
+              [
+                17.060558,
+                9.035832
+              ],
+              [
+                19.907179,
+                9.035832
+              ],
+              [
+                19.907179,
+                4.273839
+              ],
+              [
+                17.060558,
+                4.273839
+              ],
+              [
+                17.060558,
+                9.035832
+              ]
+            ]
+          ],
+          [
+            "left_core",
+            [
+              [
+                2.799292,
+                2.869264
+              ],
+              [
+                2.799292,
+                2.494279
+              ],
+              [
+                5.151395,
+                2.494279
+              ],
+              [
+                5.151395,
+                -1.138036
+              ],
+              [
+                0.801475,
+                -1.138036
+              ],
+              [
+                -1.102525,
+                -1.138036
+              ],
+              [
+                -1.102525,
+                2.869264
+              ],
+              [
+                0.801475,
+                2.869264
+              ],
+              [
+                2.799292,
+                2.869264
+              ]
+            ]
+          ],
+          [
+            "left_inner",
+            [
+              [
+                0.801475,
+                -1.138036
+              ],
+              [
+                5.151395,
+                -1.138036
+              ],
+              [
+                5.151395,
+                2.494279
+              ],
+              [
+                8.083207,
+                2.494279
+              ],
+              [
+                8.083207,
+                2.357729
+              ],
+              [
+                8.083207,
+                -1.138036
+              ],
+              [
+                8.083207,
+                -5.595014
+              ],
+              [
+                0.801475,
+                -5.595014
+              ],
+              [
+                -1.102525,
+                -5.595014
+              ],
+              [
+                -1.102525,
+                -1.138036
+              ],
+              [
+                0.801475,
+                -1.138036
+              ]
+            ]
+          ],
+          [
+            "north",
+            [
+              [
+                2.799292,
+                6.584212
+              ],
+              [
+                2.799292,
+                9.43408
+              ],
+              [
+                8.188723,
+                9.43408
+              ],
+              [
+                8.188723,
+                6.584212
+              ],
+              [
+                2.799292,
+                6.584212
+              ]
+            ]
+          ],
+          [
+            "east_high",
+            [
+              [
+                12.345787,
+                4.248148
+              ],
+              [
+                10.283561,
+                4.248148
+              ],
+              [
+                10.283561,
+                4.384698
+              ],
+              [
+                10.283561,
+                7.982629
+              ],
+              [
+                10.283561,
+                10.247552
+              ],
+              [
+                12.73389238206056,
+                10.247552
+              ],
+              [
+                12.73389238206056,
+                6.51110320014686
+              ],
+              [
+                14.758417,
+                6.51110320014686
+              ],
+              [
+                14.758417,
+                4.248148
+              ],
+              [
+                12.676405073759563,
+                4.248148
+              ],
+              [
+                12.345787,
+                4.248148
+              ]
+            ]
+          ],
+          [
+            "east_low",
+            [
+              [
+                14.758417,
+                10.247552
+              ],
+              [
+                14.758417,
+                8.042089091081019
+              ],
+              [
+                14.758417,
+                6.51110320014686
+              ],
+              [
+                12.73389238206056,
+                6.51110320014686
+              ],
+              [
+                12.73389238206056,
+                10.247552
+              ],
+              [
+                14.758417,
+                10.247552
+              ]
+            ]
+          ]
+        ],
+        "edited_partition": true,
+        "closed_pairs": [],
+        "opening_shifts": [
+          [
+            [
+              "left_core",
+              "left_inner"
+            ],
+            -0.16
+          ]
+        ]
+      },
+      "genome_hash": "4562c624bfd53a36bcb683f26e6fab757975f0eb81be25d89776b69b5347ca71",
+      "edit": "archive_reference",
+      "edit_target": 1,
+      "archive_reference": {
+        "id": "initial-00",
+        "layout_hash": "f66e941bd5a9716f34e8cc33e60762d5723dfe76c48b36ad71f6815a6c6d572d",
+        "region": "east_high",
+        "corner": [
+          true,
+          true
+        ]
+      },
+      "operation": [
+        "archive_reference",
+        "east_high",
+        "east_low"
+      ],
+      "operations": [
+        {
+          "kind": "archive_reference",
+          "operation": [
+            "archive_reference",
+            "east_high",
+            "east_low"
+          ],
+          "before_genome": "b60eef5ce12eadd29eee2b8fa23e752c0947e5fe1a6bf096d38e47a9eb71b926",
+          "after_genome": "4562c624bfd53a36bcb683f26e6fab757975f0eb81be25d89776b69b5347ca71",
+          "partitions": {
+            "east_high": {
+              "before": [
+                [
+                  10.283561,
+                  4.384698
+                ],
+                [
+                  10.283561,
+                  7.982629
+                ],
+                [
+                  10.283561,
+                  10.247552
+                ],
+                [
+                  14.758417,
+                  10.247552
+                ],
+                [
+                  14.758417,
+                  8.042089091081019
+                ],
+                [
+                  12.676405073759563,
+                  8.042089091081019
+                ],
+                [
+                  12.676405073759563,
+                  4.248148
+                ],
+                [
+                  12.345787,
+                  4.248148
+                ],
+                [
+                  10.283561,
+                  4.248148
+                ],
+                [
+                  10.283561,
+                  4.384698
+                ]
+              ],
+              "after": [
+                [
+                  12.345787,
+                  4.248148
+                ],
+                [
+                  10.283561,
+                  4.248148
+                ],
+                [
+                  10.283561,
+                  4.384698
+                ],
+                [
+                  10.283561,
+                  7.982629
+                ],
+                [
+                  10.283561,
+                  10.247552
+                ],
+                [
+                  12.73389238206056,
+                  10.247552
+                ],
+                [
+                  12.73389238206056,
+                  6.51110320014686
+                ],
+                [
+                  14.758417,
+                  6.51110320014686
+                ],
+                [
+                  14.758417,
+                  4.248148
+                ],
+                [
+                  12.676405073759563,
+                  4.248148
+                ],
+                [
+                  12.345787,
+                  4.248148
+                ]
+              ]
+            },
+            "east_low": {
+              "before": [
+                [
+                  14.758417,
+                  4.248148
+                ],
+                [
+                  12.676405073759563,
+                  4.248148
+                ],
+                [
+                  12.676405073759563,
+                  8.042089091081019
+                ],
+                [
+                  14.758417,
+                  8.042089091081019
+                ],
+                [
+                  14.758417,
+                  4.248148
+                ]
+              ],
+              "after": [
+                [
+                  14.758417,
+                  10.247552
+                ],
+                [
+                  14.758417,
+                  8.042089091081019
+                ],
+                [
+                  14.758417,
+                  6.51110320014686
+                ],
+                [
+                  12.73389238206056,
+                  6.51110320014686
+                ],
+                [
+                  12.73389238206056,
+                  10.247552
+                ],
+                [
+                  14.758417,
+                  10.247552
+                ]
+              ]
+            }
+          },
+          "opening_shifts": [
+            [
+              [
+                [
+                  "east_high",
+                  "east_low"
+                ],
+                -0.32
+              ],
+              [
+                [
+                  "left_core",
+                  "left_inner"
+                ],
+                -0.16
+              ]
+            ],
+            [
+              [
+                [
+                  "left_core",
+                  "left_inner"
+                ],
+                -0.16
+              ]
+            ]
+          ],
+          "closed_pairs": [
+            [],
+            []
+          ],
+          "adjacency_added": [],
+          "adjacency_removed": [],
+          "reference": {
+            "id": "initial-00",
+            "layout_hash": "f66e941bd5a9716f34e8cc33e60762d5723dfe76c48b36ad71f6815a6c6d572d",
+            "region": "east_high",
+            "corner": [
+              true,
+              true
+            ]
+          }
+        }
+      ],
+      "failures": [
+        {
+          "operation": [
+            "archive_reference",
+            "left_inner",
+            "left_low"
+          ],
+          "reference": {
+            "id": "initial-00",
+            "layout_hash": "f66e941bd5a9716f34e8cc33e60762d5723dfe76c48b36ad71f6815a6c6d572d",
+            "region": "left_inner",
+            "corner": [
+              false,
+              false
+            ]
+          },
+          "issue": "no_legal_corner_partition"
+        },
+        {
+          "operation": [
+            "archive_reference",
+            "left_inner",
+            "left_low"
+          ],
+          "reference": {
+            "id": "single-10-06",
+            "layout_hash": "81cab796f17cd394a86700115c6c63df48ddf446db978d1fa20035c34bf64d10",
+            "region": "left_inner",
+            "corner": [
+              false,
+              true
+            ]
+          },
+          "issue": "no_legal_corner_partition"
+        }
+      ],
+      "checks": 3,
+      "id": "single-19-04",
+      "seed": 44,
+      "random_key": "177:single-parent-v3:19:4",
+      "parent_sample": {
+        "id": "single-8-00",
+        "layout_hash": "fd7c662523cc88cb62b19d5d14108b4ec846e408735a11ae1a508ee606711298",
+        "rank": 2,
+        "prior_requests": 1,
+        "weight": 0.25
+      },
+      "layout_hash": "a7c5866b4ff2b1453055c2a1c87ea1e49da9e0af93dc33e6a3283ee689b1145c",
+      "topology_changed": false,
+      "shared_evaluation": false,
+      "evidence_origin": "evaluation",
+      "duplicate_layout": false,
+      "scores": {
+        "S": 86.73294234327722,
+        "F": 55.70623874742795,
+        "P": 71.17790376805344,
+        "D": 24.858404187201458
+      },
+      "outcomes": {
+        "victory": 5,
+        "death": 7
+      },
+      "phase2": 12,
+      "missing": [],
+      "violations": {},
+      "status": "COMPLETE_DRAFT"
+    },
+    {
+      "parents": [
+        "single-17-02"
+      ],
+      "parent_layout_hash": "1035856e9e20be77371c573936e4e542da328fdbb9fb2001ad1e71c3b9fd5490",
+      "genome": {
+        "schema": "shell-pilot-genome/1",
+        "seed": 84,
+        "door_attempt": 1,
+        "repair_reasons": [
+          "net_playable_area_ratio"
+        ],
+        "partitions": [
+          [
+            "hall",
+            [
+              [
+                17.668079,
+                -3.405344
+              ],
+              [
+                15.767198,
+                -3.405344
+              ],
+              [
+                15.767198,
+                2.538911
+              ],
+              [
+                10.970496,
+                2.538911
+              ],
+              [
+                10.970496,
+                2.290611
+              ],
+              [
+                10.847336,
+                2.290611
+              ],
+              [
+                8.609741,
+                2.290611
+              ],
+              [
+                8.609741,
+                2.538911
+              ],
+              [
+                8.239189,
+                2.538911
+              ],
+              [
+                8.239189,
+                4.402488
+              ],
+              [
+                8.722581,
+                4.402488
+              ],
+              [
+                8.722581,
+                5.381195
+              ],
+              [
+                10.75554,
+                4.259878
+              ],
+              [
+                10.847336,
+                4.259878
+              ],
+              [
+                17.030991,
+                4.259878
+              ],
+              [
+                17.668079,
+                3.60656
+              ],
+              [
+                17.668079,
+                2.010751
+              ],
+              [
+                17.668079,
+                -2.420299
+              ],
+              [
+                17.668079,
+                -3.405344
+              ]
+            ]
+          ],
+          [
+            "east_end",
+            [
+              [
+                17.668079,
+                2.010751
+              ],
+              [
+                20.488089,
+                2.010751
+              ],
+              [
+                21.542334,
+                1.164118
+              ],
+              [
+                21.542334,
+                -2.420299
+              ],
+              [
+                17.668079,
+                -2.420299
+              ],
+              [
+                17.668079,
+                2.010751
+              ]
+            ]
+          ],
+          [
+            "left_core",
+            [
+              [
+                2.153914,
+                -1.967009
+              ],
+              [
+                -1.045602,
+                -1.967009
+              ],
+              [
+                -1.045602,
+                2.787584
+              ],
+              [
+                1.72987,
+                2.787584
+              ],
+              [
+                1.72987,
+                2.538911
+              ],
+              [
+                2.153914,
+                2.538911
+              ],
+              [
+                5.578689,
+                2.538911
+              ],
+              [
+                5.578689,
+                -0.881089
+              ],
+              [
+                2.153914,
+                -0.881089
+              ],
+              [
+                2.153914,
+                -1.967009
+              ]
+            ]
+          ],
+          [
+            "left_inner",
+            [
+              [
+                2.153914,
+                -4.170991987223986
+              ],
+              [
+                2.153914,
+                -2.947625162523143
+              ],
+              [
+                2.153914,
+                -0.881089
+              ],
+              [
+                5.940989506810366,
+                -0.881089
+              ],
+              [
+                8.609741,
+                -0.881089
+              ],
+              [
+                8.609741,
+                -4.165130504023596
+              ],
+              [
+                4.873181639509221,
+                -4.165130504023596
+              ],
+              [
+                4.873181639509221,
+                -6.276535
+              ],
+              [
+                2.153914,
+                -6.276535
+              ],
+              [
+                2.153914,
+                -4.232277
+              ],
+              [
+                2.153914,
+                -4.170991987223986
+              ]
+            ]
+          ],
+          [
+            "left_low",
+            [
+              [
+                8.609741,
+                -6.276535
+              ],
+              [
+                5.9242,
+                -6.276535
+              ],
+              [
+                5.8900189327600945,
+                -6.276535
+              ],
+              [
+                4.873181639509221,
+                -6.276535
+              ],
+              [
+                4.873181639509221,
+                -4.165130504023596
+              ],
+              [
+                8.609741,
+                -4.165130504023596
+              ],
+              [
+                8.609741,
+                -6.276535
+              ]
+            ]
+          ],
+          [
+            "left_upper",
+            [
+              [
+                5.578689,
+                -0.881089
+              ],
+              [
+                5.578689,
+                2.538911
+              ],
+              [
+                8.609741,
+                2.538911
+              ],
+              [
+                8.609741,
+                2.290611
+              ],
+              [
+                8.609741,
+                -0.881089
+              ],
+              [
+                5.578689,
+                -0.881089
+              ]
+            ]
+          ],
+          [
+            "north",
+            [
+              [
+                6.198813,
+                8.141386
+              ],
+              [
+                6.198813,
+                4.402488
+              ],
+              [
+                2.153914,
+                4.402488
+              ],
+              [
+                1.72987,
+                4.402488
+              ],
+              [
+                1.72987,
+                8.141386
+              ],
+              [
+                2.153914,
+                8.141386
+              ],
+              [
+                6.198813,
+                8.141386
+              ]
+            ]
+          ],
+          [
+            "north_side",
+            [
+              [
+                6.198813,
+                4.402488
+              ],
+              [
+                6.198813,
+                8.141386
+              ],
+              [
+                8.722581,
+                8.141386
+              ],
+              [
+                8.722581,
+                5.381195
+              ],
+              [
+                8.722581,
+                4.402488
+              ],
+              [
+                6.198813,
+                4.402488
+              ]
+            ]
+          ],
+          [
+            "east_high",
+            [
+              [
+                15.767198,
+                2.538911
+              ],
+              [
+                15.767198,
+                -3.405344
+              ],
+              [
+                10.970496,
+                -3.405344
+              ],
+              [
+                10.970496,
+                -1.184528
+              ],
+              [
+                13.069911,
+                -1.184528
+              ],
+              [
+                13.069911,
+                2.538911
+              ],
+              [
+                15.767198,
+                2.538911
+              ]
+            ]
+          ],
+          [
+            "east_low",
+            [
+              [
+                13.069911,
+                -1.184528
+              ],
+              [
+                10.970496,
+                -1.184528
+              ],
+              [
+                10.970496,
+                2.290611
+              ],
+              [
+                10.970496,
+                2.538911
+              ],
+              [
+                13.069911,
+                2.538911
+              ],
+              [
+                13.069911,
+                -1.184528
+              ]
+            ]
+          ],
+          [
+            "foyer",
+            [
+              [
+                2.153914,
+                4.402488
+              ],
+              [
+                8.239189,
+                4.402488
+              ],
+              [
+                8.239189,
+                2.538911
+              ],
+              [
+                2.153914,
+                2.538911
+              ],
+              [
+                1.72987,
+                2.538911
+              ],
+              [
+                1.72987,
+                2.787584
+              ],
+              [
+                1.72987,
+                4.402488
+              ],
+              [
+                2.153914,
+                4.402488
+              ]
+            ]
+          ]
+        ],
+        "edited_partition": true,
+        "closed_pairs": [
+          [
+            "left_core",
+            "left_upper"
+          ]
+        ],
+        "opening_shifts": [
+          [
+            [
+              "left_core",
+              "left_low"
+            ],
+            -0.16
+          ],
+          [
+            [
+              "left_inner",
+              "left_upper"
+            ],
+            -0.16
+          ]
+        ]
+      },
+      "genome_hash": "e45d575f285dd652de64933b8d4472784e0f6d6e20e2c456389232c02d2c1e48",
+      "edit": "diff",
+      "edit_target": 1,
+      "operation": [
+        "seal_connection",
+        "left_core",
+        "left_upper"
+      ],
+      "operations": [
+        {
+          "kind": "seal_connection",
+          "operation": [
+            "seal_connection",
+            "left_core",
+            "left_upper"
+          ],
+          "before_genome": "f5dff89c3d2ca029205032cb37c7f492a5ca3e71472cc43088dcf83b9360025f",
+          "after_genome": "e45d575f285dd652de64933b8d4472784e0f6d6e20e2c456389232c02d2c1e48",
+          "partitions": {},
+          "opening_shifts": [
+            [
+              [
+                [
+                  "left_core",
+                  "left_low"
+                ],
+                -0.16
+              ],
+              [
+                [
+                  "left_inner",
+                  "left_upper"
+                ],
+                -0.16
+              ]
+            ],
+            [
+              [
+                [
+                  "left_core",
+                  "left_low"
+                ],
+                -0.16
+              ],
+              [
+                [
+                  "left_inner",
+                  "left_upper"
+                ],
+                -0.16
+              ]
+            ]
+          ],
+          "closed_pairs": [
+            [],
+            [
+              [
+                "left_core",
+                "left_upper"
+              ]
+            ]
+          ],
+          "adjacency_added": [],
+          "adjacency_removed": [
+            [
+              "left_core",
+              "left_upper"
+            ]
+          ]
+        }
+      ],
+      "failures": [],
+      "checks": 1,
+      "id": "single-19-05",
+      "seed": 84,
+      "random_key": "177:single-parent-v3:19:5",
+      "parent_sample": {
+        "id": "single-17-02",
+        "layout_hash": "1035856e9e20be77371c573936e4e542da328fdbb9fb2001ad1e71c3b9fd5490",
+        "rank": 1,
+        "prior_requests": 0,
+        "weight": 1.0
+      },
+      "layout_hash": "bfdbe54bd2c218c58d83a278dab7e2cc29fae5b40cfbe55f0b410bafa02b91bb",
+      "topology_changed": true,
+      "shared_evaluation": false,
+      "evidence_origin": "evaluation",
+      "duplicate_layout": false,
+      "scores": {
+        "S": 82.73428771320059,
+        "F": 59.978371867651376,
+        "P": 66.79495924832781,
+        "D": 21.41871605589473
+      },
+      "outcomes": {
+        "death": 5,
+        "victory": 7
+      },
+      "phase2": 9,
+      "missing": [],
+      "violations": {},
+      "status": "COMPLETE_DRAFT"
+    },
+    {
+      "parents": [
+        "single-17-05"
+      ],
+      "parent_layout_hash": "f90dc85c9c02b5b673ee42735f2ff2eeeb334b1aba67b9557fb4299857abe58e",
+      "genome": {
+        "schema": "shell-pilot-genome/1",
+        "seed": 84,
+        "door_attempt": 1,
+        "repair_reasons": [
+          "net_playable_area_ratio"
+        ],
+        "partitions": [
+          [
+            "hall",
+            [
+              [
+                17.668079,
+                -3.405344
+              ],
+              [
+                15.767198,
+                -3.405344
+              ],
+              [
+                15.767198,
+                2.538911
+              ],
+              [
+                10.970496,
+                2.538911
+              ],
+              [
+                10.970496,
+                2.290611
+              ],
+              [
+                10.847336,
+                2.290611
+              ],
+              [
+                8.609741,
+                2.290611
+              ],
+              [
+                8.609741,
+                2.538911
+              ],
+              [
+                8.239189,
+                2.538911
+              ],
+              [
+                8.239189,
+                4.402488
+              ],
+              [
+                8.722581,
+                4.402488
+              ],
+              [
+                8.722581,
+                5.381195
+              ],
+              [
+                10.75554,
+                4.259878
+              ],
+              [
+                10.847336,
+                4.259878
+              ],
+              [
+                17.030991,
+                4.259878
+              ],
+              [
+                17.668079,
+                3.60656
+              ],
+              [
+                17.668079,
+                2.010751
+              ],
+              [
+                17.668079,
+                -2.420299
+              ],
+              [
+                17.668079,
+                -3.405344
+              ]
+            ]
+          ],
+          [
+            "east_end",
+            [
+              [
+                17.668079,
+                2.010751
+              ],
+              [
+                20.488089,
+                2.010751
+              ],
+              [
+                21.542334,
+                1.164118
+              ],
+              [
+                21.542334,
+                -2.420299
+              ],
+              [
+                17.668079,
+                -2.420299
+              ],
+              [
+                17.668079,
+                2.010751
+              ]
+            ]
+          ],
+          [
+            "left_core",
+            [
+              [
+                2.153914,
+                -1.967009
+              ],
+              [
+                -1.045602,
+                -1.967009
+              ],
+              [
+                -1.045602,
+                2.787584
+              ],
+              [
+                1.72987,
+                2.787584
+              ],
+              [
+                1.72987,
+                2.538911
+              ],
+              [
+                2.153914,
+                2.538911
+              ],
+              [
+                5.578689,
+                2.538911
+              ],
+              [
+                5.578689,
+                -0.881089
+              ],
+              [
+                2.153914,
+                -0.881089
+              ],
+              [
+                2.153914,
+                -1.967009
+              ]
+            ]
+          ],
+          [
+            "left_inner",
+            [
+              [
+                5.940989506810366,
+                -0.881089
+              ],
+              [
+                8.609741,
+                -0.881089
+              ],
+              [
+                8.609741,
+                -6.276535
+              ],
+              [
+                5.9242,
+                -6.276535
+              ],
+              [
+                5.8654618194932775,
+                -6.276535
+              ],
+              [
+                2.153914,
+                -6.276535
+              ],
+              [
+                2.153914,
+                -4.232277
+              ],
+              [
+                2.153914,
+                -4.18464479728322
+              ],
+              [
+                2.153914,
+                -2.947625162523143
+              ],
+              [
+                2.153914,
+                -0.881089
+              ],
+              [
+                5.940989506810366,
+                -0.881089
+              ]
+            ]
+          ],
+          [
+            "left_upper",
+            [
+              [
+                5.578689,
+                -0.881089
+              ],
+              [
+                5.578689,
+                2.538911
+              ],
+              [
+                8.609741,
+                2.538911
+              ],
+              [
+                8.609741,
+                2.290611
+              ],
+              [
+                8.609741,
+                -0.881089
+              ],
+              [
+                5.578689,
+                -0.881089
+              ]
+            ]
+          ],
+          [
+            "north",
+            [
+              [
+                6.198813,
+                8.141386
+              ],
+              [
+                6.198813,
+                4.402488
+              ],
+              [
+                2.153914,
+                4.402488
+              ],
+              [
+                1.72987,
+                4.402488
+              ],
+              [
+                1.72987,
+                8.141386
+              ],
+              [
+                2.153914,
+                8.141386
+              ],
+              [
+                6.198813,
+                8.141386
+              ]
+            ]
+          ],
+          [
+            "north_side",
+            [
+              [
+                6.198813,
+                4.402488
+              ],
+              [
+                6.198813,
+                8.141386
+              ],
+              [
+                8.722581,
+                8.141386
+              ],
+              [
+                8.722581,
+                5.381195
+              ],
+              [
+                8.722581,
+                4.402488
+              ],
+              [
+                6.198813,
+                4.402488
+              ]
+            ]
+          ],
+          [
+            "east_high",
+            [
+              [
+                10.970496,
+                2.290611
+              ],
+              [
+                10.970496,
+                2.538911
+              ],
+              [
+                13.069911,
+                2.538911
+              ],
+              [
+                13.678581413515118,
+                2.538911
+              ],
+              [
+                15.767198,
+                2.538911
+              ],
+              [
+                15.767198,
+                0.3249190964038875
+              ],
+              [
+                13.69440426351051,
+                0.3249190964038875
+              ],
+              [
+                13.69440426351051,
+                -3.405344
+              ],
+              [
+                10.970496,
+                -3.405344
+              ],
+              [
+                10.970496,
+                -1.184528
+              ],
+              [
+                10.970496,
+                2.290611
+              ]
+            ]
+          ],
+          [
+            "east_low",
+            [
+              [
+                15.767198,
+                -1.2100596983228304
+              ],
+              [
+                15.767198,
+                -3.405344
+              ],
+              [
+                13.69440426351051,
+                -3.405344
+              ],
+              [
+                13.69440426351051,
+                0.3249190964038875
+              ],
+              [
+                15.767198,
+                0.3249190964038875
+              ],
+              [
+                15.767198,
+                -1.2100596983228304
+              ]
+            ]
+          ],
+          [
+            "foyer",
+            [
+              [
+                2.153914,
+                4.402488
+              ],
+              [
+                8.239189,
+                4.402488
+              ],
+              [
+                8.239189,
+                2.538911
+              ],
+              [
+                2.153914,
+                2.538911
+              ],
+              [
+                1.72987,
+                2.538911
+              ],
+              [
+                1.72987,
+                2.787584
+              ],
+              [
+                1.72987,
+                4.402488
+              ],
+              [
+                2.153914,
+                4.402488
+              ]
+            ]
+          ]
+        ],
+        "edited_partition": true,
+        "closed_pairs": [],
+        "opening_shifts": [
+          [
+            [
+              "left_inner",
+              "left_upper"
+            ],
+            -0.16
+          ]
+        ]
+      },
+      "genome_hash": "4fcd4de7d294046fdca57e268e4d73500591b2546f3e3215c95823a9be3f5b6a",
+      "edit": "diff",
+      "edit_target": 1,
+      "operation": [
+        "shift_opening",
+        "left_inner",
+        "left_upper"
+      ],
+      "operations": [
+        {
+          "kind": "shift_opening",
+          "operation": [
+            "shift_opening",
+            "left_inner",
+            "left_upper"
+          ],
+          "before_genome": "c9ee72035c681640a09c876ac6d36a4c5f4a4fd763fbfab0943af5e624434e97",
+          "after_genome": "4fcd4de7d294046fdca57e268e4d73500591b2546f3e3215c95823a9be3f5b6a",
+          "partitions": {},
+          "opening_shifts": [
+            [],
+            [
+              [
+                [
+                  "left_inner",
+                  "left_upper"
+                ],
+                -0.16
+              ]
+            ]
+          ],
+          "closed_pairs": [
+            [],
+            []
+          ],
+          "adjacency_added": [],
+          "adjacency_removed": []
+        }
+      ],
+      "failures": [],
+      "checks": 1,
+      "id": "single-19-06",
+      "seed": 84,
+      "random_key": "177:single-parent-v3:19:6",
+      "parent_sample": {
+        "id": "single-17-05",
+        "layout_hash": "f90dc85c9c02b5b673ee42735f2ff2eeeb334b1aba67b9557fb4299857abe58e",
+        "rank": 2,
+        "prior_requests": 0,
+        "weight": 0.5
+      },
+      "layout_hash": "6f1c2e4f5368380375ea266de3c83fc5122361e4bfa6c33522f87c11c58e2854",
+      "topology_changed": false,
+      "shared_evaluation": false,
+      "evidence_origin": "evaluation",
+      "duplicate_layout": false,
+      "scores": {
+        "S": 84.83428500083488,
+        "F": 69.31813401442307,
+        "P": 69.79486593279374,
+        "D": 12.912544975301667
+      },
+      "outcomes": {
+        "victory": 8,
+        "death": 4
+      },
+      "phase2": 12,
+      "missing": [],
+      "violations": {},
+      "status": "COMPLETE_DRAFT"
+    },
+    {
+      "parents": [
+        "single-4-03"
+      ],
+      "parent_layout_hash": "2d7999b3cf4d34fbe22f7ef08111a542318cfcb5a06904af6e065e821617bdb0",
+      "genome": {
+        "schema": "shell-pilot-genome/1",
+        "seed": 6,
+        "door_attempt": 1,
+        "repair_reasons": [
+          "net_playable_area_ratio"
+        ],
+        "partitions": [
+          [
+            "hall",
+            [
+              [
+                17.854675,
+                4.192297
+              ],
+              [
+                17.854675,
+                3.072729
+              ],
+              [
+                17.155409,
+                2.390828
+              ],
+              [
+                10.911859,
+                2.390828
+              ],
+              [
+                10.821611,
+                2.390828
+              ],
+              [
+                8.822921,
+                1.220451
+              ],
+              [
+                8.822921,
+                1.052871
+              ],
+              [
+                3.016529,
+                1.052871
+              ],
+              [
+                3.016529,
+                3.927536
+              ],
+              [
+                3.016529,
+                4.343086
+              ],
+              [
+                8.710499,
+                4.343086
+              ],
+              [
+                8.710499,
+                4.446252
+              ],
+              [
+                10.911859,
+                4.446252
+              ],
+              [
+                11.032943,
+                4.446252
+              ],
+              [
+                11.032943,
+                4.343086
+              ],
+              [
+                15.834151,
+                4.343086
+              ],
+              [
+                15.834151,
+                10.391411
+              ],
+              [
+                17.854675,
+                10.391411
+              ],
+              [
+                17.854675,
+                9.285033
+              ],
+              [
+                17.854675,
+                4.192297
+              ]
+            ]
+          ],
+          [
+            "east_end",
+            [
+              [
+                17.854675,
+                9.285033
+              ],
+              [
+                21.089746,
+                9.285033
+              ],
+              [
+                21.089746,
+                5.07597
+              ],
+              [
+                20.001046,
+                4.192297
+              ],
+              [
+                17.854675,
+                4.192297
+              ],
+              [
+                17.854675,
+                9.285033
+              ]
+            ]
+          ],
+          [
+            "left_core",
+            [
+              [
+                2.179121,
+                7.763086
+              ],
+              [
+                5.60206,
+                7.763086
+              ],
+              [
+                5.60206,
+                4.343086
+              ],
+              [
+                3.016529,
+                4.343086
+              ],
+              [
+                3.016529,
+                3.927536
+              ],
+              [
+                2.179121,
+                3.927536
+              ],
+              [
+                -1.94713,
+                3.927536
+              ],
+              [
+                -1.94713,
+                8.890148
+              ],
+              [
+                2.179121,
+                8.890148
+              ],
+              [
+                2.179121,
+                7.763086
+              ]
+            ]
+          ],
+          [
+            "left_inner",
+            [
+              [
+                2.179121,
+                7.763086
+              ],
+              [
+                2.179121,
+                11.73867
+              ],
+              [
+                4.90098,
+                11.73867
+              ],
+              [
+                8.710499,
+                11.73867
+              ],
+              [
+                8.710499,
+                9.760115711718335
+              ],
+              [
+                4.890997646353224,
+                9.760115711718335
+              ],
+              [
+                4.890997646353224,
+                7.763086
+              ],
+              [
+                2.179121,
+                7.763086
+              ]
+            ]
+          ],
+          [
+            "left_low",
+            [
+              [
+                4.890997646353224,
+                7.763086
+              ],
+              [
+                4.890997646353224,
+                9.760115711718335
+              ],
+              [
+                8.710499,
+                9.760115711718335
+              ],
+              [
+                8.710499,
+                9.739866
+              ],
+              [
+                8.710499,
+                7.763086
+              ],
+              [
+                4.890997646353224,
+                7.763086
+              ]
+            ]
+          ],
+          [
+            "left_upper",
+            [
+              [
+                5.60206,
+                4.343086
+              ],
+              [
+                5.60206,
+                7.763086
+              ],
+              [
+                8.710499,
+                7.763086
+              ],
+              [
+                8.710499,
+                4.446252
+              ],
+              [
+                8.710499,
+                4.343086
+              ],
+              [
+                5.60206,
+                4.343086
+              ]
+            ]
+          ],
+          [
+            "north",
+            [
+              [
+                3.016529,
+                1.052871
+              ],
+              [
+                8.822921,
+                1.052871
+              ],
+              [
+                8.822921,
+                -2.451884
+              ],
+              [
+                3.016529,
+                -2.451884
+              ],
+              [
+                3.016529,
+                1.052871
+              ]
+            ]
+          ],
+          [
+            "east_high",
+            [
+              [
+                13.819880072221585,
+                10.391411
+              ],
+              [
+                15.834151,
+                10.391411
+              ],
+              [
+                15.834151,
+                8.098996
+              ],
+              [
+                15.834151,
+                8.0857438374908
+              ],
+              [
+                13.81246834825238,
+                8.0857438374908
+              ],
+              [
+                13.81246834825238,
+                4.343086
+              ],
+              [
+                13.782728,
+                4.343086
+              ],
+              [
+                11.032943,
+                4.343086
+              ],
+              [
+                11.032943,
+                4.446252
+              ],
+              [
+                11.032943,
+                10.391411
+              ],
+              [
+                13.772977746531431,
+                10.391411
+              ],
+              [
+                13.819880072221585,
+                10.391411
+              ]
+            ]
+          ],
+          [
+            "east_low",
+            [
+              [
+                15.834151,
+                6.648453088218023
+              ],
+              [
+                15.834151,
+                6.641897383779984
+              ],
+              [
+                15.834151,
+                4.343086
+              ],
+              [
+                13.81246834825238,
+                4.343086
+              ],
+              [
+                13.81246834825238,
+                8.0857438374908
+              ],
+              [
+                15.834151,
+                8.0857438374908
+              ],
+              [
+                15.834151,
+                6.648453088218023
+              ]
+            ]
+          ]
+        ],
+        "edited_partition": true,
+        "closed_pairs": [],
+        "opening_shifts": [
+          [
+            [
+              "left_low",
+              "left_upper"
+            ],
+            0.16
+          ]
+        ]
+      },
+      "genome_hash": "ebe5a1473cfb338436779fd3d3785de2c08bf410b7b5c5a6502fef7e9c5bfe89",
+      "edit": "full",
+      "edit_target": 1,
+      "operation": [
+        "rewrite_region",
+        "east_high",
+        "east_low"
+      ],
+      "operations": [
+        {
+          "kind": "rewrite_region",
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "before_genome": "e1e8d9a62735212bd639469c734df6b7842ed0924e976aab7f108d11942e4d3e",
+          "after_genome": "ebe5a1473cfb338436779fd3d3785de2c08bf410b7b5c5a6502fef7e9c5bfe89",
+          "partitions": {
+            "east_high": {
+              "before": [
+                [
+                  11.032943,
+                  10.391411
+                ],
+                [
+                  13.772977746531431,
+                  10.391411
+                ],
+                [
+                  13.819880072221585,
+                  10.391411
+                ],
+                [
+                  13.819880072221585,
+                  6.641897383779984
+                ],
+                [
+                  15.834151,
+                  6.641897383779984
+                ],
+                [
+                  15.834151,
+                  4.343086
+                ],
+                [
+                  13.782728,
+                  4.343086
+                ],
+                [
+                  11.032943,
+                  4.343086
+                ],
+                [
+                  11.032943,
+                  4.446252
+                ],
+                [
+                  11.032943,
+                  10.391411
+                ]
+              ],
+              "after": [
+                [
+                  13.819880072221585,
+                  10.391411
+                ],
+                [
+                  15.834151,
+                  10.391411
+                ],
+                [
+                  15.834151,
+                  8.098996
+                ],
+                [
+                  15.834151,
+                  8.0857438374908
+                ],
+                [
+                  13.81246834825238,
+                  8.0857438374908
+                ],
+                [
+                  13.81246834825238,
+                  4.343086
+                ],
+                [
+                  13.782728,
+                  4.343086
+                ],
+                [
+                  11.032943,
+                  4.343086
+                ],
+                [
+                  11.032943,
+                  4.446252
+                ],
+                [
+                  11.032943,
+                  10.391411
+                ],
+                [
+                  13.772977746531431,
+                  10.391411
+                ],
+                [
+                  13.819880072221585,
+                  10.391411
+                ]
+              ]
+            },
+            "east_low": {
+              "before": [
+                [
+                  15.834151,
+                  10.391411
+                ],
+                [
+                  15.834151,
+                  8.098996
+                ],
+                [
+                  15.834151,
+                  6.648453088218023
+                ],
+                [
+                  15.834151,
+                  6.641897383779984
+                ],
+                [
+                  13.819880072221585,
+                  6.641897383779984
+                ],
+                [
+                  13.819880072221585,
+                  10.391411
+                ],
+                [
+                  15.834151,
+                  10.391411
+                ]
+              ],
+              "after": [
+                [
+                  15.834151,
+                  6.648453088218023
+                ],
+                [
+                  15.834151,
+                  6.641897383779984
+                ],
+                [
+                  15.834151,
+                  4.343086
+                ],
+                [
+                  13.81246834825238,
+                  4.343086
+                ],
+                [
+                  13.81246834825238,
+                  8.0857438374908
+                ],
+                [
+                  15.834151,
+                  8.0857438374908
+                ],
+                [
+                  15.834151,
+                  6.648453088218023
+                ]
+              ]
+            }
+          },
+          "opening_shifts": [
+            [
+              [
+                [
+                  "left_low",
+                  "left_upper"
+                ],
+                0.16
+              ]
+            ],
+            [
+              [
+                [
+                  "left_low",
+                  "left_upper"
+                ],
+                0.16
+              ]
+            ]
+          ],
+          "closed_pairs": [
+            [],
+            []
+          ],
+          "adjacency_added": [],
+          "adjacency_removed": []
+        }
+      ],
+      "failures": [
+        {
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "issue": "godot_link_endpoint_missing:player:gate_12"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "issue": "no_safe_window"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "issue": "godot_link_endpoint_missing:player:gate_12"
+        }
+      ],
+      "checks": 4,
+      "id": "single-19-07",
+      "seed": 6,
+      "random_key": "177:single-parent-v3:19:7",
+      "parent_sample": {
+        "id": "single-4-03",
+        "layout_hash": "2d7999b3cf4d34fbe22f7ef08111a542318cfcb5a06904af6e065e821617bdb0",
+        "rank": 1,
+        "prior_requests": 2,
+        "weight": 0.3333333333333333
+      },
+      "layout_hash": "ec13b285edc2e115e8cd1208b6815a60bac32e1b0cdfcfcd2e61a88149221748",
+      "topology_changed": false,
+      "shared_evaluation": false,
+      "evidence_origin": "evaluation",
+      "duplicate_layout": false,
+      "scores": {
+        "S": 89.16184711493598,
+        "F": 59.687500000000014,
+        "P": 57.60221902834904,
+        "D": 16.422115311338718
+      },
+      "outcomes": {
+        "death": 1,
+        "victory": 11
+      },
+      "phase2": 12,
+      "missing": [],
+      "violations": {},
+      "status": "COMPLETE_DRAFT"
+    }
+  ],
+  "selection": {
+    "single-10-07": {
+      "retained": true,
+      "reason": "retained_scored",
+      "rank": 1
+    },
+    "single-15-03": {
+      "retained": true,
+      "reason": "retained_scored",
+      "rank": 1
+    },
+    "single-16-05": {
+      "retained": true,
+      "reason": "retained_scored",
+      "rank": 1
+    },
+    "single-17-04": {
+      "retained": true,
+      "reason": "retained_scored",
+      "rank": 1
+    },
+    "single-17-06": {
+      "retained": true,
+      "reason": "retained_scored",
+      "rank": 1
+    },
+    "single-3-05": {
+      "retained": true,
+      "reason": "retained_scored",
+      "rank": 1
+    },
+    "single-18-02": {
+      "retained": false,
+      "reason": "pareto_rank_or_crowding",
+      "rank": 1
+    },
+    "single-15-06": {
+      "retained": true,
+      "reason": "retained_scored",
+      "rank": 1
+    },
+    "single-19-00": {
+      "retained": false,
+      "reason": "invalid",
+      "rank": null
+    },
+    "single-19-01": {
+      "retained": true,
+      "reason": "retained_scored",
+      "rank": 1
+    },
+    "single-19-02": {
+      "retained": false,
+      "reason": "pareto_rank_or_crowding",
+      "rank": 2
+    },
+    "single-19-03": {
+      "retained": false,
+      "reason": "pareto_rank_or_crowding",
+      "rank": 1
+    },
+    "single-19-04": {
+      "retained": false,
+      "reason": "pareto_rank_or_crowding",
+      "rank": 1
+    },
+    "single-19-05": {
+      "retained": false,
+      "reason": "pareto_rank_or_crowding",
+      "rank": 2
+    },
+    "single-19-06": {
+      "retained": false,
+      "reason": "pareto_rank_or_crowding",
+      "rank": 1
+    },
+    "single-19-07": {
+      "retained": false,
+      "reason": "pareto_rank_or_crowding",
+      "rank": 1
+    }
+  },
+  "survivors": [
+    "single-10-07",
+    "single-15-03",
+    "single-16-05",
+    "single-17-04",
+    "single-17-06",
+    "single-3-05",
+    "single-15-06",
+    "single-19-01"
+  ],
+  "current_pareto": [
+    "single-10-07",
+    "single-15-03",
+    "single-15-06",
+    "single-16-05",
+    "single-17-04",
+    "single-17-06",
+    "single-19-01",
+    "single-3-05"
+  ],
+  "cumulative_pareto": [
+    "initial-00",
+    "initial-02",
+    "initial-04",
+    "single-10-01",
+    "single-10-06",
+    "single-10-07",
+    "single-11-02",
+    "single-11-03",
+    "single-11-05",
+    "single-12-00",
+    "single-12-01",
+    "single-12-02",
+    "single-12-04",
+    "single-12-05",
+    "single-12-06",
+    "single-13-01",
+    "single-13-04",
+    "single-13-06",
+    "single-13-07",
+    "single-14-04",
+    "single-14-05",
+    "single-14-07",
+    "single-15-01",
+    "single-15-03",
+    "single-15-04",
+    "single-15-06",
+    "single-16-05",
+    "single-16-06",
+    "single-17-02",
+    "single-17-04",
+    "single-17-06",
+    "single-17-07",
+    "single-18-00",
+    "single-18-02",
+    "single-18-04",
+    "single-18-05",
+    "single-18-07",
+    "single-19-01",
+    "single-19-03",
+    "single-19-07",
+    "single-2-03",
+    "single-2-07",
+    "single-3-05",
+    "single-3-07",
+    "single-4-01",
+    "single-4-03",
+    "single-5-07",
+    "single-6-00",
+    "single-6-02",
+    "single-6-03",
+    "single-7-00",
+    "single-7-04",
+    "single-8-01",
+    "single-8-04",
+    "single-9-04",
+    "single-9-05",
+    "single-9-06"
+  ],
+  "representative": "single-15-06",
+  "best_by_objective": {
+    "S": "single-17-04",
+    "F": "single-3-05",
+    "P": "single-15-03",
+    "D": "single-17-06"
+  },
+  "scored_count": 8,
+  "selection_fallback": false
+}

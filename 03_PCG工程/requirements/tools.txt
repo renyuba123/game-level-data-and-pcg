@@ -1,0 +1,5 @@
+# Optional Viewer and test tools. Run from the project root.
+# Install with the matching tools-lock.txt to reproduce the validated environment.
+streamlit
+plotly
+pytest

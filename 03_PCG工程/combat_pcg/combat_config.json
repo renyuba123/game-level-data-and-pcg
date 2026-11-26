@@ -1,0 +1,19 @@
+{
+  "schema_version": "combat-pcg/3",
+  "protocol_id": "combat_v3_draft_001",
+  "frozen": false,
+  "parameter_status": "All numeric combat values below are provisional research assumptions, not official game data.",
+  "units": "model_m",
+  "simulation": {"tick_s": 0.05, "time_limit_s": 180, "seed_streams": ["perception", "aim", "decision", "stalker"]},
+  "player": {"radius_m": 0.35, "height_m": 1.8, "hp": 100, "speed_mps": 5.0, "aim_speed_mps": 2.0, "reaction_s": 0.25, "turn_deg_per_s": 180, "fov_deg": 80, "aim_fov_deg": 55, "vision_range_m": 30},
+  "boss": {"radius_m": 0.58, "height_m": 2.2, "speed_mps": 4.2, "hp": 1000, "grab_range_m": 1.2, "attack_warning_s": 0.6, "grab_requires_clearance_and_los": true, "awareness": "visible_target_or_heard_event_then_last_known_position"},
+  "weapon": {"type": "hitscan_single_research_weapon", "damage": 40, "fire_interval_s": 0.3, "aim_s": 0.35, "reload_s": 2.0, "magazine": 8, "range_m": 30, "angular_error_sd_deg": 1.5, "must_test_camera_and_muzzle_separately": true},
+  "supplies": {"initial_rounds_including_magazine": 12, "pack_count": 6, "rounds_per_pack": 8, "pickup_s": 0.4, "pickup_radius_m": 1.25, "respawn": false, "positions_are_genes": true},
+  "portals": {"through_player_squeeze_s": 0.65, "through_player_interaction_range_m": 1.6, "through_boss_smash_s": 1.5, "break_boss_smash_s": 1.8, "player_can_break": false, "after_boss_smash": "both_roles_open"},
+  "stalker": {"split_hp_fraction": 0.5, "crossing_hit_overflow": "discard_and_clamp_to_threshold", "boss_kill_only_after_split_in_later_tick": true, "spawn": "collision_valid_point_near_boss_not_behind_player_teleport", "radius_m": 0.3, "speed_mps": 4.8, "damage": 20, "warning_s": 0.6, "control_s": 0.8, "cooldown_s": 4.0, "states": ["hide", "approach", "warn", "control", "retreat"], "shot_response": "interrupt_and_retreat", "independent_final_arena": false},
+  "termination": {"success": "large_boss_hp_zero", "death": "valid_large_boss_grab_or_player_hp_zero", "timeout": "separate_non_victory", "exit_is_victory": false, "simultaneous_grab_and_lethal_shot": "earliest_event_time_then_death_on_exact_tie"},
+  "sampling": {"policies": ["output", "occlusion", "supply"], "scenario_seeds": [0, 1, 2, 3], "episodes_per_candidate": 12, "heldout_seeds": [101, 102, 103, 104]},
+  "search_budget": {"arms": ["legacy_ga", "full_ga", "full_random"], "seeds": [11, 29, 47], "population": 32, "reproductions": 20, "candidate_requests": 6048, "counterfactual_full_simulation_count": 72576},
+  "score_sampling": {"grid_m": 0.5, "maximum_alternative_endpoint_pairs": 32, "loss_of_target_min_s": 0.5, "threat_margin_s": 0.5},
+  "provenance": {"official_numeric_parameters": false, "geometry_source": "Python Layout", "graph_source": "shuwang.graph", "physical_scale_calibrated": false}
+}

@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dgehnjmh53pih"]
+
+[ext_resource type="Script" uid="uid://dsm2urht17igo" path="res://scripts/shell_main.gd" id="1_main"]
+
+[node name="RatKingPCG" type="Node3D" unique_id=1724627372]
+script = ExtResource("1_main")
+map_seed = 178
+map_size = 1.5
+player_aim_speed = 2.65
+boss_speed = 2.0
+boss_attack_warning = 0.85
+stalker_speed = 2.2
+stalker_damage = 17.0
+weapon_damage = 51.0
+weapon_fire_interval = 0.26
+weapon_aim_seconds = 0.25
+weapon_reload_seconds = 1.6
+supply_pickup_seconds = 0.3
+supply_pickup_range = null

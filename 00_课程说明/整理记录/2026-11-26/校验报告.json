@@ -1,0 +1,402 @@
+{
+  "moved_files": 217,
+  "relocation_integrity": "PASS",
+  "all_originals_and_figures_unchanged": true,
+  "preexisting_qa_mismatches": [
+    {
+      "run_id": "ratking_run-001",
+      "path_before_move": "outputs/ratking_run-001/ratking_run-001_edited.ai",
+      "historical_manifest_sha256": "5344afdaa3093b15b0ea0c95d8b1620323d6cabd06979ecb6248e5350469acd2",
+      "sha256_before_reorganization": "6092d700db82e632c8ffbb1c16aa3d334dce92cdeb92ba491ec536b098dd9e46"
+    },
+    {
+      "run_id": "ratking_run-001",
+      "path_before_move": "鼠王关.dxf",
+      "historical_manifest_sha256": "99cb95e8c010775ceb3f27a4f3ba7677f04e2aaa71185ea776a446aca9f939d1",
+      "sha256_before_reorganization": "73c11ed96449e98648236d5549c9e1a15796bfb5c978de993baca7a31b33bff1"
+    },
+    {
+      "run_id": "ratking_run-002",
+      "path_before_move": "outputs/ratking_run-002/ratking_run-002_edited.ai",
+      "historical_manifest_sha256": "a43a2d1eaa7a9d7c741f785bdf49131c209eea33de652aeac708319454151b04",
+      "sha256_before_reorganization": "c860e7ee7d1157c9d0401ed6aa3c85c83b587f97d58c5c1681e83d15c4de67f8"
+    },
+    {
+      "run_id": "ratking_run-002",
+      "path_before_move": "鼠王关.dxf",
+      "historical_manifest_sha256": "99cb95e8c010775ceb3f27a4f3ba7677f04e2aaa71185ea776a446aca9f939d1",
+      "sha256_before_reorganization": "73c11ed96449e98648236d5549c9e1a15796bfb5c978de993baca7a31b33bff1"
+    },
+    {
+      "run_id": "ratking_run-002",
+      "path_before_move": "outputs/ratking_run-002/movement_from_edited_ai.svg",
+      "historical_manifest_sha256": "031cb63218a6b0d2606c31741c0501f84e3b6b24a8ad0f834522dc097c020ffe",
+      "sha256_before_reorganization": "099c7993b5a32dba4472d2e63e8d4bddc6641554ed8e73e7846e6b730b17ad0b"
+    },
+    {
+      "run_id": "ratking_run-002",
+      "path_before_move": "outputs/ratking_run-002/events_from_edited_ai.svg",
+      "historical_manifest_sha256": "fb0988cac072e2444871bf0d5b0be04d76995f81689f782c6c6710cdc5189d26",
+      "sha256_before_reorganization": "1be85bb7dcd69d1cfcc777d654560869aa954de8c4646f61380f0b178f07aba7"
+    },
+    {
+      "run_id": "ratking_run-002",
+      "path_before_move": "outputs/ratking_run-002/events_from_edited_ai.png",
+      "historical_manifest_sha256": "e883e15e2fb969ea0811ddc6c66e5391a196428ab26b590dea5e6c14b3f65a5c",
+      "sha256_before_reorganization": "5fcde79318232e6580a3127921505c6f676c8fbeb6d1663d27d2edb74be07ba7"
+    },
+    {
+      "run_id": "ratking_run-002",
+      "path_before_move": "outputs/ratking_run-002/convex_from_edited_ai.svg",
+      "historical_manifest_sha256": "499c211561d29e346bb26c3e6b09b8419104ffdbd307806b1d0585960b11011c",
+      "sha256_before_reorganization": "71934a7a42cfcdde2bf4b04f4d347727a31626db58c67d0d7e0f28e278d10d3d"
+    },
+    {
+      "run_id": "ratking_run-002",
+      "path_before_move": "outputs/ratking_run-002/convex_from_edited_ai.png",
+      "historical_manifest_sha256": "98b85ae5f32aea4bb7b0b718d68c74a48cbb90d7aa0605f3042984a29999d923",
+      "sha256_before_reorganization": "2b6962e42147aa0b5079226e6409a4686fab89a712764f8491d57f4fb81e4cf2"
+    },
+    {
+      "run_id": "ratking_run-002",
+      "path_before_move": "outputs/ratking_run-002/visibility_from_edited_ai.svg",
+      "historical_manifest_sha256": "1ee49533a9978581371933d976e45eb076a2bc50580b1406f02d5f0426fe28e2",
+      "sha256_before_reorganization": "1c0ff5d937f4d830986f71833eefc1a37560d7d455824ed0ad4b603511aa9c93"
+    },
+    {
+      "run_id": "ratking_run-002",
+      "path_before_move": "outputs/ratking_run-002/visibility_from_edited_ai.png",
+      "historical_manifest_sha256": "2affac365367fd295477ff9279b0e5907fc1e08d6ea46edadf7c67b62469d963",
+      "sha256_before_reorganization": "a32d7d0185fc548dd4804f92390676560683d1406c7cbd4ffe1ad34a1fc423e3"
+    },
+    {
+      "run_id": "ratking_run-002",
+      "path_before_move": "outputs/ratking_run-002/gate_counts_from_edited_ai.svg",
+      "historical_manifest_sha256": "57ce1f6afe3e3e942310c69c47633b6f110a19b72047e35a98e95c1ad4b9a112",
+      "sha256_before_reorganization": "13be37c8a40dfac070e7cdadc6eb9488d7a0612447655fd13d90be35adeedecb"
+    },
+    {
+      "run_id": "ratking_run-002",
+      "path_before_move": "outputs/ratking_run-002/gate_counts_from_edited_ai.png",
+      "historical_manifest_sha256": "8f52d696f0eceb450d658c73be15ea3af1871458fd8b11dac1473febe3002370",
+      "sha256_before_reorganization": "bb48c042e8793137531aea0d7727c890f7f58ea7cd12d30e48dd6ed966040f81"
+    },
+    {
+      "run_id": "ratking_run-002",
+      "path_before_move": "outputs/ratking_run-002/metric_distance_from_edited_ai.svg",
+      "historical_manifest_sha256": "29c4aba12a70b892672e9c68ed734fcce33107c1c91b875855c8bcf1fef3b7ed",
+      "sha256_before_reorganization": "9e6a5a05af7103403a4840dfe05ea27c4bdc03be6a6ffd13eab546d630db3819"
+    },
+    {
+      "run_id": "ratking_run-002",
+      "path_before_move": "outputs/ratking_run-002/metric_distance_from_edited_ai.png",
+      "historical_manifest_sha256": "90dcc6cbe71d1a7b2d878e1c4aa51f918d9a971efecf1ad5b9b41d65e5d0580f",
+      "sha256_before_reorganization": "b041ceffd04d57fd351c56b2635f90a02d77029ef09cbb3422c14fc5318c0a1a"
+    },
+    {
+      "run_id": "ratking_run-003",
+      "path_before_move": "outputs/ratking_run-003/ratking_run-003_edited.ai",
+      "historical_manifest_sha256": "2a90d0734870a9d6abb70c5443aa84303b44e23841a3fdd3cc3e5692a2bc7c85",
+      "sha256_before_reorganization": "d8ed0e50f880b892dda5ca3d52a9c9b6bdbad778a334cdeab0429b048261284c"
+    },
+    {
+      "run_id": "ratking_run-003",
+      "path_before_move": "鼠王关.dxf",
+      "historical_manifest_sha256": "99cb95e8c010775ceb3f27a4f3ba7677f04e2aaa71185ea776a446aca9f939d1",
+      "sha256_before_reorganization": "73c11ed96449e98648236d5549c9e1a15796bfb5c978de993baca7a31b33bff1"
+    },
+    {
+      "run_id": "ratking_run-003",
+      "path_before_move": "outputs/ratking_run-003/movement_from_edited_ai.svg",
+      "historical_manifest_sha256": "c486aa2ebc0687ecf12aa6262d89b11ae2ddc4ab7fbef0fa13129ec574683b07",
+      "sha256_before_reorganization": "2ae9c80b6bdcfe0315fc8b606eb6f80da1ba391f5814839dff20eef908a81eb5"
+    },
+    {
+      "run_id": "ratking_run-003",
+      "path_before_move": "outputs/ratking_run-003/events_from_edited_ai.svg",
+      "historical_manifest_sha256": "1a81689c3e14bbac5af3f4e28a909d08a4fd23590d645206536a3fefb4e1268f",
+      "sha256_before_reorganization": "375ea6bf13111a58c45f8b2919c4960f71c87f43d20b94939f27b0398196168f"
+    },
+    {
+      "run_id": "ratking_run-003",
+      "path_before_move": "outputs/ratking_run-003/events_from_edited_ai.png",
+      "historical_manifest_sha256": "bfc050a87ae8379c1e0bbfe0dd4b7d7bb13d75384cd6ba7d7445b86c8b15d9c7",
+      "sha256_before_reorganization": "71ed08e3c260e76ffff6279fee880133dbeb80b617abe2eb1d9c1972c14090ee"
+    },
+    {
+      "run_id": "ratking_run-003",
+      "path_before_move": "outputs/ratking_run-003/convex_from_edited_ai.svg",
+      "historical_manifest_sha256": "9b8bdd5a80d4383d9880afbe6551455f4a6b20e27fb4c873907c3e6da14d4bcd",
+      "sha256_before_reorganization": "6eeff68e527fd1ea3abd7b62e5d861b1c98bab190454d345d737485a54529791"
+    },
+    {
+      "run_id": "ratking_run-003",
+      "path_before_move": "outputs/ratking_run-003/convex_from_edited_ai.png",
+      "historical_manifest_sha256": "1e07e696c80be83141642ff1bddf3396df404a04cb8c033c0598ebe21393d4cd",
+      "sha256_before_reorganization": "fee76f017eece03965cc69c3d19aefea12c91f88246cb10cd0ce029796df6ca3"
+    },
+    {
+      "run_id": "ratking_run-003",
+      "path_before_move": "outputs/ratking_run-003/visibility_from_edited_ai.svg",
+      "historical_manifest_sha256": "b8420e67d840d5d87866a07a05f429b6f65a481e7a1f9914a937bfe0db165086",
+      "sha256_before_reorganization": "c3318f2a24077d7201339ae292a176c7e9c86e0d8a6cc3e657c3dd7fbcbb5d66"
+    },
+    {
+      "run_id": "ratking_run-003",
+      "path_before_move": "outputs/ratking_run-003/visibility_from_edited_ai.png",
+      "historical_manifest_sha256": "7629f3e367a3379cac57682be201a30290640bc32a4dc05c91a49cb265032b8a",
+      "sha256_before_reorganization": "23bc84f188ae63fcbd6b6019c23a110adad7e5bfdbd2d7c8d06e6119d938bdfa"
+    },
+    {
+      "run_id": "ratking_run-003",
+      "path_before_move": "outputs/ratking_run-003/gate_counts_from_edited_ai.svg",
+      "historical_manifest_sha256": "fd51d400b20bc5578c769ecc9a0bed8b4fbaf240208ebb7a126bf2fe43dce38b",
+      "sha256_before_reorganization": "62ad19bd59f2fa3a19c1311bdb0bac0ebcfa44c371aa49c70077e9d52e1e5a9f"
+    },
+    {
+      "run_id": "ratking_run-003",
+      "path_before_move": "outputs/ratking_run-003/gate_counts_from_edited_ai.png",
+      "historical_manifest_sha256": "1d2790cd41190f7b069c19c5d759194f63608a33e9fda67c352be0656e485184",
+      "sha256_before_reorganization": "7fb2dc46866020e937996625472d1dc5915aef4bf7febb05def104ad67b1a232"
+    },
+    {
+      "run_id": "ratking_run-003",
+      "path_before_move": "outputs/ratking_run-003/metric_distance_from_edited_ai.svg",
+      "historical_manifest_sha256": "092dad280ba19204c7737047fe065da24c7159b584d21125ceead400e8f618a3",
+      "sha256_before_reorganization": "7530a6781d0d4db583a6c057991400b78e3af1567c5838271d7a659ecda073ef"
+    },
+    {
+      "run_id": "ratking_run-003",
+      "path_before_move": "outputs/ratking_run-003/metric_distance_from_edited_ai.png",
+      "historical_manifest_sha256": "3c18c9d085230d4b5b53a5f2ba04c529e60a3d9cf6d21eb18c56d4b81247974b",
+      "sha256_before_reorganization": "1451a12bbbd6ca00f5d05cfb486eaf5ee105c31d93a693c9647811a58a1c1ffe"
+    },
+    {
+      "run_id": "ratking_run-004",
+      "path_before_move": "outputs/ratking_run-004/ratking_run-004_edited.ai",
+      "historical_manifest_sha256": "516b1cb1575bb334842c57904c91b35e3cccaf489c32ffce31dcf9ae589c6610",
+      "sha256_before_reorganization": "814869fa70d7a78bc2e1abdc8bee3dc36cafe66e7a8e71556344a248fcd51049"
+    },
+    {
+      "run_id": "ratking_run-004",
+      "path_before_move": "鼠王关.dxf",
+      "historical_manifest_sha256": "99cb95e8c010775ceb3f27a4f3ba7677f04e2aaa71185ea776a446aca9f939d1",
+      "sha256_before_reorganization": "73c11ed96449e98648236d5549c9e1a15796bfb5c978de993baca7a31b33bff1"
+    },
+    {
+      "run_id": "ratking_run-004",
+      "path_before_move": "outputs/ratking_run-004/movement_from_edited_ai.svg",
+      "historical_manifest_sha256": "d7d4eb924ae3eac6a2517886b51bea18208239736ce933617913b8d357613037",
+      "sha256_before_reorganization": "9dd13164ee083391cc501ad3f6a8e4e1e48dc2233ec4692a5400d3b4a8ed39ef"
+    },
+    {
+      "run_id": "ratking_run-004",
+      "path_before_move": "outputs/ratking_run-004/movement_from_edited_ai.png",
+      "historical_manifest_sha256": "32e3be5dd0b8e29d8be102bb94de07ec77b9e098c0da62fdb88a31ebd71e60e3",
+      "sha256_before_reorganization": "5ca6034eab813a8f42ee7c4b8342e66d583c103808aba3bedb8155004e34d618"
+    },
+    {
+      "run_id": "ratking_run-004",
+      "path_before_move": "outputs/ratking_run-004/events_from_edited_ai.svg",
+      "historical_manifest_sha256": "840b00c0d8752820d7e29bccfbd881e9470f871813b67e69c78d3f98cc5213d6",
+      "sha256_before_reorganization": "26cd93b579a7b50105d265d2bc9573bde7c4e7c180412e176bd1c6ba82592eea"
+    },
+    {
+      "run_id": "ratking_run-004",
+      "path_before_move": "outputs/ratking_run-004/events_from_edited_ai.png",
+      "historical_manifest_sha256": "7282957cc3a0eb26576b8003dc3144373261a148a1fd73de584a8ca840978db9",
+      "sha256_before_reorganization": "3df91b4795da956da71e5da26f6e3cf84480b97d77a3665a37c969ef6006006e"
+    },
+    {
+      "run_id": "ratking_run-004",
+      "path_before_move": "outputs/ratking_run-004/convex_from_edited_ai.svg",
+      "historical_manifest_sha256": "19bc83b72e3ccc54b3b83fb2e539a45544a6553ba768c10679c9a5d30f2828b5",
+      "sha256_before_reorganization": "12d8a26aa915d99c3cebda269689a6aaf1079250c9148eb15bd8707e2d05ac61"
+    },
+    {
+      "run_id": "ratking_run-004",
+      "path_before_move": "outputs/ratking_run-004/convex_from_edited_ai.png",
+      "historical_manifest_sha256": "8ce33b04e693aa59ec055fa9b43ad7fdefd75436647d1d83ad050b9daf8e8725",
+      "sha256_before_reorganization": "33c8ee7dd4d626734f688627ce83119de6c580b940aa009334110229451c1912"
+    },
+    {
+      "run_id": "ratking_run-004",
+      "path_before_move": "outputs/ratking_run-004/visibility_from_edited_ai.svg",
+      "historical_manifest_sha256": "d0b2ddaf4e8607c45931bb395b56110b91e90f775cb107a378197bfed29139f9",
+      "sha256_before_reorganization": "683bf055f8ad9a878602470c2b1309351879e08664e7cf735466c2fbcb95e1be"
+    },
+    {
+      "run_id": "ratking_run-004",
+      "path_before_move": "outputs/ratking_run-004/visibility_from_edited_ai.png",
+      "historical_manifest_sha256": "de58f26bcafb52d21ce95d5c03ee7b356dcb71e3cb62d7dd7dc06a8deb5551ea",
+      "sha256_before_reorganization": "a158d337e55649770a718d20ee330101ae4d5644312fce57b5d6f1da6600358a"
+    },
+    {
+      "run_id": "ratking_run-004",
+      "path_before_move": "outputs/ratking_run-004/gate_counts_from_edited_ai.svg",
+      "historical_manifest_sha256": "3b98482ee6384e178fbd82913e6004a18795ce4a70f7d1ba70e4bbc4c8082835",
+      "sha256_before_reorganization": "4c3e98c50a0e507ffd49aae8e02ffcf17ff0577e4600d6442ad61dfcf07b54a7"
+    },
+    {
+      "run_id": "ratking_run-004",
+      "path_before_move": "outputs/ratking_run-004/gate_counts_from_edited_ai.png",
+      "historical_manifest_sha256": "8e29b84d3c96e382a2101808c7abc718c84cb56169c5b31f179276664bc9b558",
+      "sha256_before_reorganization": "126ff796ab650865e98612b8e85194b8ea34c7f9c32bed2e50df5d23b3c19b27"
+    },
+    {
+      "run_id": "ratking_run-004",
+      "path_before_move": "outputs/ratking_run-004/metric_distance_from_edited_ai.svg",
+      "historical_manifest_sha256": "7e16fd4c470e21b5b081c4c3d477294a039895b5a0361631db49015f03bec0b3",
+      "sha256_before_reorganization": "cce7c19a576b9e1da005689d0281d301869afb8be4a518aa22cad46818151e3b"
+    },
+    {
+      "run_id": "ratking_run-004",
+      "path_before_move": "outputs/ratking_run-004/metric_distance_from_edited_ai.png",
+      "historical_manifest_sha256": "dd011b8e4004c71d4dd14a2ebf13d24bf0d18f18d4c604020f6d5349084438e3",
+      "sha256_before_reorganization": "dace62f8e371e9703799a62da0f5a7eb31a37a052f7724f9b992307cc87bbc41"
+    },
+    {
+      "run_id": "ratking_run-005",
+      "path_before_move": "outputs/ratking_run-005/ratking_run-005_edited.ai",
+      "historical_manifest_sha256": "3ceb404054dd23f82ed429031025b6673a4197f4321fe6c106c2c7924aa3b296",
+      "sha256_before_reorganization": "187285cb59e01e057773d779cc3b725bcc63aed96632d33627b4a74224e1e935"
+    },
+    {
+      "run_id": "ratking_run-005",
+      "path_before_move": "鼠王关.dxf",
+      "historical_manifest_sha256": "99cb95e8c010775ceb3f27a4f3ba7677f04e2aaa71185ea776a446aca9f939d1",
+      "sha256_before_reorganization": "73c11ed96449e98648236d5549c9e1a15796bfb5c978de993baca7a31b33bff1"
+    },
+    {
+      "run_id": "ratking_run-005",
+      "path_before_move": "outputs/ratking_run-005/movement_from_edited_ai.svg",
+      "historical_manifest_sha256": "c9bf2b3386f1dde68700cb374c3fcdf6be4d9b023b0429072e70b0c47639af88",
+      "sha256_before_reorganization": "2f7875decff4293807e0c24d26490a6d212f43a5ce3b92cb75141841419396fc"
+    },
+    {
+      "run_id": "ratking_run-005",
+      "path_before_move": "outputs/ratking_run-005/movement_from_edited_ai.png",
+      "historical_manifest_sha256": "bacdd131a8b3eb09c53fd43d97d8bab819115684c7c842742a087068733d2396",
+      "sha256_before_reorganization": "1ca3a4e9a3a64d084938f37b1e7ba7d24da766ab3fdb471952bbabb19ea2df90"
+    },
+    {
+      "run_id": "ratking_run-005",
+      "path_before_move": "outputs/ratking_run-005/events_from_edited_ai.svg",
+      "historical_manifest_sha256": "62f6a55d11798402847203f7ed8baa7256720e3d9b47174dde2df0f2b1ebd9d7",
+      "sha256_before_reorganization": "2b91144ef8d8bbf7f60598cb7fdfa6faf6fed1e08701988f3f7b9990c8e1c0a9"
+    },
+    {
+      "run_id": "ratking_run-005",
+      "path_before_move": "outputs/ratking_run-005/events_from_edited_ai.png",
+      "historical_manifest_sha256": "c2ddfd25fe7ae83b6648f1f4b15ee1ef1e7e9882785a44094e180a6135790cdc",
+      "sha256_before_reorganization": "386f947702299a7302efc84815cfaf09ccfebbebd7ed21be57ca6b52063ddc17"
+    },
+    {
+      "run_id": "ratking_run-005",
+      "path_before_move": "outputs/ratking_run-005/convex_from_edited_ai.svg",
+      "historical_manifest_sha256": "1284c4f4a0db1c4d50dd252387c51998c22121ca9d5917aeffdb8502de5a5ad2",
+      "sha256_before_reorganization": "00d9ff15e40c729b953f539a00f6384cc034b1ade518d1f0db5f802b1b029416"
+    },
+    {
+      "run_id": "ratking_run-005",
+      "path_before_move": "outputs/ratking_run-005/convex_from_edited_ai.png",
+      "historical_manifest_sha256": "ebb19f00528080d5df6f6456495c6342a9b4d8ea3d18658344c47744f7caf387",
+      "sha256_before_reorganization": "cdcf82a88604841403c6ecdcde6c9bdfe9345451ddc161bf037eb7e486237249"
+    },
+    {
+      "run_id": "ratking_run-005",
+      "path_before_move": "outputs/ratking_run-005/visibility_from_edited_ai.svg",
+      "historical_manifest_sha256": "de7d0daee898b8395ee214bfb92745a59302bb631daee5c4dee1c88e0f578738",
+      "sha256_before_reorganization": "0da66d59fd708e2eda8adae0af476cf150e75117aeb9cd82d4b61f7c53d8cf01"
+    },
+    {
+      "run_id": "ratking_run-005",
+      "path_before_move": "outputs/ratking_run-005/visibility_from_edited_ai.png",
+      "historical_manifest_sha256": "8520df654572d6ff4bbee5ca762cc05e9d1e341a419b92228b6c2ec1bf769db5",
+      "sha256_before_reorganization": "7e99c371259232699ecf0f9dfb82b6f05621259b60cf567bd3d44d56a4da311b"
+    },
+    {
+      "run_id": "ratking_run-005",
+      "path_before_move": "outputs/ratking_run-005/gate_counts_from_edited_ai.svg",
+      "historical_manifest_sha256": "dbd1deba82a0626b5e529b8e19fd0f56c338dde20c485373e3b0cb43bcacdf9c",
+      "sha256_before_reorganization": "610c0148fc9ee38530cbb9e2bb074cc4a2a63b1ca5ae1fc03d7c9a7cc7327c8e"
+    },
+    {
+      "run_id": "ratking_run-005",
+      "path_before_move": "outputs/ratking_run-005/gate_counts_from_edited_ai.png",
+      "historical_manifest_sha256": "324aae0f555b2d6661acf16b33f09cfce786b705c919bd465225401cc112a889",
+      "sha256_before_reorganization": "f46ce24e910c5d7127843106ed1e4da16d3698170e975dccaa9d2e32209ffd1c"
+    },
+    {
+      "run_id": "ratking_run-005",
+      "path_before_move": "outputs/ratking_run-005/metric_distance_from_edited_ai.svg",
+      "historical_manifest_sha256": "b1fc7a2cd337a5316e8b7ca08b36b06badaeba91f32a051e798c737cc954e629",
+      "sha256_before_reorganization": "a89fc0f771fbe6c2ed617d292bd96a55f7db6e7bbc1ca4899c1b7bcdf9e7ee5f"
+    },
+    {
+      "run_id": "ratking_run-005",
+      "path_before_move": "outputs/ratking_run-005/metric_distance_from_edited_ai.png",
+      "historical_manifest_sha256": "aa4e35559a42755c71da57704a61741723cecdc01cf66cb42ecfb0ae6d089430",
+      "sha256_before_reorganization": "7a741999b7d57516346d31f43df823374d458816c10516f2a70b1f5f9ca7cc2a"
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "ratking_run-001",
+      "exit_code": 1,
+      "status": "ONLY_PREEXISTING_QA_HASH_DIFFERENCES",
+      "preexisting_hash_differences": 2,
+      "all_other_checks": "PASS",
+      "stdout": "Run: ratking_run-001 | graph: source/depthmap/shuwang.graph | VGA: 3468 | rooms: 11\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-001/ratking_run-001_edited.ai\r\nERROR: Missing file or hash mismatch: source/cad/鼠王关.dxf\r\nResult: FAIL\r\n",
+      "stderr": ""
+    },
+    {
+      "run_id": "ratking_run-002",
+      "exit_code": 1,
+      "status": "ONLY_PREEXISTING_QA_HASH_DIFFERENCES",
+      "preexisting_hash_differences": 13,
+      "all_other_checks": "PASS",
+      "stdout": "Run: ratking_run-002 | graph: source/depthmap/shuwang.graph | VGA: 3468 | rooms: 11\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-002/ratking_run-002_edited.ai\r\nERROR: Missing file or hash mismatch: source/cad/鼠王关.dxf\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-002/movement_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-002/events_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-002/events_from_edited_ai.png\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-002/convex_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-002/convex_from_edited_ai.png\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-002/visibility_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-002/visibility_from_edited_ai.png\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-002/gate_counts_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-002/gate_counts_from_edited_ai.png\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-002/metric_distance_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-002/metric_distance_from_edited_ai.png\r\nResult: FAIL\r\n",
+      "stderr": ""
+    },
+    {
+      "run_id": "ratking_run-003",
+      "exit_code": 1,
+      "status": "ONLY_PREEXISTING_QA_HASH_DIFFERENCES",
+      "preexisting_hash_differences": 13,
+      "all_other_checks": "PASS",
+      "stdout": "Run: ratking_run-003 | graph: source/depthmap/shuwang.graph | VGA: 3468 | rooms: 11\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-003/ratking_run-003_edited.ai\r\nERROR: Missing file or hash mismatch: source/cad/鼠王关.dxf\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-003/movement_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-003/events_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-003/events_from_edited_ai.png\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-003/convex_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-003/convex_from_edited_ai.png\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-003/visibility_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-003/visibility_from_edited_ai.png\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-003/gate_counts_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-003/gate_counts_from_edited_ai.png\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-003/metric_distance_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-003/metric_distance_from_edited_ai.png\r\nResult: FAIL\r\n",
+      "stderr": ""
+    },
+    {
+      "run_id": "ratking_run-004",
+      "exit_code": 1,
+      "status": "ONLY_PREEXISTING_QA_HASH_DIFFERENCES",
+      "preexisting_hash_differences": 14,
+      "all_other_checks": "PASS",
+      "stdout": "Run: ratking_run-004 | graph: source/depthmap/shuwang.graph | VGA: 3468 | rooms: 11\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-004/ratking_run-004_edited.ai\r\nERROR: Missing file or hash mismatch: source/cad/鼠王关.dxf\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-004/movement_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-004/movement_from_edited_ai.png\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-004/events_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-004/events_from_edited_ai.png\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-004/convex_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-004/convex_from_edited_ai.png\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-004/visibility_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-004/visibility_from_edited_ai.png\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-004/gate_counts_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-004/gate_counts_from_edited_ai.png\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-004/metric_distance_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-004/metric_distance_from_edited_ai.png\r\nResult: FAIL\r\n",
+      "stderr": ""
+    },
+    {
+      "run_id": "ratking_run-005",
+      "exit_code": 1,
+      "status": "ONLY_PREEXISTING_QA_HASH_DIFFERENCES",
+      "preexisting_hash_differences": 14,
+      "all_other_checks": "PASS",
+      "stdout": "Run: ratking_run-005 | graph: source/depthmap/shuwang.graph | VGA: 3468 | rooms: 11\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-005/ratking_run-005_edited.ai\r\nERROR: Missing file or hash mismatch: source/cad/鼠王关.dxf\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-005/movement_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-005/movement_from_edited_ai.png\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-005/events_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-005/events_from_edited_ai.png\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-005/convex_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-005/convex_from_edited_ai.png\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-005/visibility_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-005/visibility_from_edited_ai.png\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-005/gate_counts_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-005/gate_counts_from_edited_ai.png\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-005/metric_distance_from_edited_ai.svg\r\nERROR: Missing file or hash mismatch: outputs/ratking_run-005/metric_distance_from_edited_ai.png\r\nResult: FAIL\r\n",
+      "stderr": ""
+    }
+  ],
+  "compatibility_inputs": {
+    "files": 25,
+    "pass": true
+  },
+  "python_syntax": "PASS",
+  "byte_identical": 184,
+  "text_path_updates_with_backup": 33,
+  "jsx_syntax": "PASS",
+  "jsx_builder": "PASS: 5 runs; 3468 VGA points",
+  "pcg_old_paths_readable": true,
+  "external_pcg_source_entities_read": 130,
+  "final_original_and_figure_recheck": "PASS"
+}

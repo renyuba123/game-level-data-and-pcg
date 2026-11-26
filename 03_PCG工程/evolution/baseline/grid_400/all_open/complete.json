@@ -1,0 +1,68 @@
+{
+  "key": "ec026600dd9c2ad5e0ecb96ab30bbef8e676f6d8d3cefad50c02c7874a5a52a7",
+  "recipe": {
+    "engine_sha256": "04ce9cb67a151d40786ddc51b81c9f703ad75a879ce24c476b1fcf0054f52fcd",
+    "grid": 400,
+    "radius": "n",
+    "geometry_sha256": "06aa2e38628237b767ab7f841b62c1bca725d6b622861c3dc506911e8265cb9e",
+    "fills": [
+      [
+        3600.0,
+        -3400.0
+      ],
+      [
+        6400.0,
+        -600.0
+      ],
+      [
+        400.0,
+        -600.0
+      ],
+      [
+        3800.0,
+        7600.0
+      ],
+      [
+        7400.0,
+        4200.0
+      ],
+      [
+        6200.0,
+        7200.0
+      ],
+      [
+        15000.0,
+        3400.0
+      ],
+      [
+        12400.0,
+        800.0
+      ],
+      [
+        15000.0,
+        -2000.0
+      ],
+      [
+        11400.0,
+        -2000.0
+      ],
+      [
+        18400.0,
+        1200.0
+      ]
+    ],
+    "metrics": [
+      "Visual Integration [HH]",
+      "Connectivity",
+      "Metric Mean Shortest-Path Distance"
+    ]
+  },
+  "timing_seconds": {
+    "import": 0.08994719999827794,
+    "prepare": 0.20049369999833289,
+    "visibility": 1.311099299997295,
+    "metric": 3.615995899999689,
+    "export": 0.13145979999899282
+  },
+  "point_count": 866
+}

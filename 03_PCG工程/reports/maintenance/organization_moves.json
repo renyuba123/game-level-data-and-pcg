@@ -1,0 +1,248 @@
+[
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\AGENTS.md",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.combat-phase1-stage\\AGENTS.md",
+    "sha256": "39f9d04439bbadab5fc67d99f17d04565884dc8801840f914b08d44df3e25b6b",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\combat_pcg\\.gitignore",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.combat-phase1-stage\\combat_pcg\\.gitignore",
+    "sha256": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\combat_pcg\\__init__.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.combat-phase1-stage\\combat_pcg\\__init__.py",
+    "sha256": "328ba38347ab499bc30b7f9a71d256c7bb283a9a6e36c688d35c924f05047e2e",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\combat_pcg\\__main__.py",
+    "to": "D:\\GODOT Prams\\boss-level-pcg\\drafts\\combat_phase1_4\\combat_pcg\\__main__.py",
+    "sha256": "d4928e4325a79beabe7ec0898bc6c87ef0ee6e0e3aaac211ead8dfede491183c",
+    "kind": "unique_draft"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\combat_pcg\\audit.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.combat-phase1-stage\\combat_pcg\\audit.py",
+    "sha256": "3f466c0427f29f5cd34aecc8a8749e50da980797e1279a5980bfb20a530e446a",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\combat_pcg\\combat_config.json",
+    "to": "D:\\GODOT Prams\\boss-level-pcg\\drafts\\combat_phase1_4\\combat_pcg\\combat_config.json",
+    "sha256": "e2236a84783a6b83fc4dc9372231026d0eb1c859a0cb2c17883edabd0e3b50c0",
+    "kind": "unique_draft"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\combat_pcg\\contracts.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.combat-phase1-stage\\combat_pcg\\contracts.py",
+    "sha256": "65a7eb41928a9e20afcea1cd977ca9c660b340b1ecf3f7b2746a12f3b62f55d4",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\combat_pcg\\counterexamples.py",
+    "to": "D:\\GODOT Prams\\boss-level-pcg\\drafts\\combat_phase1_4\\combat_pcg\\counterexamples.py",
+    "sha256": "fe3b05e7423fdd0b41931e81d8fd95aa0c67cc089a6e23a788aa0e1588620094",
+    "kind": "unique_draft"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\combat_pcg\\fixtures.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.combat-phase1-stage\\combat_pcg\\fixtures.py",
+    "sha256": "3f455ea6b9faeecb87998e515bdd06fce479c53a6126da373487e634c3e6274d",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\combat_pcg\\protocol.py",
+    "to": "D:\\GODOT Prams\\boss-level-pcg\\drafts\\combat_phase1_4\\combat_pcg\\protocol.py",
+    "sha256": "ab15a42612472663fe4535d405e2c2714ec18d49f93dbcbcee2a8f8ec03a2f5c",
+    "kind": "unique_draft"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\combat_pcg\\scoring.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.combat-phase1-stage\\combat_pcg\\scoring.py",
+    "sha256": "80c07fa4f2973b59bb6ef1541ea5974fd6e9e263c9676999889d19835089ae20",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\combat_pcg\\scoring_config.json",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.combat-phase1-stage\\combat_pcg\\scoring_config.json",
+    "sha256": "365c1a0c01b2dfd625a70a0c057d58c71fdc25b72d380c3bf34569bff65cce90",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\combat_pcg\\spatial.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.combat-phase1-stage\\combat_pcg\\spatial.py",
+    "sha256": "f0da7474c15c734e06a89ffce875793d2ae1007a7da25330fe3482e52a81da83",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\combat_pcg\\test_contracts.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.combat-phase1-stage\\combat_pcg\\test_contracts.py",
+    "sha256": "a452c1b5c899f37db4003ac21c5f4cfe0ca93aee721779b9ca82f27604054af3",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\combat_pcg\\test_protocol.py",
+    "to": "D:\\GODOT Prams\\boss-level-pcg\\drafts\\combat_phase1_4\\combat_pcg\\test_protocol.py",
+    "sha256": "f481c890ead6a118ca599316abf6372969db7393b448a81007add436865b3d76",
+    "kind": "unique_draft"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\combat_pcg\\test_scoring.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.combat-phase1-stage\\combat_pcg\\test_scoring.py",
+    "sha256": "a5313b204018be0cbbfe65f5cc9547cf44ca11efebca0bc08590f34bece1994c",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\combat_pcg\\test_spatial.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.combat-phase1-stage\\combat_pcg\\test_spatial.py",
+    "sha256": "25dabfead2fe4b212cc8e61fa0659a46b970e58f205973aa89afe8c39a26784d",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\PLANS.md",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.combat-phase1-stage\\PLANS.md",
+    "sha256": "9eb71afd8da11fbd112c8fbf789c375f856985fe45884c033fa5284e583e76b1",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\PROGRESS.md",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.combat-phase1-stage\\PROGRESS.md",
+    "sha256": "d4636e88b39e2e96cd80a19ef843067be02e3397d7b2d286ebef95fd8d7fcb80",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\reports\\combat_v3\\COMBAT_PROTOCOL.md",
+    "to": "D:\\GODOT Prams\\boss-level-pcg\\drafts\\combat_phase1_4\\reports\\combat_v3\\COMBAT_PROTOCOL.md",
+    "sha256": "57295757b61ac9e9fa010edfd0d20b9883f18ccc5ae63f07e0b84513e6c2dca9",
+    "kind": "unique_draft"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\reports\\combat_v3\\DATA_CONTRACT.md",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.combat-phase1-stage\\reports\\combat_v3\\DATA_CONTRACT.md",
+    "sha256": "60224d0fbece33e7cc4cfef6d84272c5b059589a0b462a70810c67a447f19e93",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\reports\\combat_v3\\IMPLEMENTATION_PLAN.md",
+    "to": "D:\\GODOT Prams\\boss-level-pcg\\drafts\\combat_phase1_4\\reports\\combat_v3\\IMPLEMENTATION_PLAN.md",
+    "sha256": "cb9860300843fa072554a7ecb7785f5032d564e80b0793b75e411e7dec2cdf4a",
+    "kind": "unique_draft"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\reports\\combat_v3\\REUSE_AUDIT.md",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.combat-phase1-stage\\reports\\combat_v3\\REUSE_AUDIT.md",
+    "sha256": "83973f58b22fc20f3e73e546904d325e383fe8592c5741787283081f233151f5",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.combat-phase1-stage\\reports\\combat_v3\\SCORING_SPEC.md",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.combat-phase1-stage\\reports\\combat_v3\\SCORING_SPEC.md",
+    "sha256": "f86067a590b0cdfcd593dcf04b0523b4a0991d71f37209aa6f04e590c7d58b5c",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.full-pcg-stage\\configs\\full_pcg_v2.json",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.full-pcg-stage\\configs\\full_pcg_v2.json",
+    "sha256": "10a6bcf145fd3a9ea8d5aa08308bdaa1603ab5b15b37efa7b8c1d6a6f67900f1",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.full-pcg-stage\\full_pcg\\__init__.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.full-pcg-stage\\full_pcg\\__init__.py",
+    "sha256": "f5ab9888d9963b97937df058413ab1dab368f5f45e2d411680977b1d62932704",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.full-pcg-stage\\full_pcg\\__main__.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.full-pcg-stage\\full_pcg\\__main__.py",
+    "sha256": "45541c396ae1fe69c3aa29dae6d28cb7bc905dbb7cc6570f5d8dfc9956ff1e56",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.full-pcg-stage\\full_pcg\\calibration.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.full-pcg-stage\\full_pcg\\calibration.py",
+    "sha256": "2b9525da9ce6c387425134ad5f3400f02baa65d8e2a7f1dd69d8287c3e134d02",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.full-pcg-stage\\full_pcg\\common.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.full-pcg-stage\\full_pcg\\common.py",
+    "sha256": "48acd0814926c9e7eaad0b3a9587f4ec9d87f2e15a13df7e834580ed76fc7b9a",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.full-pcg-stage\\full_pcg\\geometric_graph.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.full-pcg-stage\\full_pcg\\geometric_graph.py",
+    "sha256": "e56a687315e7505e34353478d2534c35ac08563c1218b3ddc84111f6074f2aba",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.full-pcg-stage\\full_pcg\\geometry.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.full-pcg-stage\\full_pcg\\geometry.py",
+    "sha256": "2943d92adf57e25e605b890abdb867589020fc70eea4cdcc31f0b427999678f5",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.full-pcg-stage\\full_pcg\\godot\\layout_decoder.gd",
+    "to": "D:\\GODOT Prams\\boss-level-pcg\\drafts\\full_pcg_godot\\full_pcg\\godot\\layout_decoder.gd",
+    "sha256": "cfa75108264f80166fd1f05020b0dbf89f55755dbd567a03f98fd5ca487de113",
+    "kind": "unique_draft"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.full-pcg-stage\\full_pcg\\godot_export.py",
+    "to": "D:\\GODOT Prams\\boss-level-pcg\\drafts\\full_pcg_godot\\full_pcg\\godot_export.py",
+    "sha256": "4531f91937dcad8060c2c91fe983fc2fccd3c3c9cd5112e381975f27cc70561a",
+    "kind": "unique_draft"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.full-pcg-stage\\full_pcg\\navigation.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.full-pcg-stage\\full_pcg\\navigation.py",
+    "sha256": "651d38501ab345eaac2f1e5cfa86491bb68148600be3338496040c58a119d6d4",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.full-pcg-stage\\full_pcg\\operators.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.full-pcg-stage\\full_pcg\\operators.py",
+    "sha256": "195e090eb94e755430507a6def343ce6a4c1058ad6037cd7ef2d4dff84e562af",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.full-pcg-stage\\full_pcg\\README.md",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.full-pcg-stage\\full_pcg\\README.md",
+    "sha256": "5e73142b2dfd7d187de23dd3bfc16dea1a7bb9342f336f4bd8d9308cd2edf42c",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.full-pcg-stage\\full_pcg\\STATUS.md",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.full-pcg-stage\\full_pcg\\STATUS.md",
+    "sha256": "739bb5cc843575f98f0999c67654f9ea8399f04ab6835216a061b1df84b386ea",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.full-pcg-stage\\full_pcg\\test_core.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.full-pcg-stage\\full_pcg\\test_core.py",
+    "sha256": "d084e209d03b2a0ddbb3aac20a8354f8e20601a9fa167953027cdba00ee80595",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.full-pcg-stage\\full_pcg\\topology.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.full-pcg-stage\\full_pcg\\topology.py",
+    "sha256": "5261e1f069dc33841703b6de87c7a9a0cb5dbb1ed4d9629db5bdb5d6d0fad094",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.full-pcg-stage\\full_pcg\\validation.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.full-pcg-stage\\full_pcg\\validation.py",
+    "sha256": "e1473d9fd9b64819472a8b401d575bf04d228983811a8709481b3e936e2174a3",
+    "kind": "identical_archive"
+  },
+  {
+    "from": "F:\\大学作业\\游戏空间设计微专业\\.full-pcg-stage\\full_pcg\\visualize.py",
+    "to": "F:\\大学作业\\游戏空间设计微专业\\archive\\staging\\2026-11-20\\.full-pcg-stage\\full_pcg\\visualize.py",
+    "sha256": "bbbf59564efa4decd4748105b635e5c141b2ea2ad642bb715ff37e7d64e633e6",
+    "kind": "identical_archive"
+  }
+]

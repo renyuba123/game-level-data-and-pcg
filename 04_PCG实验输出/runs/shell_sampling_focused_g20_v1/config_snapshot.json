@@ -1,0 +1,195 @@
+{
+  "schema": "shell-single-parent-experiment/1",
+  "run_id": "shell_sampling_focused_g20_v1",
+  "purpose": "development_only",
+  "layout_scale": 1.5,
+  "optimizer_seed": 177,
+  "population": 8,
+  "reproductions": 20,
+  "initial_seeds": [
+    177,
+    6,
+    84,
+    78,
+    44,
+    48,
+    4,
+    37
+  ],
+  "excluded_layout_seeds": [
+    1101,
+    1102,
+    1103,
+    1104
+  ],
+  "scenario_seeds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "policies": [
+    "output",
+    "occlusion",
+    "supply"
+  ],
+  "decision_variant": "paced",
+  "grid": 400,
+  "max_repairs": 8,
+  "source_candidate": "near_1_-1",
+  "source_candidate_sha256": "08d8f23b6a1835225d040c42c0be61a5e8a526d9ad4f0f4a3a86bc524ed367a8",
+  "combat": {
+    "boss": {
+      "attack_warning_s": 0.85,
+      "awareness": "visible_target_or_heard_event_then_last_known_position",
+      "grab_range_m": 1.2,
+      "grab_requires_clearance_and_los": true,
+      "height_m": 2.2,
+      "hp": 1000,
+      "radius_m": 0.58,
+      "speed_mps": 2
+    },
+    "frozen": false,
+    "parameter_status": "All numeric combat values below are provisional research assumptions, not official game data.",
+    "player": {
+      "aim_fov_deg": 55,
+      "aim_speed_mps": 2.65,
+      "fov_deg": 80,
+      "height_m": 1.8,
+      "hp": 100,
+      "radius_m": 0.35,
+      "reaction_s": 0.25,
+      "speed_mps": 5,
+      "turn_deg_per_s": 180,
+      "vision_range_m": 30
+    },
+    "portals": {
+      "after_boss_smash": "both_roles_open",
+      "break_boss_smash_s": 1.8,
+      "player_can_break": false,
+      "through_boss_smash_s": 1.5,
+      "through_player_interaction_range_m": 1.6,
+      "through_player_squeeze_s": 0.65
+    },
+    "protocol_id": "inspector_balance_177_v1",
+    "provenance": {
+      "geometry_source": "Python Layout",
+      "graph_source": "shuwang.graph",
+      "official_numeric_parameters": false,
+      "physical_scale_calibrated": false
+    },
+    "sampling": {
+      "episodes_per_candidate": 12,
+      "heldout_seeds": [
+        101,
+        102,
+        103,
+        104
+      ],
+      "policies": [
+        "output",
+        "occlusion",
+        "supply"
+      ],
+      "scenario_seeds": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "schema_version": "combat-pcg/3",
+    "score_sampling": {
+      "grid_m": 0.5,
+      "loss_of_target_min_s": 0.5,
+      "maximum_alternative_endpoint_pairs": 32,
+      "threat_margin_s": 0.5
+    },
+    "search_budget": {
+      "arms": [
+        "legacy_ga",
+        "full_ga",
+        "full_random"
+      ],
+      "candidate_requests": 6048,
+      "counterfactual_full_simulation_count": 72576,
+      "population": 32,
+      "reproductions": 20,
+      "seeds": [
+        11,
+        29,
+        47
+      ]
+    },
+    "simulation": {
+      "seed_streams": [
+        "perception",
+        "aim",
+        "decision",
+        "stalker"
+      ],
+      "tick_s": 0.05,
+      "time_limit_s": 180
+    },
+    "stalker": {
+      "boss_kill_only_after_split_in_later_tick": true,
+      "control_s": 0.8,
+      "cooldown_s": 4,
+      "crossing_hit_overflow": "discard_and_clamp_to_threshold",
+      "damage": 17,
+      "independent_final_arena": false,
+      "radius_m": 0.3,
+      "shot_response": "interrupt_and_retreat",
+      "spawn": "collision_valid_point_near_boss_not_behind_player_teleport",
+      "speed_mps": 2.85,
+      "split_hp_fraction": 0.5,
+      "states": [
+        "hide",
+        "approach",
+        "warn",
+        "control",
+        "retreat"
+      ],
+      "warning_s": 0.6
+    },
+    "supplies": {
+      "initial_rounds_including_magazine": 12,
+      "pack_count": 6,
+      "pickup_radius_m": 1.25,
+      "pickup_s": 0.3,
+      "positions_are_genes": true,
+      "respawn": false,
+      "rounds_per_pack": 8
+    },
+    "termination": {
+      "death": "valid_large_boss_grab_or_player_hp_zero",
+      "exit_is_victory": false,
+      "simultaneous_grab_and_lethal_shot": "earliest_event_time_then_death_on_exact_tie",
+      "success": "large_boss_hp_zero",
+      "timeout": "separate_non_victory"
+    },
+    "units": "model_m",
+    "weapon": {
+      "aim_s": 0.25,
+      "angular_error_sd_deg": 1.5,
+      "damage": 51,
+      "fire_interval_s": 0.26,
+      "magazine": 8,
+      "must_test_camera_and_muzzle_separately": true,
+      "range_m": 30,
+      "reload_s": 1.6,
+      "type": "hitscan_single_research_weapon"
+    }
+  },
+  "full_edit_probability": 0.5,
+  "diff_edits": [
+    1,
+    3
+  ],
+  "full_edit_regions": [
+    "left_inner",
+    "east_high"
+  ],
+  "sampling": "focused",
+  "initial_evidence": null
+}

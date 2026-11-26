@@ -1,0 +1,8 @@
+{
+  "schema": "shell-breeding-pilot/2",
+  "run_id": "shell_breeding_v2",
+  "base_config": "configs/shell_pilot_v1.json",
+  "optimizer_seed": 177,
+  "crossover_probability": 0.8,
+  "mutations": [1, 3]
+}

@@ -1,0 +1,14 @@
+{
+  "requested": 16,
+  "valid": 13,
+  "seconds": 18.253776300000027,
+  "mean_seconds": 1.1408610187500017,
+  "estimated_hours_at_observed_cache_mix": 1.2169184200000018,
+  "depthmap_cache_hits": 26,
+  "timing_note": "Includes cache reuse; new geometries may take longer. Four worker processes by default.",
+  "errors": [
+    "['unsafe starting separation']",
+    "['unsafe starting separation']",
+    "['unsafe starting separation']"
+  ]
+}

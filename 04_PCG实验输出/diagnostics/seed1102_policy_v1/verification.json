@@ -1,0 +1,166 @@
+{
+  "manifest_sha256": {
+    "paced": "52756c44faa31a720b8a6a6c68da84404605e215b95c884298bc538288c57f01",
+    "paced_supply_v1": "f709e722e6532dd1a75b98b95ae56bb5f223cec2d7d2c8ff6b30bc4b2ffd25e9",
+    "paced_exit_v1": "33f157831dd4fbcf1c20098706942ee7daba3ad2a8ebc5529ac76c3600d1c786",
+    "paced_tactics_v1": "325a423c0292380655b798fc31df17342cc0bb44bb7c3a35082281dd31230e01"
+  },
+  "outcome_checks": {
+    "paced": [
+      "output_110",
+      "output_111",
+      "output_112",
+      "output_113",
+      "occlusion_110",
+      "occlusion_111",
+      "occlusion_112",
+      "occlusion_113",
+      "supply_110",
+      "supply_111",
+      "supply_112",
+      "supply_113"
+    ],
+    "paced_supply_v1": [
+      "output_110",
+      "output_111",
+      "output_112",
+      "output_113",
+      "occlusion_110",
+      "occlusion_111",
+      "occlusion_112",
+      "occlusion_113",
+      "supply_110",
+      "supply_111",
+      "supply_112",
+      "supply_113"
+    ],
+    "paced_exit_v1": [
+      "output_110",
+      "output_111",
+      "output_112",
+      "output_113",
+      "occlusion_110",
+      "occlusion_111",
+      "occlusion_112",
+      "occlusion_113",
+      "supply_110",
+      "supply_111",
+      "supply_112",
+      "supply_113"
+    ],
+    "paced_tactics_v1": [
+      "output_110",
+      "output_111",
+      "output_112",
+      "output_113",
+      "occlusion_110",
+      "occlusion_111",
+      "occlusion_112",
+      "occlusion_113",
+      "supply_110",
+      "supply_111",
+      "supply_112",
+      "supply_113"
+    ]
+  },
+  "replays": {
+    "paced_supply_v1/output_110": {
+      "case": "output_110",
+      "source_sha256": "0e939a14696c5c44d7fa6f3fb0518796e60d29412bc85ed88be18da447c4d22e",
+      "replay_sha256": "34c079d3269bf2009b1999efb9be9982fe45e256b4d97637c54b1309e62a6168",
+      "frames": 1864,
+      "physics_hz": 60,
+      "result": "victory",
+      "same_events": true,
+      "same_frames": true,
+      "same_result": true
+    },
+    "paced_tactics_v1/output_110": {
+      "case": "output_110",
+      "source_sha256": "0e939a14696c5c44d7fa6f3fb0518796e60d29412bc85ed88be18da447c4d22e",
+      "replay_sha256": "34c079d3269bf2009b1999efb9be9982fe45e256b4d97637c54b1309e62a6168",
+      "frames": 1864,
+      "physics_hz": 60,
+      "result": "victory",
+      "same_events": true,
+      "same_frames": true,
+      "same_result": true
+    },
+    "paced_exit_v1/output_112": {
+      "case": "output_112",
+      "source_sha256": "c399e9b429902b0040c11220e3aa63119b1c9a7455416574643023819f2f905c",
+      "replay_sha256": "0581f98850478f41a729778317d2e17915d9f903e7e5c8966ed09375210792e4",
+      "frames": 1960,
+      "physics_hz": 60,
+      "result": "victory",
+      "same_events": true,
+      "same_frames": true,
+      "same_result": true
+    },
+    "paced_tactics_v1/output_112": {
+      "case": "output_112",
+      "source_sha256": "c399e9b429902b0040c11220e3aa63119b1c9a7455416574643023819f2f905c",
+      "replay_sha256": "0581f98850478f41a729778317d2e17915d9f903e7e5c8966ed09375210792e4",
+      "frames": 1960,
+      "physics_hz": 60,
+      "result": "victory",
+      "same_events": true,
+      "same_frames": true,
+      "same_result": true
+    }
+  },
+  "exit_actual_crossings": {
+    "paced_exit_v1": {
+      "decision": {
+        "ammo": 26,
+        "id": "gate_10",
+        "kind": "leave_after_pickup",
+        "step": 425,
+        "t": 7.0833333333333135,
+        "travel_s": 1.4257402539253237
+      },
+      "crossings": [
+        452
+      ],
+      "lateral_clearance_frame": 496,
+      "first_later_hit": {
+        "data": {
+          "hp": 847.0,
+          "phase": 1,
+          "target": "large_boss"
+        },
+        "id": "event_00014",
+        "kind": "hit",
+        "sequence": 14,
+        "step": 570,
+        "t": 9.500000000000052
+      }
+    },
+    "paced_tactics_v1": {
+      "decision": {
+        "ammo": 26,
+        "id": "gate_10",
+        "kind": "leave_after_pickup",
+        "step": 425,
+        "t": 7.0833333333333135,
+        "travel_s": 1.4257402539253237
+      },
+      "crossings": [
+        452
+      ],
+      "lateral_clearance_frame": 496,
+      "first_later_hit": {
+        "data": {
+          "hp": 847.0,
+          "phase": 1,
+          "target": "large_boss"
+        },
+        "id": "event_00014",
+        "kind": "hit",
+        "sequence": 14,
+        "step": 570,
+        "t": 9.500000000000052
+      }
+    }
+  }
+}

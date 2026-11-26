@@ -1,0 +1,13 @@
+{
+  "protocol": "shell-window/1",
+  "duration_s": 0.65,
+  "interaction_range_m": 0.42,
+  "arc_height_m": 0.7,
+  "sill_m": 0.62,
+  "lintel_m": 1.98,
+  "opening_half_width_m": 0.45,
+  "interrupt_on_collision": true,
+  "recovery": "retrace_to_entry",
+  "boss_traversable": false,
+  "boss_smashable": false
+}

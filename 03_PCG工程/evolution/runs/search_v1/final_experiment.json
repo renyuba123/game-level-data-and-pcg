@@ -1,0 +1,822 @@
+{
+  "complete": true,
+  "total_evaluations": 3840,
+  "groups": [
+    {
+      "method": "evolution",
+      "seed": 11,
+      "evaluations": 640,
+      "unique_candidates": 640,
+      "geometry_analysis_valid": 463,
+      "fairness_feasible": 198,
+      "best_structure": 0.1309975200251938,
+      "best_pressure_loss": 0.07361111111111113,
+      "maximum_diversity": 0.4606060606060606,
+      "hypervolume": 0.3341639182544953,
+      "curve": [
+        {
+          "evaluations": 32,
+          "best_structure": 0.19075500399634748,
+          "feasible_fraction": 0.15625,
+          "hypervolume": 0.07290549196650234
+        },
+        {
+          "evaluations": 64,
+          "best_structure": 0.19075500399634748,
+          "feasible_fraction": 0.140625,
+          "hypervolume": 0.1999707495979708
+        },
+        {
+          "evaluations": 96,
+          "best_structure": 0.19075500399634748,
+          "feasible_fraction": 0.13541666666666666,
+          "hypervolume": 0.24535791238633559
+        },
+        {
+          "evaluations": 128,
+          "best_structure": 0.17620820199945522,
+          "feasible_fraction": 0.1328125,
+          "hypervolume": 0.2491599442948962
+        },
+        {
+          "evaluations": 160,
+          "best_structure": 0.1637133128355519,
+          "feasible_fraction": 0.14375,
+          "hypervolume": 0.2592212670537564
+        },
+        {
+          "evaluations": 192,
+          "best_structure": 0.1637133128355519,
+          "feasible_fraction": 0.17708333333333334,
+          "hypervolume": 0.2599292531657066
+        },
+        {
+          "evaluations": 224,
+          "best_structure": 0.1637133128355519,
+          "feasible_fraction": 0.20982142857142858,
+          "hypervolume": 0.2636875174574955
+        },
+        {
+          "evaluations": 256,
+          "best_structure": 0.13796224379391558,
+          "feasible_fraction": 0.234375,
+          "hypervolume": 0.27644389032912997
+        },
+        {
+          "evaluations": 288,
+          "best_structure": 0.13796224379391558,
+          "feasible_fraction": 0.2673611111111111,
+          "hypervolume": 0.2813661591970446
+        },
+        {
+          "evaluations": 320,
+          "best_structure": 0.13796224379391558,
+          "feasible_fraction": 0.284375,
+          "hypervolume": 0.2879181339233934
+        },
+        {
+          "evaluations": 352,
+          "best_structure": 0.13796224379391558,
+          "feasible_fraction": 0.2840909090909091,
+          "hypervolume": 0.28803128774232956
+        },
+        {
+          "evaluations": 384,
+          "best_structure": 0.1313380587101244,
+          "feasible_fraction": 0.2942708333333333,
+          "hypervolume": 0.28950502050567256
+        },
+        {
+          "evaluations": 416,
+          "best_structure": 0.1313380587101244,
+          "feasible_fraction": 0.2980769230769231,
+          "hypervolume": 0.28950502050567256
+        },
+        {
+          "evaluations": 448,
+          "best_structure": 0.1313380587101244,
+          "feasible_fraction": 0.29464285714285715,
+          "hypervolume": 0.2997236638495294
+        },
+        {
+          "evaluations": 480,
+          "best_structure": 0.1313380587101244,
+          "feasible_fraction": 0.28958333333333336,
+          "hypervolume": 0.30477479639433525
+        },
+        {
+          "evaluations": 512,
+          "best_structure": 0.1313380587101244,
+          "feasible_fraction": 0.294921875,
+          "hypervolume": 0.3050502962171091
+        },
+        {
+          "evaluations": 544,
+          "best_structure": 0.1309975200251938,
+          "feasible_fraction": 0.29963235294117646,
+          "hypervolume": 0.31336849770690145
+        },
+        {
+          "evaluations": 576,
+          "best_structure": 0.1309975200251938,
+          "feasible_fraction": 0.3020833333333333,
+          "hypervolume": 0.3340118279832955
+        },
+        {
+          "evaluations": 608,
+          "best_structure": 0.1309975200251938,
+          "feasible_fraction": 0.3042763157894737,
+          "hypervolume": 0.3340576150818202
+        },
+        {
+          "evaluations": 640,
+          "best_structure": 0.1309975200251938,
+          "feasible_fraction": 0.309375,
+          "hypervolume": 0.3341639182544953
+        }
+      ]
+    },
+    {
+      "method": "evolution",
+      "seed": 29,
+      "evaluations": 640,
+      "unique_candidates": 640,
+      "geometry_analysis_valid": 458,
+      "fairness_feasible": 150,
+      "best_structure": 0.11776584918399692,
+      "best_pressure_loss": 0.10067049808429118,
+      "maximum_diversity": 0.4095238095238095,
+      "hypervolume": 0.30770755542057543,
+      "curve": [
+        {
+          "evaluations": 32,
+          "best_structure": 0.1339744316738904,
+          "feasible_fraction": 0.125,
+          "hypervolume": 0.23275609176432702
+        },
+        {
+          "evaluations": 64,
+          "best_structure": 0.1339744316738904,
+          "feasible_fraction": 0.109375,
+          "hypervolume": 0.245680290195964
+        },
+        {
+          "evaluations": 96,
+          "best_structure": 0.12126140199653483,
+          "feasible_fraction": 0.125,
+          "hypervolume": 0.25155017562279447
+        },
+        {
+          "evaluations": 128,
+          "best_structure": 0.12126140199653483,
+          "feasible_fraction": 0.1328125,
+          "hypervolume": 0.2520165860856419
+        },
+        {
+          "evaluations": 160,
+          "best_structure": 0.12126140199653483,
+          "feasible_fraction": 0.125,
+          "hypervolume": 0.2520165860856419
+        },
+        {
+          "evaluations": 192,
+          "best_structure": 0.12126140199653483,
+          "feasible_fraction": 0.13020833333333334,
+          "hypervolume": 0.2526081694241958
+        },
+        {
+          "evaluations": 224,
+          "best_structure": 0.12126140199653483,
+          "feasible_fraction": 0.11607142857142858,
+          "hypervolume": 0.25262028598745356
+        },
+        {
+          "evaluations": 256,
+          "best_structure": 0.12126140199653483,
+          "feasible_fraction": 0.12890625,
+          "hypervolume": 0.26840937803239634
+        },
+        {
+          "evaluations": 288,
+          "best_structure": 0.12126140199653483,
+          "feasible_fraction": 0.14583333333333334,
+          "hypervolume": 0.2685706704799821
+        },
+        {
+          "evaluations": 320,
+          "best_structure": 0.12126140199653483,
+          "feasible_fraction": 0.18125,
+          "hypervolume": 0.27283634861527756
+        },
+        {
+          "evaluations": 352,
+          "best_structure": 0.12126140199653483,
+          "feasible_fraction": 0.19318181818181818,
+          "hypervolume": 0.2765718789225377
+        },
+        {
+          "evaluations": 384,
+          "best_structure": 0.12126140199653483,
+          "feasible_fraction": 0.20572916666666666,
+          "hypervolume": 0.2767259751319337
+        },
+        {
+          "evaluations": 416,
+          "best_structure": 0.12126140199653483,
+          "feasible_fraction": 0.2091346153846154,
+          "hypervolume": 0.27741654064817933
+        },
+        {
+          "evaluations": 448,
+          "best_structure": 0.11776584918399692,
+          "feasible_fraction": 0.21205357142857142,
+          "hypervolume": 0.30450067083958954
+        },
+        {
+          "evaluations": 480,
+          "best_structure": 0.11776584918399692,
+          "feasible_fraction": 0.225,
+          "hypervolume": 0.3062604115723083
+        },
+        {
+          "evaluations": 512,
+          "best_structure": 0.11776584918399692,
+          "feasible_fraction": 0.232421875,
+          "hypervolume": 0.30705690930223506
+        },
+        {
+          "evaluations": 544,
+          "best_structure": 0.11776584918399692,
+          "feasible_fraction": 0.23161764705882354,
+          "hypervolume": 0.30705690930223506
+        },
+        {
+          "evaluations": 576,
+          "best_structure": 0.11776584918399692,
+          "feasible_fraction": 0.2309027777777778,
+          "hypervolume": 0.3076502147330801
+        },
+        {
+          "evaluations": 608,
+          "best_structure": 0.11776584918399692,
+          "feasible_fraction": 0.23355263157894737,
+          "hypervolume": 0.30770755542057543
+        },
+        {
+          "evaluations": 640,
+          "best_structure": 0.11776584918399692,
+          "feasible_fraction": 0.234375,
+          "hypervolume": 0.30770755542057543
+        }
+      ]
+    },
+    {
+      "method": "evolution",
+      "seed": 47,
+      "evaluations": 640,
+      "unique_candidates": 640,
+      "geometry_analysis_valid": 471,
+      "fairness_feasible": 127,
+      "best_structure": 0.1285862338772124,
+      "best_pressure_loss": 0.13333333333333336,
+      "maximum_diversity": 0.4606060606060606,
+      "hypervolume": 0.311543269046857,
+      "curve": [
+        {
+          "evaluations": 32,
+          "best_structure": 0.1621707458025001,
+          "feasible_fraction": 0.09375,
+          "hypervolume": 0.1444872229761767
+        },
+        {
+          "evaluations": 64,
+          "best_structure": 0.1621707458025001,
+          "feasible_fraction": 0.046875,
+          "hypervolume": 0.1444872229761767
+        },
+        {
+          "evaluations": 96,
+          "best_structure": 0.1621707458025001,
+          "feasible_fraction": 0.03125,
+          "hypervolume": 0.1444872229761767
+        },
+        {
+          "evaluations": 128,
+          "best_structure": 0.1621707458025001,
+          "feasible_fraction": 0.03125,
+          "hypervolume": 0.14525625200650272
+        },
+        {
+          "evaluations": 160,
+          "best_structure": 0.1621707458025001,
+          "feasible_fraction": 0.03125,
+          "hypervolume": 0.14525625200650272
+        },
+        {
+          "evaluations": 192,
+          "best_structure": 0.1621707458025001,
+          "feasible_fraction": 0.03125,
+          "hypervolume": 0.1775356725484089
+        },
+        {
+          "evaluations": 224,
+          "best_structure": 0.1621707458025001,
+          "feasible_fraction": 0.03125,
+          "hypervolume": 0.1775356725484089
+        },
+        {
+          "evaluations": 256,
+          "best_structure": 0.1621707458025001,
+          "feasible_fraction": 0.03125,
+          "hypervolume": 0.1776411861446317
+        },
+        {
+          "evaluations": 288,
+          "best_structure": 0.1621707458025001,
+          "feasible_fraction": 0.03819444444444445,
+          "hypervolume": 0.18445963236405358
+        },
+        {
+          "evaluations": 320,
+          "best_structure": 0.1621707458025001,
+          "feasible_fraction": 0.04375,
+          "hypervolume": 0.24530222140596675
+        },
+        {
+          "evaluations": 352,
+          "best_structure": 0.1621707458025001,
+          "feasible_fraction": 0.048295454545454544,
+          "hypervolume": 0.24530222140596675
+        },
+        {
+          "evaluations": 384,
+          "best_structure": 0.1621707458025001,
+          "feasible_fraction": 0.059895833333333336,
+          "hypervolume": 0.2627770842798091
+        },
+        {
+          "evaluations": 416,
+          "best_structure": 0.1621707458025001,
+          "feasible_fraction": 0.07932692307692307,
+          "hypervolume": 0.26309827708908345
+        },
+        {
+          "evaluations": 448,
+          "best_structure": 0.1621707458025001,
+          "feasible_fraction": 0.10267857142857142,
+          "hypervolume": 0.26344612476580215
+        },
+        {
+          "evaluations": 480,
+          "best_structure": 0.1621707458025001,
+          "feasible_fraction": 0.12291666666666666,
+          "hypervolume": 0.2664629052733456
+        },
+        {
+          "evaluations": 512,
+          "best_structure": 0.1621707458025001,
+          "feasible_fraction": 0.140625,
+          "hypervolume": 0.2791741637860115
+        },
+        {
+          "evaluations": 544,
+          "best_structure": 0.1621707458025001,
+          "feasible_fraction": 0.15441176470588236,
+          "hypervolume": 0.28114458134858156
+        },
+        {
+          "evaluations": 576,
+          "best_structure": 0.16174783818813193,
+          "feasible_fraction": 0.17708333333333334,
+          "hypervolume": 0.29886546212998694
+        },
+        {
+          "evaluations": 608,
+          "best_structure": 0.1285862338772124,
+          "feasible_fraction": 0.1875,
+          "hypervolume": 0.3112155193137226
+        },
+        {
+          "evaluations": 640,
+          "best_structure": 0.1285862338772124,
+          "feasible_fraction": 0.1984375,
+          "hypervolume": 0.311543269046857
+        }
+      ]
+    },
+    {
+      "method": "random",
+      "seed": 11,
+      "evaluations": 640,
+      "unique_candidates": 640,
+      "geometry_analysis_valid": 469,
+      "fairness_feasible": 60,
+      "best_structure": 0.15714037345678342,
+      "best_pressure_loss": 0.0047619047619048005,
+      "maximum_diversity": 0.5474747474747474,
+      "hypervolume": 0.3717444786408839,
+      "curve": [
+        {
+          "evaluations": 32,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.0625,
+          "hypervolume": 0.18014465943596114
+        },
+        {
+          "evaluations": 64,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.03125,
+          "hypervolume": 0.18014465943596114
+        },
+        {
+          "evaluations": 96,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.041666666666666664,
+          "hypervolume": 0.18283109425674438
+        },
+        {
+          "evaluations": 128,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.0703125,
+          "hypervolume": 0.2010311727042699
+        },
+        {
+          "evaluations": 160,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.0875,
+          "hypervolume": 0.22297952481386124
+        },
+        {
+          "evaluations": 192,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.078125,
+          "hypervolume": 0.22297952481386127
+        },
+        {
+          "evaluations": 224,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.08035714285714286,
+          "hypervolume": 0.2236913772273132
+        },
+        {
+          "evaluations": 256,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.09375,
+          "hypervolume": 0.22588592683814906
+        },
+        {
+          "evaluations": 288,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.09375,
+          "hypervolume": 0.22588592683814906
+        },
+        {
+          "evaluations": 320,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.103125,
+          "hypervolume": 0.2362421497889666
+        },
+        {
+          "evaluations": 352,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.10227272727272728,
+          "hypervolume": 0.3119480511930021
+        },
+        {
+          "evaluations": 384,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.1015625,
+          "hypervolume": 0.3119626031795893
+        },
+        {
+          "evaluations": 416,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.10336538461538461,
+          "hypervolume": 0.3137264007926279
+        },
+        {
+          "evaluations": 448,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.109375,
+          "hypervolume": 0.3363266188879615
+        },
+        {
+          "evaluations": 480,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.10416666666666667,
+          "hypervolume": 0.3363266188879615
+        },
+        {
+          "evaluations": 512,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.10546875,
+          "hypervolume": 0.3419195831819172
+        },
+        {
+          "evaluations": 544,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.10477941176470588,
+          "hypervolume": 0.3717444786408839
+        },
+        {
+          "evaluations": 576,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.10069444444444445,
+          "hypervolume": 0.3717444786408839
+        },
+        {
+          "evaluations": 608,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.09703947368421052,
+          "hypervolume": 0.3717444786408839
+        },
+        {
+          "evaluations": 640,
+          "best_structure": 0.15714037345678342,
+          "feasible_fraction": 0.09375,
+          "hypervolume": 0.3717444786408839
+        }
+      ]
+    },
+    {
+      "method": "random",
+      "seed": 29,
+      "evaluations": 640,
+      "unique_candidates": 640,
+      "geometry_analysis_valid": 489,
+      "fairness_feasible": 71,
+      "best_structure": 0.15273462843526392,
+      "best_pressure_loss": 0.017171717171717227,
+      "maximum_diversity": 0.4636363636363636,
+      "hypervolume": 0.32787738270105193,
+      "curve": [
+        {
+          "evaluations": 32,
+          "best_structure": 0.19374270386746376,
+          "feasible_fraction": 0.125,
+          "hypervolume": 0.21696368417103074
+        },
+        {
+          "evaluations": 64,
+          "best_structure": 0.19374270386746376,
+          "feasible_fraction": 0.0625,
+          "hypervolume": 0.21696368417103074
+        },
+        {
+          "evaluations": 96,
+          "best_structure": 0.16368085711485175,
+          "feasible_fraction": 0.08333333333333333,
+          "hypervolume": 0.2541408911371159
+        },
+        {
+          "evaluations": 128,
+          "best_structure": 0.16368085711485175,
+          "feasible_fraction": 0.0859375,
+          "hypervolume": 0.2541408911371159
+        },
+        {
+          "evaluations": 160,
+          "best_structure": 0.15273462843526392,
+          "feasible_fraction": 0.0875,
+          "hypervolume": 0.2884108548698531
+        },
+        {
+          "evaluations": 192,
+          "best_structure": 0.15273462843526392,
+          "feasible_fraction": 0.08854166666666667,
+          "hypervolume": 0.2884272750740494
+        },
+        {
+          "evaluations": 224,
+          "best_structure": 0.15273462843526392,
+          "feasible_fraction": 0.08482142857142858,
+          "hypervolume": 0.28955599220107126
+        },
+        {
+          "evaluations": 256,
+          "best_structure": 0.15273462843526392,
+          "feasible_fraction": 0.0859375,
+          "hypervolume": 0.2896065868599878
+        },
+        {
+          "evaluations": 288,
+          "best_structure": 0.15273462843526392,
+          "feasible_fraction": 0.09375,
+          "hypervolume": 0.2909107889134421
+        },
+        {
+          "evaluations": 320,
+          "best_structure": 0.15273462843526392,
+          "feasible_fraction": 0.103125,
+          "hypervolume": 0.2909107889134421
+        },
+        {
+          "evaluations": 352,
+          "best_structure": 0.15273462843526392,
+          "feasible_fraction": 0.10511363636363637,
+          "hypervolume": 0.2909107889134421
+        },
+        {
+          "evaluations": 384,
+          "best_structure": 0.15273462843526392,
+          "feasible_fraction": 0.10677083333333333,
+          "hypervolume": 0.30330119990792187
+        },
+        {
+          "evaluations": 416,
+          "best_structure": 0.15273462843526392,
+          "feasible_fraction": 0.11057692307692307,
+          "hypervolume": 0.30782326624225037
+        },
+        {
+          "evaluations": 448,
+          "best_structure": 0.15273462843526392,
+          "feasible_fraction": 0.11160714285714286,
+          "hypervolume": 0.32275830799189825
+        },
+        {
+          "evaluations": 480,
+          "best_structure": 0.15273462843526392,
+          "feasible_fraction": 0.1125,
+          "hypervolume": 0.32275830799189825
+        },
+        {
+          "evaluations": 512,
+          "best_structure": 0.15273462843526392,
+          "feasible_fraction": 0.109375,
+          "hypervolume": 0.32275830799189825
+        },
+        {
+          "evaluations": 544,
+          "best_structure": 0.15273462843526392,
+          "feasible_fraction": 0.10661764705882353,
+          "hypervolume": 0.32275830799189825
+        },
+        {
+          "evaluations": 576,
+          "best_structure": 0.15273462843526392,
+          "feasible_fraction": 0.1076388888888889,
+          "hypervolume": 0.32475321252681566
+        },
+        {
+          "evaluations": 608,
+          "best_structure": 0.15273462843526392,
+          "feasible_fraction": 0.1069078947368421,
+          "hypervolume": 0.32475321252681566
+        },
+        {
+          "evaluations": 640,
+          "best_structure": 0.15273462843526392,
+          "feasible_fraction": 0.1109375,
+          "hypervolume": 0.32787738270105193
+        }
+      ]
+    },
+    {
+      "method": "random",
+      "seed": 47,
+      "evaluations": 640,
+      "unique_candidates": 640,
+      "geometry_analysis_valid": 482,
+      "fairness_feasible": 84,
+      "best_structure": 0.13823941888285815,
+      "best_pressure_loss": 0.04122807017543856,
+      "maximum_diversity": 0.46439393939393947,
+      "hypervolume": 0.3381792684609924,
+      "curve": [
+        {
+          "evaluations": 32,
+          "best_structure": 0.18266946002369566,
+          "feasible_fraction": 0.09375,
+          "hypervolume": 0.14214779906647224
+        },
+        {
+          "evaluations": 64,
+          "best_structure": 0.1780204743061205,
+          "feasible_fraction": 0.109375,
+          "hypervolume": 0.1769277521901502
+        },
+        {
+          "evaluations": 96,
+          "best_structure": 0.13823941888285815,
+          "feasible_fraction": 0.10416666666666667,
+          "hypervolume": 0.18694339244013403
+        },
+        {
+          "evaluations": 128,
+          "best_structure": 0.13823941888285815,
+          "feasible_fraction": 0.1171875,
+          "hypervolume": 0.23363092208279945
+        },
+        {
+          "evaluations": 160,
+          "best_structure": 0.13823941888285815,
+          "feasible_fraction": 0.11875,
+          "hypervolume": 0.23372595983852823
+        },
+        {
+          "evaluations": 192,
+          "best_structure": 0.13823941888285815,
+          "feasible_fraction": 0.11979166666666667,
+          "hypervolume": 0.27963698428685385
+        },
+        {
+          "evaluations": 224,
+          "best_structure": 0.13823941888285815,
+          "feasible_fraction": 0.11607142857142858,
+          "hypervolume": 0.27963698428685385
+        },
+        {
+          "evaluations": 256,
+          "best_structure": 0.13823941888285815,
+          "feasible_fraction": 0.1171875,
+          "hypervolume": 0.27963698428685385
+        },
+        {
+          "evaluations": 288,
+          "best_structure": 0.13823941888285815,
+          "feasible_fraction": 0.1111111111111111,
+          "hypervolume": 0.3193079488699464
+        },
+        {
+          "evaluations": 320,
+          "best_structure": 0.13823941888285815,
+          "feasible_fraction": 0.1125,
+          "hypervolume": 0.3193079488699464
+        },
+        {
+          "evaluations": 352,
+          "best_structure": 0.13823941888285815,
+          "feasible_fraction": 0.11363636363636363,
+          "hypervolume": 0.32339015362213536
+        },
+        {
+          "evaluations": 384,
+          "best_structure": 0.13823941888285815,
+          "feasible_fraction": 0.11979166666666667,
+          "hypervolume": 0.32339015362213536
+        },
+        {
+          "evaluations": 416,
+          "best_structure": 0.13823941888285815,
+          "feasible_fraction": 0.125,
+          "hypervolume": 0.33356554872314964
+        },
+        {
+          "evaluations": 448,
+          "best_structure": 0.13823941888285815,
+          "feasible_fraction": 0.12276785714285714,
+          "hypervolume": 0.33356554872314964
+        },
+        {
+          "evaluations": 480,
+          "best_structure": 0.13823941888285815,
+          "feasible_fraction": 0.13125,
+          "hypervolume": 0.33637107518020304
+        },
+        {
+          "evaluations": 512,
+          "best_structure": 0.13823941888285815,
+          "feasible_fraction": 0.125,
+          "hypervolume": 0.33637107518020304
+        },
+        {
+          "evaluations": 544,
+          "best_structure": 0.13823941888285815,
+          "feasible_fraction": 0.12683823529411764,
+          "hypervolume": 0.33672468781615444
+        },
+        {
+          "evaluations": 576,
+          "best_structure": 0.13823941888285815,
+          "feasible_fraction": 0.1267361111111111,
+          "hypervolume": 0.3381522729207881
+        },
+        {
+          "evaluations": 608,
+          "best_structure": 0.13823941888285815,
+          "feasible_fraction": 0.12664473684210525,
+          "hypervolume": 0.33815227292078803
+        },
+        {
+          "evaluations": 640,
+          "best_structure": 0.13823941888285815,
+          "feasible_fraction": 0.13125,
+          "hypervolume": 0.3381792684609924
+        }
+      ]
+    }
+  ],
+  "source_checks": {
+    "graph_unchanged": true,
+    "dxf_unchanged": true
+  },
+  "hypervolume_reference": [
+    1,
+    1,
+    1,
+    0
+  ],
+  "hypervolume_note": "Post-hoc reporting statistic, not optimized. Only feasible points strictly inside the fixed reference box contribute.",
+  "comparison_note": "Three paired seeds only; objective extrema can belong to different candidates. No claim of better human experience."
+}

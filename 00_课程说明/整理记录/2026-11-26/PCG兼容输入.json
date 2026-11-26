@@ -1,0 +1,132 @@
+{
+  "action": "sync",
+  "files": 25,
+  "pass": true,
+  "details": [
+    {
+      "source": "02_鼠王关研究\\source\\depthmap\\shuwang.graph",
+      "compatibility_path": "shuwang.graph",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\source\\cad\\鼠王关.dxf",
+      "compatibility_path": "鼠王关.dxf",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\connections.json",
+      "compatibility_path": "maps\\ratking\\connections.json",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\convex_export.mid",
+      "compatibility_path": "maps\\ratking\\convex_export.mid",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\convex_export.mif",
+      "compatibility_path": "maps\\ratking\\convex_export.mif",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\convex_export.txt",
+      "compatibility_path": "maps\\ratking\\convex_export.txt",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\convex_metrics.csv",
+      "compatibility_path": "maps\\ratking\\convex_metrics.csv",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\convex_network.net",
+      "compatibility_path": "maps\\ratking\\convex_network.net",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\depthmap_embedded.png",
+      "compatibility_path": "maps\\ratking\\depthmap_embedded.png",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\gate_counts_depthmap_original.png",
+      "compatibility_path": "maps\\ratking\\gate_counts_depthmap_original.png",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\gate_counts_palette.json",
+      "compatibility_path": "maps\\ratking\\gate_counts_palette.json",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\map_transform.json",
+      "compatibility_path": "maps\\ratking\\map_transform.json",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\rooms.json",
+      "compatibility_path": "maps\\ratking\\rooms.json",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\shuwang\\connections.json",
+      "compatibility_path": "maps\\ratking\\shuwang\\connections.json",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\shuwang\\convex.csv",
+      "compatibility_path": "maps\\ratking\\shuwang\\convex.csv",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\shuwang\\convex_geom.mid",
+      "compatibility_path": "maps\\ratking\\shuwang\\convex_geom.mid",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\shuwang\\convex_geom.mif",
+      "compatibility_path": "maps\\ratking\\shuwang\\convex_geom.mif",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\shuwang\\convex_links.csv",
+      "compatibility_path": "maps\\ratking\\shuwang\\convex_links.csv",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\shuwang\\render_data.json",
+      "compatibility_path": "maps\\ratking\\shuwang\\render_data.json",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\shuwang\\rooms.json",
+      "compatibility_path": "maps\\ratking\\shuwang\\rooms.json",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\shuwang\\summary.json",
+      "compatibility_path": "maps\\ratking\\shuwang\\summary.json",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\shuwang\\vga.csv",
+      "compatibility_path": "maps\\ratking\\shuwang\\vga.csv",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\vga_export.txt",
+      "compatibility_path": "maps\\ratking\\vga_export.txt",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\vga_points.csv",
+      "compatibility_path": "maps\\ratking\\vga_points.csv",
+      "matches": true
+    },
+    {
+      "source": "02_鼠王关研究\\maps\\ratking\\vga_summary.json",
+      "compatibility_path": "maps\\ratking\\vga_summary.json",
+      "matches": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "population": 32,
+  "generations": 20,
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "search_implementation": "4172d333728d068368481e68b53f0d24779325fb66006d047c0e190dde00a35f",
+  "grid": 400,
+  "recipe": {
+    "grid": 400,
+    "baseline": "747757816369735aa172a9bd86428de86bba429487b651038f1cd3bfcb9ce8ff",
+    "cli": "04ce9cb67a151d40786ddc51b81c9f703ad75a879ce24c476b1fcf0054f52fcd",
+    "model": "2a4d6d403a2d775ec08259366de95102a08311e38eab5faa3f2d6cfc8ef4d751",
+    "source_profile": "fde9187a963379ddcbefaaa464d425d86c495b8c9e53261a51b16156ebf2d17c",
+    "implementation": {
+      "metrics.py": "a44affd3b7c70fb6855269c39545b2e96d457f79ba8641cf2c45085dd338c6d5",
+      "simulation.py": "2bb610b274cc23bcf70da6f9773966c509eba26fe85207754473a60e18e15344",
+      "evaluator.py": "4077d62aa403d26c010bc56b5bb48c2933ad2cf4878ac7e6d0a4bd8c69736503",
+      "common.py": "22587a8ef4f707abc872cfcfffb78b808178e8a52c02e9de54435850dd8321db",
+      "genome.py": "ad06f355e5d6bdd955ee9a83888a375abf0f003b3ada3cbcc8300b6983b03d89"
+    }
+  },
+  "algorithm": "MixedVariableGA with NSGA-II RankAndCrowding survival"
+}

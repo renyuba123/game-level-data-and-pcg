@@ -1,0 +1,19 @@
+﻿run_id,event_id,source_layer,source_object_id,x_ai,y_ai,route_distance_ai_pt,route_offset_ai_pt,timestamp_s,order_status
+ratking_run-005,E001,Spawn,7791,692.653300435997,859.754185467574,0.0,13.192,,candidate_geometry
+ratking_run-005,E002,Flamethrower,7769,742.000000312219,859.754186183329,36.4,0.0,,candidate_geometry
+ratking_run-005,E003,Flamethrower,7764,772.075067761234,857.952446284249,66.273,3.919,,candidate_geometry
+ratking_run-005,E004,Hunting Pistol,7782,802.090395580643,858.094982715767,98.086,3.7,,candidate_geometry
+ratking_run-005,E005,Flamethrower,7767,452.780752353674,958.787203012187,469.231,4.322,,candidate_geometry
+ratking_run-005,E006,Flamethrower,7766,224.999999943728,565.245881164654,973.276,3.06,,candidate_geometry
+ratking_run-005,E007,Hunting Pistol,7781,192.344646789239,597.822581934738,1020.675,0.0,,candidate_geometry
+ratking_run-005,E008,Hunting Pistol,7780,192.344646800116,671.013303286246,1092.035,3.538,,candidate_geometry
+ratking_run-005,E009,Transform,7761,352.308586518097,755.790423214235,1271.588,19.62,,candidate_geometry
+ratking_run-005,E010,Flamethrower,7770,445.991704054512,846.084188332613,1396.68,0.0,,candidate_geometry
+ratking_run-005,E011,Flamethrower,7765,487.009765101435,853.963814307457,1438.329,4.141,,candidate_geometry
+ratking_run-005,E012,Flamethrower,7771,530.952650428388,854.719293635851,1475.296,0.0,,candidate_geometry
+ratking_run-005,E013,Flamethrower,7768,524.208055040381,832.414190481896,1498.575,1.061,,candidate_geometry
+ratking_run-005,E014,Hunting Pistol,7784,1014.54057574957,810.923869077361,1994.053,4.319,,candidate_geometry
+ratking_run-005,E015,Hunting Pistol,7785,1055.0021753832,815.257774422509,2034.284,4.334,,candidate_geometry
+ratking_run-005,E016,Hunting Pistol,7783,1096.32710907722,814.332935495693,2075.65,3.409,,candidate_geometry
+ratking_run-005,E017,Transform,7762,999.527487243363,618.548021964609,2361.031,19.92,,candidate_geometry
+ratking_run-005,E018,Flamethrower,7772,1019.44714847137,489.822564951147,2489.757,0.0,,candidate_geometry

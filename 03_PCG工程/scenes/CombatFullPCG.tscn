@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://wj22tpxfkbvl"]
+
+[ext_resource type="Script" uid="uid://cflw2tw7tp1f3" path="res://full_pcg/godot/combat_level.gd" id="1_combat"]
+
+[node name="CombatFullPCG" type="Node3D" unique_id=1078241595]
+script = ExtResource("1_combat")
+
+[node name="Node3D" type="Node3D" parent="." unique_id=2075565455]

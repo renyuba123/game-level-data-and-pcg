@@ -1,0 +1,5859 @@
+{
+  "generation": 20,
+  "arm": "genetic",
+  "random_seed": 177,
+  "parent_pool": [
+    {
+      "id": "initial-00",
+      "layout_hash": "f66e941bd5a9716f34e8cc33e60762d5723dfe76c48b36ad71f6815a6c6d572d",
+      "rank": 1,
+      "prior_requests": 4,
+      "weight": 0.2
+    },
+    {
+      "id": "initial-02",
+      "layout_hash": "c9bb605eb37440cc80c0e5dee32d2f3ffc2fb435f30d8f6813bef630b0793a20",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "initial-04",
+      "layout_hash": "450c0b20ce8f1b2379aac0fc536555392d178645e798e609fc5e6c001b82a47b",
+      "rank": 1,
+      "prior_requests": 4,
+      "weight": 0.2
+    },
+    {
+      "id": "single-10-01",
+      "layout_hash": "c1a0dfd25ebc7b83b169f713e07b14194f25662461dbd3c056270087013a2fe5",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-10-06",
+      "layout_hash": "81cab796f17cd394a86700115c6c63df48ddf446db978d1fa20035c34bf64d10",
+      "rank": 1,
+      "prior_requests": 3,
+      "weight": 0.25
+    },
+    {
+      "id": "single-10-07",
+      "layout_hash": "82d5ceaf29d3e2b83f9df8e8e4bc1802945e4af429ec8c6a5996c0029e1254df",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-11-02",
+      "layout_hash": "fa14433e028ec4a9062d7de063096eb2d68f52bf0e39877f46bd6b1cb66506d5",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-11-03",
+      "layout_hash": "5253802fbb66f017b8bfb8ba12778cb0b1c6aa3d63b9086dc99f3e040559c0ee",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-11-05",
+      "layout_hash": "b9bab44c64bd1677759a76912fd04c45c62095724239ece6b4ca50da1b6e7e13",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-12-00",
+      "layout_hash": "11e69e0386976ce8056003283912a1503e5d3652b5a69dde1e6927de9581ea02",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-12-01",
+      "layout_hash": "2e7ffb2bb7c9c6c5d7a14fd9b77f57eff84f9f67abdb96a4ad1b0df13bb1c1e6",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-12-02",
+      "layout_hash": "449afa388fbe25c55c2615e57d5db041dbb0098f023eae5e6c837fa48a380840",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-12-04",
+      "layout_hash": "10c0c927b271b28ce21495b59e55b34e1026e2c44e4d452ba589a0fbc63f9cea",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-12-05",
+      "layout_hash": "439621dba8685597a3fc5cf512709dc3076c31b8c21d18e2f024ba3588eb5931",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-12-06",
+      "layout_hash": "0cbe23da284b36c43fe0494b0ae2f6e86d795f2e29cc8964a5fe8584154743da",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-13-01",
+      "layout_hash": "730ca4f796bd071165c185fb085aa76a615ee1ae6121530bfde4fe23a5efc3ef",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-13-04",
+      "layout_hash": "773333dc4da7e07b597cda71eb35e2044b6ec4174c245ed7074850dc967762bd",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-13-06",
+      "layout_hash": "f52444e9207dad49f7b3e0e0b7e54b034bb636863859a2899544d5af00d5d266",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-13-07",
+      "layout_hash": "d21699e4b5f881b6da99ca92b8b5da5c648d572d5c4f5e904c958d7a994f748e",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-14-04",
+      "layout_hash": "4fae172df12c8e1ef68a7165b8d7621360f928fba05b95f14778c84cb2a71dfc",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-14-05",
+      "layout_hash": "b6f9551c736a1f69244250b74b6b8de6f06b46eee39dbf9990ed482621d14a56",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-14-07",
+      "layout_hash": "7c98ae738555566b074fb8b0b4ecc74124cbe39353f3ce606453e83e2dcd9cb2",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-15-01",
+      "layout_hash": "f1284568026e287d7dcccff69e737b019f763150a03b6da0fb3a47c5150beacd",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-15-03",
+      "layout_hash": "8a75a0abd2e870f92f50bdc85f2556b9ba0a358de62e62bd0778e1bc09bc3e9b",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-15-04",
+      "layout_hash": "bbc070f195a69aa71aeba6d9c9ca28031e53f3311f3375eb1533a390cfcc7192",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-15-06",
+      "layout_hash": "225901ff5a6076a8f4a6cf26494525c402d059b4655f703b41b7fdd095939167",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-16-05",
+      "layout_hash": "b35af510e88aca04f9aecc963cf78931527d3f522a2fbfe73bef17a6809bd6e5",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-16-06",
+      "layout_hash": "c4deaaa1d5d39a541e68bb01d68df71af8d130d5ba1c4d45e00821b27040dc11",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-17-02",
+      "layout_hash": "1035856e9e20be77371c573936e4e542da328fdbb9fb2001ad1e71c3b9fd5490",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-17-04",
+      "layout_hash": "1c28dd7af07cfb652f5153471a425f878384b93c26465f8083cbb37dc8ea4179",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-17-06",
+      "layout_hash": "bafdf87fb619185db35b09e7aebe3233d1d66d6835993d7507f7252c40c7dc99",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-17-07",
+      "layout_hash": "bcae4cfebdc8cb85b6e706a7db45b873f4f2c3fe4aa7964c35061432b7199c87",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-18-00",
+      "layout_hash": "5752c5d438d968e4e9255dade12bf7ae1f1bec0c24d4ec2aa1f6b54422842838",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-18-02",
+      "layout_hash": "97e691cab0a7d62ecbf5e2296d14c8906cffac70681be34ab5b2ea4737dd9d4d",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-18-04",
+      "layout_hash": "873f619cc3b700876a9de0f846e005f15a292c9b33e4036043b8caf6d3f4057c",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-18-05",
+      "layout_hash": "8dc88e17838e005802fc26ee6407acde8b8250b9fa7667ae96f123bb992af93a",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-18-07",
+      "layout_hash": "10ad8889b35154cf99eedcab7efc5fbd54e117961050ffb8e0dd55fa2971d5ee",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-19-01",
+      "layout_hash": "7eeb064d5e1281aaf75801f94afe4aebe68e37a1f36f4841d8dff46e97c90961",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-19-03",
+      "layout_hash": "847f238695cfd5ddb4ce8fce3acc9c5fdf0bceb87374e606c2f76406276c950c",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-19-07",
+      "layout_hash": "ec13b285edc2e115e8cd1208b6815a60bac32e1b0cdfcfcd2e61a88149221748",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-2-03",
+      "layout_hash": "e7125d772c2c558d1f61089095b11e2815e29cba8abdc357f34c2ef9a8674c06",
+      "rank": 1,
+      "prior_requests": 3,
+      "weight": 0.25
+    },
+    {
+      "id": "single-2-07",
+      "layout_hash": "9fca9b20f8dfe064922e2fd7fa5c9da61848684bb8d87b030ca8006f36cc62e4",
+      "rank": 1,
+      "prior_requests": 3,
+      "weight": 0.25
+    },
+    {
+      "id": "single-3-05",
+      "layout_hash": "f1f2920d28788e468868ebed2fa284c8637f6daa6a228b6cd6b318de7b752c97",
+      "rank": 1,
+      "prior_requests": 4,
+      "weight": 0.2
+    },
+    {
+      "id": "single-3-07",
+      "layout_hash": "3e2be0fae8e50f8df0d181e33bdd9e58ef441077f18e1216aaad95dac731f2fc",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-4-01",
+      "layout_hash": "62bf6a6b43485c80c96de97e6dd46b3e4ec67a975b241d875cccc58d54976f6a",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-4-03",
+      "layout_hash": "2d7999b3cf4d34fbe22f7ef08111a542318cfcb5a06904af6e065e821617bdb0",
+      "rank": 1,
+      "prior_requests": 3,
+      "weight": 0.25
+    },
+    {
+      "id": "single-5-07",
+      "layout_hash": "e3a7c36d5ff074e66b8eabfc2712f204eeb4aa14fd6285bf083976ecc47a963a",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-6-00",
+      "layout_hash": "dcbad2c6eb33a683b4eb970b56265ec678d8b74837bed39942958d5a49954451",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-6-02",
+      "layout_hash": "1fbdeff095c2c57eb390ab18c74990bcf40e1341de2593f2994795c96509c4e8",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-6-03",
+      "layout_hash": "79945d7c9f75fb6d065bba5c01760555736fb738288362c2f0ce080a07d73dc2",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-7-00",
+      "layout_hash": "efa0d2add98f73697ae06a108c2a1314b9bdf150c88f192ca0a8f6021ff1d8dd",
+      "rank": 1,
+      "prior_requests": 0,
+      "weight": 1.0
+    },
+    {
+      "id": "single-7-04",
+      "layout_hash": "dd06eef0f9c3643485916c93b172d695d83345d5d3685b5d12cd37c243c9d607",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-8-01",
+      "layout_hash": "115aa74aab5358b70abbf674a53e492747200f815526c133029b543f29921788",
+      "rank": 1,
+      "prior_requests": 3,
+      "weight": 0.25
+    },
+    {
+      "id": "single-8-04",
+      "layout_hash": "8a656b7631ec2530eb39d6df18e1baf8b068f8465fcd1cee71e768c9e6a47517",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-9-04",
+      "layout_hash": "ecad3198381d769deedcdc77898c0bbbb8ff12cfb54c64cc85b0c8493e3ae04f",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-9-05",
+      "layout_hash": "4e4ddce92bd6b489accfb8c4711fa768e31b8bcfd7a1cd55f6a428bf94e8a392",
+      "rank": 1,
+      "prior_requests": 1,
+      "weight": 0.5
+    },
+    {
+      "id": "single-9-06",
+      "layout_hash": "c6194dd6ec10165016fae29b16370e88f08d22c24fdef252935d2ea3192b3472",
+      "rank": 1,
+      "prior_requests": 2,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "initial-06",
+      "layout_hash": "79d26d71398bc1be8dce4141169eab8d9b125fb8ac6c5f9f5af6796e9ddc1718",
+      "rank": 2,
+      "prior_requests": 3,
+      "weight": 0.125
+    },
+    {
+      "id": "single-11-07",
+      "layout_hash": "1afeccddffafa458a51a2ba5568cf5dcdc62cdc39f482319eec89da2df4ac71f",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-13-00",
+      "layout_hash": "13127eeb17ab34887cf46ba6afc4c51b7d7f257ccb73b6cc810735abd3b1272a",
+      "rank": 2,
+      "prior_requests": 1,
+      "weight": 0.25
+    },
+    {
+      "id": "single-13-02",
+      "layout_hash": "c4a9fe431a733729018020e1438645461972f85bc2847333cd744e65ffc5b249",
+      "rank": 2,
+      "prior_requests": 1,
+      "weight": 0.25
+    },
+    {
+      "id": "single-13-03",
+      "layout_hash": "739ff770cce1135884c082a79eb377edff2a693c5da0c422c3b7a3b61ee21189",
+      "rank": 2,
+      "prior_requests": 1,
+      "weight": 0.25
+    },
+    {
+      "id": "single-13-05",
+      "layout_hash": "61e4da46ebed7b60e0410516b8cdc01d64ec97cdcb227360b9d4242f659b4ff7",
+      "rank": 2,
+      "prior_requests": 1,
+      "weight": 0.25
+    },
+    {
+      "id": "single-14-00",
+      "layout_hash": "cf42cde1e73b087bdea1718be48da79f0f3cdc2e651e93f59f2ed0132e86cff4",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-14-02",
+      "layout_hash": "c85cf97f61fd5383c5143756c099bf0e8fac7714f6c62dc3110bdd47a8db7033",
+      "rank": 2,
+      "prior_requests": 1,
+      "weight": 0.25
+    },
+    {
+      "id": "single-15-02",
+      "layout_hash": "eb1b958a66a11bf308b628bc196b9bc45fd1542869574e5a9c47f7bc1a3a6dee",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-15-05",
+      "layout_hash": "adf0bb43c6296f7fc3f344fc55b4ae1c58e3f3f22efb76d0b8ab687ba926eeb5",
+      "rank": 2,
+      "prior_requests": 1,
+      "weight": 0.25
+    },
+    {
+      "id": "single-15-07",
+      "layout_hash": "31cdf31067c89571400b4ba85eee118d1cf77e5132a9d85ecd3077581244312b",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-16-01",
+      "layout_hash": "0974242e468764730e09fcb1815278e509f9ff4560ae629cf4f7392b3adeb697",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-16-04",
+      "layout_hash": "2f76e64791b249ec53f1bb80476e07bcf8390bfd9006bd427f9dc2e7d266967f",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-16-07",
+      "layout_hash": "0718a3af100d046c1d3562b25229b0604f5f0bd5d5add7d751d06532f44fa273",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-17-05",
+      "layout_hash": "f90dc85c9c02b5b673ee42735f2ff2eeeb334b1aba67b9557fb4299857abe58e",
+      "rank": 2,
+      "prior_requests": 1,
+      "weight": 0.25
+    },
+    {
+      "id": "single-18-03",
+      "layout_hash": "292988a031f3434c689a5e10448c8435da11ef699b0f2bcca1985d90539d7012",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-19-02",
+      "layout_hash": "aba7232ab1fb754df90aba3bc7853b9dbec1ee28ea759bddb10deb4ba20b8469",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-19-04",
+      "layout_hash": "a7c5866b4ff2b1453055c2a1c87ea1e49da9e0af93dc33e6a3283ee689b1145c",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-19-06",
+      "layout_hash": "6f1c2e4f5368380375ea266de3c83fc5122361e4bfa6c33522f87c11c58e2854",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-2-00",
+      "layout_hash": "927110349750cfcf7fa9638d7688a81d0e2a45c51587e636113d6e8b39b9c707",
+      "rank": 2,
+      "prior_requests": 2,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-3-02",
+      "layout_hash": "1da6c61de190e4ee55c59701983235d747f4f217ab4beea49d54e45ea03353cb",
+      "rank": 2,
+      "prior_requests": 2,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-3-03",
+      "layout_hash": "f7a4b56ebfaee95e24c865e575f76e9157b2d177a738be6b52fd7d0131c48167",
+      "rank": 2,
+      "prior_requests": 3,
+      "weight": 0.125
+    },
+    {
+      "id": "single-4-05",
+      "layout_hash": "9dcaef96813a1e9982cdd49702a9cc2db0192a9d9f554721e99077a730490cbd",
+      "rank": 2,
+      "prior_requests": 2,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-4-07",
+      "layout_hash": "4a0181199ea261d039e1f3a13fff6fba61e5099cdf6f192bc12e4f6f2b5a3564",
+      "rank": 2,
+      "prior_requests": 3,
+      "weight": 0.125
+    },
+    {
+      "id": "single-5-02",
+      "layout_hash": "d2d7053c2b7004865ca3f039f20396390ed00d1128ab1b428bf9b4928225bc1a",
+      "rank": 2,
+      "prior_requests": 2,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-5-06",
+      "layout_hash": "00b474ec0db575ebca33c72cc84c52b7f1ab4e37f1178577b74a0e3ba0f414e9",
+      "rank": 2,
+      "prior_requests": 3,
+      "weight": 0.125
+    },
+    {
+      "id": "single-6-04",
+      "layout_hash": "933a76d1b00f211b5cd0ae482e3866302a920366eb10f519ff6ac4e7051df05d",
+      "rank": 2,
+      "prior_requests": 1,
+      "weight": 0.25
+    },
+    {
+      "id": "single-6-06",
+      "layout_hash": "d9cb02df86b6627461cf35b77426ad3dc762e6a81788a06c27549e2f55776da4",
+      "rank": 2,
+      "prior_requests": 2,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-6-07",
+      "layout_hash": "df112f56b974b954fdceb35251f7156c40966389d63bd62df7bd7aa1ea169ee1",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-7-06",
+      "layout_hash": "a4bedc417a7d1297a926f0ec08aea22856f1141b3beb1a1a2f046d43e348cec9",
+      "rank": 2,
+      "prior_requests": 0,
+      "weight": 0.5
+    },
+    {
+      "id": "single-8-00",
+      "layout_hash": "fd7c662523cc88cb62b19d5d14108b4ec846e408735a11ae1a508ee606711298",
+      "rank": 2,
+      "prior_requests": 2,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-10-03",
+      "layout_hash": "29c41903874f4e7560eb46b19df12fe4212d4a9a3231187c395420627240c6d7",
+      "rank": 3,
+      "prior_requests": 1,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-12-07",
+      "layout_hash": "c35225440b553da390a0a98e6a70ed6aa8ecbbf7e64839598c45aea644e569d2",
+      "rank": 3,
+      "prior_requests": 1,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-14-01",
+      "layout_hash": "fc835c0a79a548c77ae3896c5765c141f21992cf149118800198dc1907888a45",
+      "rank": 3,
+      "prior_requests": 0,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-14-03",
+      "layout_hash": "8645ebc07b57ea33c9ccfa605fe7c8a9e29686134ee817a654f834133f2364f4",
+      "rank": 3,
+      "prior_requests": 0,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-15-00",
+      "layout_hash": "a088dadfb8922f2f89a05e3ce86f80ac70359ec4ee47f474330e9c42935bf3d4",
+      "rank": 3,
+      "prior_requests": 0,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-16-00",
+      "layout_hash": "b30520960589cb0825f484ea2893803f4fb1126e1aac0d0d886a80b5910b0538",
+      "rank": 3,
+      "prior_requests": 0,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-16-03",
+      "layout_hash": "3b48445519eb746d118310c28e7754c66c5c41c8aa3c18a9517fcf9cfcb3eecf",
+      "rank": 3,
+      "prior_requests": 0,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-17-01",
+      "layout_hash": "b37e7a8012189f0cb7f9feceb131231bb59530a84c853b5e5d697f8960f2669f",
+      "rank": 3,
+      "prior_requests": 0,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-17-03",
+      "layout_hash": "f3abb81fa30c9dcbf458d640da800b492c0b369cdb665ba61b801b1721118139",
+      "rank": 3,
+      "prior_requests": 1,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-18-01",
+      "layout_hash": "3777ac8305a315e1145bd0ebfcb75e2b918737eb407c69f89f35cdf865784374",
+      "rank": 3,
+      "prior_requests": 0,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-19-05",
+      "layout_hash": "bfdbe54bd2c218c58d83a278dab7e2cc29fae5b40cfbe55f0b410bafa02b91bb",
+      "rank": 3,
+      "prior_requests": 0,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-2-05",
+      "layout_hash": "7f3c01bc3c8e463bfdce073cfa2a567f8b576809386b6d62287deebf2b9b2979",
+      "rank": 3,
+      "prior_requests": 3,
+      "weight": 0.08333333333333333
+    },
+    {
+      "id": "single-2-06",
+      "layout_hash": "4fc1e31b822bbecaecf47fde0e9f8d34c62fdcc470879daa0b985cf285e9398a",
+      "rank": 3,
+      "prior_requests": 1,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-3-04",
+      "layout_hash": "e2519a27a8a6302637bc1274c60a73994bc0781ebfb1f5032e9fadff7936bddf",
+      "rank": 3,
+      "prior_requests": 3,
+      "weight": 0.08333333333333333
+    },
+    {
+      "id": "single-4-00",
+      "layout_hash": "f146578e10e251ed0b7b7da7199e1b219e2ef367fc07af1179ac0892e00b8d00",
+      "rank": 3,
+      "prior_requests": 1,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-5-00",
+      "layout_hash": "c5940b63af4c0c77b4c9925aa1fb171ce6b9230e3ff5bb75f4da516d3316fe2d",
+      "rank": 3,
+      "prior_requests": 1,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-5-03",
+      "layout_hash": "3149d586be6d4219ee5c7f1518125d6127a886188ab1dfc12b2c7a382344b0ea",
+      "rank": 3,
+      "prior_requests": 1,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-7-01",
+      "layout_hash": "2ab3676189f15683ff923354eb8a41718cb9055bcf4fe99b11fcf76e04d95d22",
+      "rank": 3,
+      "prior_requests": 2,
+      "weight": 0.1111111111111111
+    },
+    {
+      "id": "single-9-02",
+      "layout_hash": "29112e183d10ac8b964666c7844e54d290f696d44c209f1b874a4392630c2263",
+      "rank": 3,
+      "prior_requests": 0,
+      "weight": 0.3333333333333333
+    },
+    {
+      "id": "single-9-03",
+      "layout_hash": "39dcf2fbcbba66bf42ff15aa7a8dfa7df1675ec67a7d9afa32d6cc571c7eae41",
+      "rank": 3,
+      "prior_requests": 3,
+      "weight": 0.08333333333333333
+    },
+    {
+      "id": "initial-01",
+      "layout_hash": "b58adb8129c50117ec45c81a31c5a1373f778cfe50def19c0bb010ce88be993e",
+      "rank": 4,
+      "prior_requests": 4,
+      "weight": 0.05
+    },
+    {
+      "id": "initial-05",
+      "layout_hash": "3d23e144d23d0c767f03de5b23177920c9e1e680c752cf1316c4ca6664b3b12c",
+      "rank": 4,
+      "prior_requests": 3,
+      "weight": 0.0625
+    },
+    {
+      "id": "single-1-00",
+      "layout_hash": "9a41663e5d01c8a0d128e1d3845ba5fee1cb082e423b53425024103390e15df4",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "single-1-02",
+      "layout_hash": "5b6790572d07492b390735b49e729d061ee0b50b032806b5ed42f1e6ae075970",
+      "rank": 4,
+      "prior_requests": 2,
+      "weight": 0.08333333333333333
+    },
+    {
+      "id": "single-1-06",
+      "layout_hash": "95e6fda536a1b4e39b661779a7a18137cbb9f818649cce2dc099c0803db13823",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "single-1-07",
+      "layout_hash": "c4f27dcb748f13ceb5eb1019dbd3d2977a5ff2f2563c43f06a880efc17540231",
+      "rank": 4,
+      "prior_requests": 2,
+      "weight": 0.08333333333333333
+    },
+    {
+      "id": "single-10-04",
+      "layout_hash": "2b62c12be57894056f01107b45ba1b0574d2e77cdbe462360846ef5cfcf08a8f",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "single-10-05",
+      "layout_hash": "b30463c807b673f549e90acdca91e561feb639b74c44289db285a89ae487c716",
+      "rank": 4,
+      "prior_requests": 0,
+      "weight": 0.25
+    },
+    {
+      "id": "single-11-04",
+      "layout_hash": "f4ad7af4f9cf824b2a6fe1ee3209574943c3a29e73dfad0e092dd8faaff5a0e1",
+      "rank": 4,
+      "prior_requests": 0,
+      "weight": 0.25
+    },
+    {
+      "id": "single-11-06",
+      "layout_hash": "2b4304f72575091d7e1558077e796081cd1b432341493223800791506829cc0a",
+      "rank": 4,
+      "prior_requests": 0,
+      "weight": 0.25
+    },
+    {
+      "id": "single-2-04",
+      "layout_hash": "fb0859c62b991930860ade8cbc92ffe0048258b22b38e1c1da579e55eba5d535",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "single-3-01",
+      "layout_hash": "1728b4fdfecb435ce50f1c322af63b039782efc6068876907426bca25a88baf1",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "single-4-04",
+      "layout_hash": "9f3db9c95f696119933fa83013e5c68188162890fd7361257071f8cfe629e82f",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "single-5-05",
+      "layout_hash": "17b41a8bee3c67be2819f5cae0ecf1953c97117e40273d58217558ecd1e7faa0",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "single-6-01",
+      "layout_hash": "7a61690351157ba61ceea3348b16da24df56b95e2961c9c97edfb99704e9905d",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "single-8-02",
+      "layout_hash": "746b013ef4a7a19aca5d1de029cbf218015656deb64af7b5db51c936363abc54",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "single-8-05",
+      "layout_hash": "77cf622c7bd3f756bf0dd651d26b759a7c98c4f07e91f0f3f9dd5cb25954f14e",
+      "rank": 4,
+      "prior_requests": 0,
+      "weight": 0.25
+    },
+    {
+      "id": "single-9-00",
+      "layout_hash": "df07617aa4209ad32a273062f5218dc8478c2208f3e600c39951086f974712b1",
+      "rank": 4,
+      "prior_requests": 0,
+      "weight": 0.25
+    },
+    {
+      "id": "single-9-07",
+      "layout_hash": "2e04219d1e2c924b610190c25a0f892fe1d46fd160677a4c3854fa58b1f4ae1f",
+      "rank": 4,
+      "prior_requests": 1,
+      "weight": 0.125
+    },
+    {
+      "id": "initial-07",
+      "layout_hash": "ef1047d5e8c3934e2b2d7867fda91c66d05b3ac8cd6889fe83186342b9adf1c5",
+      "rank": 5,
+      "prior_requests": 4,
+      "weight": 0.04
+    },
+    {
+      "id": "single-1-01",
+      "layout_hash": "0083f3d02e45dd681d0c78c917e820cad5f6c24aeb2a1497499068afc0d53a61",
+      "rank": 5,
+      "prior_requests": 1,
+      "weight": 0.1
+    },
+    {
+      "id": "single-1-03",
+      "layout_hash": "d023546a420a231f74c1c4e8547078dbe7aecfa323d49e84dc8c34105dc7dcd8",
+      "rank": 5,
+      "prior_requests": 1,
+      "weight": 0.1
+    },
+    {
+      "id": "single-1-05",
+      "layout_hash": "32eea91a256e5cd899e1b251bfb70b3731094e1c1ac8a578a4fc10598cceedc6",
+      "rank": 5,
+      "prior_requests": 1,
+      "weight": 0.1
+    },
+    {
+      "id": "single-11-01",
+      "layout_hash": "c397d9e3436e8f7b71b203dce3fd4b190b400b7c35e9e323059a369b081c7f46",
+      "rank": 5,
+      "prior_requests": 0,
+      "weight": 0.2
+    },
+    {
+      "id": "single-3-06",
+      "layout_hash": "7d5de5896eb7520243fc5760fbb27f88a79bd62220dadbd3f0583fc3291eb478",
+      "rank": 5,
+      "prior_requests": 1,
+      "weight": 0.1
+    },
+    {
+      "id": "single-7-03",
+      "layout_hash": "9ae49a804ee61d7f2d765d6c512288815306bdb7a13d00a6ba414956f265cf68",
+      "rank": 5,
+      "prior_requests": 2,
+      "weight": 0.06666666666666667
+    },
+    {
+      "id": "single-7-07",
+      "layout_hash": "095906f8b4aeacac52a12a3dff91e12eefdf8e4e0482d60de75c3002c378ac29",
+      "rank": 5,
+      "prior_requests": 2,
+      "weight": 0.06666666666666667
+    },
+    {
+      "id": "single-9-01",
+      "layout_hash": "d563bea881a59cb02fcdd8c605916ae3e2ae8ec0c4132ccc1e4cdc99b67ed871",
+      "rank": 5,
+      "prior_requests": 0,
+      "weight": 0.2
+    },
+    {
+      "id": "initial-03",
+      "layout_hash": "dd2c8cad36682fd0d925fcef1e5b12d3d374402c56099495ad673be3249b4332",
+      "rank": 6,
+      "prior_requests": 0,
+      "weight": 0.16666666666666666
+    },
+    {
+      "id": "single-1-04",
+      "layout_hash": "48a315795ddd8d069c870ab1b1cb17d93c68f923bdbbba221c91f3629f6a9607",
+      "rank": 6,
+      "prior_requests": 1,
+      "weight": 0.08333333333333333
+    },
+    {
+      "id": "single-3-00",
+      "layout_hash": "023c446f55c5662a4c317109fdd1f34649ab84cd501a412490dd96bdf8d41c7a",
+      "rank": 6,
+      "prior_requests": 2,
+      "weight": 0.05555555555555555
+    }
+  ],
+  "requests": [
+    {
+      "parents": [
+        "single-15-04"
+      ],
+      "parent_layout_hash": "bbc070f195a69aa71aeba6d9c9ca28031e53f3311f3375eb1533a390cfcc7192",
+      "genome": {
+        "schema": "shell-pilot-genome/1",
+        "seed": 48,
+        "door_attempt": 0,
+        "repair_reasons": [],
+        "partitions": [
+          [
+            "hall",
+            [
+              [
+                10.15508,
+                4.475689
+              ],
+              [
+                10.233735,
+                4.475689
+              ],
+              [
+                10.339265,
+                4.475689
+              ],
+              [
+                10.339265,
+                4.223527
+              ],
+              [
+                14.803596,
+                4.223527
+              ],
+              [
+                14.803596,
+                10.460209
+              ],
+              [
+                16.749282,
+                10.460209
+              ],
+              [
+                16.749282,
+                9.354941
+              ],
+              [
+                16.749282,
+                4.67859
+              ],
+              [
+                16.749282,
+                3.093073
+              ],
+              [
+                16.018558,
+                2.406657
+              ],
+              [
+                10.233735,
+                2.406657
+              ],
+              [
+                8.310813,
+                2.406657
+              ],
+              [
+                8.310813,
+                2.658819
+              ],
+              [
+                2.878114,
+                2.658819
+              ],
+              [
+                2.878114,
+                2.928807
+              ],
+              [
+                2.878114,
+                6.720848
+              ],
+              [
+                8.413135,
+                6.720848
+              ],
+              [
+                8.413135,
+                5.653815
+              ],
+              [
+                10.15508,
+                4.475689
+              ]
+            ]
+          ],
+          [
+            "east_end",
+            [
+              [
+                19.649455,
+                4.67859
+              ],
+              [
+                16.749282,
+                4.67859
+              ],
+              [
+                16.749282,
+                9.354941
+              ],
+              [
+                21.122688,
+                9.354941
+              ],
+              [
+                21.122688,
+                5.568114
+              ],
+              [
+                19.649455,
+                4.67859
+              ]
+            ]
+          ],
+          [
+            "left_core",
+            [
+              [
+                2.079131,
+                -1.079497
+              ],
+              [
+                2.079131,
+                -2.066661
+              ],
+              [
+                -2.289814,
+                -2.066661
+              ],
+              [
+                -2.289814,
+                2.928807
+              ],
+              [
+                2.878114,
+                2.928807
+              ],
+              [
+                2.878114,
+                2.658819
+              ],
+              [
+                5.478011,
+                2.658819
+              ],
+              [
+                5.478011,
+                -1.079497
+              ],
+              [
+                2.079131,
+                -1.079497
+              ]
+            ]
+          ],
+          [
+            "left_inner",
+            [
+              [
+                4.130428,
+                -5.257004
+              ],
+              [
+                4.130428,
+                -1.079497
+              ],
+              [
+                5.478011,
+                -1.079497
+              ],
+              [
+                5.478011,
+                2.658819
+              ],
+              [
+                8.310813,
+                2.658819
+              ],
+              [
+                8.310813,
+                2.406657
+              ],
+              [
+                8.310813,
+                -1.079497
+              ],
+              [
+                8.310813,
+                -5.257004
+              ],
+              [
+                4.130428,
+                -5.257004
+              ]
+            ]
+          ],
+          [
+            "north",
+            [
+              [
+                8.413135,
+                6.720848
+              ],
+              [
+                2.878114,
+                6.720848
+              ],
+              [
+                2.878114,
+                9.412855
+              ],
+              [
+                8.413135,
+                9.412855
+              ],
+              [
+                8.413135,
+                6.720848
+              ]
+            ]
+          ],
+          [
+            "left_inner_side",
+            [
+              [
+                2.079131,
+                -1.079497
+              ],
+              [
+                4.130428,
+                -1.079497
+              ],
+              [
+                4.130428,
+                -5.257004
+              ],
+              [
+                2.079131,
+                -5.257004
+              ],
+              [
+                2.079131,
+                -2.066661
+              ],
+              [
+                2.079131,
+                -1.079497
+              ]
+            ]
+          ],
+          [
+            "east_high",
+            [
+              [
+                10.339265,
+                4.223527
+              ],
+              [
+                10.339265,
+                4.475689
+              ],
+              [
+                10.339265,
+                7.98206
+              ],
+              [
+                10.339265,
+                10.460209
+              ],
+              [
+                12.726769513220223,
+                10.460209
+              ],
+              [
+                12.768173840203909,
+                10.460209
+              ],
+              [
+                14.803596,
+                10.460209
+              ],
+              [
+                14.803596,
+                7.978366868165841
+              ],
+              [
+                12.751456097581455,
+                7.978366868165841
+              ],
+              [
+                12.751456097581455,
+                4.223527
+              ],
+              [
+                12.697144076001983,
+                4.223527
+              ],
+              [
+                12.352359,
+                4.223527
+              ],
+              [
+                10.339265,
+                4.223527
+              ]
+            ]
+          ],
+          [
+            "east_low",
+            [
+              [
+                14.803596,
+                7.973124957913091
+              ],
+              [
+                14.803596,
+                6.711799593446562
+              ],
+              [
+                14.803596,
+                6.690422775535354
+              ],
+              [
+                14.803596,
+                4.223527
+              ],
+              [
+                12.751456097581455,
+                4.223527
+              ],
+              [
+                12.751456097581455,
+                7.978366868165841
+              ],
+              [
+                14.803596,
+                7.978366868165841
+              ],
+              [
+                14.803596,
+                7.973124957913091
+              ]
+            ]
+          ]
+        ],
+        "edited_partition": true,
+        "closed_pairs": [],
+        "opening_shifts": [
+          [
+            [
+              "left_core",
+              "left_inner"
+            ],
+            -0.16
+          ],
+          [
+            [
+              "left_core",
+              "left_inner_side"
+            ],
+            0.16
+          ]
+        ]
+      },
+      "genome_hash": "3594762b155478103e72740c2932be57252e3cb6b4a7a2615ce9715bc1d01cae",
+      "edit": "full",
+      "edit_target": 1,
+      "operation": [
+        "rewrite_region",
+        "east_high",
+        "east_low"
+      ],
+      "operations": [
+        {
+          "kind": "rewrite_region",
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "before_genome": "ca1b5a5606a09aaf097b93b33b13c90d95aa40c7b9cb3e424324fa52afe31d4a",
+          "after_genome": "3594762b155478103e72740c2932be57252e3cb6b4a7a2615ce9715bc1d01cae",
+          "partitions": {
+            "east_high": {
+              "before": [
+                [
+                  12.697144076001983,
+                  4.223527
+                ],
+                [
+                  12.352359,
+                  4.223527
+                ],
+                [
+                  10.339265,
+                  4.223527
+                ],
+                [
+                  10.339265,
+                  4.475689
+                ],
+                [
+                  10.339265,
+                  7.98206
+                ],
+                [
+                  10.339265,
+                  10.460209
+                ],
+                [
+                  12.726769513220223,
+                  10.460209
+                ],
+                [
+                  12.768173840203909,
+                  10.460209
+                ],
+                [
+                  12.768173840203909,
+                  6.711799593446562
+                ],
+                [
+                  14.803596,
+                  6.711799593446562
+                ],
+                [
+                  14.803596,
+                  6.690422775535354
+                ],
+                [
+                  14.803596,
+                  4.223527
+                ],
+                [
+                  12.697144076001983,
+                  4.223527
+                ]
+              ],
+              "after": [
+                [
+                  10.339265,
+                  4.223527
+                ],
+                [
+                  10.339265,
+                  4.475689
+                ],
+                [
+                  10.339265,
+                  7.98206
+                ],
+                [
+                  10.339265,
+                  10.460209
+                ],
+                [
+                  12.726769513220223,
+                  10.460209
+                ],
+                [
+                  12.768173840203909,
+                  10.460209
+                ],
+                [
+                  14.803596,
+                  10.460209
+                ],
+                [
+                  14.803596,
+                  7.978366868165841
+                ],
+                [
+                  12.751456097581455,
+                  7.978366868165841
+                ],
+                [
+                  12.751456097581455,
+                  4.223527
+                ],
+                [
+                  12.697144076001983,
+                  4.223527
+                ],
+                [
+                  12.352359,
+                  4.223527
+                ],
+                [
+                  10.339265,
+                  4.223527
+                ]
+              ]
+            },
+            "east_low": {
+              "before": [
+                [
+                  14.803596,
+                  10.460209
+                ],
+                [
+                  14.803596,
+                  7.973124957913091
+                ],
+                [
+                  14.803596,
+                  6.711799593446562
+                ],
+                [
+                  12.768173840203909,
+                  6.711799593446562
+                ],
+                [
+                  12.768173840203909,
+                  10.460209
+                ],
+                [
+                  14.803596,
+                  10.460209
+                ]
+              ],
+              "after": [
+                [
+                  14.803596,
+                  7.973124957913091
+                ],
+                [
+                  14.803596,
+                  6.711799593446562
+                ],
+                [
+                  14.803596,
+                  6.690422775535354
+                ],
+                [
+                  14.803596,
+                  4.223527
+                ],
+                [
+                  12.751456097581455,
+                  4.223527
+                ],
+                [
+                  12.751456097581455,
+                  7.978366868165841
+                ],
+                [
+                  14.803596,
+                  7.978366868165841
+                ],
+                [
+                  14.803596,
+                  7.973124957913091
+                ]
+              ]
+            }
+          },
+          "opening_shifts": [
+            [
+              [
+                [
+                  "left_core",
+                  "left_inner"
+                ],
+                -0.16
+              ],
+              [
+                [
+                  "left_core",
+                  "left_inner_side"
+                ],
+                0.16
+              ]
+            ],
+            [
+              [
+                [
+                  "left_core",
+                  "left_inner"
+                ],
+                -0.16
+              ],
+              [
+                [
+                  "left_core",
+                  "left_inner_side"
+                ],
+                0.16
+              ]
+            ]
+          ],
+          "closed_pairs": [
+            [],
+            []
+          ],
+          "adjacency_added": [],
+          "adjacency_removed": []
+        }
+      ],
+      "failures": [
+        {
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "issue": "same_corner"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "issue": "no_legal_corner_partition"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "issue": "no_safe_window"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "issue": "no_legal_corner_partition"
+        }
+      ],
+      "checks": 5,
+      "id": "single-20-00",
+      "seed": 48,
+      "random_key": "177:single-parent-v3:20:0",
+      "parent_sample": {
+        "id": "single-15-04",
+        "layout_hash": "bbc070f195a69aa71aeba6d9c9ca28031e53f3311f3375eb1533a390cfcc7192",
+        "rank": 1,
+        "prior_requests": 0,
+        "weight": 1.0
+      },
+      "layout_hash": "11dfb77a107ae6d7030cfe5cf288c97e736b45ed1cbf06fc43def0b5e3d07997",
+      "topology_changed": false,
+      "shared_evaluation": false,
+      "evidence_origin": "evaluation",
+      "duplicate_layout": false,
+      "scores": {
+        "S": 87.16365450150582,
+        "F": 42.8546626984127,
+        "P": 84.02245566419575,
+        "D": 19.108077988876556
+      },
+      "outcomes": {
+        "victory": 12
+      },
+      "phase2": 12,
+      "missing": [],
+      "violations": {},
+      "status": "COMPLETE_DRAFT"
+    },
+    {
+      "parents": [
+        "single-2-03"
+      ],
+      "parent_layout_hash": "e7125d772c2c558d1f61089095b11e2815e29cba8abdc357f34c2ef9a8674c06",
+      "genome": {
+        "schema": "shell-pilot-genome/1",
+        "seed": 6,
+        "door_attempt": 1,
+        "repair_reasons": [
+          "net_playable_area_ratio"
+        ],
+        "partitions": [
+          [
+            "hall",
+            [
+              [
+                17.854675,
+                4.192297
+              ],
+              [
+                17.854675,
+                3.072729
+              ],
+              [
+                17.155409,
+                2.390828
+              ],
+              [
+                10.911859,
+                2.390828
+              ],
+              [
+                10.821611,
+                2.390828
+              ],
+              [
+                8.822921,
+                1.220451
+              ],
+              [
+                8.822921,
+                1.052871
+              ],
+              [
+                3.016529,
+                1.052871
+              ],
+              [
+                3.016529,
+                3.927536
+              ],
+              [
+                3.016529,
+                4.343086
+              ],
+              [
+                8.710499,
+                4.343086
+              ],
+              [
+                8.710499,
+                4.446252
+              ],
+              [
+                10.911859,
+                4.446252
+              ],
+              [
+                11.032943,
+                4.446252
+              ],
+              [
+                11.032943,
+                4.343086
+              ],
+              [
+                15.834151,
+                4.343086
+              ],
+              [
+                15.834151,
+                10.391411
+              ],
+              [
+                17.854675,
+                10.391411
+              ],
+              [
+                17.854675,
+                9.285033
+              ],
+              [
+                17.854675,
+                4.192297
+              ]
+            ]
+          ],
+          [
+            "east_end",
+            [
+              [
+                17.854675,
+                9.285033
+              ],
+              [
+                21.089746,
+                9.285033
+              ],
+              [
+                21.089746,
+                5.07597
+              ],
+              [
+                20.001046,
+                4.192297
+              ],
+              [
+                17.854675,
+                4.192297
+              ],
+              [
+                17.854675,
+                9.285033
+              ]
+            ]
+          ],
+          [
+            "left_core",
+            [
+              [
+                2.179121,
+                7.763086
+              ],
+              [
+                5.60206,
+                7.763086
+              ],
+              [
+                5.60206,
+                4.343086
+              ],
+              [
+                3.016529,
+                4.343086
+              ],
+              [
+                3.016529,
+                3.927536
+              ],
+              [
+                2.179121,
+                3.927536
+              ],
+              [
+                -1.94713,
+                3.927536
+              ],
+              [
+                -1.94713,
+                8.890148
+              ],
+              [
+                2.179121,
+                8.890148
+              ],
+              [
+                2.179121,
+                7.763086
+              ]
+            ]
+          ],
+          [
+            "left_inner",
+            [
+              [
+                4.90098,
+                11.73867
+              ],
+              [
+                4.90098,
+                9.739866
+              ],
+              [
+                8.710499,
+                9.739866
+              ],
+              [
+                8.710499,
+                7.763086
+              ],
+              [
+                2.179121,
+                7.763086
+              ],
+              [
+                2.179121,
+                11.73867
+              ],
+              [
+                4.90098,
+                11.73867
+              ]
+            ]
+          ],
+          [
+            "left_low",
+            [
+              [
+                8.710499,
+                9.739866
+              ],
+              [
+                4.90098,
+                9.739866
+              ],
+              [
+                4.90098,
+                11.73867
+              ],
+              [
+                8.710499,
+                11.73867
+              ],
+              [
+                8.710499,
+                9.739866
+              ]
+            ]
+          ],
+          [
+            "left_upper",
+            [
+              [
+                5.60206,
+                4.343086
+              ],
+              [
+                5.60206,
+                7.763086
+              ],
+              [
+                8.710499,
+                7.763086
+              ],
+              [
+                8.710499,
+                4.446252
+              ],
+              [
+                8.710499,
+                4.343086
+              ],
+              [
+                5.60206,
+                4.343086
+              ]
+            ]
+          ],
+          [
+            "north",
+            [
+              [
+                3.016529,
+                1.052871
+              ],
+              [
+                8.822921,
+                1.052871
+              ],
+              [
+                8.822921,
+                -2.451884
+              ],
+              [
+                3.016529,
+                -2.451884
+              ],
+              [
+                3.016529,
+                1.052871
+              ]
+            ]
+          ],
+          [
+            "east_high",
+            [
+              [
+                11.032943,
+                4.343086
+              ],
+              [
+                11.032943,
+                4.446252
+              ],
+              [
+                11.032943,
+                10.391411
+              ],
+              [
+                13.772977746531431,
+                10.391411
+              ],
+              [
+                13.772977746531431,
+                6.648453088218023
+              ],
+              [
+                15.834151,
+                6.648453088218023
+              ],
+              [
+                15.834151,
+                4.343086
+              ],
+              [
+                13.782728,
+                4.343086
+              ],
+              [
+                11.032943,
+                4.343086
+              ]
+            ]
+          ],
+          [
+            "east_low",
+            [
+              [
+                15.834151,
+                10.391411
+              ],
+              [
+                15.834151,
+                8.098996
+              ],
+              [
+                15.834151,
+                6.648453088218023
+              ],
+              [
+                13.772977746531431,
+                6.648453088218023
+              ],
+              [
+                13.772977746531431,
+                10.391411
+              ],
+              [
+                15.834151,
+                10.391411
+              ]
+            ]
+          ]
+        ],
+        "edited_partition": true,
+        "closed_pairs": [],
+        "opening_shifts": [
+          [
+            [
+              "left_inner",
+              "left_upper"
+            ],
+            -0.16
+          ]
+        ]
+      },
+      "genome_hash": "0eef9a75a3c333269202d1e0985696acce4fd1d5ff27d1190729577abc266a07",
+      "edit": "diff",
+      "edit_target": 1,
+      "operation": [
+        "shift_opening",
+        "left_inner",
+        "left_upper"
+      ],
+      "operations": [
+        {
+          "kind": "shift_opening",
+          "operation": [
+            "shift_opening",
+            "left_inner",
+            "left_upper"
+          ],
+          "before_genome": "be78c53093d4a03dcf301f1380b651799d729eb1834d66670b1af2736d781f0b",
+          "after_genome": "0eef9a75a3c333269202d1e0985696acce4fd1d5ff27d1190729577abc266a07",
+          "partitions": {},
+          "opening_shifts": [
+            [],
+            [
+              [
+                [
+                  "left_inner",
+                  "left_upper"
+                ],
+                -0.16
+              ]
+            ]
+          ],
+          "closed_pairs": [
+            [],
+            []
+          ],
+          "adjacency_added": [],
+          "adjacency_removed": []
+        }
+      ],
+      "failures": [
+        {
+          "operation": [
+            "move_partition",
+            "left_inner",
+            "left_low"
+          ],
+          "issue": "initial_player_disconnected"
+        }
+      ],
+      "checks": 2,
+      "id": "single-20-01",
+      "seed": 6,
+      "random_key": "177:single-parent-v3:20:1",
+      "parent_sample": {
+        "id": "single-2-03",
+        "layout_hash": "e7125d772c2c558d1f61089095b11e2815e29cba8abdc357f34c2ef9a8674c06",
+        "rank": 1,
+        "prior_requests": 3,
+        "weight": 0.25
+      },
+      "layout_hash": "4cecbe3a21749aa968d6e74796a548693ed13d16554511bad1953f4f636fdb1f",
+      "topology_changed": false,
+      "shared_evaluation": false,
+      "evidence_origin": "evaluation",
+      "duplicate_layout": false,
+      "scores": {
+        "S": 90.583122257788,
+        "F": 70.68094135802468,
+        "P": 51.16896950555913,
+        "D": 7.747265395346041
+      },
+      "outcomes": {
+        "victory": 8,
+        "death": 4
+      },
+      "phase2": 12,
+      "missing": [],
+      "violations": {},
+      "status": "COMPLETE_DRAFT"
+    },
+    {
+      "parents": [
+        "single-7-00"
+      ],
+      "parent_layout_hash": "efa0d2add98f73697ae06a108c2a1314b9bdf150c88f192ca0a8f6021ff1d8dd",
+      "genome": {
+        "schema": "shell-pilot-genome/1",
+        "seed": 177,
+        "door_attempt": 2,
+        "repair_reasons": [
+          "net_playable_area_ratio",
+          "small_room:left_core"
+        ],
+        "partitions": [
+          [
+            "hall",
+            [
+              [
+                17.807561,
+                4.807021
+              ],
+              [
+                17.807561,
+                3.297035
+              ],
+              [
+                17.094742,
+                2.565355
+              ],
+              [
+                11.068672,
+                2.565355
+              ],
+              [
+                8.994962,
+                2.565355
+              ],
+              [
+                8.994962,
+                2.812269
+              ],
+              [
+                3.115041,
+                2.812269
+              ],
+              [
+                3.115041,
+                3.121937
+              ],
+              [
+                3.115041,
+                6.319955
+              ],
+              [
+                9.105499,
+                6.319955
+              ],
+              [
+                9.105499,
+                6.026636
+              ],
+              [
+                10.983857,
+                4.770823
+              ],
+              [
+                11.068672,
+                4.770823
+              ],
+              [
+                11.182466,
+                4.770823
+              ],
+              [
+                11.182466,
+                4.523909
+              ],
+              [
+                15.627045,
+                4.523909
+              ],
+              [
+                15.627045,
+                11.149971
+              ],
+              [
+                17.807561,
+                11.149971
+              ],
+              [
+                17.807561,
+                9.501192
+              ],
+              [
+                17.807561,
+                4.807021
+              ]
+            ]
+          ],
+          [
+            "east_end",
+            [
+              [
+                17.807561,
+                9.501192
+              ],
+              [
+                20.925872,
+                9.501192
+              ],
+              [
+                21.589008,
+                8.500335
+              ],
+              [
+                21.589008,
+                5.807879
+              ],
+              [
+                20.925872,
+                4.807021
+              ],
+              [
+                17.807561,
+                4.807021
+              ],
+              [
+                17.807561,
+                9.501192
+              ]
+            ]
+          ],
+          [
+            "left_core",
+            [
+              [
+                2.250286,
+                -2.202939
+              ],
+              [
+                0.040767,
+                -2.202939
+              ],
+              [
+                0.040767,
+                3.121937
+              ],
+              [
+                2.250286,
+                3.121937
+              ],
+              [
+                3.115041,
+                3.121937
+              ],
+              [
+                3.115041,
+                2.812269
+              ],
+              [
+                5.838634,
+                2.812269
+              ],
+              [
+                5.838634,
+                -0.774243
+              ],
+              [
+                2.250286,
+                -0.774243
+              ],
+              [
+                2.250286,
+                -2.202939
+              ]
+            ]
+          ],
+          [
+            "left_inner",
+            [
+              [
+                2.250286,
+                -3.0163215335744797
+              ],
+              [
+                2.250286,
+                -2.990976
+              ],
+              [
+                2.250286,
+                -0.774243
+              ],
+              [
+                8.994962,
+                -0.774243
+              ],
+              [
+                8.994962,
+                -2.9867762056819527
+              ],
+              [
+                8.994962,
+                -3.033170189875204
+              ],
+              [
+                5.26260404122118,
+                -3.033170189875204
+              ],
+              [
+                5.26260404122118,
+                -5.063827
+              ],
+              [
+                5.202776048486953,
+                -5.063827
+              ],
+              [
+                2.250286,
+                -5.063827
+              ],
+              [
+                2.250286,
+                -3.0163215335744797
+              ]
+            ]
+          ],
+          [
+            "left_low",
+            [
+              [
+                8.994962,
+                -5.063827
+              ],
+              [
+                6.020821520673721,
+                -5.063827
+              ],
+              [
+                5.974385,
+                -5.063827
+              ],
+              [
+                5.26260404122118,
+                -5.063827
+              ],
+              [
+                5.26260404122118,
+                -3.033170189875204
+              ],
+              [
+                8.994962,
+                -3.033170189875204
+              ],
+              [
+                8.994962,
+                -5.063827
+              ]
+            ]
+          ],
+          [
+            "left_upper",
+            [
+              [
+                5.838634,
+                -0.774243
+              ],
+              [
+                5.838634,
+                2.812269
+              ],
+              [
+                8.994962,
+                2.812269
+              ],
+              [
+                8.994962,
+                2.565355
+              ],
+              [
+                8.994962,
+                -0.774243
+              ],
+              [
+                5.838634,
+                -0.774243
+              ]
+            ]
+          ],
+          [
+            "north",
+            [
+              [
+                3.115041,
+                6.319955
+              ],
+              [
+                3.115041,
+                9.705308
+              ],
+              [
+                9.105499,
+                9.705308
+              ],
+              [
+                9.105499,
+                6.319955
+              ],
+              [
+                3.115041,
+                6.319955
+              ]
+            ]
+          ],
+          [
+            "east_high",
+            [
+              [
+                11.182466,
+                11.149971
+              ],
+              [
+                13.626514,
+                11.149971
+              ],
+              [
+                13.626514,
+                7.379301
+              ],
+              [
+                15.627045,
+                7.379301
+              ],
+              [
+                15.627045,
+                4.523909
+              ],
+              [
+                11.182466,
+                4.523909
+              ],
+              [
+                11.182466,
+                4.770823
+              ],
+              [
+                11.182466,
+                11.149971
+              ]
+            ]
+          ],
+          [
+            "east_low",
+            [
+              [
+                15.627045,
+                7.379301
+              ],
+              [
+                13.626514,
+                7.379301
+              ],
+              [
+                13.626514,
+                11.149971
+              ],
+              [
+                15.627045,
+                11.149971
+              ],
+              [
+                15.627045,
+                7.379301
+              ]
+            ]
+          ]
+        ],
+        "edited_partition": true,
+        "closed_pairs": [],
+        "opening_shifts": []
+      },
+      "genome_hash": "2ba9c80298e0744aa9c06b01fb8c618eb2be052b6ca75d04aee13d210ea1744a",
+      "edit": "full",
+      "edit_target": 1,
+      "operation": [
+        "rewrite_region",
+        "left_inner",
+        "left_low"
+      ],
+      "operations": [
+        {
+          "kind": "rewrite_region",
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "before_genome": "b7f36fdbf8a8c32461185a5fd84a92b06377c6ddc30d929ead1b78b7aa4ce0ab",
+          "after_genome": "2ba9c80298e0744aa9c06b01fb8c618eb2be052b6ca75d04aee13d210ea1744a",
+          "partitions": {
+            "left_inner": {
+              "before": [
+                [
+                  2.250286,
+                  -2.990976
+                ],
+                [
+                  2.250286,
+                  -0.774243
+                ],
+                [
+                  8.994962,
+                  -0.774243
+                ],
+                [
+                  8.994962,
+                  -2.9867762056819527
+                ],
+                [
+                  8.994962,
+                  -5.063827
+                ],
+                [
+                  6.020821520673721,
+                  -5.063827
+                ],
+                [
+                  6.020821520673721,
+                  -3.0163215335744797
+                ],
+                [
+                  2.250286,
+                  -3.0163215335744797
+                ],
+                [
+                  2.250286,
+                  -2.990976
+                ]
+              ],
+              "after": [
+                [
+                  2.250286,
+                  -3.0163215335744797
+                ],
+                [
+                  2.250286,
+                  -2.990976
+                ],
+                [
+                  2.250286,
+                  -0.774243
+                ],
+                [
+                  8.994962,
+                  -0.774243
+                ],
+                [
+                  8.994962,
+                  -2.9867762056819527
+                ],
+                [
+                  8.994962,
+                  -3.033170189875204
+                ],
+                [
+                  5.26260404122118,
+                  -3.033170189875204
+                ],
+                [
+                  5.26260404122118,
+                  -5.063827
+                ],
+                [
+                  5.202776048486953,
+                  -5.063827
+                ],
+                [
+                  2.250286,
+                  -5.063827
+                ],
+                [
+                  2.250286,
+                  -3.0163215335744797
+                ]
+              ]
+            },
+            "left_low": {
+              "before": [
+                [
+                  5.202776048486953,
+                  -5.063827
+                ],
+                [
+                  2.250286,
+                  -5.063827
+                ],
+                [
+                  2.250286,
+                  -3.0163215335744797
+                ],
+                [
+                  6.020821520673721,
+                  -3.0163215335744797
+                ],
+                [
+                  6.020821520673721,
+                  -5.063827
+                ],
+                [
+                  5.974385,
+                  -5.063827
+                ],
+                [
+                  5.202776048486953,
+                  -5.063827
+                ]
+              ],
+              "after": [
+                [
+                  8.994962,
+                  -5.063827
+                ],
+                [
+                  6.020821520673721,
+                  -5.063827
+                ],
+                [
+                  5.974385,
+                  -5.063827
+                ],
+                [
+                  5.26260404122118,
+                  -5.063827
+                ],
+                [
+                  5.26260404122118,
+                  -3.033170189875204
+                ],
+                [
+                  8.994962,
+                  -3.033170189875204
+                ],
+                [
+                  8.994962,
+                  -5.063827
+                ]
+              ]
+            }
+          },
+          "opening_shifts": [
+            [],
+            []
+          ],
+          "closed_pairs": [
+            [],
+            []
+          ],
+          "adjacency_added": [],
+          "adjacency_removed": []
+        }
+      ],
+      "failures": [
+        {
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "issue": "same_corner"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "issue": "outside_adjacency_changed"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "issue": "same_corner"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "issue": "outside_adjacency_changed"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "issue": "same_corner"
+        }
+      ],
+      "checks": 6,
+      "id": "single-20-02",
+      "seed": 177,
+      "random_key": "177:single-parent-v3:20:2",
+      "parent_sample": {
+        "id": "single-7-00",
+        "layout_hash": "efa0d2add98f73697ae06a108c2a1314b9bdf150c88f192ca0a8f6021ff1d8dd",
+        "rank": 1,
+        "prior_requests": 0,
+        "weight": 1.0
+      },
+      "layout_hash": "364998245f5b4c0cbcd4d32098b7e8002f7981d9768351f6c524ec3a75b9189c",
+      "topology_changed": false,
+      "shared_evaluation": false,
+      "evidence_origin": "evaluation",
+      "duplicate_layout": false,
+      "scores": {
+        "S": 86.34244412405701,
+        "F": 51.80441086691087,
+        "P": 74.63642766442965,
+        "D": 14.38244648376386
+      },
+      "outcomes": {
+        "victory": 12
+      },
+      "phase2": 12,
+      "missing": [],
+      "violations": {},
+      "status": "COMPLETE_DRAFT"
+    },
+    {
+      "parents": [
+        "single-10-07"
+      ],
+      "parent_layout_hash": "82d5ceaf29d3e2b83f9df8e8e4bc1802945e4af429ec8c6a5996c0029e1254df",
+      "genome": {
+        "schema": "shell-pilot-genome/1",
+        "seed": 6,
+        "door_attempt": 1,
+        "repair_reasons": [
+          "net_playable_area_ratio"
+        ],
+        "partitions": [
+          [
+            "hall",
+            [
+              [
+                17.854675,
+                4.192297
+              ],
+              [
+                17.854675,
+                3.072729
+              ],
+              [
+                17.155409,
+                2.390828
+              ],
+              [
+                10.911859,
+                2.390828
+              ],
+              [
+                10.821611,
+                2.390828
+              ],
+              [
+                8.822921,
+                1.220451
+              ],
+              [
+                8.822921,
+                1.052871
+              ],
+              [
+                3.016529,
+                1.052871
+              ],
+              [
+                3.016529,
+                3.927536
+              ],
+              [
+                3.016529,
+                4.343086
+              ],
+              [
+                8.710499,
+                4.343086
+              ],
+              [
+                8.710499,
+                4.446252
+              ],
+              [
+                10.911859,
+                4.446252
+              ],
+              [
+                11.032943,
+                4.446252
+              ],
+              [
+                11.032943,
+                4.343086
+              ],
+              [
+                15.834151,
+                4.343086
+              ],
+              [
+                15.834151,
+                10.391411
+              ],
+              [
+                17.854675,
+                10.391411
+              ],
+              [
+                17.854675,
+                9.285033
+              ],
+              [
+                17.854675,
+                4.192297
+              ]
+            ]
+          ],
+          [
+            "east_end",
+            [
+              [
+                17.854675,
+                9.285033
+              ],
+              [
+                21.089746,
+                9.285033
+              ],
+              [
+                21.089746,
+                5.07597
+              ],
+              [
+                20.001046,
+                4.192297
+              ],
+              [
+                17.854675,
+                4.192297
+              ],
+              [
+                17.854675,
+                9.285033
+              ]
+            ]
+          ],
+          [
+            "left_core",
+            [
+              [
+                2.179121,
+                7.763086
+              ],
+              [
+                5.60206,
+                7.763086
+              ],
+              [
+                5.60206,
+                4.343086
+              ],
+              [
+                3.016529,
+                4.343086
+              ],
+              [
+                3.016529,
+                3.927536
+              ],
+              [
+                2.179121,
+                3.927536
+              ],
+              [
+                -1.94713,
+                3.927536
+              ],
+              [
+                -1.94713,
+                8.890148
+              ],
+              [
+                2.179121,
+                8.890148
+              ],
+              [
+                2.179121,
+                7.763086
+              ]
+            ]
+          ],
+          [
+            "left_inner",
+            [
+              [
+                2.179121,
+                11.73867
+              ],
+              [
+                4.90098,
+                11.73867
+              ],
+              [
+                8.710499,
+                11.73867
+              ],
+              [
+                8.710499,
+                9.759954545874109
+              ],
+              [
+                8.710499,
+                9.739866
+              ],
+              [
+                8.710499,
+                7.763086
+              ],
+              [
+                4.982717874852438,
+                7.763086
+              ],
+              [
+                2.179121,
+                7.763086
+              ],
+              [
+                2.179121,
+                11.73867
+              ]
+            ]
+          ],
+          [
+            "left_upper",
+            [
+              [
+                5.60206,
+                4.343086
+              ],
+              [
+                5.60206,
+                7.763086
+              ],
+              [
+                8.710499,
+                7.763086
+              ],
+              [
+                8.710499,
+                4.446252
+              ],
+              [
+                8.710499,
+                4.343086
+              ],
+              [
+                5.60206,
+                4.343086
+              ]
+            ]
+          ],
+          [
+            "north",
+            [
+              [
+                3.016529,
+                1.052871
+              ],
+              [
+                8.822921,
+                1.052871
+              ],
+              [
+                8.822921,
+                -2.451884
+              ],
+              [
+                3.016529,
+                -2.451884
+              ],
+              [
+                3.016529,
+                1.052871
+              ]
+            ]
+          ],
+          [
+            "east_high",
+            [
+              [
+                11.032943,
+                4.343086
+              ],
+              [
+                11.032943,
+                4.446252
+              ],
+              [
+                11.032943,
+                10.391411
+              ],
+              [
+                15.834151,
+                10.391411
+              ],
+              [
+                15.834151,
+                8.126712737788974
+              ],
+              [
+                13.788469598498674,
+                8.126712737788974
+              ],
+              [
+                13.788469598498674,
+                4.343086
+              ],
+              [
+                13.782728,
+                4.343086
+              ],
+              [
+                11.032943,
+                4.343086
+              ]
+            ]
+          ],
+          [
+            "east_low",
+            [
+              [
+                15.834151,
+                8.098996
+              ],
+              [
+                15.834151,
+                4.343086
+              ],
+              [
+                13.788469598498674,
+                4.343086
+              ],
+              [
+                13.788469598498674,
+                8.126712737788974
+              ],
+              [
+                15.834151,
+                8.126712737788974
+              ],
+              [
+                15.834151,
+                8.098996
+              ]
+            ]
+          ]
+        ],
+        "edited_partition": true,
+        "closed_pairs": [],
+        "opening_shifts": [
+          [
+            [
+              "east_high",
+              "east_low"
+            ],
+            0.16
+          ],
+          [
+            [
+              "left_core",
+              "left_upper"
+            ],
+            -0.16
+          ],
+          [
+            [
+              "left_inner",
+              "left_upper"
+            ],
+            0.16
+          ]
+        ]
+      },
+      "genome_hash": "dc7c6fbcd9e1d0afc4ab47c17f365702d3a6328ebcf6c2af5d4d01ba4726d7ae",
+      "edit": "diff",
+      "edit_target": 1,
+      "operation": [
+        "shift_opening",
+        "east_high",
+        "east_low"
+      ],
+      "operations": [
+        {
+          "kind": "shift_opening",
+          "operation": [
+            "shift_opening",
+            "east_high",
+            "east_low"
+          ],
+          "before_genome": "f23435acfa00416ed76f3a7ba2dfc979b39f5e1053b1c9379798e8acfb68b490",
+          "after_genome": "dc7c6fbcd9e1d0afc4ab47c17f365702d3a6328ebcf6c2af5d4d01ba4726d7ae",
+          "partitions": {},
+          "opening_shifts": [
+            [
+              [
+                [
+                  "left_core",
+                  "left_upper"
+                ],
+                -0.16
+              ],
+              [
+                [
+                  "left_inner",
+                  "left_upper"
+                ],
+                0.16
+              ]
+            ],
+            [
+              [
+                [
+                  "east_high",
+                  "east_low"
+                ],
+                0.16
+              ],
+              [
+                [
+                  "left_core",
+                  "left_upper"
+                ],
+                -0.16
+              ],
+              [
+                [
+                  "left_inner",
+                  "left_upper"
+                ],
+                0.16
+              ]
+            ]
+          ],
+          "closed_pairs": [
+            [],
+            []
+          ],
+          "adjacency_added": [],
+          "adjacency_removed": []
+        }
+      ],
+      "failures": [],
+      "checks": 1,
+      "id": "single-20-03",
+      "seed": 6,
+      "random_key": "177:single-parent-v3:20:3",
+      "parent_sample": {
+        "id": "single-10-07",
+        "layout_hash": "82d5ceaf29d3e2b83f9df8e8e4bc1802945e4af429ec8c6a5996c0029e1254df",
+        "rank": 1,
+        "prior_requests": 0,
+        "weight": 1.0
+      },
+      "layout_hash": "314c20820a4ac4f4a258fcee68f5e9f1c85cafd86e8e399909d1286f5abb71f8",
+      "topology_changed": false,
+      "shared_evaluation": false,
+      "evidence_origin": "evaluation",
+      "duplicate_layout": false,
+      "scores": {
+        "S": 88.39367468648305,
+        "F": 49.69547325102879,
+        "P": 60.538019447861316,
+        "D": 0.15946390003661914
+      },
+      "outcomes": {
+        "death": 8,
+        "victory": 4
+      },
+      "phase2": 12,
+      "missing": [],
+      "violations": {},
+      "status": "COMPLETE_DRAFT"
+    },
+    {
+      "parents": [
+        "single-18-00"
+      ],
+      "parent_layout_hash": "5752c5d438d968e4e9255dade12bf7ae1f1bec0c24d4ec2aa1f6b54422842838",
+      "genome": {
+        "schema": "shell-pilot-genome/1",
+        "seed": 48,
+        "door_attempt": 0,
+        "repair_reasons": [],
+        "partitions": [
+          [
+            "hall",
+            [
+              [
+                10.15508,
+                4.475689
+              ],
+              [
+                10.233735,
+                4.475689
+              ],
+              [
+                10.339265,
+                4.475689
+              ],
+              [
+                10.339265,
+                4.223527
+              ],
+              [
+                14.803596,
+                4.223527
+              ],
+              [
+                14.803596,
+                10.460209
+              ],
+              [
+                16.749282,
+                10.460209
+              ],
+              [
+                16.749282,
+                9.354941
+              ],
+              [
+                16.749282,
+                4.67859
+              ],
+              [
+                16.749282,
+                3.093073
+              ],
+              [
+                16.018558,
+                2.406657
+              ],
+              [
+                10.233735,
+                2.406657
+              ],
+              [
+                8.310813,
+                2.406657
+              ],
+              [
+                8.310813,
+                2.658819
+              ],
+              [
+                2.878114,
+                2.658819
+              ],
+              [
+                2.878114,
+                2.928807
+              ],
+              [
+                2.878114,
+                6.720848
+              ],
+              [
+                8.413135,
+                6.720848
+              ],
+              [
+                8.413135,
+                5.653815
+              ],
+              [
+                10.15508,
+                4.475689
+              ]
+            ]
+          ],
+          [
+            "east_end",
+            [
+              [
+                19.649455,
+                4.67859
+              ],
+              [
+                16.749282,
+                4.67859
+              ],
+              [
+                16.749282,
+                9.354941
+              ],
+              [
+                21.122688,
+                9.354941
+              ],
+              [
+                21.122688,
+                5.568114
+              ],
+              [
+                19.649455,
+                4.67859
+              ]
+            ]
+          ],
+          [
+            "left_core",
+            [
+              [
+                2.079131,
+                -1.079497
+              ],
+              [
+                2.079131,
+                -2.066661
+              ],
+              [
+                -2.289814,
+                -2.066661
+              ],
+              [
+                -2.289814,
+                2.928807
+              ],
+              [
+                2.878114,
+                2.928807
+              ],
+              [
+                2.878114,
+                2.658819
+              ],
+              [
+                5.478011,
+                2.658819
+              ],
+              [
+                5.478011,
+                -1.079497
+              ],
+              [
+                2.079131,
+                -1.079497
+              ]
+            ]
+          ],
+          [
+            "left_inner",
+            [
+              [
+                4.130428,
+                -5.257004
+              ],
+              [
+                4.130428,
+                -1.079497
+              ],
+              [
+                5.478011,
+                -1.079497
+              ],
+              [
+                5.478011,
+                2.658819
+              ],
+              [
+                8.310813,
+                2.658819
+              ],
+              [
+                8.310813,
+                2.406657
+              ],
+              [
+                8.310813,
+                -1.079497
+              ],
+              [
+                8.310813,
+                -5.257004
+              ],
+              [
+                4.130428,
+                -5.257004
+              ]
+            ]
+          ],
+          [
+            "north",
+            [
+              [
+                8.413135,
+                6.720848
+              ],
+              [
+                2.878114,
+                6.720848
+              ],
+              [
+                2.878114,
+                9.412855
+              ],
+              [
+                8.413135,
+                9.412855
+              ],
+              [
+                8.413135,
+                6.720848
+              ]
+            ]
+          ],
+          [
+            "left_inner_side",
+            [
+              [
+                2.079131,
+                -1.079497
+              ],
+              [
+                4.130428,
+                -1.079497
+              ],
+              [
+                4.130428,
+                -5.257004
+              ],
+              [
+                2.079131,
+                -5.257004
+              ],
+              [
+                2.079131,
+                -2.066661
+              ],
+              [
+                2.079131,
+                -1.079497
+              ]
+            ]
+          ],
+          [
+            "east_high",
+            [
+              [
+                12.714779059974,
+                4.223527
+              ],
+              [
+                12.352359,
+                4.223527
+              ],
+              [
+                10.339265,
+                4.223527
+              ],
+              [
+                10.339265,
+                4.475689
+              ],
+              [
+                10.339265,
+                7.98206
+              ],
+              [
+                10.339265,
+                10.460209
+              ],
+              [
+                12.726769513220223,
+                10.460209
+              ],
+              [
+                12.794017336874335,
+                10.460209
+              ],
+              [
+                12.794017336874335,
+                6.672785398736835
+              ],
+              [
+                14.803596,
+                6.672785398736835
+              ],
+              [
+                14.803596,
+                4.223527
+              ],
+              [
+                12.714779059974,
+                4.223527
+              ]
+            ]
+          ],
+          [
+            "east_low",
+            [
+              [
+                14.803596,
+                10.460209
+              ],
+              [
+                14.803596,
+                7.963020364019668
+              ],
+              [
+                14.803596,
+                6.690422775535354
+              ],
+              [
+                14.803596,
+                6.672785398736835
+              ],
+              [
+                12.794017336874335,
+                6.672785398736835
+              ],
+              [
+                12.794017336874335,
+                10.460209
+              ],
+              [
+                14.803596,
+                10.460209
+              ]
+            ]
+          ]
+        ],
+        "edited_partition": true,
+        "closed_pairs": [],
+        "opening_shifts": [
+          [
+            [
+              "left_core",
+              "left_inner"
+            ],
+            -0.16
+          ],
+          [
+            [
+              "left_core",
+              "left_inner_side"
+            ],
+            0.16
+          ]
+        ]
+      },
+      "genome_hash": "eb6f26cb49c6341fcdb3ef53c6b1eeabf8a4076a1213e229515959b7ea1f4605",
+      "edit": "archive_reference",
+      "edit_target": 1,
+      "archive_reference": {
+        "id": "initial-00",
+        "layout_hash": "f66e941bd5a9716f34e8cc33e60762d5723dfe76c48b36ad71f6815a6c6d572d",
+        "region": "east_high",
+        "corner": [
+          true,
+          true
+        ]
+      },
+      "operation": [
+        "archive_reference",
+        "east_high",
+        "east_low"
+      ],
+      "operations": [
+        {
+          "kind": "archive_reference",
+          "operation": [
+            "archive_reference",
+            "east_high",
+            "east_low"
+          ],
+          "before_genome": "a401efb57c4fe485f639238cfa9d45969d0055e93f58556c320c92a9ebd524dc",
+          "after_genome": "eb6f26cb49c6341fcdb3ef53c6b1eeabf8a4076a1213e229515959b7ea1f4605",
+          "partitions": {
+            "east_high": {
+              "before": [
+                [
+                  14.803596,
+                  10.460209
+                ],
+                [
+                  14.803596,
+                  7.963020364019668
+                ],
+                [
+                  12.714779059974,
+                  7.963020364019668
+                ],
+                [
+                  12.714779059974,
+                  4.223527
+                ],
+                [
+                  12.352359,
+                  4.223527
+                ],
+                [
+                  10.339265,
+                  4.223527
+                ],
+                [
+                  10.339265,
+                  4.475689
+                ],
+                [
+                  10.339265,
+                  7.98206
+                ],
+                [
+                  10.339265,
+                  10.460209
+                ],
+                [
+                  12.726769513220223,
+                  10.460209
+                ],
+                [
+                  14.803596,
+                  10.460209
+                ]
+              ],
+              "after": [
+                [
+                  12.714779059974,
+                  4.223527
+                ],
+                [
+                  12.352359,
+                  4.223527
+                ],
+                [
+                  10.339265,
+                  4.223527
+                ],
+                [
+                  10.339265,
+                  4.475689
+                ],
+                [
+                  10.339265,
+                  7.98206
+                ],
+                [
+                  10.339265,
+                  10.460209
+                ],
+                [
+                  12.726769513220223,
+                  10.460209
+                ],
+                [
+                  12.794017336874335,
+                  10.460209
+                ],
+                [
+                  12.794017336874335,
+                  6.672785398736835
+                ],
+                [
+                  14.803596,
+                  6.672785398736835
+                ],
+                [
+                  14.803596,
+                  4.223527
+                ],
+                [
+                  12.714779059974,
+                  4.223527
+                ]
+              ]
+            },
+            "east_low": {
+              "before": [
+                [
+                  14.803596,
+                  6.690422775535354
+                ],
+                [
+                  14.803596,
+                  4.223527
+                ],
+                [
+                  12.714779059974,
+                  4.223527
+                ],
+                [
+                  12.714779059974,
+                  7.963020364019668
+                ],
+                [
+                  14.803596,
+                  7.963020364019668
+                ],
+                [
+                  14.803596,
+                  6.690422775535354
+                ]
+              ],
+              "after": [
+                [
+                  14.803596,
+                  10.460209
+                ],
+                [
+                  14.803596,
+                  7.963020364019668
+                ],
+                [
+                  14.803596,
+                  6.690422775535354
+                ],
+                [
+                  14.803596,
+                  6.672785398736835
+                ],
+                [
+                  12.794017336874335,
+                  6.672785398736835
+                ],
+                [
+                  12.794017336874335,
+                  10.460209
+                ],
+                [
+                  14.803596,
+                  10.460209
+                ]
+              ]
+            }
+          },
+          "opening_shifts": [
+            [
+              [
+                [
+                  "left_core",
+                  "left_inner"
+                ],
+                -0.16
+              ],
+              [
+                [
+                  "left_core",
+                  "left_inner_side"
+                ],
+                0.16
+              ]
+            ],
+            [
+              [
+                [
+                  "left_core",
+                  "left_inner"
+                ],
+                -0.16
+              ],
+              [
+                [
+                  "left_core",
+                  "left_inner_side"
+                ],
+                0.16
+              ]
+            ]
+          ],
+          "closed_pairs": [
+            [],
+            []
+          ],
+          "adjacency_added": [],
+          "adjacency_removed": [],
+          "reference": {
+            "id": "initial-00",
+            "layout_hash": "f66e941bd5a9716f34e8cc33e60762d5723dfe76c48b36ad71f6815a6c6d572d",
+            "region": "east_high",
+            "corner": [
+              true,
+              true
+            ]
+          }
+        }
+      ],
+      "failures": [
+        {
+          "operation": [
+            "archive_reference",
+            "left_inner",
+            "left_low"
+          ],
+          "reference": {
+            "id": "single-11-05",
+            "layout_hash": "b9bab44c64bd1677759a76912fd04c45c62095724239ece6b4ca50da1b6e7e13",
+            "region": "left_inner",
+            "corner": [
+              true,
+              false
+            ]
+          },
+          "issue": "no_legal_corner_partition"
+        }
+      ],
+      "checks": 2,
+      "id": "single-20-04",
+      "seed": 48,
+      "random_key": "177:single-parent-v3:20:4",
+      "parent_sample": {
+        "id": "single-18-00",
+        "layout_hash": "5752c5d438d968e4e9255dade12bf7ae1f1bec0c24d4ec2aa1f6b54422842838",
+        "rank": 1,
+        "prior_requests": 0,
+        "weight": 1.0
+      },
+      "layout_hash": "901c5d50cbc2e6c55646841037d185d904fdbc48ca0f4ce4be5353e9ddf6fdfe",
+      "topology_changed": false,
+      "shared_evaluation": false,
+      "evidence_origin": "evaluation",
+      "duplicate_layout": false,
+      "scores": {
+        "S": 88.16899197543975,
+        "F": 51.28670497134039,
+        "P": 82.00692716999052,
+        "D": 18.39900502007063
+      },
+      "outcomes": {
+        "victory": 11,
+        "death": 1
+      },
+      "phase2": 12,
+      "missing": [],
+      "violations": {},
+      "status": "COMPLETE_DRAFT"
+    },
+    {
+      "parents": [
+        "single-10-06"
+      ],
+      "parent_layout_hash": "81cab796f17cd394a86700115c6c63df48ddf446db978d1fa20035c34bf64d10",
+      "genome": {
+        "schema": "shell-pilot-genome/1",
+        "seed": 4,
+        "door_attempt": 1,
+        "repair_reasons": [
+          "net_playable_area_ratio"
+        ],
+        "partitions": [
+          [
+            "hall",
+            [
+              [
+                16.068749,
+                4.031435
+              ],
+              [
+                16.068749,
+                3.019328
+              ],
+              [
+                15.381841,
+                2.349277
+              ],
+              [
+                9.710385,
+                2.349277
+              ],
+              [
+                9.632212,
+                2.349277
+              ],
+              [
+                7.900955,
+                1.199241
+              ],
+              [
+                7.900955,
+                2.203014
+              ],
+              [
+                7.466235,
+                2.203014
+              ],
+              [
+                7.466235,
+                4.257409
+              ],
+              [
+                7.802024,
+                4.257409
+              ],
+              [
+                7.802024,
+                4.36898
+              ],
+              [
+                9.710385,
+                4.36898
+              ],
+              [
+                9.815268,
+                4.36898
+              ],
+              [
+                9.815268,
+                4.257409
+              ],
+              [
+                14.264055,
+                4.257409
+              ],
+              [
+                14.264055,
+                10.210817
+              ],
+              [
+                16.068749,
+                10.210817
+              ],
+              [
+                16.068749,
+                8.544568
+              ],
+              [
+                16.068749,
+                4.031435
+              ]
+            ]
+          ],
+          [
+            "east_end",
+            [
+              [
+                16.068749,
+                8.544568
+              ],
+              [
+                20.373723,
+                8.544568
+              ],
+              [
+                20.373723,
+                4.899751
+              ],
+              [
+                19.187069,
+                4.031435
+              ],
+              [
+                16.068749,
+                4.031435
+              ],
+              [
+                16.068749,
+                8.544568
+              ]
+            ]
+          ],
+          [
+            "left_core",
+            [
+              [
+                1.951846,
+                7.677409
+              ],
+              [
+                5.100334,
+                7.677409
+              ],
+              [
+                5.100334,
+                4.257409
+              ],
+              [
+                1.951846,
+                4.257409
+              ],
+              [
+                1.550692,
+                4.257409
+              ],
+              [
+                1.550692,
+                3.859279
+              ],
+              [
+                -0.625451,
+                3.859279
+              ],
+              [
+                -0.625451,
+                8.735645
+              ],
+              [
+                1.951846,
+                8.735645
+              ],
+              [
+                1.951846,
+                7.677409
+              ]
+            ]
+          ],
+          [
+            "left_inner",
+            [
+              [
+                1.951846,
+                13.216232
+              ],
+              [
+                4.037619461699064,
+                13.216232
+              ],
+              [
+                4.037619461699064,
+                11.174473408742115
+              ],
+              [
+                7.802024,
+                11.174473408742115
+              ],
+              [
+                7.802024,
+                7.677409
+              ],
+              [
+                5.758038,
+                7.677409
+              ],
+              [
+                1.951846,
+                7.677409
+              ],
+              [
+                1.951846,
+                9.684027
+              ],
+              [
+                1.951846,
+                11.115521698785422
+              ],
+              [
+                1.951846,
+                13.216232
+              ]
+            ]
+          ],
+          [
+            "left_low",
+            [
+              [
+                5.695298718292085,
+                13.216232
+              ],
+              [
+                7.802024,
+                13.216232
+              ],
+              [
+                7.802024,
+                11.174473408742115
+              ],
+              [
+                4.037619461699064,
+                11.174473408742115
+              ],
+              [
+                4.037619461699064,
+                13.216232
+              ],
+              [
+                5.695298718292085,
+                13.216232
+              ]
+            ]
+          ],
+          [
+            "left_upper",
+            [
+              [
+                5.100334,
+                4.257409
+              ],
+              [
+                5.100334,
+                7.677409
+              ],
+              [
+                7.802024,
+                7.677409
+              ],
+              [
+                7.802024,
+                4.36898
+              ],
+              [
+                7.802024,
+                4.257409
+              ],
+              [
+                5.100334,
+                4.257409
+              ]
+            ]
+          ],
+          [
+            "north",
+            [
+              [
+                7.900955,
+                2.203014
+              ],
+              [
+                7.900955,
+                1.199241
+              ],
+              [
+                7.900955,
+                -3.160042
+              ],
+              [
+                1.951846,
+                -3.160042
+              ],
+              [
+                1.550692,
+                -3.160042
+              ],
+              [
+                1.550692,
+                2.203014
+              ],
+              [
+                1.951846,
+                2.203014
+              ],
+              [
+                7.900955,
+                2.203014
+              ]
+            ]
+          ],
+          [
+            "east_high",
+            [
+              [
+                14.264055,
+                10.210817
+              ],
+              [
+                14.264055,
+                8.0107179353639
+              ],
+              [
+                12.213288957658719,
+                8.0107179353639
+              ],
+              [
+                12.213288957658719,
+                4.257409
+              ],
+              [
+                9.815268,
+                4.257409
+              ],
+              [
+                9.815268,
+                4.36898
+              ],
+              [
+                9.815268,
+                10.210817
+              ],
+              [
+                12.263695,
+                10.210817
+              ],
+              [
+                14.264055,
+                10.210817
+              ]
+            ]
+          ],
+          [
+            "east_low",
+            [
+              [
+                14.264055,
+                6.4585
+              ],
+              [
+                14.264055,
+                4.257409
+              ],
+              [
+                12.213288957658719,
+                4.257409
+              ],
+              [
+                12.213288957658719,
+                8.0107179353639
+              ],
+              [
+                14.264055,
+                8.0107179353639
+              ],
+              [
+                14.264055,
+                6.4585
+              ]
+            ]
+          ],
+          [
+            "foyer",
+            [
+              [
+                1.550692,
+                4.257409
+              ],
+              [
+                1.951846,
+                4.257409
+              ],
+              [
+                7.466235,
+                4.257409
+              ],
+              [
+                7.466235,
+                2.203014
+              ],
+              [
+                1.951846,
+                2.203014
+              ],
+              [
+                1.550692,
+                2.203014
+              ],
+              [
+                1.550692,
+                3.859279
+              ],
+              [
+                1.550692,
+                4.257409
+              ]
+            ]
+          ]
+        ],
+        "edited_partition": true,
+        "closed_pairs": [],
+        "opening_shifts": []
+      },
+      "genome_hash": "279203031ebfc3f7bcf8ad499e272150c8a6823427a83c95059f70f5790fe204",
+      "edit": "full",
+      "edit_target": 1,
+      "operation": [
+        "rewrite_region",
+        "left_inner",
+        "left_low"
+      ],
+      "operations": [
+        {
+          "kind": "rewrite_region",
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "before_genome": "5290f507e70b393f99d4305c41b8dfb90ac00a6e0bafb94f0e0c329d6e7a042c",
+          "after_genome": "279203031ebfc3f7bcf8ad499e272150c8a6823427a83c95059f70f5790fe204",
+          "partitions": {
+            "left_inner": {
+              "before": [
+                [
+                  1.951846,
+                  9.684027
+                ],
+                [
+                  1.951846,
+                  11.115521698785422
+                ],
+                [
+                  5.695298718292085,
+                  11.115521698785422
+                ],
+                [
+                  5.695298718292085,
+                  13.216232
+                ],
+                [
+                  7.802024,
+                  13.216232
+                ],
+                [
+                  7.802024,
+                  7.677409
+                ],
+                [
+                  5.758038,
+                  7.677409
+                ],
+                [
+                  1.951846,
+                  7.677409
+                ],
+                [
+                  1.951846,
+                  9.684027
+                ]
+              ],
+              "after": [
+                [
+                  1.951846,
+                  13.216232
+                ],
+                [
+                  4.037619461699064,
+                  13.216232
+                ],
+                [
+                  4.037619461699064,
+                  11.174473408742115
+                ],
+                [
+                  7.802024,
+                  11.174473408742115
+                ],
+                [
+                  7.802024,
+                  7.677409
+                ],
+                [
+                  5.758038,
+                  7.677409
+                ],
+                [
+                  1.951846,
+                  7.677409
+                ],
+                [
+                  1.951846,
+                  9.684027
+                ],
+                [
+                  1.951846,
+                  11.115521698785422
+                ],
+                [
+                  1.951846,
+                  13.216232
+                ]
+              ]
+            },
+            "left_low": {
+              "before": [
+                [
+                  1.951846,
+                  13.216232
+                ],
+                [
+                  5.695298718292085,
+                  13.216232
+                ],
+                [
+                  5.695298718292085,
+                  11.115521698785422
+                ],
+                [
+                  1.951846,
+                  11.115521698785422
+                ],
+                [
+                  1.951846,
+                  13.216232
+                ]
+              ],
+              "after": [
+                [
+                  5.695298718292085,
+                  13.216232
+                ],
+                [
+                  7.802024,
+                  13.216232
+                ],
+                [
+                  7.802024,
+                  11.174473408742115
+                ],
+                [
+                  4.037619461699064,
+                  11.174473408742115
+                ],
+                [
+                  4.037619461699064,
+                  13.216232
+                ],
+                [
+                  5.695298718292085,
+                  13.216232
+                ]
+              ]
+            }
+          },
+          "opening_shifts": [
+            [],
+            []
+          ],
+          "closed_pairs": [
+            [],
+            []
+          ],
+          "adjacency_added": [],
+          "adjacency_removed": []
+        }
+      ],
+      "failures": [
+        {
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "issue": "same_corner"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "issue": "no_safe_window"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "issue": "no_safe_window"
+        }
+      ],
+      "checks": 4,
+      "id": "single-20-05",
+      "seed": 4,
+      "random_key": "177:single-parent-v3:20:5",
+      "parent_sample": {
+        "id": "single-10-06",
+        "layout_hash": "81cab796f17cd394a86700115c6c63df48ddf446db978d1fa20035c34bf64d10",
+        "rank": 1,
+        "prior_requests": 3,
+        "weight": 0.25
+      },
+      "layout_hash": "5b45479e40a33ba2df48e50af117d1a28f74ba6c135e5bfb8f19648cbcb20ce9",
+      "topology_changed": false,
+      "shared_evaluation": false,
+      "evidence_origin": "evaluation",
+      "duplicate_layout": false,
+      "scores": {
+        "S": 84.53451607856383,
+        "F": 12.747810132575774,
+        "P": 29.8343343649543,
+        "D": null
+      },
+      "outcomes": {
+        "death": 11,
+        "victory": 1
+      },
+      "phase2": 2,
+      "missing": [
+        "route_difference"
+      ],
+      "violations": {},
+      "status": "UNCERTAIN"
+    },
+    {
+      "parents": [
+        "single-18-00"
+      ],
+      "parent_layout_hash": "5752c5d438d968e4e9255dade12bf7ae1f1bec0c24d4ec2aa1f6b54422842838",
+      "genome": {
+        "schema": "shell-pilot-genome/1",
+        "seed": 48,
+        "door_attempt": 0,
+        "repair_reasons": [],
+        "partitions": [
+          [
+            "hall",
+            [
+              [
+                10.15508,
+                4.475689
+              ],
+              [
+                10.233735,
+                4.475689
+              ],
+              [
+                10.339265,
+                4.475689
+              ],
+              [
+                10.339265,
+                4.223527
+              ],
+              [
+                14.803596,
+                4.223527
+              ],
+              [
+                14.803596,
+                10.460209
+              ],
+              [
+                16.749282,
+                10.460209
+              ],
+              [
+                16.749282,
+                9.354941
+              ],
+              [
+                16.749282,
+                4.67859
+              ],
+              [
+                16.749282,
+                3.093073
+              ],
+              [
+                16.018558,
+                2.406657
+              ],
+              [
+                10.233735,
+                2.406657
+              ],
+              [
+                8.310813,
+                2.406657
+              ],
+              [
+                8.310813,
+                2.658819
+              ],
+              [
+                2.878114,
+                2.658819
+              ],
+              [
+                2.878114,
+                2.928807
+              ],
+              [
+                2.878114,
+                6.720848
+              ],
+              [
+                8.413135,
+                6.720848
+              ],
+              [
+                8.413135,
+                5.653815
+              ],
+              [
+                10.15508,
+                4.475689
+              ]
+            ]
+          ],
+          [
+            "east_end",
+            [
+              [
+                19.649455,
+                4.67859
+              ],
+              [
+                16.749282,
+                4.67859
+              ],
+              [
+                16.749282,
+                9.354941
+              ],
+              [
+                21.122688,
+                9.354941
+              ],
+              [
+                21.122688,
+                5.568114
+              ],
+              [
+                19.649455,
+                4.67859
+              ]
+            ]
+          ],
+          [
+            "left_core",
+            [
+              [
+                2.079131,
+                -1.079497
+              ],
+              [
+                2.079131,
+                -2.066661
+              ],
+              [
+                -2.289814,
+                -2.066661
+              ],
+              [
+                -2.289814,
+                2.928807
+              ],
+              [
+                2.878114,
+                2.928807
+              ],
+              [
+                2.878114,
+                2.658819
+              ],
+              [
+                5.478011,
+                2.658819
+              ],
+              [
+                5.478011,
+                -1.079497
+              ],
+              [
+                2.079131,
+                -1.079497
+              ]
+            ]
+          ],
+          [
+            "left_inner",
+            [
+              [
+                4.130428,
+                -5.257004
+              ],
+              [
+                4.130428,
+                -1.079497
+              ],
+              [
+                5.478011,
+                -1.079497
+              ],
+              [
+                5.478011,
+                2.658819
+              ],
+              [
+                8.310813,
+                2.658819
+              ],
+              [
+                8.310813,
+                2.406657
+              ],
+              [
+                8.310813,
+                -1.079497
+              ],
+              [
+                8.310813,
+                -5.257004
+              ],
+              [
+                4.130428,
+                -5.257004
+              ]
+            ]
+          ],
+          [
+            "north",
+            [
+              [
+                8.413135,
+                6.720848
+              ],
+              [
+                2.878114,
+                6.720848
+              ],
+              [
+                2.878114,
+                9.412855
+              ],
+              [
+                8.413135,
+                9.412855
+              ],
+              [
+                8.413135,
+                6.720848
+              ]
+            ]
+          ],
+          [
+            "left_inner_side",
+            [
+              [
+                2.079131,
+                -1.079497
+              ],
+              [
+                4.130428,
+                -1.079497
+              ],
+              [
+                4.130428,
+                -5.257004
+              ],
+              [
+                2.079131,
+                -5.257004
+              ],
+              [
+                2.079131,
+                -2.066661
+              ],
+              [
+                2.079131,
+                -1.079497
+              ]
+            ]
+          ],
+          [
+            "east_high",
+            [
+              [
+                12.714779059974,
+                4.223527
+              ],
+              [
+                12.352359,
+                4.223527
+              ],
+              [
+                10.339265,
+                4.223527
+              ],
+              [
+                10.339265,
+                4.475689
+              ],
+              [
+                10.339265,
+                7.98206
+              ],
+              [
+                10.339265,
+                10.460209
+              ],
+              [
+                12.726769513220223,
+                10.460209
+              ],
+              [
+                12.76133081653495,
+                10.460209
+              ],
+              [
+                12.76133081653495,
+                6.6827731670421215
+              ],
+              [
+                14.803596,
+                6.6827731670421215
+              ],
+              [
+                14.803596,
+                4.223527
+              ],
+              [
+                12.714779059974,
+                4.223527
+              ]
+            ]
+          ],
+          [
+            "east_low",
+            [
+              [
+                14.803596,
+                10.460209
+              ],
+              [
+                14.803596,
+                7.963020364019668
+              ],
+              [
+                14.803596,
+                6.690422775535354
+              ],
+              [
+                14.803596,
+                6.6827731670421215
+              ],
+              [
+                12.76133081653495,
+                6.6827731670421215
+              ],
+              [
+                12.76133081653495,
+                10.460209
+              ],
+              [
+                14.803596,
+                10.460209
+              ]
+            ]
+          ]
+        ],
+        "edited_partition": true,
+        "closed_pairs": [],
+        "opening_shifts": [
+          [
+            [
+              "left_core",
+              "left_inner"
+            ],
+            -0.16
+          ],
+          [
+            [
+              "left_core",
+              "left_inner_side"
+            ],
+            0.16
+          ]
+        ]
+      },
+      "genome_hash": "34bc270ea273abf7a92e6f55692e56bc63f054ab9eef8cef0146a9470ccf1b29",
+      "edit": "full",
+      "edit_target": 1,
+      "operation": [
+        "rewrite_region",
+        "east_high",
+        "east_low"
+      ],
+      "operations": [
+        {
+          "kind": "rewrite_region",
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "before_genome": "a401efb57c4fe485f639238cfa9d45969d0055e93f58556c320c92a9ebd524dc",
+          "after_genome": "34bc270ea273abf7a92e6f55692e56bc63f054ab9eef8cef0146a9470ccf1b29",
+          "partitions": {
+            "east_high": {
+              "before": [
+                [
+                  14.803596,
+                  10.460209
+                ],
+                [
+                  14.803596,
+                  7.963020364019668
+                ],
+                [
+                  12.714779059974,
+                  7.963020364019668
+                ],
+                [
+                  12.714779059974,
+                  4.223527
+                ],
+                [
+                  12.352359,
+                  4.223527
+                ],
+                [
+                  10.339265,
+                  4.223527
+                ],
+                [
+                  10.339265,
+                  4.475689
+                ],
+                [
+                  10.339265,
+                  7.98206
+                ],
+                [
+                  10.339265,
+                  10.460209
+                ],
+                [
+                  12.726769513220223,
+                  10.460209
+                ],
+                [
+                  14.803596,
+                  10.460209
+                ]
+              ],
+              "after": [
+                [
+                  12.714779059974,
+                  4.223527
+                ],
+                [
+                  12.352359,
+                  4.223527
+                ],
+                [
+                  10.339265,
+                  4.223527
+                ],
+                [
+                  10.339265,
+                  4.475689
+                ],
+                [
+                  10.339265,
+                  7.98206
+                ],
+                [
+                  10.339265,
+                  10.460209
+                ],
+                [
+                  12.726769513220223,
+                  10.460209
+                ],
+                [
+                  12.76133081653495,
+                  10.460209
+                ],
+                [
+                  12.76133081653495,
+                  6.6827731670421215
+                ],
+                [
+                  14.803596,
+                  6.6827731670421215
+                ],
+                [
+                  14.803596,
+                  4.223527
+                ],
+                [
+                  12.714779059974,
+                  4.223527
+                ]
+              ]
+            },
+            "east_low": {
+              "before": [
+                [
+                  14.803596,
+                  6.690422775535354
+                ],
+                [
+                  14.803596,
+                  4.223527
+                ],
+                [
+                  12.714779059974,
+                  4.223527
+                ],
+                [
+                  12.714779059974,
+                  7.963020364019668
+                ],
+                [
+                  14.803596,
+                  7.963020364019668
+                ],
+                [
+                  14.803596,
+                  6.690422775535354
+                ]
+              ],
+              "after": [
+                [
+                  14.803596,
+                  10.460209
+                ],
+                [
+                  14.803596,
+                  7.963020364019668
+                ],
+                [
+                  14.803596,
+                  6.690422775535354
+                ],
+                [
+                  14.803596,
+                  6.6827731670421215
+                ],
+                [
+                  12.76133081653495,
+                  6.6827731670421215
+                ],
+                [
+                  12.76133081653495,
+                  10.460209
+                ],
+                [
+                  14.803596,
+                  10.460209
+                ]
+              ]
+            }
+          },
+          "opening_shifts": [
+            [
+              [
+                [
+                  "left_core",
+                  "left_inner"
+                ],
+                -0.16
+              ],
+              [
+                [
+                  "left_core",
+                  "left_inner_side"
+                ],
+                0.16
+              ]
+            ],
+            [
+              [
+                [
+                  "left_core",
+                  "left_inner"
+                ],
+                -0.16
+              ],
+              [
+                [
+                  "left_core",
+                  "left_inner_side"
+                ],
+                0.16
+              ]
+            ]
+          ],
+          "closed_pairs": [
+            [],
+            []
+          ],
+          "adjacency_added": [],
+          "adjacency_removed": []
+        }
+      ],
+      "failures": [
+        {
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "issue": "no_safe_window"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "issue": "no_legal_corner_partition"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "left_inner",
+            "left_low"
+          ],
+          "issue": "no_legal_corner_partition"
+        },
+        {
+          "operation": [
+            "rewrite_region",
+            "east_high",
+            "east_low"
+          ],
+          "issue": "no_safe_window"
+        }
+      ],
+      "checks": 5,
+      "id": "single-20-06",
+      "seed": 48,
+      "random_key": "177:single-parent-v3:20:6",
+      "parent_sample": {
+        "id": "single-18-00",
+        "layout_hash": "5752c5d438d968e4e9255dade12bf7ae1f1bec0c24d4ec2aa1f6b54422842838",
+        "rank": 1,
+        "prior_requests": 0,
+        "weight": 1.0
+      },
+      "layout_hash": "5fb767f219d5f3b44ae56aef3f36f1b8ef1cb9cafbe14fa6bc8d22716df494b4",
+      "topology_changed": false,
+      "shared_evaluation": false,
+      "evidence_origin": "evaluation",
+      "duplicate_layout": false,
+      "scores": {
+        "S": 88.15602280268311,
+        "F": 59.17807516718106,
+        "P": 81.47031728632128,
+        "D": 18.022444657083618
+      },
+      "outcomes": {
+        "victory": 10,
+        "death": 2
+      },
+      "phase2": 12,
+      "missing": [],
+      "violations": {},
+      "status": "COMPLETE_DRAFT"
+    },
+    {
+      "parents": [
+        "single-4-03"
+      ],
+      "parent_layout_hash": "2d7999b3cf4d34fbe22f7ef08111a542318cfcb5a06904af6e065e821617bdb0",
+      "genome": {
+        "schema": "shell-pilot-genome/1",
+        "seed": 6,
+        "door_attempt": 1,
+        "repair_reasons": [
+          "net_playable_area_ratio"
+        ],
+        "partitions": [
+          [
+            "hall",
+            [
+              [
+                17.854675,
+                4.192297
+              ],
+              [
+                17.854675,
+                3.072729
+              ],
+              [
+                17.155409,
+                2.390828
+              ],
+              [
+                10.911859,
+                2.390828
+              ],
+              [
+                10.821611,
+                2.390828
+              ],
+              [
+                8.822921,
+                1.220451
+              ],
+              [
+                8.822921,
+                1.052871
+              ],
+              [
+                3.016529,
+                1.052871
+              ],
+              [
+                3.016529,
+                3.927536
+              ],
+              [
+                3.016529,
+                4.343086
+              ],
+              [
+                8.710499,
+                4.343086
+              ],
+              [
+                8.710499,
+                4.446252
+              ],
+              [
+                10.911859,
+                4.446252
+              ],
+              [
+                11.032943,
+                4.446252
+              ],
+              [
+                11.032943,
+                4.343086
+              ],
+              [
+                15.834151,
+                4.343086
+              ],
+              [
+                15.834151,
+                10.391411
+              ],
+              [
+                17.854675,
+                10.391411
+              ],
+              [
+                17.854675,
+                9.285033
+              ],
+              [
+                17.854675,
+                4.192297
+              ]
+            ]
+          ],
+          [
+            "east_end",
+            [
+              [
+                17.854675,
+                9.285033
+              ],
+              [
+                21.089746,
+                9.285033
+              ],
+              [
+                21.089746,
+                5.07597
+              ],
+              [
+                20.001046,
+                4.192297
+              ],
+              [
+                17.854675,
+                4.192297
+              ],
+              [
+                17.854675,
+                9.285033
+              ]
+            ]
+          ],
+          [
+            "left_core",
+            [
+              [
+                2.179121,
+                7.763086
+              ],
+              [
+                5.60206,
+                7.763086
+              ],
+              [
+                5.60206,
+                4.343086
+              ],
+              [
+                3.016529,
+                4.343086
+              ],
+              [
+                3.016529,
+                3.927536
+              ],
+              [
+                2.179121,
+                3.927536
+              ],
+              [
+                -1.94713,
+                3.927536
+              ],
+              [
+                -1.94713,
+                8.890148
+              ],
+              [
+                2.179121,
+                8.890148
+              ],
+              [
+                2.179121,
+                7.763086
+              ]
+            ]
+          ],
+          [
+            "left_inner",
+            [
+              [
+                2.179121,
+                7.763086
+              ],
+              [
+                2.179121,
+                11.73867
+              ],
+              [
+                4.90098,
+                11.73867
+              ],
+              [
+                8.710499,
+                11.73867
+              ],
+              [
+                8.710499,
+                9.760115711718335
+              ],
+              [
+                4.890997646353224,
+                9.760115711718335
+              ],
+              [
+                4.890997646353224,
+                7.763086
+              ],
+              [
+                2.179121,
+                7.763086
+              ]
+            ]
+          ],
+          [
+            "left_low",
+            [
+              [
+                4.890997646353224,
+                7.763086
+              ],
+              [
+                4.890997646353224,
+                9.760115711718335
+              ],
+              [
+                8.710499,
+                9.760115711718335
+              ],
+              [
+                8.710499,
+                9.739866
+              ],
+              [
+                8.710499,
+                7.763086
+              ],
+              [
+                4.890997646353224,
+                7.763086
+              ]
+            ]
+          ],
+          [
+            "left_upper",
+            [
+              [
+                5.60206,
+                4.343086
+              ],
+              [
+                5.60206,
+                7.763086
+              ],
+              [
+                8.710499,
+                7.763086
+              ],
+              [
+                8.710499,
+                4.446252
+              ],
+              [
+                8.710499,
+                4.343086
+              ],
+              [
+                5.60206,
+                4.343086
+              ]
+            ]
+          ],
+          [
+            "north",
+            [
+              [
+                3.016529,
+                1.052871
+              ],
+              [
+                8.822921,
+                1.052871
+              ],
+              [
+                8.822921,
+                -2.451884
+              ],
+              [
+                3.016529,
+                -2.451884
+              ],
+              [
+                3.016529,
+                1.052871
+              ]
+            ]
+          ],
+          [
+            "east_high",
+            [
+              [
+                11.032943,
+                10.391411
+              ],
+              [
+                13.772977746531431,
+                10.391411
+              ],
+              [
+                13.819880072221585,
+                10.391411
+              ],
+              [
+                13.819880072221585,
+                6.641897383779984
+              ],
+              [
+                15.834151,
+                6.641897383779984
+              ],
+              [
+                15.834151,
+                4.343086
+              ],
+              [
+                13.782728,
+                4.343086
+              ],
+              [
+                11.032943,
+                4.343086
+              ],
+              [
+                11.032943,
+                4.446252
+              ],
+              [
+                11.032943,
+                10.391411
+              ]
+            ]
+          ],
+          [
+            "east_low",
+            [
+              [
+                15.834151,
+                10.391411
+              ],
+              [
+                15.834151,
+                8.098996
+              ],
+              [
+                15.834151,
+                6.648453088218023
+              ],
+              [
+                15.834151,
+                6.641897383779984
+              ],
+              [
+                13.819880072221585,
+                6.641897383779984
+              ],
+              [
+                13.819880072221585,
+                10.391411
+              ],
+              [
+                15.834151,
+                10.391411
+              ]
+            ]
+          ]
+        ],
+        "edited_partition": true,
+        "closed_pairs": [],
+        "opening_shifts": [
+          [
+            [
+              "left_core",
+              "left_upper"
+            ],
+            0.16
+          ],
+          [
+            [
+              "left_inner",
+              "left_low"
+            ],
+            -0.16
+          ],
+          [
+            [
+              "left_low",
+              "left_upper"
+            ],
+            0.16
+          ]
+        ]
+      },
+      "genome_hash": "52f09b8cbba2664bfd591a8c646e3fd00fc023c67afd7978b2670dd9fd845006",
+      "edit": "diff",
+      "edit_target": 2,
+      "operation": [
+        "shift_opening",
+        "left_core",
+        "left_upper"
+      ],
+      "operations": [
+        {
+          "kind": "shift_opening",
+          "operation": [
+            "shift_opening",
+            "left_core",
+            "left_upper"
+          ],
+          "before_genome": "e1e8d9a62735212bd639469c734df6b7842ed0924e976aab7f108d11942e4d3e",
+          "after_genome": "171a7bcb4155875f02148444f7062ad10fee0bcc91a22df97eeb932766bd5ee3",
+          "partitions": {},
+          "opening_shifts": [
+            [
+              [
+                [
+                  "left_low",
+                  "left_upper"
+                ],
+                0.16
+              ]
+            ],
+            [
+              [
+                [
+                  "left_core",
+                  "left_upper"
+                ],
+                0.16
+              ],
+              [
+                [
+                  "left_low",
+                  "left_upper"
+                ],
+                0.16
+              ]
+            ]
+          ],
+          "closed_pairs": [
+            [],
+            []
+          ],
+          "adjacency_added": [],
+          "adjacency_removed": []
+        },
+        {
+          "kind": "shift_opening",
+          "operation": [
+            "shift_opening",
+            "left_inner",
+            "left_low"
+          ],
+          "before_genome": "171a7bcb4155875f02148444f7062ad10fee0bcc91a22df97eeb932766bd5ee3",
+          "after_genome": "52f09b8cbba2664bfd591a8c646e3fd00fc023c67afd7978b2670dd9fd845006",
+          "partitions": {},
+          "opening_shifts": [
+            [
+              [
+                [
+                  "left_core",
+                  "left_upper"
+                ],
+                0.16
+              ],
+              [
+                [
+                  "left_low",
+                  "left_upper"
+                ],
+                0.16
+              ]
+            ],
+            [
+              [
+                [
+                  "left_core",
+                  "left_upper"
+                ],
+                0.16
+              ],
+              [
+                [
+                  "left_inner",
+                  "left_low"
+                ],
+                -0.16
+              ],
+              [
+                [
+                  "left_low",
+                  "left_upper"
+                ],
+                0.16
+              ]
+            ]
+          ],
+          "closed_pairs": [
+            [],
+            []
+          ],
+          "adjacency_added": [],
+          "adjacency_removed": []
+        }
+      ],
+      "failures": [],
+      "checks": 2,
+      "id": "single-20-07",
+      "seed": 6,
+      "random_key": "177:single-parent-v3:20:7",
+      "parent_sample": {
+        "id": "single-4-03",
+        "layout_hash": "2d7999b3cf4d34fbe22f7ef08111a542318cfcb5a06904af6e065e821617bdb0",
+        "rank": 1,
+        "prior_requests": 3,
+        "weight": 0.25
+      },
+      "layout_hash": "0eff215c7ed00fa094d303b8fb09a9060af9cd940da6d38212e49c8653d25b66",
+      "topology_changed": false,
+      "shared_evaluation": false,
+      "evidence_origin": "evaluation",
+      "duplicate_layout": false,
+      "scores": {
+        "S": 90.00226432089991,
+        "F": 51.35416666666667,
+        "P": 55.779437534859056,
+        "D": 17.69229293736101
+      },
+      "outcomes": {
+        "victory": 12
+      },
+      "phase2": 12,
+      "missing": [],
+      "violations": {},
+      "status": "COMPLETE_DRAFT"
+    }
+  ],
+  "selection": {
+    "single-10-07": {
+      "retained": false,
+      "reason": "pareto_rank_or_crowding",
+      "rank": 2
+    },
+    "single-15-03": {
+      "retained": true,
+      "reason": "retained_scored",
+      "rank": 1
+    },
+    "single-16-05": {
+      "retained": true,
+      "reason": "retained_scored",
+      "rank": 1
+    },
+    "single-17-04": {
+      "retained": true,
+      "reason": "retained_scored",
+      "rank": 1
+    },
+    "single-17-06": {
+      "retained": true,
+      "reason": "retained_scored",
+      "rank": 1
+    },
+    "single-3-05": {
+      "retained": true,
+      "reason": "retained_scored",
+      "rank": 1
+    },
+    "single-15-06": {
+      "retained": true,
+      "reason": "retained_scored",
+      "rank": 1
+    },
+    "single-19-01": {
+      "retained": false,
+      "reason": "pareto_rank_or_crowding",
+      "rank": 1
+    },
+    "single-20-00": {
+      "retained": false,
+      "reason": "pareto_rank_or_crowding",
+      "rank": 1
+    },
+    "single-20-01": {
+      "retained": false,
+      "reason": "pareto_rank_or_crowding",
+      "rank": 1
+    },
+    "single-20-02": {
+      "retained": false,
+      "reason": "pareto_rank_or_crowding",
+      "rank": 2
+    },
+    "single-20-03": {
+      "retained": true,
+      "reason": "retained_scored",
+      "rank": 1
+    },
+    "single-20-04": {
+      "retained": false,
+      "reason": "pareto_rank_or_crowding",
+      "rank": 1
+    },
+    "single-20-05": {
+      "retained": false,
+      "reason": "insufficient_evidence",
+      "rank": null
+    },
+    "single-20-06": {
+      "retained": false,
+      "reason": "pareto_rank_or_crowding",
+      "rank": 1
+    },
+    "single-20-07": {
+      "retained": true,
+      "reason": "retained_scored",
+      "rank": 1
+    }
+  },
+  "survivors": [
+    "single-15-03",
+    "single-16-05",
+    "single-17-04",
+    "single-17-06",
+    "single-20-03",
+    "single-3-05",
+    "single-15-06",
+    "single-20-07"
+  ],
+  "current_pareto": [
+    "single-15-03",
+    "single-15-06",
+    "single-16-05",
+    "single-17-04",
+    "single-17-06",
+    "single-20-03",
+    "single-20-07",
+    "single-3-05"
+  ],
+  "cumulative_pareto": [
+    "initial-00",
+    "initial-02",
+    "initial-04",
+    "single-10-01",
+    "single-10-06",
+    "single-11-02",
+    "single-11-03",
+    "single-11-05",
+    "single-12-00",
+    "single-12-01",
+    "single-12-02",
+    "single-12-04",
+    "single-12-05",
+    "single-12-06",
+    "single-13-01",
+    "single-13-04",
+    "single-13-06",
+    "single-13-07",
+    "single-14-04",
+    "single-14-05",
+    "single-14-07",
+    "single-15-01",
+    "single-15-03",
+    "single-15-04",
+    "single-15-06",
+    "single-16-05",
+    "single-16-06",
+    "single-17-02",
+    "single-17-04",
+    "single-17-06",
+    "single-17-07",
+    "single-18-00",
+    "single-18-02",
+    "single-18-04",
+    "single-18-05",
+    "single-18-07",
+    "single-19-01",
+    "single-19-03",
+    "single-19-07",
+    "single-2-03",
+    "single-2-07",
+    "single-20-00",
+    "single-20-01",
+    "single-20-03",
+    "single-20-04",
+    "single-20-06",
+    "single-20-07",
+    "single-3-05",
+    "single-3-07",
+    "single-4-01",
+    "single-4-03",
+    "single-5-07",
+    "single-6-00",
+    "single-6-02",
+    "single-6-03",
+    "single-7-00",
+    "single-7-04",
+    "single-8-01",
+    "single-8-04",
+    "single-9-04",
+    "single-9-05",
+    "single-9-06"
+  ],
+  "representative": "single-15-06",
+  "best_by_objective": {
+    "S": "single-17-04",
+    "F": "single-3-05",
+    "P": "single-15-03",
+    "D": "single-17-06"
+  },
+  "scored_count": 8,
+  "selection_fallback": false
+}

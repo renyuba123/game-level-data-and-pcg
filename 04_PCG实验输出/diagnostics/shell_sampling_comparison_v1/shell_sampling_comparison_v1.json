@@ -1,0 +1,2352 @@
+{
+  "reference": {
+    "objectives": [
+      "S",
+      "F",
+      "P",
+      "D"
+    ],
+    "minimum_scores": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "normalization": "divide scores by 100",
+    "optimization_seeds": 1,
+    "shared_g0_evidence_hash": "018acb84f40024fe5e26bb15c49b71391600c0d18858276c0b418c39f6bcca70"
+  },
+  "arms": {
+    "A": {
+      "archive": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\shell_local_g20_pop8_20261125_143448_831",
+      "sampling": "archive",
+      "config_hash": "f163fd7be210f73b59014a3fba52e0473b28fb22275fa4438a64b20812b08392",
+      "git_commit": "19ce0bf09839cc476c41e727aed31c43d9be4e11",
+      "overview": {
+        "requests": 168,
+        "official_requests": 0,
+        "unique_genomes": 159,
+        "evaluated_layouts": 159,
+        "status": {
+          "COMPLETE_DRAFT": 146,
+          "INVALID": 9,
+          "UNCERTAIN": 13
+        },
+        "new_certified_battles": 1908,
+        "inherited_battles": 0,
+        "duplicate_requests": 0,
+        "edits_requested": {
+          "diff": 73,
+          "full": 72,
+          "archive_reference": 15
+        },
+        "edits_realized": {
+          "diff": 73,
+          "full": 63,
+          "archive_reference": 15
+        },
+        "actual_topology_changes": 48
+      },
+      "runtime": {
+        "counts": {
+          "invocation:started": 1,
+          "geometry:started": 21,
+          "geometry:complete": 21,
+          "evaluation:started": 21,
+          "spatial:started": 159,
+          "depthmap:started": 3180,
+          "depthmap:complete": 3180,
+          "spatial:complete": 159,
+          "godot_evidence:started": 159,
+          "godot:started": 159,
+          "godot_episodes_requested": 1908,
+          "godot:complete": 159,
+          "godot_evidence:complete": 159,
+          "godot_episodes_certified": 1908,
+          "evaluation:complete": 21,
+          "selection:started": 21,
+          "selection:complete": 21,
+          "commit_generation:started": 21,
+          "commit_generation:complete": 21,
+          "invocation:complete": 1
+        },
+        "seconds": {
+          "geometry": 187.72882400000162,
+          "depthmap": 2845.330779299998,
+          "spatial": 3518.654819700001,
+          "godot": 4263.9273255000035,
+          "godot_evidence": 4692.241571100002,
+          "evaluation": 4455.233719600001,
+          "selection": 0.4399565999967763,
+          "commit_generation": 1.2622985999980756,
+          "invocation": 4647.0028289
+        }
+      },
+      "g1_g20_new_non_dominated_rate": 0.4625,
+      "full_score_rate": 0.8690476190476191,
+      "generations": [
+        {
+          "generation": 0,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 89.33758877744563,
+            "F": 75.9169360394621,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 63.244493278123116,
+          "q_survivor_mean": 52.57928866316047,
+          "q_historical_max": 63.244493278123116,
+          "cumulative_hv": 0.14605697246562674,
+          "new_non_dominated": 5,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 6
+        },
+        {
+          "generation": 1,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 89.33758877744563,
+            "F": 75.9169360394621,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 63.244493278123116,
+          "q_survivor_mean": 53.276165906013134,
+          "q_historical_max": 63.244493278123116,
+          "cumulative_hv": 0.14605697246562674,
+          "new_non_dominated": 0,
+          "parent_score_pairs": 8,
+          "median_child_minus_parent": {
+            "S": -0.4306283648180198,
+            "F": -6.688060332157592,
+            "P": -10.425441659298102,
+            "D": -2.7384605197555247,
+            "Q": -7.457992270742771
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 5,
+          "cumulative_candidate_topology_classes": 8
+        },
+        {
+          "generation": 2,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 6,
+            "INVALID": 1,
+            "UNCERTAIN": 1
+          },
+          "historical_best": {
+            "S": 90.60244275959889,
+            "F": 75.9169360394621,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 66.09400886015725,
+          "q_survivor_mean": 58.73823193872383,
+          "q_historical_max": 66.09400886015725,
+          "cumulative_hv": 0.15866294299231146,
+          "new_non_dominated": 3,
+          "parent_score_pairs": 6,
+          "median_child_minus_parent": {
+            "S": 0.07886608355592983,
+            "F": 0.0,
+            "P": 0.21304093160983228,
+            "D": 0.0,
+            "Q": 0.01182991253338983
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 5,
+          "cumulative_candidate_topology_classes": 9
+        },
+        {
+          "generation": 3,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 90.60244275959889,
+            "F": 76.09642918381347,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 63.95618496730716,
+          "q_survivor_mean": 59.32735999733945,
+          "q_historical_max": 66.20707937169288,
+          "cumulative_hv": 0.1593085609762395,
+          "new_non_dominated": 5,
+          "parent_score_pairs": 8,
+          "median_child_minus_parent": {
+            "S": -1.0534293377436867,
+            "F": 0.2260955948094292,
+            "P": -1.1754712274815446,
+            "D": -1.1117597783176805,
+            "Q": -1.235691928773921
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 12
+        },
+        {
+          "generation": 4,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 6,
+            "INVALID": 1,
+            "UNCERTAIN": 1
+          },
+          "historical_best": {
+            "S": 90.60244275959889,
+            "F": 76.09642918381347,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 63.95618496730716,
+          "q_survivor_mean": 59.75889550001621,
+          "q_historical_max": 66.20707937169288,
+          "cumulative_hv": 0.1605511254577587,
+          "new_non_dominated": 4,
+          "parent_score_pairs": 6,
+          "median_child_minus_parent": {
+            "S": 0.5074865697833459,
+            "F": 4.4717011504120805,
+            "P": 0.5953062954722697,
+            "D": -2.9674869982418928,
+            "Q": -0.26248522622365655
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 6,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 7,
+          "cumulative_candidate_topology_classes": 14
+        },
+        {
+          "generation": 5,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 6,
+            "UNCERTAIN": 2
+          },
+          "historical_best": {
+            "S": 90.60244275959889,
+            "F": 76.09642918381347,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 63.95618496730716,
+          "q_survivor_mean": 57.89148563431442,
+          "q_historical_max": 66.20707937169288,
+          "cumulative_hv": 0.16100571758681242,
+          "new_non_dominated": 3,
+          "parent_score_pairs": 6,
+          "median_child_minus_parent": {
+            "S": -0.22745664963414214,
+            "F": -0.20586028180067117,
+            "P": 0.1551997303676309,
+            "D": 1.0174166099512245,
+            "Q": -0.16197429025630328
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 3,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 15
+        },
+        {
+          "generation": 6,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 7,
+            "UNCERTAIN": 1
+          },
+          "historical_best": {
+            "S": 90.60244275959889,
+            "F": 76.09642918381347,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 63.95618496730716,
+          "q_survivor_mean": 58.31986921585335,
+          "q_historical_max": 66.20707937169288,
+          "cumulative_hv": 0.1611699778711434,
+          "new_non_dominated": 5,
+          "parent_score_pairs": 7,
+          "median_child_minus_parent": {
+            "S": 0.9351342140545853,
+            "F": 0.0,
+            "P": 1.3848307626707737,
+            "D": -0.3219202171681843,
+            "Q": 0.6264720268404602
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 5,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 7,
+          "cumulative_candidate_topology_classes": 15
+        },
+        {
+          "generation": 7,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 6,
+            "UNCERTAIN": 2
+          },
+          "historical_best": {
+            "S": 90.60244275959889,
+            "F": 76.09642918381347,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 63.95618496730716,
+          "q_survivor_mean": 58.31986921585335,
+          "q_historical_max": 66.20707937169288,
+          "cumulative_hv": 0.16121641254891303,
+          "new_non_dominated": 3,
+          "parent_score_pairs": 6,
+          "median_child_minus_parent": {
+            "S": 0.08631109957494942,
+            "F": 1.1481545075295045,
+            "P": -1.8654125498147884,
+            "D": -1.7469614731327103,
+            "Q": -0.1525274252248927
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 7,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 7,
+          "cumulative_candidate_topology_classes": 16
+        },
+        {
+          "generation": 8,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 5,
+            "UNCERTAIN": 1,
+            "INVALID": 2
+          },
+          "historical_best": {
+            "S": 90.60244275959889,
+            "F": 76.09642918381347,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 63.95618496730716,
+          "q_survivor_mean": 58.583504199147804,
+          "q_historical_max": 66.20707937169288,
+          "cumulative_hv": 0.1625308003986548,
+          "new_non_dominated": 3,
+          "parent_score_pairs": 5,
+          "median_child_minus_parent": {
+            "S": 0.0047038134969881185,
+            "F": 0.0,
+            "P": 0.0,
+            "D": 0.0,
+            "Q": 0.00469996153062624
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 8,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 5,
+          "cumulative_candidate_topology_classes": 16
+        },
+        {
+          "generation": 9,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 90.60244275959889,
+            "F": 76.09642918381347,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 63.95618496730716,
+          "q_survivor_mean": 59.91977337235141,
+          "q_historical_max": 66.20707937169288,
+          "cumulative_hv": 0.16276556947234774,
+          "new_non_dominated": 5,
+          "parent_score_pairs": 8,
+          "median_child_minus_parent": {
+            "S": 0.08160470192164127,
+            "F": -5.5617847683276835,
+            "P": -5.751830146954408,
+            "D": -2.394385888317103,
+            "Q": -3.912688120040219
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 5,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 7,
+          "cumulative_candidate_topology_classes": 16
+        },
+        {
+          "generation": 10,
+          "requests": 8,
+          "status": {
+            "UNCERTAIN": 2,
+            "COMPLETE_DRAFT": 6
+          },
+          "historical_best": {
+            "S": 90.60244275959889,
+            "F": 76.09642918381347,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 65.55344751900932,
+          "q_survivor_mean": 58.38508974850242,
+          "q_historical_max": 66.20707937169288,
+          "cumulative_hv": 0.16738473965701303,
+          "new_non_dominated": 3,
+          "parent_score_pairs": 6,
+          "median_child_minus_parent": {
+            "S": -0.5232606392500259,
+            "F": -4.2162015220826135,
+            "P": 4.5089394496319954,
+            "D": 3.5860803398683263,
+            "Q": -1.6743929599676086
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 8,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 4,
+          "cumulative_candidate_topology_classes": 16
+        },
+        {
+          "generation": 11,
+          "requests": 8,
+          "status": {
+            "INVALID": 1,
+            "COMPLETE_DRAFT": 7
+          },
+          "historical_best": {
+            "S": 90.60244275959889,
+            "F": 76.09642918381347,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 63.95618496730716,
+          "q_survivor_mean": 57.942912901858826,
+          "q_historical_max": 66.20707937169288,
+          "cumulative_hv": 0.16751646314366747,
+          "new_non_dominated": 3,
+          "parent_score_pairs": 7,
+          "median_child_minus_parent": {
+            "S": 0.03388188540507997,
+            "F": 2.3499911867967427,
+            "P": 0.09747076943757094,
+            "D": -0.5674999877400246,
+            "Q": 0.7885042333418468
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 7,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 16
+        },
+        {
+          "generation": 12,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 7,
+            "UNCERTAIN": 1
+          },
+          "historical_best": {
+            "S": 90.60244275959889,
+            "F": 76.09642918381347,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 65.8730902840057,
+          "q_survivor_mean": 58.519561986394606,
+          "q_historical_max": 66.20707937169288,
+          "cumulative_hv": 0.16771937902080744,
+          "new_non_dominated": 6,
+          "parent_score_pairs": 7,
+          "median_child_minus_parent": {
+            "S": -0.38215027855862616,
+            "F": 8.669437916978431,
+            "P": -0.3548440777558568,
+            "D": -1.386513368129581,
+            "Q": -0.15357059698108344
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 7,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 5,
+          "cumulative_candidate_topology_classes": 18
+        },
+        {
+          "generation": 13,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 90.60244275959889,
+            "F": 76.09642918381347,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 63.95618496730716,
+          "q_survivor_mean": 57.616280021945464,
+          "q_historical_max": 66.20707937169288,
+          "cumulative_hv": 0.16778818325735664,
+          "new_non_dominated": 4,
+          "parent_score_pairs": 8,
+          "median_child_minus_parent": {
+            "S": 0.09021903204305204,
+            "F": 10.591673153111682,
+            "P": 1.6132411334981356,
+            "D": 1.1570016440033495,
+            "Q": 3.708418136926568
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 8,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 4,
+          "cumulative_candidate_topology_classes": 18
+        },
+        {
+          "generation": 14,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 7,
+            "INVALID": 1
+          },
+          "historical_best": {
+            "S": 90.60244275959889,
+            "F": 76.09642918381347,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 63.95618496730716,
+          "q_survivor_mean": 57.50079624010078,
+          "q_historical_max": 66.20707937169288,
+          "cumulative_hv": 0.16779100565178054,
+          "new_non_dominated": 3,
+          "parent_score_pairs": 7,
+          "median_child_minus_parent": {
+            "S": -0.21924827255347168,
+            "F": 0.2725533693415656,
+            "P": -0.15229669378907573,
+            "D": -0.17432466813421765,
+            "Q": -0.01804750337704064
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 8,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 5,
+          "cumulative_candidate_topology_classes": 18
+        },
+        {
+          "generation": 15,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 90.60244275959889,
+            "F": 76.09642918381347,
+            "P": 89.77345560637454,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 65.14700227630213,
+          "q_survivor_mean": 58.672807298603416,
+          "q_historical_max": 66.20707937169288,
+          "cumulative_hv": 0.1698872875142948,
+          "new_non_dominated": 4,
+          "parent_score_pairs": 8,
+          "median_child_minus_parent": {
+            "S": -0.09761175551803802,
+            "F": 1.2548954341054852,
+            "P": 0.7676892201092897,
+            "D": -0.8080540043001765,
+            "Q": -0.4141440912457881
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 7,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 19
+        },
+        {
+          "generation": 16,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 7,
+            "INVALID": 1
+          },
+          "historical_best": {
+            "S": 90.60244275959889,
+            "F": 76.09642918381347,
+            "P": 89.77345560637454,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 65.14700227630213,
+          "q_survivor_mean": 58.708811239332015,
+          "q_historical_max": 66.20707937169288,
+          "cumulative_hv": 0.17059308125587166,
+          "new_non_dominated": 2,
+          "parent_score_pairs": 7,
+          "median_child_minus_parent": {
+            "S": 0.05870853878644766,
+            "F": -2.095753417107588,
+            "P": 3.3777777633165584,
+            "D": 1.5273086461699794,
+            "Q": -0.662212907245106
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 7,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 5,
+          "cumulative_candidate_topology_classes": 19
+        },
+        {
+          "generation": 17,
+          "requests": 8,
+          "status": {
+            "UNCERTAIN": 1,
+            "COMPLETE_DRAFT": 7
+          },
+          "historical_best": {
+            "S": 90.78160525615142,
+            "F": 76.09642918381347,
+            "P": 89.77345560637454,
+            "D": 31.357700331336954
+          },
+          "q_survivor_max": 65.14700227630213,
+          "q_survivor_mean": 59.13920298885087,
+          "q_historical_max": 66.20707937169288,
+          "cumulative_hv": 0.1765887288010296,
+          "new_non_dominated": 4,
+          "parent_score_pairs": 7,
+          "median_child_minus_parent": {
+            "S": 0.056556817196593556,
+            "F": 0.0,
+            "P": -0.25104302043857274,
+            "D": -4.056956877408836,
+            "Q": 1.2818478211207207
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 8,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 7,
+          "cumulative_candidate_topology_classes": 19
+        },
+        {
+          "generation": 18,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 7,
+            "INVALID": 1
+          },
+          "historical_best": {
+            "S": 90.78160525615142,
+            "F": 76.09642918381347,
+            "P": 89.77345560637454,
+            "D": 31.357700331336954
+          },
+          "q_survivor_max": 65.14700227630213,
+          "q_survivor_mean": 59.041886041569185,
+          "q_historical_max": 66.20707937169288,
+          "cumulative_hv": 0.17659381894043974,
+          "new_non_dominated": 5,
+          "parent_score_pairs": 7,
+          "median_child_minus_parent": {
+            "S": -0.5038845999764732,
+            "F": -0.23817693928371142,
+            "P": 0.026932777247843376,
+            "D": 0.9662391127744172,
+            "Q": -0.4563157547365435
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 6,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 4,
+          "cumulative_candidate_topology_classes": 19
+        },
+        {
+          "generation": 19,
+          "requests": 8,
+          "status": {
+            "INVALID": 1,
+            "COMPLETE_DRAFT": 7
+          },
+          "historical_best": {
+            "S": 90.78160525615142,
+            "F": 76.09642918381347,
+            "P": 89.77345560637454,
+            "D": 31.357700331336954
+          },
+          "q_survivor_max": 65.14700227630213,
+          "q_survivor_mean": 59.123875707674856,
+          "q_historical_max": 66.20707937169288,
+          "cumulative_hv": 0.1765965058127537,
+          "new_non_dominated": 3,
+          "parent_score_pairs": 7,
+          "median_child_minus_parent": {
+            "S": -0.119614832053756,
+            "F": 0.08680555555555713,
+            "P": 0.6695918555486813,
+            "D": -0.8578244657499692,
+            "Q": 0.017423054589741582
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 8,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 19
+        },
+        {
+          "generation": 20,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 7,
+            "UNCERTAIN": 1
+          },
+          "historical_best": {
+            "S": 90.78160525615142,
+            "F": 76.09642918381347,
+            "P": 89.77345560637454,
+            "D": 31.357700331336954
+          },
+          "q_survivor_max": 65.14700227630213,
+          "q_survivor_mean": 58.71516100708067,
+          "q_historical_max": 66.20707937169288,
+          "cumulative_hv": 0.17661014348809279,
+          "new_non_dominated": 6,
+          "parent_score_pairs": 7,
+          "median_child_minus_parent": {
+            "S": 0.021756022863499425,
+            "F": 0.0,
+            "P": -0.2744888325978181,
+            "D": 0.0,
+            "Q": 0.003263403429521361
+          },
+          "parent_source": {
+            "archive": 8
+          },
+          "parent_draws_outside_previous_survivors": 7,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 5,
+          "cumulative_candidate_topology_classes": 19
+        }
+      ],
+      "operators": {
+        "diff": {
+          "status": {
+            "COMPLETE_DRAFT": 67,
+            "UNCERTAIN": 6
+          },
+          "complete_pairs": 67,
+          "median_delta": {
+            "S": -0.019320501810881296,
+            "F": 0.0,
+            "P": -0.01991013536093078,
+            "D": 0.0
+          },
+          "failure_issues": {
+            "no_legal_corner_partition": 25,
+            "no_safe_window": 43,
+            "outside_adjacency_changed": 2,
+            "godot_link_crosses_wall:player:gate_9": 1,
+            "layout_unchanged_or_reverted": 14,
+            "godot_link_crosses_wall:boss:gate_8": 1,
+            "godot_link_endpoint_missing:player:gate_11": 1,
+            "all_open_boss_disconnected,boss_cannot_reach_smash_face,initial_player_disconnected": 1,
+            "shared_wall_too_short_for_two_clear_openings:left_inner": 1,
+            "godot_link_crosses_wall:player:gate_7": 1,
+            "initial_player_disconnected": 1
+          }
+        },
+        "full": {
+          "status": {
+            "COMPLETE_DRAFT": 58,
+            "INVALID": 9,
+            "UNCERTAIN": 5
+          },
+          "complete_pairs": 58,
+          "median_delta": {
+            "S": -0.08198303996280032,
+            "F": -0.06951125916692646,
+            "P": 0.4500033094547362,
+            "D": -0.867524510883694
+          },
+          "failure_issues": {
+            "same_corner": 75,
+            "no_safe_window": 44,
+            "godot_link_endpoint_missing:player:gate_9": 1,
+            "no_legal_corner_partition": 47,
+            "initial_player_disconnected": 4,
+            "godot_link_endpoint_missing:player:gate_11": 4,
+            "godot_link_endpoint_missing:player:gate_12": 10,
+            "outside_adjacency_changed": 10,
+            "godot_link_crosses_wall:player:gate_9": 3,
+            "godot_link_endpoint_missing:boss:gate_2": 2,
+            "godot_link_crosses_wall:player:gate_4": 2,
+            "godot_link_endpoint_missing:player:gate_10": 3,
+            "godot_link_crosses_wall:boss:gate_6": 1,
+            "godot_link_crosses_wall:player:gate_10": 1
+          }
+        },
+        "archive_reference": {
+          "status": {
+            "COMPLETE_DRAFT": 13,
+            "UNCERTAIN": 2
+          },
+          "complete_pairs": 13,
+          "median_delta": {
+            "S": -0.44866926001877516,
+            "F": -0.2726980452674894,
+            "P": -0.2908490059860327,
+            "D": -1.6909848781551773
+          },
+          "failure_issues": {
+            "outside_adjacency_changed": 1,
+            "no_legal_corner_partition": 8,
+            "godot_link_endpoint_missing:player:gate_12": 2,
+            "no_safe_window": 4
+          }
+        }
+      }
+    },
+    "B": {
+      "archive": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\shell_sampling_focused_g20_v1",
+      "sampling": "focused",
+      "config_hash": "a13c9937c9dcfac24a90701c98f2fbc7f8aa8074ed1c2cf4b9ef215ff2b13a8d",
+      "git_commit": "0222e5bcd7f75f2cb9a6a438e5b1b97e198d857e",
+      "overview": {
+        "requests": 168,
+        "official_requests": 0,
+        "unique_genomes": 162,
+        "evaluated_layouts": 162,
+        "status": {
+          "COMPLETE_DRAFT": 157,
+          "INVALID": 6,
+          "UNCERTAIN": 5
+        },
+        "new_certified_battles": 1944,
+        "inherited_battles": 0,
+        "duplicate_requests": 0,
+        "edits_requested": {
+          "diff": 73,
+          "full": 73,
+          "archive_reference": 14
+        },
+        "edits_realized": {
+          "diff": 73,
+          "full": 67,
+          "archive_reference": 14
+        },
+        "actual_topology_changes": 66
+      },
+      "runtime": {
+        "counts": {
+          "invocation:started": 1,
+          "geometry:started": 21,
+          "geometry:complete": 21,
+          "evaluation:started": 21,
+          "spatial:started": 162,
+          "depthmap:started": 3240,
+          "depthmap:complete": 3240,
+          "spatial:complete": 162,
+          "godot_evidence:started": 162,
+          "godot:started": 162,
+          "godot_episodes_requested": 1944,
+          "godot:complete": 162,
+          "godot_evidence:complete": 162,
+          "godot_episodes_certified": 1944,
+          "evaluation:complete": 21,
+          "selection:started": 21,
+          "selection:complete": 21,
+          "commit_generation:started": 21,
+          "commit_generation:complete": 21,
+          "invocation:complete": 1
+        },
+        "seconds": {
+          "geometry": 208.11539309999716,
+          "depthmap": 3657.0798078999687,
+          "spatial": 4788.434166599993,
+          "godot": 5575.691535100006,
+          "godot_evidence": 6265.640951699977,
+          "evaluation": 3113.8193488999896,
+          "selection": 0.21863979999397998,
+          "commit_generation": 0.8550995999867155,
+          "invocation": 3326.106273600002
+        }
+      },
+      "g1_g20_new_non_dominated_rate": 0.46875,
+      "full_score_rate": 0.9345238095238095,
+      "generations": [
+        {
+          "generation": 0,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 89.33758877744563,
+            "F": 75.9169360394621,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 63.244493278123116,
+          "q_survivor_mean": 52.57928866316047,
+          "q_historical_max": 63.244493278123116,
+          "cumulative_hv": 0.14605697246562674,
+          "new_non_dominated": 5,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 6
+        },
+        {
+          "generation": 1,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 89.33758877744563,
+            "F": 75.9169360394621,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 65.9803792649575,
+          "q_survivor_mean": 62.03065667363298,
+          "q_historical_max": 65.9803792649575,
+          "cumulative_hv": 0.1503308929521312,
+          "new_non_dominated": 3,
+          "parent_score_pairs": 8,
+          "median_child_minus_parent": {
+            "S": -0.409118598027284,
+            "F": 7.0840459196795535,
+            "P": -6.805344132271571,
+            "D": -2.5383431677599484,
+            "Q": -0.34000430288077155
+          },
+          "parent_source": {
+            "focused": 6,
+            "explore": 2
+          },
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 10
+        },
+        {
+          "generation": 2,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 7,
+            "INVALID": 1
+          },
+          "historical_best": {
+            "S": 89.36683522089753,
+            "F": 75.9169360394621,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 64.25521146367721,
+          "q_survivor_mean": 60.81814372609979,
+          "q_historical_max": 65.9803792649575,
+          "cumulative_hv": 0.15876505764085036,
+          "new_non_dominated": 5,
+          "parent_score_pairs": 7,
+          "median_child_minus_parent": {
+            "S": 0.029246443451896198,
+            "F": -4.5704841643535445,
+            "P": -1.2061999252140652,
+            "D": 1.4828414169496664,
+            "Q": -2.1805908373341936
+          },
+          "parent_source": {
+            "focused": 6,
+            "explore": 2
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 11
+        },
+        {
+          "generation": 3,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 7,
+            "UNCERTAIN": 1
+          },
+          "historical_best": {
+            "S": 90.62815092998815,
+            "F": 75.9169360394621,
+            "P": 87.5774564835532,
+            "D": 32.33523904497867
+          },
+          "q_survivor_max": 64.25521146367721,
+          "q_survivor_mean": 59.763114270362045,
+          "q_historical_max": 65.9803792649575,
+          "cumulative_hv": 0.16507018546083008,
+          "new_non_dominated": 6,
+          "parent_score_pairs": 7,
+          "median_child_minus_parent": {
+            "S": -0.12181230994352177,
+            "F": -0.20586178626543017,
+            "P": -0.26014636133129443,
+            "D": 5.500676390349648,
+            "Q": -0.08952924950970242
+          },
+          "parent_source": {
+            "focused": 6,
+            "explore": 2
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 5,
+          "cumulative_candidate_topology_classes": 12
+        },
+        {
+          "generation": 4,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 90.62815092998815,
+            "F": 75.9169360394621,
+            "P": 91.22682494901186,
+            "D": 32.33523904497867
+          },
+          "q_survivor_max": 63.244493278123116,
+          "q_survivor_mean": 58.58791039854772,
+          "q_historical_max": 65.9803792649575,
+          "cumulative_hv": 0.16983078105256963,
+          "new_non_dominated": 5,
+          "parent_score_pairs": 8,
+          "median_child_minus_parent": {
+            "S": 0.042080594152274386,
+            "F": 0.29509267296811004,
+            "P": -0.027900666238799943,
+            "D": 1.5203876247365198,
+            "Q": -2.0202379542147533
+          },
+          "parent_source": {
+            "explore": 2,
+            "focused": 6
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 13
+        },
+        {
+          "generation": 5,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 90.62815092998815,
+            "F": 75.9169360394621,
+            "P": 91.22682494901186,
+            "D": 32.33523904497867
+          },
+          "q_survivor_max": 63.244493278123116,
+          "q_survivor_mean": 59.653221738417166,
+          "q_historical_max": 65.9803792649575,
+          "cumulative_hv": 0.17110552655218195,
+          "new_non_dominated": 3,
+          "parent_score_pairs": 8,
+          "median_child_minus_parent": {
+            "S": -0.0665099245167724,
+            "F": 5.900616031038179,
+            "P": -5.152971249052385,
+            "D": -6.004915881986039,
+            "Q": 0.029982749654234198
+          },
+          "parent_source": {
+            "explore": 2,
+            "focused": 6
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 7,
+          "cumulative_candidate_topology_classes": 15
+        },
+        {
+          "generation": 6,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 90.62815092998815,
+            "F": 75.9169360394621,
+            "P": 91.22682494901186,
+            "D": 32.77673692842899
+          },
+          "q_survivor_max": 63.244493278123116,
+          "q_survivor_mean": 59.44232346144581,
+          "q_historical_max": 65.9803792649575,
+          "cumulative_hv": 0.17519865732817486,
+          "new_non_dominated": 3,
+          "parent_score_pairs": 8,
+          "median_child_minus_parent": {
+            "S": -0.4908670439593692,
+            "F": -2.317863037061521,
+            "P": -3.545635720014438,
+            "D": -2.420511339829125,
+            "Q": -2.7556715153495936
+          },
+          "parent_source": {
+            "explore": 2,
+            "focused": 6
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 15
+        },
+        {
+          "generation": 7,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 7,
+            "INVALID": 1
+          },
+          "historical_best": {
+            "S": 90.62815092998815,
+            "F": 75.9169360394621,
+            "P": 91.22682494901186,
+            "D": 33.22656090114092
+          },
+          "q_survivor_max": 63.244493278123116,
+          "q_survivor_mean": 59.66243221401884,
+          "q_historical_max": 66.1218677368517,
+          "cumulative_hv": 0.18324997150093353,
+          "new_non_dominated": 5,
+          "parent_score_pairs": 7,
+          "median_child_minus_parent": {
+            "S": 0.1645907075686921,
+            "F": 9.270833333333343,
+            "P": -2.7641342374742237,
+            "D": -4.704917061121826,
+            "Q": 2.2444907018503883
+          },
+          "parent_source": {
+            "focused": 6,
+            "explore": 2
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 5,
+          "cumulative_candidate_topology_classes": 16
+        },
+        {
+          "generation": 8,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 7,
+            "INVALID": 1
+          },
+          "historical_best": {
+            "S": 90.63665966862072,
+            "F": 75.9169360394621,
+            "P": 91.22682494901186,
+            "D": 33.22656090114092
+          },
+          "q_survivor_max": 65.858708483393,
+          "q_survivor_mean": 60.34398088479259,
+          "q_historical_max": 66.1218677368517,
+          "cumulative_hv": 0.1833248114881067,
+          "new_non_dominated": 4,
+          "parent_score_pairs": 7,
+          "median_child_minus_parent": {
+            "S": 0.004174416485838606,
+            "F": 0.0,
+            "P": -2.247921667490317,
+            "D": -0.19889311588970138,
+            "Q": 1.278905177964127
+          },
+          "parent_source": {
+            "focused": 6,
+            "explore": 2
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 7,
+          "cumulative_candidate_topology_classes": 16
+        },
+        {
+          "generation": 9,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 90.63665966862072,
+            "F": 75.9169360394621,
+            "P": 91.22682494901186,
+            "D": 33.22656090114092
+          },
+          "q_survivor_max": 63.244493278123116,
+          "q_survivor_mean": 59.32316051521133,
+          "q_historical_max": 66.1218677368517,
+          "cumulative_hv": 0.183328390041896,
+          "new_non_dominated": 4,
+          "parent_score_pairs": 8,
+          "median_child_minus_parent": {
+            "S": 0.12590024132508404,
+            "F": -6.945133377425037,
+            "P": 0.013466388623921688,
+            "D": -0.1456365693683468,
+            "Q": -1.8468528891346203
+          },
+          "parent_source": {
+            "focused": 6,
+            "explore": 2
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 7,
+          "cumulative_candidate_topology_classes": 16
+        },
+        {
+          "generation": 10,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 90.63665966862072,
+            "F": 75.9169360394621,
+            "P": 91.22682494901186,
+            "D": 33.22656090114092
+          },
+          "q_survivor_max": 63.244493278123116,
+          "q_survivor_mean": 57.84671066507009,
+          "q_historical_max": 66.1218677368517,
+          "cumulative_hv": 0.1847392536027791,
+          "new_non_dominated": 4,
+          "parent_score_pairs": 8,
+          "median_child_minus_parent": {
+            "S": 0.14663501152985248,
+            "F": -8.918471671075835,
+            "P": -0.005065746131609927,
+            "D": -0.6433428137765587,
+            "Q": -2.3107475675078035
+          },
+          "parent_source": {
+            "focused": 6,
+            "explore": 2
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 16
+        },
+        {
+          "generation": 11,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 90.63665966862072,
+            "F": 75.9169360394621,
+            "P": 91.22682494901186,
+            "D": 33.22656090114092
+          },
+          "q_survivor_max": 63.244493278123116,
+          "q_survivor_mean": 60.05963312383884,
+          "q_historical_max": 66.1218677368517,
+          "cumulative_hv": 0.18481336009004412,
+          "new_non_dominated": 3,
+          "parent_score_pairs": 8,
+          "median_child_minus_parent": {
+            "S": -0.03764220380983119,
+            "F": 0.8180941358024683,
+            "P": -0.07545764553358936,
+            "D": -0.4061346726916475,
+            "Q": 1.3349961602397293
+          },
+          "parent_source": {
+            "focused": 6,
+            "explore": 2
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 18
+        },
+        {
+          "generation": 12,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 6,
+            "UNCERTAIN": 2
+          },
+          "historical_best": {
+            "S": 90.63665966862072,
+            "F": 77.56449759945131,
+            "P": 91.22682494901186,
+            "D": 33.22656090114092
+          },
+          "q_survivor_max": 65.45654125897659,
+          "q_survivor_mean": 60.13431743311632,
+          "q_historical_max": 66.1218677368517,
+          "cumulative_hv": 0.18835172209239867,
+          "new_non_dominated": 4,
+          "parent_score_pairs": 6,
+          "median_child_minus_parent": {
+            "S": -0.1305386971009881,
+            "F": 0.8237807799946069,
+            "P": 1.0760647908702765,
+            "D": 0.7216777275474753,
+            "Q": -1.65359933931029
+          },
+          "parent_source": {
+            "explore": 2,
+            "focused": 6
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 19
+        },
+        {
+          "generation": 13,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 90.63665966862072,
+            "F": 77.56449759945131,
+            "P": 91.22682494901186,
+            "D": 33.22656090114092
+          },
+          "q_survivor_max": 65.45654125897659,
+          "q_survivor_mean": 60.5409148765791,
+          "q_historical_max": 66.1218677368517,
+          "cumulative_hv": 0.18870010900626244,
+          "new_non_dominated": 3,
+          "parent_score_pairs": 8,
+          "median_child_minus_parent": {
+            "S": 0.0002718585285421682,
+            "F": -4.758439620382614,
+            "P": -2.32120727155246,
+            "D": -1.2497835313960213,
+            "Q": -2.8928987697749626
+          },
+          "parent_source": {
+            "explore": 2,
+            "focused": 6
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 19
+        },
+        {
+          "generation": 14,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 7,
+            "UNCERTAIN": 1
+          },
+          "historical_best": {
+            "S": 90.63665966862072,
+            "F": 77.56449759945131,
+            "P": 91.22682494901186,
+            "D": 36.29498431018941
+          },
+          "q_survivor_max": 65.45654125897659,
+          "q_survivor_mean": 59.4262168389262,
+          "q_historical_max": 66.1218677368517,
+          "cumulative_hv": 0.19736367620845544,
+          "new_non_dominated": 3,
+          "parent_score_pairs": 7,
+          "median_child_minus_parent": {
+            "S": -0.0725915053433539,
+            "F": -2.778175636574076,
+            "P": -0.8317528392981757,
+            "D": -4.076221552016454,
+            "Q": -4.177824345430771
+          },
+          "parent_source": {
+            "explore": 2,
+            "focused": 6
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 5,
+          "cumulative_candidate_topology_classes": 19
+        },
+        {
+          "generation": 15,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 7,
+            "INVALID": 1
+          },
+          "historical_best": {
+            "S": 90.63665966862072,
+            "F": 77.56449759945131,
+            "P": 91.22682494901186,
+            "D": 36.29498431018941
+          },
+          "q_survivor_max": 65.45654125897659,
+          "q_survivor_mean": 59.49470838908946,
+          "q_historical_max": 66.1218677368517,
+          "cumulative_hv": 0.19737417448001773,
+          "new_non_dominated": 2,
+          "parent_score_pairs": 7,
+          "median_child_minus_parent": {
+            "S": -0.7567439139617136,
+            "F": -5.789472680097667,
+            "P": 2.281026920035629,
+            "D": 5.648599754335278,
+            "Q": 1.2572792586614483
+          },
+          "parent_source": {
+            "explore": 2,
+            "focused": 6
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 19
+        },
+        {
+          "generation": 16,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 7,
+            "INVALID": 1
+          },
+          "historical_best": {
+            "S": 90.63665966862072,
+            "F": 77.56449759945131,
+            "P": 91.22682494901186,
+            "D": 36.29498431018941
+          },
+          "q_survivor_max": 65.45654125897659,
+          "q_survivor_mean": 60.225247728669224,
+          "q_historical_max": 67.12785504403077,
+          "cumulative_hv": 0.1979530060741547,
+          "new_non_dominated": 2,
+          "parent_score_pairs": 7,
+          "median_child_minus_parent": {
+            "S": 0.16001141217066106,
+            "F": 9.643633053626537,
+            "P": 0.9311884653431548,
+            "D": -3.1509460160568707,
+            "Q": 2.86870647524745
+          },
+          "parent_source": {
+            "focused": 6,
+            "explore": 2
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 4,
+          "cumulative_candidate_topology_classes": 19
+        },
+        {
+          "generation": 17,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 6,
+            "UNCERTAIN": 1,
+            "INVALID": 1
+          },
+          "historical_best": {
+            "S": 90.63665966862072,
+            "F": 77.56449759945131,
+            "P": 91.22682494901186,
+            "D": 36.29498431018941
+          },
+          "q_survivor_max": 65.45654125897659,
+          "q_survivor_mean": 60.530719332812616,
+          "q_historical_max": 67.12785504403077,
+          "cumulative_hv": 0.20174353261248407,
+          "new_non_dominated": 4,
+          "parent_score_pairs": 6,
+          "median_child_minus_parent": {
+            "S": 0.02791805546440429,
+            "F": 1.8513811575298718,
+            "P": -1.2890831980750193,
+            "D": -3.3876597995435516,
+            "Q": 0.10107449885530073
+          },
+          "parent_source": {
+            "focused": 6,
+            "explore": 2
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 5,
+          "cumulative_candidate_topology_classes": 19
+        },
+        {
+          "generation": 18,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 90.63665966862072,
+            "F": 77.56449759945131,
+            "P": 91.22682494901186,
+            "D": 36.29498431018941
+          },
+          "q_survivor_max": 65.45654125897659,
+          "q_survivor_mean": 60.531228086272925,
+          "q_historical_max": 67.8142919110628,
+          "cumulative_hv": 0.20576107641986516,
+          "new_non_dominated": 4,
+          "parent_score_pairs": 8,
+          "median_child_minus_parent": {
+            "S": 0.04733487317404439,
+            "F": 2.051362250146962,
+            "P": -0.944141857978515,
+            "D": -2.351310681309414,
+            "Q": -0.9345261920639416
+          },
+          "parent_source": {
+            "focused": 6,
+            "explore": 2
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 7,
+          "cumulative_candidate_topology_classes": 19
+        },
+        {
+          "generation": 19,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 90.66982204525519,
+            "F": 77.56449759945131,
+            "P": 91.22682494901186,
+            "D": 36.29498431018941
+          },
+          "q_survivor_max": 65.99452690759946,
+          "q_survivor_mean": 60.62377413927427,
+          "q_historical_max": 67.8142919110628,
+          "cumulative_hv": 0.20595955477931505,
+          "new_non_dominated": 4,
+          "parent_score_pairs": 8,
+          "median_child_minus_parent": {
+            "S": -0.04713938991241662,
+            "F": 0.20452353395062062,
+            "P": 0.24068484803746415,
+            "D": 0.750925761125476,
+            "Q": 0.9501987620439536
+          },
+          "parent_source": {
+            "focused": 6,
+            "explore": 2
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 3,
+          "cumulative_candidate_topology_classes": 19
+        },
+        {
+          "generation": 20,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 90.66982204525519,
+            "F": 77.56449759945131,
+            "P": 91.22682494901186,
+            "D": 36.29498431018941
+          },
+          "q_survivor_max": 65.99452690759946,
+          "q_survivor_mean": 60.37835858291711,
+          "q_historical_max": 67.8142919110628,
+          "cumulative_hv": 0.20596054111154627,
+          "new_non_dominated": 4,
+          "parent_score_pairs": 8,
+          "median_child_minus_parent": {
+            "S": 0.11854134334625144,
+            "F": -2.1615879962614066,
+            "P": -6.761256862992891,
+            "D": -1.0073346439865278,
+            "Q": -4.751655132098243
+          },
+          "parent_source": {
+            "focused": 6,
+            "explore": 2
+          },
+          "parent_draws_outside_previous_survivors": 2,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 20
+        }
+      ],
+      "operators": {
+        "diff": {
+          "status": {
+            "COMPLETE_DRAFT": 70,
+            "UNCERTAIN": 3
+          },
+          "complete_pairs": 70,
+          "median_delta": {
+            "S": -0.026355556812610814,
+            "F": 0.0,
+            "P": -0.8469590722831342,
+            "D": -1.6892366874995393
+          },
+          "failure_issues": {
+            "no_legal_corner_partition": 4,
+            "no_safe_window": 27,
+            "layout_unchanged_or_reverted": 7,
+            "all_open_boss_disconnected": 2,
+            "initial_player_disconnected": 2,
+            "shared_wall_too_short_for_two_clear_openings:left_inner": 1,
+            "godot_link_crosses_wall:boss:gate_3": 1,
+            "all_open_boss_disconnected,boss_cannot_reach_smash_face": 1,
+            "godot_link_crosses_wall:boss:gate_6": 1,
+            "godot_link_endpoint_missing:player:gate_12": 2,
+            "all_open_boss_disconnected,initial_player_disconnected": 1,
+            "godot_link_crosses_wall:player:gate_6": 1,
+            "godot_link_endpoint_missing:player:gate_11": 2
+          }
+        },
+        "full": {
+          "status": {
+            "COMPLETE_DRAFT": 65,
+            "INVALID": 6,
+            "UNCERTAIN": 2
+          },
+          "complete_pairs": 65,
+          "median_delta": {
+            "S": 0.014237909822924166,
+            "F": 0.0,
+            "P": -0.27662148624597194,
+            "D": -0.2912731387366936
+          },
+          "failure_issues": {
+            "no_legal_corner_partition": 22,
+            "same_corner": 66,
+            "all_open_boss_disconnected": 6,
+            "no_safe_window": 35,
+            "godot_link_crosses_wall:boss:gate_6": 2,
+            "outside_adjacency_changed": 9,
+            "initial_player_disconnected": 7,
+            "godot_link_endpoint_missing:player:gate_9": 1,
+            "godot_link_endpoint_missing:player:gate_11": 10,
+            "godot_link_crosses_wall:player:gate_9": 1,
+            "godot_link_endpoint_missing:player:gate_12": 10,
+            "all_open_boss_disconnected,boss_cannot_reach_smash_face": 4,
+            "godot_link_endpoint_missing:player:gate_8": 1,
+            "godot_link_crosses_wall:player:gate_4": 1
+          }
+        },
+        "archive_reference": {
+          "status": {
+            "COMPLETE_DRAFT": 14
+          },
+          "complete_pairs": 14,
+          "median_delta": {
+            "S": -0.07249302290014725,
+            "F": -2.3294914072312096,
+            "P": -0.685763458636309,
+            "D": 0.17600302692206782
+          },
+          "failure_issues": {
+            "no_legal_corner_partition": 5,
+            "all_open_boss_disconnected,initial_player_disconnected": 1,
+            "godot_link_endpoint_missing:player:gate_12": 1,
+            "no_safe_window": 3,
+            "all_open_boss_disconnected": 1
+          }
+        }
+      }
+    },
+    "C": {
+      "archive": "F:\\大学作业\\游戏空间设计微专业\\.phase14-work\\shell_sampling_random_g20_v1",
+      "sampling": "independent",
+      "config_hash": "76d9427b4b2d7fbb017714b83ed39d7b3a3ee71f24a8f0baca828882c0a96177",
+      "git_commit": "0222e5bcd7f75f2cb9a6a438e5b1b97e198d857e",
+      "overview": {
+        "requests": 168,
+        "official_requests": 0,
+        "unique_genomes": 145,
+        "evaluated_layouts": 144,
+        "status": {
+          "COMPLETE_DRAFT": 118,
+          "UNCERTAIN": 26,
+          "INVALID": 24
+        },
+        "new_certified_battles": 1728,
+        "inherited_battles": 0,
+        "duplicate_requests": 0,
+        "edits_requested": {},
+        "edits_realized": {},
+        "actual_topology_changes": 0
+      },
+      "runtime": {
+        "counts": {
+          "invocation:started": 1,
+          "geometry:started": 21,
+          "geometry:complete": 21,
+          "evaluation:started": 21,
+          "spatial:started": 144,
+          "depthmap:started": 2880,
+          "depthmap:complete": 2880,
+          "spatial:complete": 144,
+          "godot_evidence:started": 144,
+          "godot:started": 144,
+          "godot_episodes_requested": 1728,
+          "godot:complete": 144,
+          "godot_evidence:complete": 144,
+          "godot_episodes_certified": 1728,
+          "evaluation:complete": 21,
+          "selection:started": 21,
+          "selection:complete": 21,
+          "commit_generation:started": 21,
+          "commit_generation:complete": 21,
+          "invocation:complete": 1
+        },
+        "seconds": {
+          "geometry": 290.72934460000397,
+          "depthmap": 3195.927422800032,
+          "spatial": 4132.711117600007,
+          "godot": 4888.527748099998,
+          "godot_evidence": 5481.692226599993,
+          "evaluation": 3015.3154844999954,
+          "selection": 0.2170776999919326,
+          "commit_generation": 0.7067984000059369,
+          "invocation": 3309.2534640000013
+        }
+      },
+      "g1_g20_new_non_dominated_rate": 0.20625,
+      "full_score_rate": 0.7023809523809523,
+      "generations": [
+        {
+          "generation": 0,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 89.33758877744563,
+            "F": 75.9169360394621,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 63.244493278123116,
+          "q_survivor_mean": 52.57928866316047,
+          "q_historical_max": 63.244493278123116,
+          "cumulative_hv": 0.14605697246562674,
+          "new_non_dominated": 5,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 6
+        },
+        {
+          "generation": 1,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 6,
+            "UNCERTAIN": 1,
+            "INVALID": 1
+          },
+          "historical_best": {
+            "S": 89.52094560751638,
+            "F": 75.9169360394621,
+            "P": 87.5774564835532,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 63.244493278123116,
+          "q_survivor_mean": 57.743577881271776,
+          "q_historical_max": 63.244493278123116,
+          "cumulative_hv": 0.14777191458163846,
+          "new_non_dominated": 5,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 11
+        },
+        {
+          "generation": 2,
+          "requests": 8,
+          "status": {
+            "UNCERTAIN": 2,
+            "COMPLETE_DRAFT": 5,
+            "INVALID": 1
+          },
+          "historical_best": {
+            "S": 89.62779339848717,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 64.32403273659673,
+          "q_survivor_mean": 58.24662153104531,
+          "q_historical_max": 64.32403273659673,
+          "cumulative_hv": 0.1577768443278062,
+          "new_non_dominated": 4,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 5,
+          "cumulative_candidate_topology_classes": 13
+        },
+        {
+          "generation": 3,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 4,
+            "UNCERTAIN": 2,
+            "INVALID": 2
+          },
+          "historical_best": {
+            "S": 89.62779339848717,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 64.32403273659673,
+          "q_survivor_mean": 58.24662153104531,
+          "q_historical_max": 67.02033308072126,
+          "cumulative_hv": 0.16956126440535627,
+          "new_non_dominated": 1,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 5,
+          "cumulative_candidate_topology_classes": 14
+        },
+        {
+          "generation": 4,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 6,
+            "UNCERTAIN": 1,
+            "INVALID": 1
+          },
+          "historical_best": {
+            "S": 89.62779339848717,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 30.857431048191366
+          },
+          "q_survivor_max": 63.244493278123116,
+          "q_survivor_mean": 57.91531769787449,
+          "q_historical_max": 67.02033308072126,
+          "cumulative_hv": 0.1697264761746123,
+          "new_non_dominated": 2,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 15
+        },
+        {
+          "generation": 5,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 7,
+            "INVALID": 1
+          },
+          "historical_best": {
+            "S": 89.62779339848717,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 32.9734126992421
+          },
+          "q_survivor_max": 65.88749909364823,
+          "q_survivor_mean": 59.13766163273095,
+          "q_historical_max": 67.02033308072126,
+          "cumulative_hv": 0.18103620135006493,
+          "new_non_dominated": 3,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 5,
+          "cumulative_candidate_topology_classes": 17
+        },
+        {
+          "generation": 6,
+          "requests": 8,
+          "status": {
+            "INVALID": 4,
+            "UNCERTAIN": 1,
+            "COMPLETE_DRAFT": 3
+          },
+          "historical_best": {
+            "S": 89.62779339848717,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 32.9734126992421
+          },
+          "q_survivor_max": 65.88749909364823,
+          "q_survivor_mean": 58.38676773474277,
+          "q_historical_max": 67.02033308072126,
+          "cumulative_hv": 0.18103683710844587,
+          "new_non_dominated": 2,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 2,
+          "cumulative_candidate_topology_classes": 17
+        },
+        {
+          "generation": 7,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 7,
+            "INVALID": 1
+          },
+          "historical_best": {
+            "S": 89.62779339848717,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 32.9734126992421
+          },
+          "q_survivor_max": 65.88749909364823,
+          "q_survivor_mean": 55.794059154149586,
+          "q_historical_max": 67.02033308072126,
+          "cumulative_hv": 0.18135714859173802,
+          "new_non_dominated": 2,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 5,
+          "cumulative_candidate_topology_classes": 18
+        },
+        {
+          "generation": 8,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 3,
+            "UNCERTAIN": 3,
+            "INVALID": 2
+          },
+          "historical_best": {
+            "S": 89.62779339848717,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 32.9734126992421
+          },
+          "q_survivor_max": 65.88749909364823,
+          "q_survivor_mean": 55.794059154149586,
+          "q_historical_max": 67.02033308072126,
+          "cumulative_hv": 0.18195302700377983,
+          "new_non_dominated": 1,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 20
+        },
+        {
+          "generation": 9,
+          "requests": 8,
+          "status": {
+            "UNCERTAIN": 3,
+            "COMPLETE_DRAFT": 3,
+            "INVALID": 2
+          },
+          "historical_best": {
+            "S": 89.62779339848717,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 32.9734126992421
+          },
+          "q_survivor_max": 65.88749909364823,
+          "q_survivor_mean": 56.11617262015102,
+          "q_historical_max": 67.02033308072126,
+          "cumulative_hv": 0.18197537314251852,
+          "new_non_dominated": 1,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 22
+        },
+        {
+          "generation": 10,
+          "requests": 8,
+          "status": {
+            "INVALID": 1,
+            "COMPLETE_DRAFT": 7
+          },
+          "historical_best": {
+            "S": 89.62779339848717,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 32.9734126992421
+          },
+          "q_survivor_max": 65.88749909364823,
+          "q_survivor_mean": 56.11617262015102,
+          "q_historical_max": 67.02033308072126,
+          "cumulative_hv": 0.18197537314251852,
+          "new_non_dominated": 0,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 5,
+          "cumulative_candidate_topology_classes": 22
+        },
+        {
+          "generation": 11,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 89.62779339848717,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 32.9734126992421
+          },
+          "q_survivor_max": 65.88749909364823,
+          "q_survivor_mean": 56.11617262015102,
+          "q_historical_max": 67.02033308072126,
+          "cumulative_hv": 0.1829056088840237,
+          "new_non_dominated": 2,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 24
+        },
+        {
+          "generation": 12,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 4,
+            "INVALID": 2,
+            "UNCERTAIN": 2
+          },
+          "historical_best": {
+            "S": 89.62779339848717,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 32.9734126992421
+          },
+          "q_survivor_max": 65.88749909364823,
+          "q_survivor_mean": 56.11617262015102,
+          "q_historical_max": 67.02033308072126,
+          "cumulative_hv": 0.1829071779967093,
+          "new_non_dominated": 1,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 25
+        },
+        {
+          "generation": 13,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 4,
+            "UNCERTAIN": 2,
+            "INVALID": 2
+          },
+          "historical_best": {
+            "S": 89.62779339848717,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 32.9734126992421
+          },
+          "q_survivor_max": 65.88749909364823,
+          "q_survivor_mean": 56.11617262015102,
+          "q_historical_max": 67.02033308072126,
+          "cumulative_hv": 0.18292417258115087,
+          "new_non_dominated": 2,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 3,
+          "cumulative_candidate_topology_classes": 25
+        },
+        {
+          "generation": 14,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 5,
+            "UNCERTAIN": 2,
+            "INVALID": 1
+          },
+          "historical_best": {
+            "S": 90.73904759687397,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 32.9734126992421
+          },
+          "q_survivor_max": 65.88749909364823,
+          "q_survivor_mean": 56.39824247615025,
+          "q_historical_max": 67.02033308072126,
+          "cumulative_hv": 0.1831834217656332,
+          "new_non_dominated": 2,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 4,
+          "cumulative_candidate_topology_classes": 25
+        },
+        {
+          "generation": 15,
+          "requests": 8,
+          "status": {
+            "UNCERTAIN": 2,
+            "COMPLETE_DRAFT": 6
+          },
+          "historical_best": {
+            "S": 90.73904759687397,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 32.9734126992421
+          },
+          "q_survivor_max": 65.88749909364823,
+          "q_survivor_mean": 56.39824247615025,
+          "q_historical_max": 67.02033308072126,
+          "cumulative_hv": 0.18318347219796643,
+          "new_non_dominated": 1,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 7,
+          "cumulative_candidate_topology_classes": 26
+        },
+        {
+          "generation": 16,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 7,
+            "UNCERTAIN": 1
+          },
+          "historical_best": {
+            "S": 90.73904759687397,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 32.9734126992421
+          },
+          "q_survivor_max": 65.88749909364823,
+          "q_survivor_mean": 56.39824247615025,
+          "q_historical_max": 67.02033308072126,
+          "cumulative_hv": 0.1832447459638784,
+          "new_non_dominated": 2,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 27
+        },
+        {
+          "generation": 17,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 8
+          },
+          "historical_best": {
+            "S": 90.73904759687397,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 32.9734126992421
+          },
+          "q_survivor_max": 65.88749909364823,
+          "q_survivor_mean": 56.511170815142634,
+          "q_historical_max": 67.02033308072126,
+          "cumulative_hv": 0.1834340188522072,
+          "new_non_dominated": 1,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 7,
+          "cumulative_candidate_topology_classes": 29
+        },
+        {
+          "generation": 18,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 6,
+            "INVALID": 2
+          },
+          "historical_best": {
+            "S": 90.73904759687397,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 32.9734126992421
+          },
+          "q_survivor_max": 65.88749909364823,
+          "q_survivor_mean": 55.8276702407897,
+          "q_historical_max": 67.02033308072126,
+          "cumulative_hv": 0.1834340188522072,
+          "new_non_dominated": 0,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 6,
+          "cumulative_candidate_topology_classes": 29
+        },
+        {
+          "generation": 19,
+          "requests": 8,
+          "status": {
+            "COMPLETE_DRAFT": 6,
+            "UNCERTAIN": 2
+          },
+          "historical_best": {
+            "S": 90.73904759687397,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 32.9734126992421
+          },
+          "q_survivor_max": 65.88749909364823,
+          "q_survivor_mean": 56.93848886619317,
+          "q_historical_max": 67.02033308072126,
+          "cumulative_hv": 0.1837080490748877,
+          "new_non_dominated": 1,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 5,
+          "cumulative_candidate_topology_classes": 30
+        },
+        {
+          "generation": 20,
+          "requests": 8,
+          "status": {
+            "UNCERTAIN": 2,
+            "COMPLETE_DRAFT": 5,
+            "INVALID": 1
+          },
+          "historical_best": {
+            "S": 90.73904759687397,
+            "F": 75.9169360394621,
+            "P": 91.31429880480492,
+            "D": 32.9734126992421
+          },
+          "q_survivor_max": 65.88749909364823,
+          "q_survivor_mean": 56.93848886619317,
+          "q_historical_max": 67.02033308072126,
+          "cumulative_hv": 0.1837080490748877,
+          "new_non_dominated": 0,
+          "parent_score_pairs": 0,
+          "median_child_minus_parent": null,
+          "parent_source": {},
+          "parent_draws_outside_previous_survivors": 0,
+          "fallback_parent_draws": 0,
+          "candidate_topology_classes": 7,
+          "cumulative_candidate_topology_classes": 31
+        }
+      ],
+      "operators": {}
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "schema": "shell-single-parent-pilot/3",
+  "run_id": "shell_single_parent_v3",
+  "base_config": "configs/shell_pilot_v1.json",
+  "optimizer_seed": 177,
+  "full_edit_probability": 0.5,
+  "diff_edits": [1, 3],
+  "full_edit_regions": ["left_inner", "east_high"]
+}

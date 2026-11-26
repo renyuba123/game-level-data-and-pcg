@@ -1,0 +1,16 @@
+{
+  "schema": "shell-single-parent-experiment/1",
+  "purpose": "development_only",
+  "run_id": "shell_local_v2_continuous",
+  "optimizer_seed": 177,
+  "population": 2,
+  "reproductions": 2,
+  "workers": 2,
+  "initial_seeds": [
+    177,
+    84
+  ],
+  "output_root": "F:/大学作业/游戏空间设计微专业/04_PCG实验输出/runs",
+  "godot": "D:\\steam\\steamapps\\common\\Godot Engine\\godot.windows.opt.tools.64.exe",
+  "depthmap": "F:\\大学作业\\游戏空间设计微专业\\.tools\\depthmapXcli_win64.exe"
+}

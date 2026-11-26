@@ -1,0 +1,12 @@
+{
+  "godot_sha256": "12310c74bdda7dcd43f28e971f33047dcecadd436b68169d61ce41009006df38",
+  "implementation": {
+    "inspector_calibration.py": "fccf31428a3fd48ad45cb6ca40242b1a864956240ca56f189a5a42ebb78d96e8",
+    "godot_batch.py": "a9fed3b4d73a574c0cb77f4e3810d1dacaff8c0849fe00c4c0bb90657554a002",
+    "godot_measurements.py": "d0a3e3d915301418cc3834626ca1e831de69c4d1ffc7deee6aa9819bfb1df74f",
+    "battle_report.py": "697ea350a10e6954e4f262625aef017830c11b72796e4a4d2a2fa491fe7dcfa8",
+    "tactical_routes.py": "e6c3f6da14a7190e34d194343bda5758deae13c7a54f84cd165eac0fb6f4042c",
+    "scoring.py": "17108f106744bc433cb5360ec8097eb3cfe4b85ec91f7087f1695d09e45c445b",
+    "shell_depthmap.py": "e13a4a6daa4a4a8cc678ae4a8f2dcacc799da85b5e222aaae55d7ad7956807b2"
+  }
+}

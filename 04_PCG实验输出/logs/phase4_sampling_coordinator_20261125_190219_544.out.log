@@ -1,0 +1,480 @@
+focused archive: F:\大学作业\游戏空间设计微专业\.phase14-work\shell_sampling_focused_g20_v1
+focused logs: F:\大学作业\游戏空间设计微专业\.phase14-work\shell_sampling_focused_g20_v1.20261125_190220_225
+random archive: F:\大学作业\游戏空间设计微专业\.phase14-work\shell_sampling_random_g20_v1
+random logs: F:\大学作业\游戏空间设计微专业\.phase14-work\shell_sampling_random_g20_v1.20261125_190220_296
+proposal initial-00 initial 0 f66e941bd5a9716f34e8cc33e60762d5723dfe76c48b36ad71f6815a6c6d572d
+proposal initial-01 initial 0 b58adb8129c50117ec45c81a31c5a1373f778cfe50def19c0bb010ce88be993e
+proposal initial-02 initial 0 c9bb605eb37440cc80c0e5dee32d2f3ffc2fb435f30d8f6813bef630b0793a20
+proposal initial-03 initial 0 dd2c8cad36682fd0d925fcef1e5b12d3d374402c56099495ad673be3249b4332
+proposal initial-04 initial 0 450c0b20ce8f1b2379aac0fc536555392d178645e798e609fc5e6c001b82a47b
+proposal initial-05 initial 0 3d23e144d23d0c767f03de5b23177920c9e1e680c752cf1316c4ca6664b3b12c
+proposal initial-06 initial 0 79d26d71398bc1be8dce4141169eab8d9b125fb8ac6c5f9f5af6796e9ddc1718
+proposal initial-07 initial 0 ef1047d5e8c3934e2b2d7867fda91c66d05b3ac8cd6889fe83186342b9adf1c5
+G0 verified (8 requests)
+proposal single-1-00 diff 2 4d0ffffdbd9fe69bd0bf8fc56f2ee3839184ba5d8326ea22d5616ab12ad5eba6
+proposal single-1-01 full 1 4baea5fe91b0f8e74fee7470d0eeab942ab2d8a2044dbc2534a2748c3ac2f30b
+proposal single-1-02 full 1 61d2a918e6ed39629b8aa4a4eef3266ba52352df9e7d37c8446744f97e0c5266
+proposal single-1-03 full 1 1a4bd4d0cd89e091153dddac597ad7a60bcb530bf4d83d0ff5b005907e968847
+proposal single-1-04 diff 2 00a631b02ec3d76d554ac91dd320a4f4c0a046cfeb23738cd008413d4c90023e
+proposal single-1-05 diff 1 b5807406b977a816e65704c65c7208cf6930cd412900f643c1489decc7044731
+proposal single-1-06 full 1 d75392079a4a9e9765b227e916537602014903538e2c8ae95f41d2216f21c788
+proposal single-1-07 diff 3 ad497b5d6f7e056251c5b3d9b52299b96b8e67057af9536542ac61052170ebea
+G1 verified (8 requests)
+proposal single-2-00 diff 1 7378dc6a979e73b923bd342ed55fd1bc208e06e43d168b51234410ee7e399de9
+proposal single-2-01 full 1 546261f2e7892d6eeec73d00dcb410bb2f858e397165167634c984165364d3b7
+proposal single-2-02 full 1 1fc565e8222307d3788f4e95c67b2daa787b3afe0e2cf476062a926c24cc8fc5
+proposal single-2-03 full 1 9f179fc3745d2b724cf4d0976497a03d11efc16c60ad8d1ee5f21e994054d1b1
+proposal single-2-04 full 1 2041b75fa0811f94dece0be2311c6a50f54d4e3db82acfafd23a1a820c217a61
+proposal single-2-05 full 1 7a862fe9766f1d7ddc7026cc9610b0ba1b190554226199ea01150aa0f62ecde4
+proposal single-2-06 diff 1 4fc1e31b822bbecaecf47fde0e9f8d34c62fdcc470879daa0b985cf285e9398a
+proposal single-2-07 full 0 None
+G2 verified (8 requests)
+proposal single-3-00 diff 2 8ca4b41cc5aa4282a0538dd149bc9d2cb1223773315ab3aa656eb82036b8c188
+proposal single-3-01 full 1 74184951d95c733e65ef8f4b50075da2ed48395f8b664812988e7872eed541a4
+proposal single-3-02 diff 2 327bee6598350ba2bbbbbbd985c53c393c278e2e195ad9bd4cfd5d818a1db268
+proposal single-3-03 diff 2 e5bb815a3a71c2fadf0f7f85551af71a7622f67110795af6310a277d42116cbf
+proposal single-3-04 full 1 ac4c92feb4336b7686501d6ee7892819a5c8719a5377a4d833fa200e4da225d9
+proposal single-3-05 diff 1 6c55ba4820fd83ada396ee2d1ddaed3736640b935b16e3212e643dee3fae0a84
+proposal single-3-06 diff 3 53dc1e7b22d7a4360beb7c7fce0eaa4fdc2fecb4bd638ea98bacb175811aa4e8
+proposal single-3-07 full 1 443b01a434d59f49c4c6468bced0f0b75d3a59e6c17451f211d725fe405549c3
+G3 verified (8 requests)
+proposal single-4-00 archive_reference 1 23f61c1aeb6faf4eedb487467fb2066cc928557a48f77d35fb885148cca81ffd
+proposal single-4-01 full 1 47da9ffd21845a80365c0e386df412250d2caa84fd56dd1e673f61d12d7fbe72
+proposal single-4-02 full 1 4f1006265aea557339b7742bf965d96cf259b09e6df145a3cc90bc2a055d7354
+proposal single-4-03 diff 3 2d744ada2f9c287364e5cf44be43e18b1b9a5370946606ba7d25a40d5692051c
+proposal single-4-04 diff 2 bbac3dc571f61774615df45432b84526bcac8ed7cfafa937cc32be2c8b23461f
+proposal single-4-05 full 1 d4743d5260926b9ea3c2fd7abb1505e2d3245a67fdff051a77bc108f6254f16d
+proposal single-4-06 full 1 72a871877c0208a5790e26f57bcc4d1faf791cb3234fecb3d08ea5bb7c23d3af
+proposal single-4-07 full 1 d6f0f7b1b92f1ca5dee75da7bfef6916e8ad588044003a29c61b93ed11e46cca
+G4 verified (8 requests)
+proposal single-5-00 full 1 e9fddd9cafa098e447aa5c3cda1060191119cf8496b40ca9efb6908752c3f503
+proposal single-5-01 diff 3 a2f0ebd03371460105d99b49e16e656921e89c58a6e16fc23ef87ef884d6c885
+proposal single-5-02 diff 1 71d46055d4936259858141ed9d644439abeeb30fbc3d11d63f2611c71b30b75a
+proposal single-5-03 full 1 dfdb66c5d1221c27c7b9d5450ace4e9f07601e7af7c13f89d6ce6ffef9220273
+proposal single-5-04 diff 3 c221aff02edb241c0f636513ade3d56caa07a3d420f2f80393e9839a89bcca95
+proposal single-5-05 full 1 4aaab4abae2c3a0ad2ee69379e2df59ac90c0dd8acf2d5c55c23fddd143232e9
+proposal single-5-06 archive_reference 1 eff533717b441dfb19baf51f716fb571010c0794d5363251c870ea2a19920fdc
+proposal single-5-07 full 1 8ba0de3483aaffcc844891ced1ef2a6b03f080e29e03b4a749358958ec47ebef
+G5 verified (8 requests)
+proposal single-6-00 archive_reference 1 7c5457375ea7e0cb7d51f49c70db6f726bf1d1f9a7912abe187c7c79e39b0869
+proposal single-6-01 full 1 a05cc3cd822a6307c9b583973f6c980aaa943cafe3b3db1f56185e106e9dfdf9
+proposal single-6-02 diff 3 8ea7cf1c19d1d105d305432653d5c63045759bbd61dc6a241027aa58602528c1
+proposal single-6-03 full 1 060798a7c8dcc8eceba4b9afa2a0bf0a27750b24e194c46f33f80b0866c3ee68
+proposal single-6-04 full 1 61f7c0ab3bc7381c817793a840b589fc9ce590f7638c82cce3374f548386d080
+proposal single-6-05 diff 1 b427e850c5a28a4aa57edd32ccc5597996ea84b2cc9f4c3e253e62444ceed824
+proposal single-6-06 full 1 d70e3dd4d0363aab9ef6567a3dc0655ce8d626dfad6aa309f12e00296832fb95
+proposal single-6-07 diff 3 f00ce418e22ac94a1506256874bcdcc28aeead7d5fd892bc5528dcb8138af0a8
+G6 verified (8 requests)
+proposal single-7-00 full 1 9a00a9ab712d65c913ac7c3663f9b336376ba11f0288c6dddcaf4471f144ded2
+proposal single-7-01 full 1 dc6cb87abc7cdc70d6eb36814e09a3c7f86b983083e2b6451d76c868e1dba73a
+proposal single-7-02 full 0 None
+proposal single-7-03 diff 1 20d7f20b246b07f0aabe08635ecddd8aaa516434871452954a566130f8d052d2
+proposal single-7-04 full 1 8ae668eeecd5fd2180e4b7973ab0d099e85027c3d1a254c6e9e0680c24f6bbcf
+proposal single-7-05 diff 1 05662ef8833e403aecb2a44a2304c46a60e704681d2d78a522ccc521758fcbd8
+proposal single-7-06 archive_reference 1 533051106574ceae9a402a13a67dac014cc9e8bc712e6abebf458d243160b8f4
+proposal single-7-07 full 1 41fd88d0f30fcb32b424836d7e88a39906e3b5f5001e8ac47e83e863094a5afe
+G7 verified (8 requests)
+proposal single-8-00 diff 3 0ff438de1f5118c598a9852610baea6f2ea2dc251fbbdc4b1388858ee149f5fd
+proposal single-8-01 diff 2 bbb657eb411c7dae49e7b76c1bb0c686f164b77bdac17d5a27ae125dc036224c
+proposal single-8-02 full 1 bcec2f2dafbf7a0b3d72bc34fb6339530dfa7a8f08b8e49e5477b58efbfb9f94
+proposal single-8-03 archive_reference 1 26e61ed0619494bfb56967e0af0895df464e2db7e5213e21d9d6fc1ad7ac683b
+proposal single-8-04 diff 1 857892dfa64ee35bc8d5bb82a6ac6c9ad8ad1bc69089fafd5e86057471544aea
+proposal single-8-05 diff 3 e82d7dfc390a074404b2a0216516fe13e9f158bde2ca05164a5fc6a42aa515b5
+proposal single-8-06 full 1 cd33fc8cba48700704348108490e54fa670f169eb9c3669bee85b457ef978a6d
+proposal single-8-07 full 0 None
+G8 verified (8 requests)
+proposal single-9-00 archive_reference 1 49fe3fe85af4297e41238da1d35662384e55a7a1ef2c5138d7621ada4998694f
+proposal single-9-01 diff 3 a542a45dc79c3c6f1dff54c2337c88c2f15c3d5c69a9962f01ab16df5751b88c
+proposal single-9-02 full 1 a1e0265067c9c1190a74789703e422a41452803e5e9986835930e19d3e9645fc
+proposal single-9-03 diff 3 92f22eca51446eba0266547c8406ac5c8e80d8f94cf6592239e0ba8b89f9c2fb
+proposal single-9-04 full 1 721ecfda65e6f7583ce4204ccdd087afa130b0fb40178c83257c3cacc5a7a0ee
+proposal single-9-05 full 1 9008d55647a893c4fd2424dbdf87363dcc89d254d5d957d2c8042a2c5b55e8dd
+proposal single-9-06 diff 3 9e820b72258e70d99cac51b192abdf5a5a9a005f6b58717cf710dcd8aff52a28
+proposal single-9-07 full 1 d76861ba9eaef2d4fe9062009d79a35411c4d3d52d9f1ffbe710af7b160875da
+G9 verified (8 requests)
+proposal single-10-00 full 1 6c94a1217abe503a0878e4525af09df68bae7edfc0d012e79906a23fdeeda685
+proposal single-10-01 diff 3 b99e9a3e6bcf4ed4752b3c4ef4cdd8bdec4b2fdaaede18906a89bf10bc7ab47d
+proposal single-10-02 archive_reference 1 2c87e0a2d58aa33b12e97622b598f8ed624270facd35e89290e3620737b4da76
+proposal single-10-03 diff 2 4bdb5ff28f5acd284ebfee5ee8dd2e5fc038de5b8c4bce346b7481a19c513701
+proposal single-10-04 diff 2 40a743136931fe8cb41755a4c6beb5b45b1eeed3f8e6d03aae8fcfef229d2081
+proposal single-10-05 full 1 3402e62a9123adc44ba4162a71d1e70c14f955fe621e7e16cba4b2bed01a5feb
+proposal single-10-06 full 1 6cee7ed210d53e877c437052b4a2c66fad9aac338f8999b86143dd329ce3fd76
+proposal single-10-07 diff 3 2c986ccc58896a9af894df9585595d4c85e37953b4d7d6b337a0cede43c0628f
+G10 verified (8 requests)
+proposal single-11-00 full 1 59df57c7f4731ae188b4350737bb398257d2bdfbbd749d0eaa8609a52dbb53e0
+proposal single-11-01 diff 3 12104065228ab52fc30a06b9f4099cb6edbacfcd6e64c90942b5417bb83022ea
+proposal single-11-02 full 1 4504d2a39dab0d006a97014f8fc843305b1d696f082cba6e74e95b76555a63bf
+proposal single-11-03 diff 2 9077b742bfcd7660a8e7052135b62c1b6f248645e6514289afbe6f8d9874e133
+proposal single-11-04 diff 2 951b007a21e191b23d8994ca9c1589e0fdc3ff5c809da56dfc698acff5cbcd4a
+proposal single-11-05 archive_reference 1 620345038d8c930050ce418b55266121d0fbb998a8445d8fb41b2132472d2fa7
+proposal single-11-06 diff 3 0468ef19653c8c30bd2ce3d884b13d02c3329f23916d52b749642672b58935ea
+proposal single-11-07 diff 1 d4a04e601691c31fafd6b1df4fa64cce2d2034bebaebc77a5453652863f3fd68
+G11 verified (8 requests)
+proposal single-12-00 full 1 658f7305daf0c4def103facbdbf9708496fb146554778d5fb06c5fb9fe8a2981
+proposal single-12-01 diff 2 4cab15afc602a4ce7dd6d6e26a26026651ff4f123324fd055b589682a70d6744
+proposal single-12-02 full 1 27de5dd7ea03f1c612840039432b10d1883b2d302c28be3ea3a189abdfc53a66
+proposal single-12-03 diff 3 8b525b5fa12508c8fd0a14d07b960012c23ffce30fccb84fddde8b9dddda3656
+proposal single-12-04 diff 1 4e6f284296f5e6ccc5a92041ceca2daec933b4c36e0ae902b8fda514abc1a318
+proposal single-12-05 diff 2 da752656c78028831966c8ece3c9e4e089db516c800cfc99734b470711e7946f
+proposal single-12-06 full 1 4021325888d79ffe03818c546f4ac904b016ef91e660e504364c80bf641473b1
+proposal single-12-07 diff 3 a6da90c0d76856f9f6880fc0b98fa77822b2748e382dbf017959b7fc1be3521b
+G12 verified (8 requests)
+proposal single-13-00 full 1 a8daaffed1ba84b6b54700ab614008d8a00f35867c02ce4abe4a8dcf70fb1c63
+proposal single-13-01 archive_reference 1 c9ca9b966bd3b4a4e0a1b0178f2343c398a1e8036819f008c6610cdf4454d879
+proposal single-13-02 diff 1 c356f934c9c871f8fbc74659710e178612341177988bda76c596167f3d7e745d
+proposal single-13-03 diff 1 bf39a1d8f1d048755a6e6166d5d450f51b400209355c4dd7750d680f618fed03
+proposal single-13-04 full 1 05525f51bd6f774bc62e5c45fd1bdece4a52fae8cb01e7771153b05668e88966
+proposal single-13-05 diff 2 00fd5965ea3d4e65bda7b79fd9dad560f266910669ab16e8b1d4623781637f51
+proposal single-13-06 full 1 6244268edfa613f380bab8283b9158110ecdc71a8d378dea88bacd64f12c2eb6
+proposal single-13-07 diff 2 8f6ebaf2d7032dda3880e03c04570855f8c35dcdbfa6e264c0b5d8c5d401c0a1
+G13 verified (8 requests)
+proposal single-14-00 full 1 de2cc1b476750079e3a40bf7b6441255aa81fda9d59907f06755457b8b645d8d
+proposal single-14-01 archive_reference 1 0fc4afb0d9e7d857a4621168f0010a94cd12e240af87a703485b16af27bc2b0d
+proposal single-14-02 diff 3 c28c3cadbf49742e73b48e8d71b44a47cae6d378c883736fe982863ff09e62f7
+proposal single-14-03 diff 1 4ca9a01ee86b7aa02d1cc58aad047f09d1b24e02a245c5a167e679069f1117f9
+proposal single-14-04 diff 3 0007489a91979affd4845e5c53da3d151eafc05feced85253bbcaddb9615a87b
+proposal single-14-05 diff 3 8fc95a023e7ae8f5ac5dd9e41dff8e32ede636ac2e171d1af0a7a0f6052f8022
+proposal single-14-06 full 1 f0333475bc3b7cce36dd0151f2b7dbe8843dadb2f2cf566bb0cea6a63df84326
+proposal single-14-07 diff 1 964e610d7ad0730730c6e5243a75d44bfc87ef7d3f2793f4bc2a472bbe9efd9b
+G14 verified (8 requests)
+proposal single-15-00 diff 2 f71a91acbdc8343d5dc92bb3e9c921a86c87bdf6fe2cd262cdcd793e7a60e4f6
+proposal single-15-01 diff 3 a21763d3a00249e81bad2f51100a3f0c28ae5d7486451d878cb75560bfdcaf6a
+proposal single-15-02 diff 3 91f5e3382c5865b153e4c1e3c4d862c78d54c581435902e500557f3e8c1eca9e
+proposal single-15-03 full 0 None
+proposal single-15-04 archive_reference 1 0902f5131c6ba08c468d372d396173d9146950a84f6c2775d4c220bc7536a66c
+proposal single-15-05 full 1 a1399fce522e0ca90bd05971e1a29ec38ceae2b8b431f7be04316cef9d48506b
+proposal single-15-06 diff 3 a1fc63634e277809d3197ae2d1225d357de01ea2ab9deff6280d5ea73f2f250a
+proposal single-15-07 full 1 1a94684447dfb3fecb25b6da0e3ce78ce67fb2fc2bbcc6c31ac32b36f57079da
+G15 verified (8 requests)
+proposal single-16-00 full 1 ca7fce05568c37f58bae28d6fcb591a3f5bca815db9721764df2853cd64c38b3
+proposal single-16-01 diff 1 08ae5e7af49ae71b8f6756def34d0d40b7f7831fd1eec7d951127d4eab67a36a
+proposal single-16-02 full 1 6797c483a334450a2e596d54b2f95924743dac5e7389bae4e48620205e3545c1
+proposal single-16-03 full 1 a335ca10a1cd65eacd74d9597893d7f434f0c2d60fce38234298abf9a79ce4a9
+proposal single-16-04 diff 3 49ad1ac38c060a0a6a3b445f25113d49ae63e3c56ac34f8a79ea4245eeaec0cb
+proposal single-16-05 full 1 f28c0fda9e26d69e3fd6b2945f273fd0813345ef3282a10478c31210353914c4
+proposal single-16-06 full 0 None
+proposal single-16-07 diff 3 7c01a621d38f617fe4b0970e50dac82da4dd3461ac8c8eae5422ac33c0f966b6
+G16 verified (8 requests)
+proposal single-17-00 diff 3 d98f7af8578b7c9cdb6bd990a0a9eb1043c8b71e86b4016393fa7db50e90c4b4
+proposal single-17-01 diff 3 ae83c32b761c4ab2d0d4ae5b07c72c1f3906b40ed3e8479275f222c196748566
+proposal single-17-02 full 1 e32ffb7f0926aabfaca234d5077122f859b3b597e06618bc4345b4c04d3a5d05
+proposal single-17-03 archive_reference 1 5e70f7790d46b2cc464c44a5045b23f3d88a2f3c7afc274dd203d1423d8f5fc9
+proposal single-17-04 full 1 18b63c8b5de6e8c6d9e1a5cb3f16d9c9aed478874c7e84ac4a65db5681172511
+proposal single-17-05 full 0 None
+proposal single-17-06 full 1 ddf4ceceaa9bd50a121ef6a7cb2d0081233171194af10d90053576e661809dbd
+proposal single-17-07 diff 2 5e6bcf8f57c63e8e7d792581f518ffcac06ec3b73575b89d0173e6bf38d41fac
+G17 verified (8 requests)
+proposal single-18-00 full 1 5a7b03b42f5bf35e0246441206aa1474fe88fb383586d47bc5c466c8faf16ee4
+proposal single-18-01 diff 3 204c4829ec6e20a725f81c59861dcce7bd57f8daf8b054bc8e45a5732289ad62
+proposal single-18-02 full 1 f7a60bade449efd096a9c6810340066ba3ddfeff57911c7b360140373a51c406
+proposal single-18-03 archive_reference 1 4d83bd9ff6937ac35b7c5ececd3d255075688827d70abc15e8f90696bd06e5c6
+proposal single-18-04 diff 2 82ac5dc63028cab055a1cc3b285780cdcf156e939238139dd1d1b19bbda09fa5
+proposal single-18-05 diff 3 bcc74c4cfcab37717a307467a6eb3ae1eef0f71e6d7c83c49ffbbdb592ea40b2
+proposal single-18-06 full 1 195ab1e699aa8729d643d674607d93046fd963657d80131894cc3630dc2bed5f
+proposal single-18-07 diff 1 255e21d82e2108f50f282fb65bdaa9a77b60dc0666d314a3cc7b773cec71f550
+G18 verified (8 requests)
+proposal single-19-00 full 1 97a4c322d88a87973ab74590de18aadeb1c7981be8ff24ceb7f565ad57e25301
+proposal single-19-01 full 1 b26c8953882adbf90287caf0936778186a80a5eff75cd53c40ece1eb0a2f7f71
+proposal single-19-02 diff 2 3f7d9d8eafae4ecde1bd6bf1217bad11e7cc33279695a521d036b292aed0b7cb
+proposal single-19-03 diff 2 e851752a32521fdb0dff8b6c8ea5f0756537fd4404e5fe670cceb3939157b912
+proposal single-19-04 diff 1 3167c6d365ed7b21968f74c07771a0030850bdefbb39f47fac84faf46e1d02df
+proposal single-19-05 diff 1 f4197e84745a3f77e4ea9e67e6f41dd1e07bf3d8477713c3c348bacd240f203f
+proposal single-19-06 diff 1 45b86434661d9ba8036f7937d3d64f8b8e2767bd812400de2ea1623a94506319
+proposal single-19-07 full 1 9fb75da014a001127a9eeabad89efc4c1e586ebb3f26cee9a1d3489e7e26f755
+G19 verified (8 requests)
+proposal single-20-00 full 1 fb832c1678fd1706bc7ffbb306959035118c2f43d35d2ef5c6787832c1c2ae80
+proposal single-20-01 diff 1 e4108698795ea448fb9a15f359dedc64fdee5a3cdb4f8672df2fcdbdfc986059
+proposal single-20-02 full 1 f8dc7f15d2a4386364bc79fc91ee3152c6055978439eeb0284f6aaa21cf2cff2
+proposal single-20-03 diff 1 b8517b3ca7cf42b6c69b00826a28ac8c3725880847a1cd3aa9f0f8da1420d351
+proposal single-20-04 archive_reference 1 4b75d9ddb8d1996ca883fcc5f682874205ac7288c13e8c30ddabd445b9bafa5e
+proposal single-20-05 full 1 03c80113fa7c85d3854ca163f41d4c8ff2a1fb1ae2a3ae9b783efbc64c49912e
+proposal single-20-06 full 1 97a6fb58977f3f7500c26d8934196f78fbb2d0cadc02db18e0b242bebe7b107c
+proposal single-20-07 diff 2 3ca41c1ebfe112c6d749d5e3179bbe93175733221060b101d675bd67d4b0cabd
+G20 verified (8 requests)
+{
+  "run_id": "shell_sampling_focused_g20_v1",
+  "complete": true,
+  "generations": {
+    "0": "d06d0758e7ded49cb76e541d4c77ef139d7b641b93abf3d3c12b8c77f0df213d",
+    "1": "33171240e99ed861bac4fcd93f2a827544e4a0c8e23877831097d35b2db09b3c",
+    "2": "80275412a11cade1bcedd67b0def0f14c1c5facae5649b7aee87081b765e23e1",
+    "3": "9bc090a52b19b11a86ac93cf2b9baad452e0af70c218f454aa2c68c9da5e7dfc",
+    "4": "05ae1dec48b1b21ac1a711b8386bf00e6db2d0774e88c3a332a1b131e7e5f2a4",
+    "5": "831b691a1aba0678e8f9e5c2baa374cc2b917f7efedcf61e5572a2872b972e06",
+    "6": "9d75a249882c031f01ec9c48fa6291c1a64c3eea1491e05a67bc23dec9dd161e",
+    "7": "dacd76f514ad9f678248ecebb0fc109fe374cb16a7e1ef17f556e03b20da1118",
+    "8": "1c2035f0129b9cad4003b126e95490a3e9e4d4cd62d80bd4736db4cc95dead46",
+    "9": "780e2620cfd837e2cf76a6fba2fe14d44eabf75fbeb9b93c830172c4c643fcb5",
+    "10": "22c2a17050f4c28eb50bd4118924ba75727b4955cf231864f9186416e0a814cd",
+    "11": "f4c702df90c161c8b039f9de3393a9388e36eb2936614750e6dc88f513af1dd5",
+    "12": "fc67001b3f1488c466b1bb9b78b550914ec27dbe7465d5bb9fbbb8b45a7fddb6",
+    "13": "033903658d94bbf9fcb809cf7ff7140000c69088732dda2feb16a075b7e51b53",
+    "14": "cb7d08d55242478d8bddf6310b823d6a2e5df2e0337d747628e6b6b8d401a8ba",
+    "15": "81f39ac4b3b1d0d8c410236f153894dc50a84fe447ef17fd58fdfe49b582a2b7",
+    "16": "ee1cdd3e75203eaa189c3e909289770eb8f6b23ed8f1db261736edc5f0a992f9",
+    "17": "1c7d4154739a29dd983cd1f0c7e1e8a0d7c90bfa7c81a13633f0add2d518de54",
+    "18": "9a8a306acd22e2100ea906322d57fd183abd8c9fb91cb9c17c67c757bbbe4eab",
+    "19": "fae1cfd6c4de716968aa22132ab11fc724f4df2390a0199a4d283c8763c5081e",
+    "20": "26671df98de2874efeb2be4b2e57799788e2b21bd6a457dd7104788a2b61740b"
+  },
+  "evaluation_evidence_hash": "138d756f79eee86ee127ba3157742f01848c78c7638bf37b76363e9888820179",
+  "workers": 4,
+  "requests": 168,
+  "official_requests": 0,
+  "unique_genomes": 162,
+  "evaluated_layouts": 162,
+  "status": {
+    "COMPLETE_DRAFT": 157,
+    "INVALID": 6,
+    "UNCERTAIN": 5
+  },
+  "new_certified_battles": 1944,
+  "inherited_battles": 0,
+  "duplicate_requests": 0,
+  "edits_requested": {
+    "diff": 73,
+    "full": 73,
+    "archive_reference": 14
+  },
+  "edits_realized": {
+    "diff": 73,
+    "full": 67,
+    "archive_reference": 14
+  },
+  "actual_topology_changes": 66
+}
+proposal initial-00 initial 0 f66e941bd5a9716f34e8cc33e60762d5723dfe76c48b36ad71f6815a6c6d572d
+proposal initial-01 initial 0 b58adb8129c50117ec45c81a31c5a1373f778cfe50def19c0bb010ce88be993e
+proposal initial-02 initial 0 c9bb605eb37440cc80c0e5dee32d2f3ffc2fb435f30d8f6813bef630b0793a20
+proposal initial-03 initial 0 dd2c8cad36682fd0d925fcef1e5b12d3d374402c56099495ad673be3249b4332
+proposal initial-04 initial 0 450c0b20ce8f1b2379aac0fc536555392d178645e798e609fc5e6c001b82a47b
+proposal initial-05 initial 0 3d23e144d23d0c767f03de5b23177920c9e1e680c752cf1316c4ca6664b3b12c
+proposal initial-06 initial 0 79d26d71398bc1be8dce4141169eab8d9b125fb8ac6c5f9f5af6796e9ddc1718
+proposal initial-07 initial 0 ef1047d5e8c3934e2b2d7867fda91c66d05b3ac8cd6889fe83186342b9adf1c5
+G0 verified (8 requests)
+proposal random-1-00 random_sample 0 79ee58844f99be3f94f8bb70d99f6693c76daca4cc9b05fb12c93beb810a15b1
+proposal random-1-01 random_sample 0 cd154288bcae60a6552fd6073bcef30b986bc0a66d30bfe4ef04d89f5e387fe0
+proposal random-1-02 random_sample 0 681506d3dd6537e3ac3720f4dcfae28d179f7177a7f722b6ce031c8da3a574cc
+proposal random-1-03 random_sample 0 94526934869cbf064169c3961c309dfe87377534693b4dae94f7236c01c2037f
+proposal random-1-04 random_sample 0 None
+proposal random-1-05 random_sample 0 3a6c911076320da04eccdf51b9404ed88e510d71f4f308f75d45cd79b9b4794c
+proposal random-1-06 random_sample 0 227b15a6bc0ba5aa38e74d32dc72c1f635a3c5d8572cb2b77198c68ce315cdab
+proposal random-1-07 random_sample 0 ff41e5ef72814770d683abe9618163334a239acdcb325ae6d3b3714159773db5
+G1 verified (8 requests)
+proposal random-2-00 random_sample 0 f02dad53ba699fd6bf9e6a7aa27d618874bdcf67ad35e5346df7be8adc686378
+proposal random-2-01 random_sample 0 2c7c85caf26ad971f2586b1e24f7664fa71ca8b2f127dab269b94518c60c5da9
+proposal random-2-02 random_sample 0 545b29a753598c8b2832c87ce0a1809ab8759c931a402159164b8aba395e4593
+proposal random-2-03 random_sample 0 5ca85e030217993f4f10aab616e69f6a5cfa652fbea6ffff300e6c876a1c0170
+proposal random-2-04 random_sample 0 4aa826995787d9e9e0362bc71171d300eb2c6db344d70e57736ca1da47de784f
+proposal random-2-05 random_sample 0 87ef5199fe96d0a72cf0629672de4994e8870e5c357d63943af331cc305a8795
+proposal random-2-06 random_sample 0 None
+proposal random-2-07 random_sample 0 ef03bc0259639577f7c26c8ef2928057b4e31fb21cd73a613fdee09f02f30313
+G2 verified (8 requests)
+proposal random-3-00 random_sample 0 e3e1a9641899d9dbdd1991dbd6052d9ef73451cd65f03cbc8ba497bcc0dff336
+proposal random-3-01 random_sample 0 6e711d24b41d8ef97128112d87be68c7a08f3a55c858e6111e78f7aadcfb8924
+proposal random-3-02 random_sample 0 d36aeb81eca47e514a5211872268e6f7bf3b417aea3a3803f2788b7c51117240
+proposal random-3-03 random_sample 0 None
+proposal random-3-04 random_sample 0 None
+proposal random-3-05 random_sample 0 0b32741935e27916808547419ee9aeccba07134538006104161a912305942c69
+proposal random-3-06 random_sample 0 45584e17e72302472d62438453790ec60704d348ae45c68ae6fe8cfcda9f7a50
+proposal random-3-07 random_sample 0 f53ccbc7dc4370fda5ebde8c5d0fc43650cf2d9d6289ae524ce9a561857c405e
+G3 verified (8 requests)
+proposal random-4-00 random_sample 0 a4cfcec86a2a1f83a661640f542db5366f9d6d409b2ae3fcba8a71c14923c628
+proposal random-4-01 random_sample 0 92a00dbe7f96278b47d444fec46976e21af63f1153841fc591ab9d9c4f74671b
+proposal random-4-02 random_sample 0 0ca024482915850d3459abf224eb99901edef67a7c09afa8b47ac46ebe60d3cc
+proposal random-4-03 random_sample 0 fab57d124852711b2a35e0278825179fe03ccd6fd78c08d40f645b2f00a43625
+proposal random-4-04 random_sample 0 25943e26f23299f40e20ebccb2494df15ae43a3e5f7d30b691851ea6936887d5
+proposal random-4-05 random_sample 0 98662210133bfc1ede665bb1856be3b31d6cd310ff1fbf356d89bb061ea2883e
+proposal random-4-06 random_sample 0 4e31771601c1813e1a4c76e18ba857a8d5a8d5b481cc7c62bcde79229ddf52ea
+proposal random-4-07 random_sample 0 None
+G4 verified (8 requests)
+proposal random-5-00 random_sample 0 6f5008e8654c8c125d9dec7e37ce4aab353c1f0642e4fb4bed8cf9cb262582d5
+proposal random-5-01 random_sample 0 5b488261f2cf64f3a384fc8525e116ea084505051ef40cbc642474f7c8f9dd8b
+proposal random-5-02 random_sample 0 None
+proposal random-5-03 random_sample 0 8061681d98255db8c36b57e3842037cf2800c2b9e9be3647eaad0987cd15c3b4
+proposal random-5-04 random_sample 0 5d6e4ba92333717a7a11b8cd7d2c7e57274263ddc91ca924d393e6335abd0d96
+proposal random-5-05 random_sample 0 9cb58014ea4d0e0f4136660a2d1d40bdc15a10cb4498ece11a4be1705efc9f54
+proposal random-5-06 random_sample 0 d582824f4d565e5695ab943a2ae75e1509f2dfc95ec7bd0d1b7e7cd8c18ae605
+proposal random-5-07 random_sample 0 0fd01aac27b017376ca7b018d128b033f2f1afca837138b7faeb5aa5b0b94ae0
+G5 verified (8 requests)
+proposal random-6-00 random_sample 0 None
+proposal random-6-01 random_sample 0 c09a917de33266f143fae87f9a0e3b7efc44a8084f7ed4fedea609cb463e55c5
+proposal random-6-02 random_sample 0 6dfc9a5dddce9623d0c1b26ced1a1df37760cf650e34303c4bafae8c82c0f35a
+proposal random-6-03 random_sample 0 None
+proposal random-6-04 random_sample 0 None
+proposal random-6-05 random_sample 0 None
+proposal random-6-06 random_sample 0 974cc82fb2a549ad6a776d9cd2c894433257f9df2348fccaa438b2ee15964309
+proposal random-6-07 random_sample 0 9231d25339a4fbd8e69223597800c7abb403c6c144ce7982a261e2d09a94e81d
+G6 verified (8 requests)
+proposal random-7-00 random_sample 0 98c6fc48bf36ad40717811a318e3e44f7cc8ae40a3e8b86f86eef4269f22623a
+proposal random-7-01 random_sample 0 40b6299b34e8f04a70e738e53dac0aa9cf827ed6ca40b56cf6d9e84a8cbcb219
+proposal random-7-02 random_sample 0 6ea25a2f20299671e7b2bbcd2bd5ef2cc99e70f03150cf3be12865b7f2ce65e5
+proposal random-7-03 random_sample 0 None
+proposal random-7-04 random_sample 0 fb177cea4e350e384e71e996d3f3d99309950066f7630fff957777e62324289d
+proposal random-7-05 random_sample 0 b0f120877dee05bb2aedf923b49b9621b07423717bd2cea98cf5bee7e2eff366
+proposal random-7-06 random_sample 0 82fbdc4fa5609d59d5019875de800d9b7b41a9b330cbfb0c0130ea9ab0e69274
+proposal random-7-07 random_sample 0 418621b12dcc2a80a430a4b8c1318e2ce2aa11617291d1efe519a450773df96c
+G7 verified (8 requests)
+proposal random-8-00 random_sample 0 7296bbfc5288cb7829bf1b13a37436d0bdcec95f5ced502cfd8af1a0ec7789e7
+proposal random-8-01 random_sample 0 efb2fc124b2c25cff9c221a914c19b6a982fe277fbebaa9b86e8533e9df0597b
+proposal random-8-02 random_sample 0 None
+proposal random-8-03 random_sample 0 e36dd99152482993cebe41737aff11cc3fb916996955bdb0e66365a15a840da5
+proposal random-8-04 random_sample 0 e3294072dd094deb38845ff584c85383dfa81cfeb6f60ba9f668b705edb902d9
+proposal random-8-05 random_sample 0 b7cb7e404ca058066a4a3535d55f8ae8b17d9c6adc0d871111eec79a3a81b976
+proposal random-8-06 random_sample 0 7b3d4d26587aa0744709ad63b64f51ab7dbb61e26f73582a464a57ce5d4c5a78
+proposal random-8-07 random_sample 0 None
+G8 verified (8 requests)
+proposal random-9-00 random_sample 0 560fd13f48517548f134ebf870242906401e0ee42e91bd0ad914ccfc1e2d5771
+proposal random-9-01 random_sample 0 40383d8f2c49485d9eaca910e997707ce5e6460000951fb89b2a6621a854d54f
+proposal random-9-02 random_sample 0 4e362b7bc23bf30715588008d1799207cbf09bf168bc497794558775dcc38754
+proposal random-9-03 random_sample 0 db9028341f3684a3274ac27cf9da4910033e0d0796acbbe0c21bbd7e4041faac
+proposal random-9-04 random_sample 0 5fa6fb88fac409f90efda4aa9540cb9af27c1a08353b6d647dd40e4a482abca6
+proposal random-9-05 random_sample 0 None
+proposal random-9-06 random_sample 0 1951de3017f02b0c6e5a28d554dae68739620a26387ae074144252ccb57326a5
+proposal random-9-07 random_sample 0 None
+G9 verified (8 requests)
+proposal random-10-00 random_sample 0 None
+proposal random-10-01 random_sample 0 5fa308becd56d4c92e8659a862dcf1216936908b53295faa4c7cf85cf53b9c8f
+proposal random-10-02 random_sample 0 04c1c607770130c633ef514feb40af85243efadd8b545e253ae8739d018b5f7f
+proposal random-10-03 random_sample 0 121d0b0e5df465c825e134b277d9e2c16979752686c10e84d4330a874a7ca4a7
+proposal random-10-04 random_sample 0 48131c5a380ff0982225faf59572db0d8e81a71c3942b55db7227d070c13ff2e
+proposal random-10-05 random_sample 0 47b74bc370e0c4c2d905992571e4a3fb130a0d1443c2006600e339fd3f667701
+proposal random-10-06 random_sample 0 3e34a1e49759aaccaf483cbd0eaadba877d8c6630840ae95b839750d98384892
+proposal random-10-07 random_sample 0 30a09f543c7a1be02e64c07b6504ebcdba899be1c1044df0d2b73dfe13303821
+G10 verified (8 requests)
+proposal random-11-00 random_sample 0 84ff3ae03a0636fe33e87694f6ca15ec70c2bd1323b03ec3539776aa919b5104
+proposal random-11-01 random_sample 0 7ce81871030e50cee93a8d943c885b6fd7a58a29755ebc5a3e100acbaec17e83
+proposal random-11-02 random_sample 0 53b51ea4d3b7696421842d72cc2461b6a5fdce5006c78cde4b35204135d33cb7
+proposal random-11-03 random_sample 0 125a265ddbca390ae526d3ef39a983a74bb6030761fffdcf40ba99ccf80ceb0c
+proposal random-11-04 random_sample 0 d892d393d8355be247e525134913564d0550ebfd916b43f104c50eedda3b5395
+proposal random-11-05 random_sample 0 03a455f9e097c9d1c4f8a6d30a0cf7e4e599290176417b809cf1e06736f44de3
+proposal random-11-06 random_sample 0 32e79ec0e2b91e37500f70e25764a028b0680ee6472fc5eae3d9037ef28ae72a
+proposal random-11-07 random_sample 0 cf96c002cd9c83485cee6c3b46d409bd55a215135700710326b95bc9548fca3e
+G11 verified (8 requests)
+proposal random-12-00 random_sample 0 1a86ec2410a9ce6bc17e7412c240222021ba948a73fd2466a704ffe0408622a2
+proposal random-12-01 random_sample 0 None
+proposal random-12-02 random_sample 0 001140081986897bd43e639cf233f38f255fffeb4c21cc0d997843a0741da055
+proposal random-12-03 random_sample 0 ec1a241ea0b4eb82f034667828e5726b99e8022ada8ff438adcfcd2eb302ebab
+proposal random-12-04 random_sample 0 834c021685b539d2f8d4c4bcec6200509ac453099481668070ff30db9539440e
+proposal random-12-05 random_sample 0 54baf77a77ae7a1ad36e17e365c664ce104c548ec9e08381bdcdb48bb6912b96
+proposal random-12-06 random_sample 0 None
+proposal random-12-07 random_sample 0 f8999b0de46db66d2ef6a9ea66eced9120d45b54adea3f69acad15520d37e13c
+G12 verified (8 requests)
+proposal random-13-00 random_sample 0 0ab10edb43f1c3e8567f8dc2d4d2398c483a8783bd7e4661e48617c46a2cce0b
+proposal random-13-01 random_sample 0 79998c22501bdfd17cd0b4983e1f5b261100b307704554287020b772033a51f0
+proposal random-13-02 random_sample 0 None
+proposal random-13-03 random_sample 0 8b722a28f333dba4f1a6d0c84a2650accc86a580fc06be753bbe3a305ef37136
+proposal random-13-04 random_sample 0 None
+proposal random-13-05 random_sample 0 89a773dab28d6659088de1cd7e2af800e5763097326e49f8eec43cb024857663
+proposal random-13-06 random_sample 0 4295fe2e37240d62a92cf3e4b293e9d6e74e038f211389b60138b4844634d8e8
+proposal random-13-07 random_sample 0 258e069cdfbc0c1ec8e3445c691b8bc2e99176133a35634a303957d50f10faad
+G13 verified (8 requests)
+proposal random-14-00 random_sample 0 29ec98aa6b214dd871cd6426f86e073bbfe3c33f3af548aa229d4e3b78b68793
+proposal random-14-01 random_sample 0 ecdfb44546c3d5ac370f140f568ddc6b5aebae805e12d5507c076f4860072955
+proposal random-14-02 random_sample 0 30f03e088416f94509f48a3d1324d197e11c0850ad01ab8c9bbd175aa19c3f8e
+proposal random-14-03 random_sample 0 d74d1a9c4c3734362993fac9d8e4098acbfd47c3d6f61f3f056f95e0ab26f8df
+proposal random-14-04 random_sample 0 None
+proposal random-14-05 random_sample 0 54450860b9ae86ea8e70d1a14850c724c77cbc07e3583c9cc58f85f7c775d02a
+proposal random-14-06 random_sample 0 e6c7791f9cf73203ccff2019f74fe357f678f838a90821df3d4f251019af7a13
+proposal random-14-07 random_sample 0 a58129a3b96d03d67bb7a0b50d0f72a19c196829d7ab41b4376fb1c0eb0c91a0
+G14 verified (8 requests)
+proposal random-15-00 random_sample 0 18d6f2fde6f1355531ed01ded4cb2a1edf81e2c006532b37df951b514cc19d97
+proposal random-15-01 random_sample 0 e730adb6a1875e4bb0ee3c08463cd264151ae78c2678a539b388a0858f7ad816
+proposal random-15-02 random_sample 0 4fdf8a5ae8ea097c997f97aa6e70471e2adb96ec58adf4bf161c3af835c4d7f8
+proposal random-15-03 random_sample 0 5508a07d260c600df4353904bb563fe84ffbd589a06e222f4b5c05f6c8e0bab2
+proposal random-15-04 random_sample 0 f4325bacafa936354e45b896b7a5266ede7f102baa2d87088f712476e63b6f1e
+proposal random-15-05 random_sample 0 07cc97a9d9938aca112ccde05ec5ef04ddef08f0e832883658263e4cceb308f9
+proposal random-15-06 random_sample 0 8129a30009fd698c0de4e690f16f3e527aba1e4997f1cd7f6b0ee33aebd8d7f4
+proposal random-15-07 random_sample 0 1371b72eb8445c86f3697b3c04a8d67045331e0138f90100f78a4dc2e69a9d0e
+G15 verified (8 requests)
+proposal random-16-00 random_sample 0 4a71644e6c09a4c3da24baf7c39b28c37a2ca72dfacb85c4d65efbbda4e4702b
+proposal random-16-01 random_sample 0 c145dcaf0b0f7cacacba9ea3f469513c975e2559ea786bbfeda6babc1b416a28
+proposal random-16-02 random_sample 0 559ec0c4ddb99d8d873fdf2e117858686f13f1a8b0c789748040c3aeaf263860
+proposal random-16-03 random_sample 0 33644a211485b09d3842f8c89a41ea1e2a17a6b750f98223ba7ddb0ce3e185e6
+proposal random-16-04 random_sample 0 7ec101b4c14a69c08cd8152d45656b2bec0fdc410f70f003c3048168e4e740a7
+proposal random-16-05 random_sample 0 9e99603b4dee1c920cd6ba1e32136fe4b7af67dd481427d256c3d9be79b4c19a
+proposal random-16-06 random_sample 0 76680b502ede8a223d8138480ffb19e655a8f628b7adce0fca86030c9f2bfad4
+proposal random-16-07 random_sample 0 36c58aa494540d33a346ac4d05aff3349d1a5837977aaa06c94d73b16bcd53ea
+G16 verified (8 requests)
+proposal random-17-00 random_sample 0 b4aa2ffdd8d83cf55b0e739f173870b046c14023e49de90760dc094a9487984b
+proposal random-17-01 random_sample 0 b7a6d01f8b54a1352597f1a97b36576ed285ba618226dc1201f7edfebafb549a
+proposal random-17-02 random_sample 0 4a5825f3f9242051d61552fdf6207359f2823e40acb4e0cee852ebe2498f3362
+proposal random-17-03 random_sample 0 2aaf1a8ab9bec1cde1b6c79ec33b9db0b37e107e434b71a1a0586bb7a5ed1a17
+proposal random-17-04 random_sample 0 91c199152fa3cf123163f4bf8ade42ca9e8127467f54a796a5fcc04ca791b503
+proposal random-17-05 random_sample 0 be8f3061af1d9ca9ad85e2d4b78256d7bb7bfb2988ab0f6ee60684aa527c6deb
+proposal random-17-06 random_sample 0 27464c48be2de5694e50d57bf310975ec0bec00c0050e450d2d524da89a80941
+proposal random-17-07 random_sample 0 f5eecbb6107aa737eedcaeb3a4b625afa1943e2f0ca52ffde06fbefc86b18154
+G17 verified (8 requests)
+proposal random-18-00 random_sample 0 93e580519908d9f06d6e5028d426c1c7c6cf72175289cb87530fea046ca0c8a1
+proposal random-18-01 random_sample 0 b5bcf7177355bb9a0801bf05bc8a6b65bd77e39f614311d15235f8f36c0364a9
+proposal random-18-02 random_sample 0 53999571ad125d6ebdb634860ddf19beabf972a96715d70293b52f257566f866
+proposal random-18-03 random_sample 0 None
+proposal random-18-04 random_sample 0 7691ddbe33b1c9ed7d6235319203025f0b0f39f57d9c25fb52706ec84934731d
+proposal random-18-05 random_sample 0 c62f89dd51c55f46b80c27a0f58a24ef1b8b8394472c9007878d3162214febac
+proposal random-18-06 random_sample 0 None
+proposal random-18-07 random_sample 0 79742b46c832777849ff069953ce5b5583e43a6089aa191f4fb89b7248e0fccf
+G18 verified (8 requests)
+proposal random-19-00 random_sample 0 fa1fbcf73310b24dc1418ef127fb51016e28142ab2e5251ff513d5f791dd8e8f
+proposal random-19-01 random_sample 0 2e0ab8b1ff23f827f6b259e78e5df6d2b2f6d999883cc2965f9c59cbf5dc948c
+proposal random-19-02 random_sample 0 89ccf5acfdbf906b7d720f78abce6f911e08340469c5b69f9ae1b9c077d4d822
+proposal random-19-03 random_sample 0 77c2bec7c659f3a371e3c70adf0741cd2005b58c9ca7638e906795c37a37df79
+proposal random-19-04 random_sample 0 7817e91f67635df2e7af50db10d7e897866b9fb4302ec3803b923468860b1bd4
+proposal random-19-05 random_sample 0 0277b5da18ec9e646422cce430d0ab020cfb9552f85e0f130be7b86fa2d305fd
+proposal random-19-06 random_sample 0 aec29d6c51d5c6e3ac28c063fb6d3f82eecab231017859d4b4f7e7e18cd717e6
+proposal random-19-07 random_sample 0 e408f8e71cd04e8d832bfd9d0ec71296ca6c54979570d34511acfd92484c3851
+G19 verified (8 requests)
+proposal random-20-00 random_sample 0 3ddf5aab199572ed1070af397b146429cd0825a2fa079dd0f0c70b311db52786
+proposal random-20-01 random_sample 0 de6569c1ab06d3314a1295daaed4fdd723b01ee8b23cb7488f2b0e9535b2faee
+proposal random-20-02 random_sample 0 0bb6f5e873cb8e4e503d8f771fa46f981ed5c96d93dbc50faf62f4dab326359d
+proposal random-20-03 random_sample 0 c228b89f105f0237b40ab149746759421e12daa9b181b5c8e479d6c5535a31be
+proposal random-20-04 random_sample 0 41c15b3cb66f70d024e21946349e0fd5b13364e1886734cde324b64460916070
+proposal random-20-05 random_sample 0 a665f525164564ddf6a0ee681526d7502ceb63348769e847261f6a2195fff097
+proposal random-20-06 random_sample 0 None
+proposal random-20-07 random_sample 0 09bf446d28986011d46c15c6f60ea321356d0c38986dcb6447ca3b87595a6dbf
+G20 verified (8 requests)
+{
+  "run_id": "shell_sampling_random_g20_v1",
+  "complete": true,
+  "generations": {
+    "0": "b133c9eecaac64e453c228e2315341283f5b9b4e7c7d0dac9e16a24ee2110a0b",
+    "1": "7335c0b9d8208e8be9eced110c9c15d6a7723073f2060c028010db23ca10dffa",
+    "2": "30c86ae3670b8db155893da5f15b5378681567c15486d58c192983a76ca050ca",
+    "3": "9cae14f9e8ab4f91e80482462f83747eb437c66ae88c72965c0433a92c0d3ace",
+    "4": "38e4d83a701e25e45ff9806765890dac5b89d86769fc159732b46c4862190196",
+    "5": "57e20893ce2cf82e7d76ea768c0dbedacd50e24d78bf892155fe542824d8196d",
+    "6": "f25a96a2ec601e7397aaa7f9c58d170c0ab9caef0593f10cc10021db16df17be",
+    "7": "4c0ca27f9bed081bc99222f6c294e8853976cee8b452390fc6c1ed85e69b436f",
+    "8": "57fa0f13eb12a966c1afbeca2e5fd71e66fae05b8934b5effcc100db64b8f476",
+    "9": "79ebf6cbfc347efc4f6f1b19175e90529b2cb32e887f134d950530c20e9c9c80",
+    "10": "63713b30a5360bf16472401211a213f170746caeae88d6f00894f25a7a26fc5e",
+    "11": "b6aa8277c60e94eb7f6a3c4b51dbdc5fa98ea6e37e1c7c6ae34ddfb079af5dc2",
+    "12": "60d04284a3f7014833125edd38f52993c79f00899aa2d35cd6d8feafbb12c0f4",
+    "13": "b9b9f866f6d1eaeb60ea9e4496ddfa4a616f8b5b2049e75463dc0fc9cea620b3",
+    "14": "a61d2df903f667306c7fc2ce1a5649f5558f578f1c2155090e10d61108c6e230",
+    "15": "aadcf9b3de6a54719bafe66b2320b68eb91727418ec15dfaf0625a3cddc8782a",
+    "16": "2284677d20b2d3820d426f1d4512f58c93e4a692c5f5db38df9ecf7b92913faa",
+    "17": "22e315bd90eaf328a200ee2acd1fa45dd70c0fe0e85134571289068465212a6d",
+    "18": "01f351c8ae0f04f7db1e8f1b6990a2361d554db83d236d540e8658b0f0478619",
+    "19": "7e0d5eda58b50379365f753cb82e025ba932bb66adde7d975b99c38853d1d4a4",
+    "20": "1c5c2f4dbb7d457054479d8e4059ac8d6ba18c1b9583b7f933503c0e3c1a225f"
+  },
+  "evaluation_evidence_hash": "e001c6c4ee547998fb4340acde5fbba9f0fb97bf3473e84d61b0959171d3b4c7",
+  "workers": 4,
+  "requests": 168,
+  "official_requests": 0,
+  "unique_genomes": 145,
+  "evaluated_layouts": 144,
+  "status": {
+    "COMPLETE_DRAFT": 118,
+    "UNCERTAIN": 26,
+    "INVALID": 24
+  },
+  "new_certified_battles": 1728,
+  "inherited_battles": 0,
+  "duplicate_requests": 0,
+  "edits_requested": {},
+  "edits_realized": {},
+  "actual_topology_changes": 0
+}
+Comparison report: F:\大学作业\游戏空间设计微专业\.phase14-work\shell_sampling_comparison_v1.json
+Readable report: F:\大学作业\游戏空间设计微专业\.phase14-work\shell_sampling_comparison_v1.md

@@ -1,0 +1,11 @@
+{
+  "driver_sha256": "4c8f32097c046931b84a4abaf229b755a85ca7f1c71790ef1d2c8d0ecdcc17ef",
+  "attempts": {
+    "(29, 'evolution')": 1,
+    "(29, 'random')": 1,
+    "(47, 'evolution')": 1,
+    "(47, 'random')": 1
+  },
+  "failures": [],
+  "note": "Scheduling only; original spec, fitness, seeds, RNG and per-branch evaluation budgets unchanged"
+}
