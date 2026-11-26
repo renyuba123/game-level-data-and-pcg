@@ -26,4 +26,4 @@
 
 ## PCG 单一来源
 
-PCG 代码直接读取 `02_鼠王关研究/source/` 和 `02_鼠王关研究/maps/ratking/shuwang/`。根部 `shuwang.graph`、`鼠王关.dxf`、`maps/` 已停止使用；本次 GitHub 删除前检查点暂时保留它们，确认上传成功后再删除，避免源资料长期存在两份当前版本。
+PCG 代码直接读取 `02_鼠王关研究/source/` 和 `02_鼠王关研究/maps/ratking/shuwang/`。此前暂存的根部 `shuwang.graph`、`鼠王关.dxf`、`maps/` 兼容副本已在首次上传确认后删除，仓库中只保留 `02_鼠王关研究/` 一份当前版本；历史路径仅在整理记录与历史说明中保留。
